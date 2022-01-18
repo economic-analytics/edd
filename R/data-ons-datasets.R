@@ -35,7 +35,7 @@ ons_update_datasets <- function(save_separate_rds = FALSE, ...) {
   ds_name = names(processed)
   ) %>% setNames(names(processed))
 
-
+  # TODO see issue #1 - add test for existence of /data
   saveRDS(processed, "data/ons_datasets.rds", compress = FALSE)
   # compression not used to speed-up loading of file
 
