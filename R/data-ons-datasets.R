@@ -58,10 +58,13 @@ ons_download_dataset <- function(url, save_csv = FALSE) {
 
   # if we want to keep a copy of the original ONS .csv
   if (save_csv) {
+  # TODO test for existence of /data-raw and create if needed
     destfile = paste0("data-raw/", basename(url))
     download.file(url = url, destfile = destfile)
     url <- destfile
   }
+  # TODO need to avoid downloading a file above in if(save_csv)
+  # and then doing it again below
 
   # read, ignore column names, make everything strings
   dataset <- readr::read_csv(url,
