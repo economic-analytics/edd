@@ -29,7 +29,7 @@ The knowledge platforms are:
 Future Economies Analytics is a dedicated economic data science, analytics and visualisation unit within the wider Future Economies UCRKE. Its members both develop and use a variety of tools to improve research in and communication of key economic trends as well as providing teaching in data analytics and visualisation and research support in RSE roles to other academics.
 
 ## Background
-The main author of FEDO has spent more than a decade working in regional economic policy and data analysis and became frustrated at how long 
+The main author of FEDO has spent more than a decade working in regional economic policy and data analysis and became frustrated at how long it took to assemble economic data from various sources and produce even simple analyses. Different sources routinely use different date formats, non-standard geographic codes, different index dates and often have dimensions of the data stored in variable names. FEDO seeks to simplify the analysis of economic data by providing a single interactive web-platform where economic data, through pre-processing, is available for easy charting with dimensions, dates, geographies and variable names are standardised, allowing for the viewing of data quickly and downloading both charts and raw data tables in a standardised format.
 
 ## Data
 
