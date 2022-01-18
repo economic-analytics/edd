@@ -45,4 +45,4 @@ The data storage model is based on [Tidy Data](https://vita.had.co.nz/papers/tid
 
 ## Using FEDO
 
-The FEDO app is currently deployed at (https://futureeconomiesanalytics.shinyapps.io/fedo/)
+The FEDO app is currently deployed at https://futureeconomiesanalytics.shinyapps.io/fedo/.
