@@ -42,3 +42,7 @@ Built in R, FEDO utilises the web architecture of the `shiny` package, visualisa
 At the heart of FEDO is a bespoke and flexible data structure that allows for dynamic realisation of datasets regardless of the number of dimensions within the data, different geography types, industry breakdowns, etc.
 
 The data storage model is based on [Tidy Data](https://vita.had.co.nz/papers/tidy-data.html) principles and utilises R lists to provide rapid iteration of filtering and manipulation through functional programming. Data is manipulated in R and stored in both `.rds` format and also copied to and retrieved from a SQL Server database to reduce memory use. More information on the underlying data schema will be available shortly.
+
+## Using FEDO
+
+The FEDO app is currently deployed at (https://futureeconomiesanalytics.shinyapps.io/fedo/)
