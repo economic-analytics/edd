@@ -6,7 +6,7 @@
 
 # Master function (for export) --------------------------------------------
 
-ons_update_datasets <- function(...) {
+ons_update_datasets <- function(save_separate_rds = FALSE, ...) {
   # conditions within fedo_dict to update on
   to_update <- fedo_dict %>%
     dplyr::filter(type     == "dataset",
@@ -24,7 +24,7 @@ ons_update_datasets <- function(...) {
 
   processed <- lapply(datasets, function(x) ons_process_dataset(x))
 
-  # ONS POST PROCESS - STILL TESTING
+  # ONS POST PROCESSING - STILL TESTING
   processed <- lapply(seq_along(processed), function(i, ds_name) {
     if (ds_name[[i]] %in% names(ons_post_processing)) {
       ppobj <- ons_post_processing[[ds_name[[i]]]](processed[[i]])
@@ -40,13 +40,15 @@ ons_update_datasets <- function(...) {
   # compression not used to speed-up loading of file
 
   # write separate .rds files for each dataset
-  for (i in seq_along(processed)) {
-    message("Writing ", names(processed)[i], ".rds ...")
-    readr::write_rds(processed[i], paste0("data/", names(processed)[i], ".rds"))
-    message("Done.")
+  if (save_separate_rds) {
+    for (i in seq_along(processed)) {
+      message("Writing ", names(processed)[i], ".rds ...")
+      readr::write_rds(processed[i], paste0("data/", names(processed)[i], ".rds"))
+      message("Done.")
+    }
   }
-  message("data/ons_datasets.rda successfully updated")
-  return(processed) # we prob don't need a return if writing data to disk
+
+  message("data/ons_datasets.rds successfully updated")
 }
 
 
