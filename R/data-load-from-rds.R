@@ -7,11 +7,13 @@ RGVA         <- readr::read_rds("data/ons_rgva_2019.rds")
 RGVAI        <- readr::read_rds("data/ons_rgvai.rds")
 BRES         <- readr::read_rds("data/bres.rds")
 UKBC         <- readr::read_rds("data/ukbc.rds")
+RGFCF        <- readr::read_rds("data/RGFCF.rds")
 
 sp_datasets  <- list(RGVA  = RGVA,
                      RGVAI = RGVAI,
                      BRES  = BRES,
-                     UKBC  = UKBC)
+                     UKBC  = UKBC,
+                     RGFCF = RGFCF)
 
 datasets <- list(ons_datasets = ons_datasets, sp_datasets = sp_datasets)
 

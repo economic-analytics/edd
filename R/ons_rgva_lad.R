@@ -30,5 +30,5 @@ rgva_lad <- function() {
   }) %>% bind_rows()
 
   readr::write_rds(final, "data/rgva_lad.rds")
-  readr::write_csv(final, "C:/Users/mail/OneDrive - MMU/Data/rgva_lad.csv")
+  readr::write_csv(final, "../../Data/rgva_lad.csv")
 }
