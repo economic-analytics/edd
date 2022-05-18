@@ -211,7 +211,7 @@ server <- function(input, output, session) {
       dplyr::bind_rows(.id = "dataset")
   })
 
-  # TODO needs to have empty values filled with deafults for each dimension
+  # TODO needs to have empty values filled with defaults for each dimension
 
   # TODO pass df through ts_transformations() only if input$transformations
   # isn't selected to "as published". This will move the if statement at
