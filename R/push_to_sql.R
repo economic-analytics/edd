@@ -10,6 +10,7 @@ push_to_sql <- function(con, df, dest_table, batch_size = 100000) {
                            name = dest_table,
                            fields = df)
       }
+      # we may need a delay here to allow the SQL engine to write the table
         DBI::dbAppendTable(conn = con,
                            name = dest_table,
                            value = df[seq[i]:(seq[i + 1] - 1), ])
@@ -24,3 +25,4 @@ push_to_sql <- function(con, df, dest_table, batch_size = 100000) {
   }
   dplyr::tbl(con, dest_table)
 }
+
