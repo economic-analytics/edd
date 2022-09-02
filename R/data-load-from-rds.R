@@ -3,7 +3,7 @@ ons_datasets <- readr::read_rds("data/ons_datasets.rds")
 
 variables    <- readr::read_rds("data/variables.rds")
 boundaries   <- readr::read_rds("data/boundaries_nuts1-2-3.rds")
-RGVA         <- readr::read_rds("data/ons_rgva_2019.rds")
+RGVA         <- readr::read_rds("data/RGVA.rds")
 RGVAI        <- readr::read_rds("data/ons_rgvai.rds")
 BRES         <- readr::read_rds("data/bres.rds")
 UKBC         <- readr::read_rds("data/ukbc.rds")
