@@ -9,7 +9,7 @@ rgdhi_lad <- function() {
   file_urls <- paste0("http://ons.gov.uk", files) # http not https
 
   all_data <- lapply(file_urls, function(file) {
-    local_file_path <- paste0("data-raw/", basename(file))
+    local_file_path <- paste0("~/Data/ONS/Regional Accounts/GDHI/", basename(file))
     download.file(file, destfile = local_file_path, mode = "wb")
     sheets <- readxl::excel_sheets(local_file_path)
     sheets <- sheets[-(1:2)]
