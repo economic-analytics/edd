@@ -1,11 +1,11 @@
 library(shiny)
 
 ui <- basicPage(
-  selectInput("var",   "var",   choices = c("var1", "var2", "var3"), multiple = FALSE),
+  selectInput("var",   "var",   choices = c("var1", "var2", "var3"), multiple = TRUE),
   selectInput("ind",   "ind",   choices = c("ind1", "ind2", "ind3"), multiple = TRUE),
   selectInput("geo",   "geo",   choices = c("geo1", "geo2", "geo3"), multiple = TRUE),
   selectInput("odd",   "odd",   choices = c("odd1", "odd2", "odd3"), multiple = TRUE),
-  selectInput("group", "group", choices = c("var",  "ind",  "geo"),  multiple = TRUE)
+  selectInput("group", "group", choices = c("var",  "ind",  "geo"),  multiple = TRUE, selected = "var")
 )
 
 server <- function(input, output, session){
@@ -32,10 +32,7 @@ server <- function(input, output, session){
   # Generate observers on the dimensions available
   lapply(inputs, function(i) {
     observeEvent(input[[i]], {
-      print(input[[i]]) # testing only
-      print(inputs) # testing only
       manage_plot_group(i)
-      print(paste("Length of group is", length(input$group)))
     },
     ignoreNULL = FALSE,
     ignoreInit = TRUE)

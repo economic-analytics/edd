@@ -131,6 +131,7 @@ server <- function(input, output, session) {
   })
 
   # new reactive to handle dimensions in the built df to avoid calculating twice
+  # excludes dataset, dates and value as these will always exist in all dataset dfs
   available_dimensions <- reactive({
     names(selected_data_df())[!names(selected_data_df()) %in% c("dataset", "dates", "value")]
   })
@@ -140,7 +141,7 @@ server <- function(input, output, session) {
     selectizeInput(inputId  = "plot_group",
                    label    = "Select dimensions to plot (colour, linetype, shape, facet)",
                    choices  = available_dimensions(),
-                   selected = c(value, "variable"), # available_dimensions()[1] # TODO logic needs looking at
+                   selected = "variable",
                    multiple = TRUE,
                    options  = list(maxItems = 4)
     )
@@ -223,11 +224,13 @@ server <- function(input, output, session) {
   })
 
   # ts_transformations only works with index - TODO rest need adding
+  # can do this through list function - value in selectInput should correspond
+  # to name of function in time series transformation list object
   ts_transformations <- function(df) {
     if (input$transformations == "none") {
       return(df)
     } else if (input$transformations == "index" && !is.null(input$transformation_date)) {
-      columns_to_group_by <- names(df)[!names(df) %in% c("dataset", "dates", "value")]
+      columns_to_group_by <- names(df)[!names(df) %in% c("dataset", "dates", "value")] # TODO this crops up in a few places - global constant?
       dplyr::group_by(df, dplyr::across(dplyr::all_of(columns_to_group_by))) %>%
         ts_transform_df$index(input$transformation_date)
     }
@@ -263,12 +266,12 @@ server <- function(input, output, session) {
 
   manage_plot_group <- function(i) {
     if (length(input[[i]]) > 1) {
-      updateSelectInput(session,
+      updateSelectizeInput(session,
                         inputId  = "plot_group",
                         selected = c(input$plot_group, i)
       )
     } else {
-      updateSelectInput(session,
+      updateSelectizeInput(session,
                         inputId  = "plot_group",
                         selected = if (length(input$plot_group) > 1) {
                           input$plot_group[!input$plot_group %in% i]
@@ -278,8 +281,10 @@ server <- function(input, output, session) {
   }
 
   # TODO Input dimension event listeners not dynamic
-  # Can't read from available_dimensions()
+  # Can't read from available_dimensions() even with isolate()
+  # possible next try - read from input obj rather than names(df)
   # Temp fix: all possible dimensions must be listed here
+
   inputs <- c("geography", "industry", "variable",
               "employment_sizeband", "legal_status",
               "non-existent input") # testing options
