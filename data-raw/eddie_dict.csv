@@ -1,4 +1,4 @@
-﻿type,provider,id,desc,url,fedo_file_loc,fedo_sql_loc,last_update,next_update,last_download,status,obj_available,notes
+﻿eddie+A1_sql_loc,provider,id,desc,url,eddie_file_loc,eddie_sql_loc,last_update,next_update,last_download,status,obj_available,notes
 lookup,ONS,NSPL,National Statistics Postcode Lookup,NA,/ons/nspl,NA,NA,NA,NA,FALSE,FALSE,NA
 lookup,ONS,NSAL,National Statistics Address Lookup,NA,/ons/nsal,NA,NA,NA,NA,FALSE,FALSE,NA
 lookup,ONS,ONSPD,ONS Postcode Directory,NA,/ons/onspd,NA,NA,NA,NA,FALSE,FALSE,NA

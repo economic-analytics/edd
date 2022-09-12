@@ -1,5 +1,5 @@
-Package: fedo
-Title: Future Economies Data Observatory
+Package: eddie
+Title: EDDIE - Economic Data Dashboard with Integrated Exploration
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Christian",

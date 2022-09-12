@@ -19,4 +19,4 @@ datasets <- list(ons_datasets = ons_datasets, sp_datasets = sp_datasets)
 
 # this added to provide a second option - instead of two lists within a list
 # we provide a single all_datasets list which contains ons and spatial
-fedo_datasets <- c(ons_datasets, sp_datasets)
+eddie_datasets <- c(ons_datasets, sp_datasets)

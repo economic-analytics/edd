@@ -1,7 +1,7 @@
 ons_post_processing <- list()
 
-ons_post_processing$MGDP <- function(fedobj){
-  variable_df <- fedobj$dimensions$variable %>%
+ons_post_processing$MGDP <- function(eddieobj){
+  variable_df <- eddieobj$dimensions$variable %>%
     tidyr::separate(col = name,
                     into = c("description", "other"),
                     sep = "[(]") %>%
@@ -28,20 +28,20 @@ ons_post_processing$MGDP <- function(fedobj){
     )
     )
 
-  fedobj$data <- fedobj$data %>%
+  eddieobj$data <- eddieobj$data %>%
     dplyr::left_join(dplyr::select(variable_df, code, SECTION), by = c("variable" = "code")) %>%
     dplyr::rename(industry = SECTION)
 
-  fedobj$dimensions$industry <- tibble::tibble(code = variable_df$SECTION,
+  eddieobj$dimensions$industry <- tibble::tibble(code = variable_df$SECTION,
                                                name = variable_df$description) %>%
     dplyr::distinct()
 
-  fedobj$dimensions$variable <- variable_df %>%
+  eddieobj$dimensions$variable <- variable_df %>%
     dplyr::mutate(description = paste("GVA", value, period)) %>%
     dplyr::rename(name = description) %>%
     dplyr::select(-SECTION)
 
-  return(fedobj)
+  return(eddieobj)
 }
 
 ons_post_processing$EMP <- function(x){

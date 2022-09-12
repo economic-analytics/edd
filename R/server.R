@@ -5,7 +5,7 @@ server <- function(input, output, session) {
   output$dataset <- renderUI({
     selectInput(inputId  = "dataset",
                 label    = "Select dataset(s)",
-                choices  = fedo_dict$desc[fedo_dict$obj_available == TRUE],
+                choices  = eddie_dict$desc[eddie_dict$obj_available == TRUE],
                 multiple = TRUE,
                 selected = "Regional GVA" # TODO remove before deploy
     )
@@ -23,7 +23,7 @@ server <- function(input, output, session) {
     if (input$variable_filter) {
       source_object <- user_datasets()
     } else {
-      source_object <- fedo_datasets
+      source_object <- eddie_datasets
     }
     lapply(source_object, function(ds) ds$dimensions$variable$name)
   })
@@ -149,7 +149,7 @@ server <- function(input, output, session) {
 
   output$download_plot <- downloadHandler(
     filename = function() {
-      paste0("FEDO_plot_", Sys.time(), ".png")
+      paste0("EDDIE_plot_", Sys.time(), ".png")
     },
     content = function(file) {
       ggplot2::ggsave(file)
@@ -158,7 +158,7 @@ server <- function(input, output, session) {
 
   output$download_data <- downloadHandler(
     filename = function() {
-      paste0("FEDO_data_", Sys.time(), ".csv")
+      paste0("EDDIE_data_", Sys.time(), ".csv")
     },
     content = function(file) {
       readr::write_csv(jsonlite::flatten(selected_data_df()), file)
@@ -167,16 +167,16 @@ server <- function(input, output, session) {
 
   # Reactive Objects --------------------------------------------------------
 
-  # LIST of fedo dataset objects in use by the user
+  # LIST of eddie dataset objects in use by the user
   user_datasets <- reactive({
-    fedo_datasets[fedo_dict$id[fedo_dict$desc %in% input$dataset]]
+    eddie_datasets[eddie_dict$id[eddie_dict$desc %in% input$dataset]]
   })
 
-  # LIST of fedo dataset objects whose $data df has been filtered
+  # LIST of eddie dataset objects whose $data df has been filtered
   filtered_datasets <- reactive({
-    lapply(user_datasets(), function(fedo_obj) {
-      dims <- names(fedo_obj$dimensions)
-      data <- fedo_obj$data
+    lapply(user_datasets(), function(eddie_obj) {
+      dims <- names(eddie_obj$dimensions)
+      data <- eddie_obj$data
       for (d in seq_along(dims)) {
         # TODO should we let all data through if input is NULL, or should we let
         # no data through if input is NULL?
@@ -184,8 +184,8 @@ server <- function(input, output, session) {
         if (1 == 1) { #!is.null(input[[dims[[d]]]])) {
           data <- dplyr::filter(data,
                                 .data[[dims[[d]]]] %in%
-                                  fedo_obj$dimensions[[dims[[d]]]]$code[
-                                    fedo_obj$dimensions[[dims[[d]]]]$name %in%
+                                  eddie_obj$dimensions[[dims[[d]]]]$code[
+                                    eddie_obj$dimensions[[dims[[d]]]]$name %in%
                                       input[[dims[[d]]]]]
           )
         }
@@ -198,8 +198,8 @@ server <- function(input, output, session) {
                             dates$freq %in% input$frequency
       )
 
-      fedo_obj$data <- data
-      fedo_obj
+      eddie_obj$data <- data
+      eddie_obj
     })
   })
 
@@ -208,7 +208,7 @@ server <- function(input, output, session) {
 
   # creates a single df containing all lookups of user selected data
   selected_data_df <- reactive({
-    lapply(filtered_datasets(), function(ds) fedo_object_to_dataframe(ds)) %>%
+    lapply(filtered_datasets(), function(ds) eddie_object_to_dataframe(ds)) %>%
       dplyr::bind_rows(.id = "dataset")
   })
 
@@ -324,7 +324,7 @@ server <- function(input, output, session) {
                       y        = "Value",
                       title    = "Chart title",
                       subtitle = "Chart subtitle",
-                      caption  = "Source: Office for National Statistics\n(C) 2021 Future Economies Analytics: powered by FEDO",
+                      caption  = "Source: Office for National Statistics\n(C) 2021 Future Economies Analytics: powered by EDDIE",
                       colour   = stringr::str_to_sentence(input$plot_group[1]),
                       linetype = stringr::str_to_sentence(input$plot_group[2]),
                       shape    = stringr::str_to_sentence(input$plot_group[3])

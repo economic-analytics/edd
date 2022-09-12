@@ -1,11 +1,11 @@
-# This converts a (appropriately defined) df into a fedobj
+# This converts a (appropriately defined) df into a eddiebj
 # DF should contain a date column and a value column as a minimum
-# Dimensions should be labelled as appropriate, checking with fedo_dict
+# Dimensions should be labelled as appropriate, checking with eddie_dict
 # for naming conventions. If dimensions have multiple columns for codes, names,
 # types, etc., they should be defined as [dimension]_[extra], e.g.
 # geography_code, geography_name, etc.
 
-# df_to_fedobj <- function(df) {
+# df_to_eddieobj <- function(df) {
 #   # error handling
 #   if (!is.data.frame(df)) {
 #     stop("Object `df` is not a data frame")
@@ -32,8 +32,8 @@
 
 # testing -----------------------------------------------------------------
 
-df_to_fedobj <- function(df) {
-  # TODO insert fedobj verification here
+df_to_eddieobj <- function(df) {
+  # TODO insert eddieobj verification here
 
   # build data df
   data <- df |>

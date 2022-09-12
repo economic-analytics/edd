@@ -1,2 +1,2 @@
 pkgload::load_all(".")
-launch_fedo()
+launch_eddie()
