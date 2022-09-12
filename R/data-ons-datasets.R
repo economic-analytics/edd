@@ -25,15 +25,15 @@ ons_update_datasets <- function(save_separate_rds = FALSE, ...) {
   processed <- lapply(datasets, function(x) ons_process_dataset(x))
 
   # ONS POST PROCESSING - STILL TESTING
-  # processed <- lapply(seq_along(processed), function(i, ds_name) {
-  #   if (ds_name[[i]] %in% names(ons_post_processing)) {
-  #     ppobj <- ons_post_processing[[ds_name[[i]]]](processed[[i]])
-  #   } else {
-  #     processed[[i]]
-  #   }
-  # },
-  # ds_name = names(processed)
-  # ) %>% setNames(names(processed))
+  processed <- lapply(seq_along(processed), function(i, ds_name) {
+    if (ds_name[[i]] %in% names(ons_post_processing)) {
+      ppobj <- ons_post_processing[[ds_name[[i]]]](processed[[i]])
+    } else {
+      processed[[i]]
+    }
+  },
+  ds_name = names(processed)
+  ) %>% setNames(names(processed))
 
   # TODO see issue #1 - add test for existence of /data
   saveRDS(processed, "data/ons_datasets.rds", compress = FALSE)
