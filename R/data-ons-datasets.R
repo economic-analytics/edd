@@ -40,18 +40,19 @@ ons_update_datasets <- function(save_separate_rds = FALSE, ...) {
   ) %>% setNames(names(processed))
 
   # TODO see issue #1 - add test for existence of /data
-  saveRDS(processed, "data/ons_datasets.rds", compress = FALSE)
-  # compression not used to speed-up loading of file
+  saveRDS(processed, file.path("data", "ons_datasets.rds"))
 
   # write separate .rds files for each dataset
   if (save_separate_rds) {
     for (i in seq_along(processed)) {
-      message("Writing ", names(processed)[i], ".rds ...")
-      readr::write_rds(processed[i], paste0("data/", names(processed)[i], ".rds"))
+      message("Writing ", names(processed)[i], ".rds ... \n")
+      saveRDS(processed[i],
+              file.path("data", "datasets",
+                        paste0(names(processed)[i], ".rds"))
+      )
       message("Done.")
     }
   }
-
   message("data/ons_datasets.rds successfully updated")
 }
 
