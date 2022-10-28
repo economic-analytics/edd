@@ -4,13 +4,13 @@
 
 #variables    <- readr::read_rds("data/variables.rds")
 #boundaries   <- readr::read_rds("data/boundaries_nuts1-2-3.rds")
-RGVA         <- readr::read_rds("data/rgva_msoa.rds")
+RGVA         <- readr::read_rds("data/datasets.knaresborough/rgva_msoa.rds")
 #RGVAI        <- readr::read_rds("data/ons_rgvai.rds")
-BRES         <- readr::read_rds("data/bres_msoa.rds")
-UKBC         <- readr::read_rds("data/ukbc_knaresborough.rds")
+BRES         <- readr::read_rds("data/datasets.knaresborough/bres_msoa.rds")
+UKBC         <- readr::read_rds("data/datasets.knaresborough/ukbc_knaresborough.rds")
 #RGFCF        <- readr::read_rds("data/RGFCF.rds")
-CTSOP        <- readr::read_rds("data/ctsop_msoa_knaresborough.rds")
-SAIE         <- readr::read_rds("data/saie.rds")
+CTSOP        <- readr::read_rds("data/datasets.knaresborough/ctsop_msoa_knaresborough.rds")
+SAIE         <- readr::read_rds("data/datasets.knaresborough/saie.rds")
 
 sp_datasets  <- list(RGVA  = RGVA,
                      #RGVAI = RGVAI,
