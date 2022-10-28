@@ -20,6 +20,7 @@ server <- function(input, output, session) {
 
   # ---
   select_variable_choices <- reactive({
+    req(input$variable_filter)
     if (input$variable_filter) {
       source_object <- user_datasets()
     } else {
@@ -82,7 +83,8 @@ server <- function(input, output, session) {
   })
 
   output$transformation_date <- renderUI({
-    if (input$transformations == "index") {
+   req(input$transformations)
+     if (input$transformations == "index") {
       value <- isolate(input$transformation_date)
       selectInput(inputId  = "transformation_date",
                   label    = "Select date to index to",
@@ -227,6 +229,7 @@ server <- function(input, output, session) {
   # can do this through list function - value in selectInput should correspond
   # to name of function in time series transformation list object
   ts_transformations <- function(df) {
+    req(input$transformations)
     if (input$transformations == "none") {
       return(df)
     } else if (input$transformations == "index" && !is.null(input$transformation_date)) {
