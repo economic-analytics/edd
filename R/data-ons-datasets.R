@@ -7,8 +7,12 @@
 # Master function (for export) --------------------------------------------
 
 ons_update_datasets <- function(save_separate_rds = FALSE, ...) {
+  # problems with VROOM_CONNECTION_SIZE means we have to set this as the
+  # download is large and overflows the connection buffer
+  Sys.setenv("VROOM_CONNECTION_SIZE" = "500000")
+
   # conditions within fedo_dict to update on
-  to_update <- fedo_dict %>%
+  to_update <- eddie_dict %>%
     dplyr::filter(type     == "dataset",
                   provider == "ONS",
                   status   == TRUE)

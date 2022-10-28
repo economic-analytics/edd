@@ -8,7 +8,7 @@ ui <- navbarPage(
     title = "Interactive data tool",
 
     # Application title
-    titlePanel("EDDIE: Economic Data Dashboard with Integrated Exploration"),
+    titlePanel("Knaresborough Economic Data Dashboard"),
 
     # Sidebar UI
     sidebarLayout(
@@ -62,7 +62,7 @@ ui <- navbarPage(
   # Menu: about
   tabPanel(
     id = "about",
-    title = "About EDDIE",
+    title = "About",
     h2("About EDDIE"),
     p("EDDIE, the Economic Data Dashboard with Integrated Exploration, is a tool currently under development."),
     p("It is designed to make economic data more useful, particularly at a sub-regional level, to support better analysis and policymaking in local areas."),
