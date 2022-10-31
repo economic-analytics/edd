@@ -8,7 +8,7 @@ ui <- navbarPage(
     title = "Interactive data tool",
 
     # Application title
-    titlePanel("Knaresborough Economic Data Dashboard"),
+    titlePanel("Economic Data Dashboard"),
 
     # Sidebar UI
     sidebarLayout(
