@@ -267,6 +267,9 @@ server <- function(input, output, session) {
 
 # Plot Logic --------------------------------------------------------------
 
+
+   # we need a way to remove any dimension with length 1 in its input if any other has length > 1
+
   manage_plot_group <- function(i) {
     if (length(input[[i]]) > 1) {
       updateSelectizeInput(session,
@@ -327,7 +330,7 @@ server <- function(input, output, session) {
                       y        = "Value",
                       title    = "Chart title",
                       subtitle = "Chart subtitle",
-                      caption  = "Source: Office for National Statistics\n(C) 2021 Future Economies Analytics: powered by EDDIE",
+                      caption  = "Source: Office for National Statistics\nPowered by EDD",
                       colour   = stringr::str_to_sentence(input$plot_group[1]),
                       linetype = stringr::str_to_sentence(input$plot_group[2]),
                       shape    = stringr::str_to_sentence(input$plot_group[3])
