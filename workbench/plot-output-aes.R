@@ -16,15 +16,18 @@ server <- function(input, output, session){
   # This adds or removes dimensions from the input$plot_group to automatically
   # control aesthetics on the plot
   manage_plot_group <- function(i) {
+    value <- isolate(input$group)
     if (length(input[[i]]) > 1) {
       updateSelectInput(session,
                         inputId  = "group",
-                        selected = c(input$group, i)
+                        selected = c(value, i)
       )
     } else {
       updateSelectInput(session,
                         inputId  = "group",
-                        selected = if (length(input$group) > 1) input$group[!input$group %in% i]
+                        selected = if (length(value) > 1) {
+                          value[!value %in% i]
+                        }
       )
     }
   }
@@ -35,7 +38,8 @@ server <- function(input, output, session){
       manage_plot_group(i)
     },
     ignoreNULL = FALSE,
-    ignoreInit = TRUE)
+    # ignoreInit = TRUE
+    )
   })
 } # end of server function
 
