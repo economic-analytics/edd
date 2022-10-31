@@ -5,9 +5,8 @@ server <- function(input, output, session) {
   output$dataset <- renderUI({
     selectInput(inputId  = "dataset",
                 label    = "Select dataset(s)",
-                choices  = eddie_dict$desc[eddie_dict$obj_available == TRUE],
-                multiple = TRUE,
-                selected = "Regional GVA" # TODO remove before deploy
+                choices  = eddie_dict$desc[eddie_dict$id %in% names(eddie_datasets)],
+                multiple = TRUE
     )
   })
 
@@ -20,7 +19,7 @@ server <- function(input, output, session) {
 
   # ---
   select_variable_choices <- reactive({
-    req(input$variable_filter)
+    req(input$variable_filter, eddie_datasets)
     if (input$variable_filter) {
       source_object <- user_datasets()
     } else {
