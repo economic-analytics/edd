@@ -351,8 +351,8 @@ server <- function(input, output, session) {
                        panel.grid.major.y = ggplot2::element_line(linetype = "dotted"),
                        legend.position    = "top",
                        axis.line.y.right  = NULL,
-                       axis.line          = ggplot2::element_line() # ,
-                       # text               = ggplot2::element_text(size = 20)
+                       axis.line          = ggplot2::element_line(),
+                       text               = ggplot2::element_text(size = 16)
         )
     }
   })
