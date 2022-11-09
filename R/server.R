@@ -77,7 +77,9 @@ server <- function(input, output, session) {
   })
 
    transformation_date_choices <- reactive({
-    df <- selected_data_df() |>
+    # allows selection only of those dates which are available for all of the
+    # data currently displayed on the plot
+     df <- selected_data_df() |>
       dplyr::group_by(dates$date) |>
       dplyr::summarise(n = dplyr::n()) |>
       dplyr::filter(n == max(n))
