@@ -345,7 +345,7 @@ server <- function(input, output, session) {
                       y        = "Value",
                       title    = "Chart title",
                       subtitle = "Chart subtitle",
-                      caption  = "Source: Office for National Statistics\nPowered by EDD",
+                      caption  = plot_caption(input$dataset),
                       colour   = stringr::str_to_sentence(input$plot_group[1]),
                       linetype = stringr::str_to_sentence(input$plot_group[3]),
                       shape    = stringr::str_to_sentence(input$plot_group[4])
