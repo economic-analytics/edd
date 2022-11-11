@@ -12,14 +12,14 @@ server <- function(input, output, session) {
 
   output$variable_filter <- renderUI({
     checkboxInput(inputId = "variable_filter",
-                  label   = "Restrict variable search to selected datasets?",
+                  label   = "Search only selected datasets?",
                   value   = TRUE
     )
   })
 
   # ---
   select_variable_choices <- reactive({
-    req(input$variable_filter, edd_datasets)
+    req(edd_datasets)
     if (input$variable_filter) {
       source_object <- user_datasets()
     } else {
@@ -45,7 +45,8 @@ server <- function(input, output, session) {
     dims_available <- lapply(user_datasets(),
                              function(ds) {
                                names(ds$dimensions)
-                             }) |>
+                             }
+    ) |>
       unlist() |>
       unique()
 
