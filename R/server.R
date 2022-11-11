@@ -341,11 +341,11 @@ server <- function(input, output, session) {
         ggplot2::geom_line(size = 1) +
         {if (!is.na(input$plot_group[4])) ggplot2::geom_point(size = 3)} +
         {if (!is.na(input$plot_group[2])) ggplot2::facet_wrap(as.formula(paste0("~ ", input$plot_group[2], "$name")))} +
-        ggplot2::labs(x        = "",
+        ggplot2::labs(x        = NULL,
                       y        = "Value",
                       title    = "Chart title",
                       subtitle = "Chart subtitle",
-                      caption  = "Source: Office for National Statistics\nPowered by EDD",
+                      caption  = plot_caption(input$dataset),
                       colour   = stringr::str_to_sentence(input$plot_group[1]),
                       linetype = stringr::str_to_sentence(input$plot_group[3]),
                       shape    = stringr::str_to_sentence(input$plot_group[4])
