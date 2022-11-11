@@ -147,11 +147,12 @@ server <- function(input, output, session) {
     selectizeInput(inputId  = "plot_group",
                    label    = "Select dimensions to plot (colour, facet, linetype, shape)",
                    choices  = available_dimensions(),
-                   selected = if (length(value) > 0) {
+                   selected = if (length(value) > 0)
+                   {
                      value
-                     } else {
-                       "variable"
-                     },
+                   } else {
+                     "variable"
+                   },
                    multiple = TRUE,
                    options  = list(maxItems = 4)
     )
