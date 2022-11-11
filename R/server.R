@@ -160,7 +160,7 @@ server <- function(input, output, session) {
 
   output$download_plot <- downloadHandler(
     filename = function() {
-      paste0("edd_plot_", Sys.time(), ".png")
+      paste0("edd_plot_", Sys.Date(), ".png")
     },
     content = function(file) {
       ggplot2::ggsave(file)
@@ -169,7 +169,7 @@ server <- function(input, output, session) {
 
   output$download_data <- downloadHandler(
     filename = function() {
-      paste0("edd_data_", Sys.time(), ".csv")
+      paste0("edd_data_", Sys.Date(), ".csv")
     },
     content = function(file) {
       readr::write_csv(jsonlite::flatten(selected_data_df()), file)
