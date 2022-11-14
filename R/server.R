@@ -342,7 +342,7 @@ server <- function(input, output, session) {
         {if (!is.na(input$plot_group[4])) ggplot2::geom_point(size = 3)} +
         {if (!is.na(input$plot_group[2])) ggplot2::facet_wrap(as.formula(paste0("~ ", input$plot_group[2], "$name")))} +
         ggplot2::labs(x        = NULL,
-                      y        = "Value",
+                      y        = plot_ylab(ggplot_data(), input),
                       title    = "Chart title",
                       subtitle = "Chart subtitle",
                       caption  = plot_caption(input$dataset),

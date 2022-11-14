@@ -16,3 +16,17 @@ plot_caption <- function(datasets) {
 
   return(paste0("Source: ", caption, "\nPowered by EDD"))
 }
+
+plot_ylab <- function(ggplot_data, input) {
+  if (!exists("ggplot_data$variable$unit")) {
+    ylab <- "Value"
+  } else {
+    if (input$transformations == "none") {
+      ylab <- ggplot_data$variable$unit
+    } else {
+      ylab <- paste0(input$transformations, "(base period = ", input$transformation_date, ")")
+    }
+  }
+
+  return(ylab)
+}
