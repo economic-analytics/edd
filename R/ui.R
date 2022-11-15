@@ -35,11 +35,23 @@ ui <- navbarPage(
                     type = "pills",
 
                     tabPanel(title = "Chart",
-                             uiOutput("plot_group"),
-                             uiOutput("summarise"),
-                             plotOutput("dataplot"),
-                             downloadButton("download_plot",
-                                            label = "Download as PNG")
+                             sidebarLayout(
+                               sidebarPanel(
+                                 p("Aesthetic mapping"),
+                                 uiOutput("plot_aes")
+                               ),
+                               mainPanel(
+                                 plotOutput("dataplot"),
+                                 downloadButton("download_plot",
+                                                label = "Download as PNG")
+                               ),
+                               position = "right"
+                             )
+                             # uiOutput("plot_group"),
+
+
+                             # uiOutput("summarise"),
+
                     ),
 
                     tabPanel(title = "Table",

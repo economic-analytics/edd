@@ -143,20 +143,39 @@ server <- function(input, output, session) {
     names(selected_data_df())[!names(selected_data_df()) %in% c("dataset", "dates", "value")]
   })
 
-  output$plot_group <- renderUI({
-    value <- isolate(input$plot_group)
-    selectizeInput(inputId  = "plot_group",
-                   label    = "Select dimensions to plot (colour, facet, linetype, shape)",
-                   choices  = available_dimensions(),
-                   selected = if (length(value) > 0)
-                   {
-                     value
-                   } else {
-                     "variable"
-                   },
-                   multiple = TRUE,
-                   options  = list(maxItems = 4)
-    )
+  # TODO: REMOVE - NO LONGER IN USE
+  # output$plot_group <- renderUI({
+  #   value <- isolate(input$plot_group)
+  #   selectizeInput(inputId  = "plot_group",
+  #                  label    = "Select dimensions to plot (colour, facet, linetype, shape)",
+  #                  choices  = available_dimensions(),
+  #                  selected = if (length(value) > 0) {
+  #                    value
+  #                  } else {
+  #                    "variable"
+  #                  },
+  #                  multiple = TRUE,
+  #                  options  = list(maxItems = 4)
+  #   )
+  # })
+
+  # GLOBAL VARIABLE
+  plot_aesthetics <- c("Colour", "Facet", "Linetype", "Shape")
+
+  output$plot_aes <- renderUI({
+    # dims <- isolate(available_dimensions())
+
+    lapply(plot_aesthetics, function(aes) {
+      value <- isolate(input[[aes]])
+      selectInput(aes,
+                  aes,
+                  choices = c("Dimension" = "",
+                              available_dimensions()
+                              ),
+                  selected = value,
+                  multiple = FALSE
+      )
+    })
   })
 
   output$download_plot <- downloadHandler(
@@ -282,17 +301,42 @@ server <- function(input, output, session) {
 
   manage_plot_group <- function(i) {
     if (length(input[[i]]) > 1) {
-      updateSelectizeInput(session,
-                        inputId  = "plot_group",
-                        selected = c(input$plot_group, i)
-      )
+    #   updateSelectizeInput(session,
+    #                        inputId  = "plot_group",
+    #                        selected = c(input$plot_group, i)
+    #   )
+
+      # find first unselected input$aes_*
+      for (aes in plot_aesthetics) {
+        if (input[[aes]] == "") {
+          updateSelectInput(session,
+                            aes,
+                            selected = i)
+          break
+        }
+
+        if (input[[aes]] == i) {
+          break
+        }
+      }
+
     } else {
-      updateSelectizeInput(session,
-                        inputId  = "plot_group",
-                        selected = if (length(input$plot_group) > 1) {
-                          input$plot_group[!input$plot_group %in% i]
-                        }
-      )
+      # updateSelectizeInput(session,
+      #                      inputId  = "plot_group",
+      #                      selected = if (length(input$plot_group) > 1) {
+      #                        input$plot_group[!input$plot_group %in% i]
+      #                      }
+      # )
+
+      # find which input$aes_* contains it and remove it
+      for (aes in plot_aesthetics) {
+        if (input[[aes]] == i) {
+          updateSelectInput(session,
+                            aes,
+                            selected = "")
+          break
+        }
+      }
     }
   }
 
@@ -325,7 +369,7 @@ server <- function(input, output, session) {
 # Plot Output -------------------------------------------------------------
 
   output$dataplot <- renderPlot({
-    dimensions <- input$plot_group
+    # dimensions <- input$plot_group
 
     # TODO TESTING ONLY - remove 10000 row limit for production
     req(ggplot_data())
@@ -333,22 +377,22 @@ server <- function(input, output, session) {
       ggplot2::ggplot(ggplot_data(),
                       ggplot2::aes_string(x        = "dates$date",
                                           y        = "value",
-                                          colour   = {if (is.na(input$plot_group[1])) NULL else paste0(input$plot_group[1], "$name")},
-                                          linetype = {if (is.na(input$plot_group[3])) NULL else paste0(input$plot_group[3], "$name")},
-                                          shape    = {if (is.na(input$plot_group[4])) NULL else paste0(input$plot_group[4], "$name")}
+                                          colour   = {if (input$Colour == "") NULL else paste0(input$Colour, "$name")},
+                                          linetype = {if (input$Linetype == "") NULL else paste0(input$Linetype, "$name")},
+                                          shape    = {if (input$Shape == "") NULL else paste0(input$Shape, "$name")}
                       )
       ) +
         ggplot2::geom_line(size = 1) +
-        {if (!is.na(input$plot_group[4])) ggplot2::geom_point(size = 3)} +
-        {if (!is.na(input$plot_group[2])) ggplot2::facet_wrap(as.formula(paste0("~ ", input$plot_group[2], "$name")))} +
+        {if (input$Shape != "") ggplot2::geom_point(size = 3)} +
+        {if (input$Facet != "") ggplot2::facet_wrap(as.formula(paste0("~ ", input$Facet, "$name")))} +
         ggplot2::labs(x        = NULL,
                       y        = plot_ylab(ggplot_data(), input),
                       title    = "Chart title",
                       subtitle = "Chart subtitle",
                       caption  = plot_caption(input$dataset),
-                      colour   = stringr::str_to_sentence(input$plot_group[1]),
-                      linetype = stringr::str_to_sentence(input$plot_group[3]),
-                      shape    = stringr::str_to_sentence(input$plot_group[4])
+                      colour   = stringr::str_to_sentence(input$Colour),
+                      linetype = stringr::str_to_sentence(input$Linetype),
+                      shape    = stringr::str_to_sentence(input$Shape)
         ) +
         ggplot2::theme(panel.background   = ggplot2::element_blank(),
                        panel.grid         = ggplot2::element_blank(),
