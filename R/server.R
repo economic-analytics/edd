@@ -178,6 +178,10 @@ server <- function(input, output, session) {
     })
   })
 
+  output$y_axis_zero <- renderUI({
+    checkboxInput("y_axis_zero", "Force y-axis to include zero")
+  })
+
   output$download_plot <- downloadHandler(
     filename = function() {
       paste0("edd_plot_", Sys.Date(), ".png")
@@ -402,7 +406,8 @@ server <- function(input, output, session) {
                        axis.line          = ggplot2::element_line(),
                        text               = ggplot2::element_text(size = 16)
         ) +
-        ggplot2::ylim(min(0, min(ggplot_data()$value)), NA)
+        {if (input$y_axis_zero) ggplot2::ylim(min(0, min(ggplot_data()$value)), NA)}
+
     }
   })
 

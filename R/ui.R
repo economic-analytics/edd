@@ -37,8 +37,9 @@ ui <- navbarPage(
                     tabPanel(title = "Chart",
                              sidebarLayout(
                                sidebarPanel(
-                                 p("Aesthetic mapping"),
-                                 uiOutput("plot_aes")
+                                 p("Chart options"),
+                                 uiOutput("plot_aes"),
+                                 uiOutput("y_axis_zero")
                                ),
                                mainPanel(
                                  plotOutput("dataplot"),
