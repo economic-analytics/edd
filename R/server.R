@@ -17,7 +17,6 @@ server <- function(input, output, session) {
     )
   })
 
-  # ---
   select_variable_choices <- reactive({
     req(edd_datasets)
     if (input$variable_filter) {
@@ -39,7 +38,6 @@ server <- function(input, output, session) {
                 multiple = TRUE
     )
   })
-  # ---
 
   output$dimensions <- renderUI({
     dims_available <- lapply(user_datasets(),
@@ -50,7 +48,6 @@ server <- function(input, output, session) {
       unlist() |>
       unique()
 
-    # variable now hard coded
     dims_available <- dims_available[dims_available != "variable"]
     lapply(dims_available, function(i) {
       value <- isolate(input[[i]])
@@ -142,22 +139,6 @@ server <- function(input, output, session) {
   available_dimensions <- reactive({
     names(selected_data_df())[!names(selected_data_df()) %in% c("dataset", "dates", "value")]
   })
-
-  # TODO: REMOVE - NO LONGER IN USE
-  # output$plot_group <- renderUI({
-  #   value <- isolate(input$plot_group)
-  #   selectizeInput(inputId  = "plot_group",
-  #                  label    = "Select dimensions to plot (colour, facet, linetype, shape)",
-  #                  choices  = available_dimensions(),
-  #                  selected = if (length(value) > 0) {
-  #                    value
-  #                  } else {
-  #                    "variable"
-  #                  },
-  #                  multiple = TRUE,
-  #                  options  = list(maxItems = 4)
-  #   )
-  # })
 
   # GLOBAL VARIABLE
   plot_aesthetics <- c("Colour", "Facet", "Linetype", "Shape")
@@ -275,15 +256,6 @@ server <- function(input, output, session) {
   # map_data should be filtered by reactive values on all dimensions
   # *INCLUDING* date but *EXCEPT* geography - all geog_levels from UI select
   # [geog_type] should be included
-  # map_data <- reactive({
-  #   data <- get(input$geog_type, boundaries) %>%
-  #     dplyr::inner_join(dplyr::filter(data_to_plot(),
-  #                                     dates$date == input$map_date_select),
-  #                       by = setNames("geography", paste0(input$geog_type, "18cd"))
-  #                       # by = setNames("geography", names(get(input$geog_type, boundaries))[2])
-  #     )
-    #  # needs to be reactive
-  # })
 
   output$map_date_select <- renderUI({
     sliderInput(inputId = "map_date_select",
@@ -300,16 +272,8 @@ server <- function(input, output, session) {
 
 # Plot Logic --------------------------------------------------------------
 
-
-   # we need a way to remove any dimension with length 1 in its input if any other has length > 1
-
   manage_plot_group <- function(i) {
     if (length(input[[i]]) > 1) {
-    #   updateSelectizeInput(session,
-    #                        inputId  = "plot_group",
-    #                        selected = c(input$plot_group, i)
-    #   )
-
       # find first unselected input$aes_*
       for (aes in plot_aesthetics) {
         if (input[[aes]] == "") {
@@ -325,13 +289,6 @@ server <- function(input, output, session) {
       }
 
     } else {
-      # updateSelectizeInput(session,
-      #                      inputId  = "plot_group",
-      #                      selected = if (length(input$plot_group) > 1) {
-      #                        input$plot_group[!input$plot_group %in% i]
-      #                      }
-      # )
-
       # find which input$aes_* contains it and remove it
       for (aes in plot_aesthetics) {
         if (input[[aes]] == i) {
@@ -344,20 +301,11 @@ server <- function(input, output, session) {
     }
   }
 
-  # TODO Input dimension event listeners not dynamic
-  # Can't read from available_dimensions() even with isolate()
-  # possible next try - read from input obj rather than names(df)
-  # Temp fix: all possible dimensions must be listed here
-
   inputs <- lapply(edd_datasets, \(x) {
     names(x$dimensions)
   }) |> unlist() |> unique()
 
-  # inputs <- c("geography", "industry", "variable",
-  #             "employment_sizeband", "legal_status",
-  #             "non-existent input") # testing options
-
-  # Generate observers on the available_dimensions (currently hard-coded at inputs)
+  # Generate observers on the available_dimensions
   lapply(inputs, function(i) {
     observeEvent(input[[i]], {
       # print(input[[i]]) # testing only
@@ -373,9 +321,6 @@ server <- function(input, output, session) {
 # Plot Output -------------------------------------------------------------
 
   output$dataplot <- renderPlot({
-    # dimensions <- input$plot_group
-
-    # TODO TESTING ONLY - remove 10000 row limit for production
     req(ggplot_data())
     if (nrow(ggplot_data()) < 10000 && nrow(ggplot_data()) > 0) {
       ggplot2::ggplot(ggplot_data(),
