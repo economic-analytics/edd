@@ -333,7 +333,7 @@ server <- function(input, output, session) {
       ) +
         ggplot2::geom_line(size = 1) +
         {if (input$Shape != "") ggplot2::geom_point(size = 3)} +
-        {if (input$Facet != "") ggplot2::facet_wrap(as.formula(paste0("~ ", input$Facet, "$name")))} +
+        {if (input$Facet != "") ggplot2::facet_wrap(paste0(input$Facet, "$name"), labeller = ggplot2::label_wrap_gen())} +
         ggplot2::labs(x        = NULL,
                       y        = plot_ylab(ggplot_data(), input),
                       title    = "Chart title",
