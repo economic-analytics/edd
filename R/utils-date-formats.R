@@ -36,8 +36,9 @@ date_text_to_iso <- function(date_as_text, frequency = NULL) {
 }
 
 date_text_to_df <- function(dates) {
+  message("Parsing date formats (can be slow) ...")
   # if the date is four digits only, i.e. a year and annual
-  purrr::map_df(dates, function(d) {
+  out_df <- purrr::map_df(dates, function(d) {
     if (grepl("^[0-9]{4}$", d)) {
       date <- readr::parse_date(d, format = "%Y")
       freq <- "a"
@@ -55,9 +56,10 @@ date_text_to_df <- function(dates) {
       freq <- NA_character_
     }
     df <-  tibble::tibble(date = date,
-                        freq = freq)
-    return(df)
+                          freq = freq)
   })
+  message("Done.")
+  return(out_df)
 }
 
 # DEPRECATED
