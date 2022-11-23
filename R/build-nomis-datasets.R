@@ -128,7 +128,7 @@ edd_df_to_edd_obj <- function(edd_df) {
 generate_dimension_total <- function(df, dimension,
                                      dimension_plural = dimension) {
 
-  vars_to_group_by <- names(df)[!grepl(paste0("^", dimension), names(df)) | names(df) == "value"]
+  vars_to_group_by <- names(df)[!grepl(paste0("^", dimension), names(df)) & names(df) != "value"]
 
   out_df <- df |>
     dplyr::group_by(dplyr::across(vars_to_group_by)) |>
