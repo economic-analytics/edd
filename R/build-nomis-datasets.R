@@ -171,5 +171,5 @@ data_bres_add_emp_status_options <- function(df) {
     tidyr::pivot_longer(cols = names(df2)[!names(df2) %in% names(df)],
                         names_to = pivot_cols, names_sep = "_")
 
-  return(df)
+  return(out_df)
 }
