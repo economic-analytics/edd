@@ -140,7 +140,7 @@ generate_dimension_total <- function(df, dimension,
   dplyr::bind_rows(df, out_df)
 }
 
-add_hocl_msoa_names <- function(df, code_col) {
+add_hocl_msoa_names <- function(df, code_col = "geography_code") {
 
   if (!file.exists("data-raw/MSOA-Names-Latest.csv")) {
     file_url <- "https://houseofcommonslibrary.github.io/msoanames/MSOA-Names-Latest.csv"
