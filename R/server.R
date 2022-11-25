@@ -8,7 +8,26 @@ server <- function(input, output, session) {
   # Update the query string
   onBookmarked(updateQueryString)
 
+  vals <- reactiveValues(input_variable = "")
 
+  observeEvent(input$variable, {
+    vals$input_variable <- input$variable
+  })
+
+  # Save extra values in state$values when we bookmark
+  onBookmark(function(state) {
+    state$values$input_variable <- vals$input_variable
+  })
+
+  # Read values from state$values when we restore
+  onRestore(function(state) {
+    updateSelectInput(session, "variable", selected = state$values$input_variable)
+  })
+
+  onRestored(function(state) {
+    req(input$variable)
+    updateSelectInput(session, "variable", selected = state$values$input_variable)
+  })
 
 # UI Rendering --------------------------------------------------------------
 
@@ -28,7 +47,7 @@ server <- function(input, output, session) {
   })
 
   select_variable_choices <- reactive({
-    req(edd_datasets)
+    req(edd_datasets, user_datasets())
     if (input$variable_filter) {
       source_object <- user_datasets()
     } else {
