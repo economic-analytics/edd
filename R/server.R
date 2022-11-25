@@ -1,5 +1,15 @@
 server <- function(input, output, session) {
 
+  # Automatically bookmark every time an input changes
+  observe({
+    reactiveValuesToList(input)
+    session$doBookmark()
+  })
+  # Update the query string
+  onBookmarked(updateQueryString)
+
+
+
 # UI Rendering --------------------------------------------------------------
 
   output$dataset <- renderUI({
@@ -30,6 +40,7 @@ server <- function(input, output, session) {
   })
 
   output$variable <- renderUI({
+    req(edd_datasets, user_datasets()) # -------
     value <- isolate(input$variable)
     selectInput(inputId  = "variable",
                 label    = "Select variable",
