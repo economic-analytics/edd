@@ -14,10 +14,11 @@ server <- function(input, output, session) {
 # UI Rendering ------------------------------------------------------------
 
   output$dataset <- renderUI({
-    selectInput(inputId  = "dataset",
+    selectizeInput(inputId  = "dataset",
                 label    = "Select dataset(s)",
                 choices  = edd_dict$desc[edd_dict$id %in% names(edd_datasets)],
-                multiple = TRUE
+                multiple = TRUE,
+                options = list(plugins = list("remove_button"))
     )
   })
 
@@ -66,14 +67,15 @@ server <- function(input, output, session) {
     # dims_available <- dims_available[dims_available != "variable"]
     lapply(dims_available, function(i) {
       value <- isolate(input[[i]])
-      selectInput(i,
+      selectizeInput(i,
                   paste("Select", stringr::str_replace(i, "_", " ")),
                   choices = lapply(user_datasets(),
                                    function(ds) {
                                      build_input_choices(ds$dimensions[[i]])
                                    }),
                   selected = value,
-                  multiple = TRUE
+                  multiple = TRUE,
+                  options = list(plugins = list("remove_button"))
       )
     })
   })
@@ -164,7 +166,7 @@ server <- function(input, output, session) {
 
     lapply(plot_aesthetics, function(aes) {
       value <- isolate(input[[aes]])
-      selectInput(aes,
+      selectizeInput(aes,
                   aes,
                   choices = c("Dimension" = "",
                               available_dimensions()
@@ -293,7 +295,7 @@ server <- function(input, output, session) {
       # find first unselected input$aes_*
       for (aes in plot_aesthetics) {
         if (input[[aes]] == "") {
-          updateSelectInput(session,
+          updateSelectizeInput(session,
                             aes,
                             selected = i)
           break
@@ -308,7 +310,7 @@ server <- function(input, output, session) {
       # find which input$aes_* contains it and remove it
       for (aes in plot_aesthetics) {
         if (input[[aes]] == i) {
-          updateSelectInput(session,
+          updateSelectizeInput(session,
                             aes,
                             selected = "")
           break
