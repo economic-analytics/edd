@@ -11,8 +11,6 @@ server <- function(input, output, session) {
   # Update the query string
   onBookmarked(updateQueryString)
 
-
-
 # UI Rendering ------------------------------------------------------------
 
   output$dataset <- renderUI({
