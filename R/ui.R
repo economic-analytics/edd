@@ -24,8 +24,7 @@ ui <- function(request) {
                                uiOutput("dates"),
                                uiOutput("frequency"),
                                uiOutput("transformations"),
-                               uiOutput("transformation_date"),
-                               bookmarkButton()
+                               uiOutput("transformation_date")
                       )
           )
         ),
