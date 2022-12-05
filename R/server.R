@@ -1,35 +1,18 @@
 server <- function(input, output, session) {
 
+# Bookmarking (persistent URLs) -------------------------------------------
+
   # Automatically bookmark every time an input changes
   observe({
     reactiveValuesToList(input)
     session$doBookmark()
   })
+
   # Update the query string
   onBookmarked(updateQueryString)
 
-  # vals <- reactiveValues(input_variable = "")
 
-  # observeEvent(input$variable, {
-  #   vals$input_variable <- input$variable
-  # })
-
-  # Save extra values in state$values when we bookmark
-  # onBookmark(function(state) {
-  #   state$values$input_variable <- vals$input_variable
-  # })
-  #
-  # # Read values from state$values when we restore
-  # onRestore(function(state) {
-  #   updateSelectInput(session, "variable", selected = state$values$input_variable)
-  # })
-
-  # onRestored(function(state) {
-  #   req(input$variable)
-  #   updateSelectInput(session, "variable", selected = state$values$input_variable)
-  # })
-
-# UI Rendering --------------------------------------------------------------
+# UI Rendering ------------------------------------------------------------
 
   output$dataset <- renderUI({
     selectInput(inputId  = "dataset",
@@ -342,8 +325,6 @@ server <- function(input, output, session) {
   # Generate observers on the available_dimensions
   lapply(inputs, function(i) {
     observeEvent(input[[i]], {
-      # print(input[[i]]) # testing only
-      # print(inputs) # testing only
       manage_plot_group(i)
     }#,
     #ignoreNULL = FALSE,
