@@ -18,8 +18,8 @@ ui <- function(request) {
 
                       tabPanel(title = "Select by dataset",
                                uiOutput("dataset"),
-                               uiOutput("variable_filter"),
-                               uiOutput("variable"),
+                               # uiOutput("variable_filter"),
+                               # uiOutput("variable"),
                                uiOutput("dimensions"),
                                uiOutput("dates"),
                                uiOutput("frequency"),
