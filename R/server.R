@@ -352,8 +352,8 @@ server <- function(input, output, session) {
         {if (input$Facet != "") ggplot2::facet_wrap(paste0(input$Facet, "$name"), labeller = ggplot2::label_wrap_gen())} +
         ggplot2::labs(x        = NULL,
                       y        = plot_ylab(ggplot_data(), input),
-                      title    = "Chart title",
-                      subtitle = "Chart subtitle",
+                      title    = "",
+                      subtitle = "",
                       caption  = plot_caption(input$dataset),
                       colour   = stringr::str_to_sentence(input$Colour),
                       linetype = stringr::str_to_sentence(input$Linetype),
