@@ -199,6 +199,10 @@ server <- function(input, output, session) {
     }
   )
 
+  output$data_catalogue <- DT::renderDT({
+    show_all_variables()
+  })
+
   # Reactive Objects --------------------------------------------------------
 
   # LIST of edd dataset objects in use by the user

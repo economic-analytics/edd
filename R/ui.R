@@ -96,6 +96,13 @@ ui <- function(request) {
       actionButton(inputId = "update_ons",
                    label   = "Update ONS datasets")
     ),
+
+    tabPanel(
+      id = "data_catalogue",
+      title = "Data catalogue",
+      DT::DTOutput("data_catalogue")
+    ),
+
     tabPanel(
       id = "changelog",
       title = "Change log",
@@ -103,6 +110,7 @@ ui <- function(request) {
       h3("2022-12-06 v0.0.0.9020"),
       p("Add changelog to app"),
       p("Add Blue Book, Business Investment, Labour Productivity, Quarterly National Accounts, Regional Productivity, Unit Labour Cost & Unit Wage Cost to available ONS datasets"),
+      p("Add searchable data catalogue"),
       h3("2022-12-05 v0.0.0.9019"),
       p("Deploy bookmarking/persistent URLs to production"),
       p("UX improvements: add closing 'x' buttons to all dataset, variable and dimension labels"),
