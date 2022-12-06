@@ -102,6 +102,7 @@ ui <- function(request) {
       h2("Change log"),
       h3("2022-12-06 v0.0.0.9020"),
       p("Add changelog to app"),
+      p("Add Blue Book, Business Investment, Labour Productivity, Quarterly National Accounts, Regional Productivity, Unit Labour Cost & Unit Wage Cost to available ONS datasets"),
       h3("2022-12-05 v0.0.0.9019"),
       p("Deploy bookmarking/persistent URLs to production"),
       p("UX improvements: add closing 'x' buttons to all dataset, variable and dimension labels"),
