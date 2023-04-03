@@ -84,9 +84,9 @@ server <- function(input, output, session) {
     selectInput(inputId = "transformations",
                 label   = "Transform data series",
                 choices = c("None (data as published)"   = "none",
-                            # "Nominal change on previous" = "nominal_change",
-                            # "Percent change on previous" = "percent_change",
-                            # "Cumulative change"          = "cumulative_change",
+                            "Nominal change on previous" = "nominal_change",
+                            "Percent change on previous" = "percent_change",
+                            "Cumulative change"          = "cumulative_change",
                             "Index"                      = "index")
     )
   })
@@ -268,10 +268,11 @@ server <- function(input, output, session) {
     req(input$transformations)
     if (input$transformations == "none") {
       return(df)
-    } else if (input$transformations == "index" && !is.null(input$transformation_date)) {
+    } else if (1 == 1 #input$transformations == "index" && !is.null(input$transformation_date)
+               ) {
       columns_to_group_by <- names(df)[!names(df) %in% c("dataset", "dates", "value")] # TODO this crops up in a few places - global constant?
       dplyr::group_by(df, dplyr::across(dplyr::all_of(columns_to_group_by))) |>
-        ts_transform_df$index(input$transformation_date)
+        ts_transform_df[[input$transformations]](input$transformation_date)
     }
   }
 

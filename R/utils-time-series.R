@@ -19,17 +19,17 @@ ts_transform$index <- function(x) {
 
 ts_transform_df <- list()
 
-ts_transform_df$nominal_change <- function(df) {
+ts_transform_df$nominal_change <- function(df, x) {
   df %>%
-    dplyr::mutate(value = value - lag(value))
+    dplyr::mutate(value = value - dplyr::lag(value))
 }
 
-ts_transform_df$percent_change <- function(df) {
+ts_transform_df$percent_change <- function(df, x) {
   df %>%
-    dplyr::mutate(value = (value - lag(value)) / value * 100)
+    dplyr::mutate(value = (value - dplyr::lag(value)) / value * 100)
 }
 
-ts_transform_df$cumulative_change <- function(df) {
+ts_transform_df$cumulative_change <- function(df, x) {
   df %>%
     dplyr::mutate(value = cumsum(c(0, diff(value))))
 }
