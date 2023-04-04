@@ -15,10 +15,10 @@ server <- function(input, output, session) {
 
   output$dataset <- renderUI({
     selectizeInput(inputId  = "dataset",
-                label    = "Select dataset(s)",
-                choices  = edd_dict$desc[edd_dict$id %in% names(edd_datasets)],
-                multiple = TRUE,
-                options = list(plugins = list("remove_button"))
+                   label    = "Select dataset(s)",
+                   choices  = edd_dict$desc[edd_dict$id %in% names(edd_datasets)],
+                   multiple = TRUE,
+                   options  = list(plugins = list("remove_button"))
     )
   })
 
@@ -268,8 +268,7 @@ server <- function(input, output, session) {
     req(input$transformations)
     if (input$transformations == "none") {
       return(df)
-    } else if (1 == 1 #input$transformations == "index" && !is.null(input$transformation_date)
-               ) {
+    } else if (!is.null(input$transformation_date)) {
       columns_to_group_by <- names(df)[!names(df) %in% c("dataset", "dates", "value")] # TODO this crops up in a few places - global constant?
       dplyr::group_by(df, dplyr::across(dplyr::all_of(columns_to_group_by))) |>
         ts_transform_df[[input$transformations]](input$transformation_date)
