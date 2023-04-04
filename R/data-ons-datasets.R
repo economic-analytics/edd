@@ -134,7 +134,7 @@ ons_process_dataset <- function(dataset, new_format = FALSE) {
 
     # prepare data
     data$dates <- date_text_to_df(data$dates)
-    data <- tidyr::pivot_longer(data, -dates, names_to = "variable", values_to = "value")
+    data <- tidyr::pivot_longer(data, -dates, names_to = "variable", values_to = "value", values_drop_na = TRUE)
     data$value <- as.numeric(data$value)
     data <- dplyr::filter(data, !is.na(value))
 
