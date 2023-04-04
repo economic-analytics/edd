@@ -29,3 +29,7 @@ Imports:
     tidyr
 Depends: 
     R (>= 4.2)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
