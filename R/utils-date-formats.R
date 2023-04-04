@@ -45,6 +45,9 @@ date_text_to_df <- function(dates) {
     } else if (grepl("Q", d)) { # if the date contains a "Q", i.e. quarterly
       date <- lubridate::yq(d)
       freq <- "q"
+    } else if (grepl("[0-9]{2}-[0-9]{2}-[0-9]{4}", d)) { # if the date is DD-MM-YYYY
+      date <- as.Date(d, format = "%d-%m-%Y")
+      freq <- "d"
     } else if (grepl("[0-9]{4}$", d)) { # if contains four digits at the end
       date <- lubridate::my(d)
       freq <- "m"
