@@ -1,0 +1,196 @@
+code,name,unit,preunit
+A4YM,Output per Worker: Whole Economy SA: Index 2019=100: UK,"Index, base year = 100",NA
+A4YN,Output per Worker: Whole Economy: % change per annum SA: UK,%,NA
+A4YO,Output per Worker: Whole Economy: % change quarter on previous quarter SA: UK,%,NA
+DIW8,Whole Economy index of LFS Employment: SA % change on Q,%,NA
+DIW9,Whole Economy index of LFS Employment: SA % change on Y,%,NA
+DJ4K,"Output per job: Ag, forestry and fishing A SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJ4L,"Output per job: Ag, forestry and fishing A SIC07, % change on Y, SA, UK",%,NA
+DJ4M,"Output per job: Production B-E SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJ4N,"Output per job: Production B-E SIC07, % change on Q, SA, UK",%,NA
+DJ4O,"Output per job: Production B-E SIC07, % change on Y, SA, UK",%,NA
+DJ4P,"Output per job: Manufacturing C SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJ4Q,"Output per job: Manufacturing C SIC07, % change on Q, SA, UK",%,NA
+DJ4R,"Output per job: Manufacturing C SIC07, % change on Y, SA, UK",%,NA
+DJ54,"Output per job: Mfg food, drink & tobacco CA SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJ55,"Output per job: Mfg food, drink & tobacco CA SIC07, % change on Q, SA, UK",%,NA
+DJ56,"Output per job: Mfg food, drink & tobacco CA SIC07, % change on Y, SA, UK",%,NA
+DJ57,"Output per job: Mfg textiles & clothing CB SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJ58,"Output per job: Mfg textiles & clothing CB SIC07, % change on Q, SA, UK",%,NA
+DJ5E,"Output per job: Mfg textiles & clothing CB SIC07, % change on Y, SA, UK",%,NA
+DJ5F,"Output per job: Mfg wood, paper & printing CC SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJ5G,"Output per job: Mfg wood, paper & printing CC SIC07, % change on Q, SA, UK",%,NA
+DJ5H,"Output per job: Mfg wood, paper & printing CC SIC07, % change on Y, SA, UK",%,NA
+DJ5I,"Output per job: Mfg chemical & pharm CE,CF SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJ5J,"Output per job: Mfg chemical & pharm CE,CF SIC07, % change on Q, SA, UK",%,NA
+DJ5K,"Output per job: Mfg chemical & pharm CE,CF SIC07, % change on Y, SA, UK",%,NA
+DJ5L,"Output per job: Mfg rubber & plastic CG SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJ5M,"Output per job: Mfg rubber & plastic CG SIC07, % change on Q, SA, UK",%,NA
+DJ5N,"Output per job: Mfg rubber & plastic CG SIC07, % change on Y, SA, UK",%,NA
+DJB2,"Output per job: Mfg metal & metal products CH SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJB3,"Output per job: Mfg metal & metal products CH SIC07, % change on Q, SA, UK",%,NA
+DJB6,"Output per job: Mfg metal & metal products CH SIC07, % change on Y, SA, UK",%,NA
+DJB7,"Output per job: Mfg computer & electrical CI,CJ SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJB8,"Output per job: Mfg computer & electrical CI,CJ SIC07, % change on Q, SA, UK",%,NA
+DJB9,"Output per job: Mfg computer & electrical CI,CJ SIC07, % change on Y, SA, UK",%,NA
+DJC2,"Output per job: Mfg machinery & equip nec CK SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJC3,"Output per job: Mfg machinery & equip nec CK SIC07, % change on Q, SA, UK",%,NA
+DJC4,"Output per job: Mfg machinery & equip nec CK SIC07, % change on Y, SA, UK",%,NA
+DJC5,"Output per job: Mfg transport equipment CL SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJC6,"Output per job: Mfg transport equipment CL SIC07, % change on Q, SA, UK",%,NA
+DJD2,"Output per job: Mfg transport equipment CL SIC07, % change on Y, SA, UK",%,NA
+DJD3,"Output per job: Mfg coke, petroleum & nec CD,CM SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJD4,"Output per job: Mfg coke, petroleum & nec CD,CM SIC07, % change on Q, SA, UK",%,NA
+DJD7,"Output per job: Mfg coke, petroleum & nec CD,CM SIC07, % change on Y, SA, UK",%,NA
+DJD8,"Output per job: Construction F SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJE2,"Output per job: Construction F SIC07, % change on Y, SA, UK",%,NA
+DJE3,"Output per job: Services G-S SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJE4,"Output per job: Services G-S SIC07, % change on Q, SA, UK",%,NA
+DJE5,"Output per job: Services G-S SIC07, % change on Y, SA, UK",%,NA
+DJE6,"Output per job: Wholesale & retail services G SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJE7,"Output per job: Wholesale & retail services G SIC07, % change on Q, SA, UK",%,NA
+DJE8,"Output per job: Wholesale & retail services G SIC07, % change on Y, SA, UK",%,NA
+DJE9,"Output per job: Transport & storage services H SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJF2,"Output per job: Transport & storage services H SIC07, % change on Q, SA, UK",%,NA
+DJF3,"Output per job: Transport & storage services H SIC07, % change on Y, SA, UK",%,NA
+DJF4,"Output per job: Acco and food services I SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJF5,"Output per job: Acco and food services I SIC07, % change on Q, SA, UK",%,NA
+DJF6,"Output per job: Acco and food services I SIC07, % change on Y, SA, UK",%,NA
+DJF7,"Output per job: Info & comms services J SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJF8,"Output per job: Info & comms services J SIC07, % change on Q, SA, UK",%,NA
+DJF9,"Output per job: Info & comms services J SIC07, % change on Y, SA, UK",%,NA
+DJG5,"Output per job: Finance & insurance services K SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJG6,"Output per job: Finance & insurance services K SIC07, % change on Q, SA, UK",%,NA
+DJG8,"Output per job: Finance & insurance services K SIC07, % change on Y, SA, UK",%,NA
+DJH4,"Output per job: Real estate activities L SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJH5,"Output per job: Real estate activities L SIC07, % change on Q, SA, UK",%,NA
+DJH6,"Output per job: Real estate activities L SIC07, % change on Y, SA, UK",%,NA
+DJH7,"Output per job: Professional services M SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJH8,"Output per job: Professional services M SIC07, % change on Q, SA, UK",%,NA
+DJH9,"Output per job: Professional services M SIC07, % change on Y, SA, UK",%,NA
+DJI2,"Output per job: Admin & support services N SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJI3,"Output per job: Admin & support services N SIC07, % change on Q, SA, UK",%,NA
+DJI4,"Output per job: Admin & support services N SIC07, % change on Y, SA, UK",%,NA
+DJI5,"Output per job: Government services O-Q SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJI6,"Output per job: Government services O-Q SIC07, % change on Q, SA, UK",%,NA
+DJI7,"Output per job: Government services O-Q SIC07, % change on Y, SA, UK",%,NA
+DJJ3,"Output per job: Arts, ent & recreation serv R SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJJ4,"Output per job: Arts, ent & recreation serv R SIC07, % change on Q, SA, UK",%,NA
+DJJ5,"Output per job: Arts, ent & recreation serv R SIC07, % change on Y, SA, UK",%,NA
+DJJ6,"Output per job: Other services S SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJJ7,"Output per job: Other services S SIC07, % change on Q, SA, UK",%,NA
+DJJ8,"Output per job: Other services S SIC07, % change on Y, SA, UK",%,NA
+DJJ9,"Output per hour: Ag, forestry and fishing A SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJK2,"Output per hour: Ag, forestry and fishing A SIC07, % change on Y, SA, UK",%,NA
+DJK3,"Output per hour: Production B-E SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJK4,"Output per hour: Production B-E SIC07, % change on Q, SA, UK",%,NA
+DJK5,"Output per hour: Production B-E SIC07, % change on Y, SA, UK",%,NA
+DJK6,"Output per hour: Manufacturing C SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJK7,"Output per hour: Manufacturing C SIC07, % change on Q, SA, UK",%,NA
+DJK8,"Output per hour: Manufacturing C SIC07, % change on Y, SA, UK",%,NA
+DJK9,"Output per hour: Mfg food, drink & tobacco CA SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJL2,"Output per hour: Mfg food, drink & tobacco CA SIC07, % change on Q, SA, UK",%,NA
+DJL3,"Output per hour: Mfg food, drink & tobacco CA SIC07, % change on Y, SA, UK",%,NA
+DJL4,"Output per hour: Mfg textiles & clothing CB SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJL5,"Output per hour: Mfg textiles & clothing CB SIC07, % change on Q, SA, UK",%,NA
+DJL6,"Output per hour: Mfg textiles & clothing CB SIC07, % change on Y, SA, UK",%,NA
+DJL7,"Output per hour: Mfg wood, paper & printing CC SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJM2,"Output per hour: Mfg wood, paper & printing CC SIC07, % change on Q, SA, UK",%,NA
+DJM3,"Output per hour: Mfg wood, paper & printing CC SIC07, % change on Y, SA, UK",%,NA
+DJM4,"Output per hour: Mfg chemical & pharm CE,CF SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJM5,"Output per hour: Mfg chemical & pharm CE,CF SIC07, % change on Q, SA, UK",%,NA
+DJM6,"Output per hour: Mfg chemical & pharm CE,CF SIC07, % change on Y, SA, UK",%,NA
+DJM7,"Output per hour: Mfg rubber & plastic CG SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJM8,"Output per hour: Mfg rubber & plastic CG SIC07, % change on Q, SA, UK",%,NA
+DJM9,"Output per hour: Mfg rubber & plastic CG SIC07, % change on Y, SA, UK",%,NA
+DJN4,"Output per hour: Mfg metal & metal products CH SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJN5,"Output per hour: Mfg metal & metal products CH SIC07, % change on Q, SA, UK",%,NA
+DJN6,"Output per hour: Mfg metal & metal products CH SIC07, % change on Y, SA, UK",%,NA
+DJN7,"Output per hour: Mfg computer & electrical CI,CJ SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJN8,"Output per hour: Mfg computer & electrical CI,CJ SIC07, % change on Q, SA, UK",%,NA
+DJN9,"Output per hour: Mfg computer & electrical CI,CJ SIC07, % change on Y, SA, UK",%,NA
+DJO5,"Output per hour: Mfg machinery & equip nec CK SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJO6,"Output per hour: Mfg machinery & equip nec CK SIC07, % change on Q, SA, UK",%,NA
+DJO7,"Output per hour: Mfg machinery & equip nec CK SIC07, % change on Y, SA, UK",%,NA
+DJO8,"Output per hour: Mfg transport equipment CL SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJO9,"Output per hour: Mfg transport equipment CL SIC07, % change on Q, SA, UK",%,NA
+DJP2,"Output per hour: Mfg transport equipment CL SIC07, % change on Y, SA, UK",%,NA
+DJP3,"Output per hour: Mfg coke, petroleum & nec CD,CM SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJP4,"Output per hour: Mfg coke, petroleum & nec CD,CM SIC07, % change on Q, SA, UK",%,NA
+DJP5,"Output per hour: Mfg coke, petroleum & nec CD,CM SIC07, % change on Y, SA, UK",%,NA
+DJP6,"Output per hour: Construction F SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJP8,"Output per hour: Construction F SIC07, % change on Y, SA, UK",%,NA
+DJP9,"Output per hour: Services G-S SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJQ2,"Output per hour: Services G-S SIC07, % change on Q, SA, UK",%,NA
+DJQ3,"Output per hour: Services G-S SIC07, % change on Y, SA, UK",%,NA
+DJQ4,"Output per hour: Wholesale & retail services G SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJQ5,"Output per hour: Wholesale & retail services G SIC07, % change on Q, SA, UK",%,NA
+DJQ6,"Output per hour: Wholesale & retail services G SIC07, % change on Y, SA, UK",%,NA
+DJQ7,"Output per hour: Transport & storage services H SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJQ8,"Output per hour: Transport & storage services H SIC07, % change on Q, SA, UK",%,NA
+DJQ9,"Output per hour: Transport & storage services H SIC07, % change on Y, SA, UK",%,NA
+DJR2,"Output per hour: Acco and food services I SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJR3,"Output per hour: Acco and food services I SIC07, % change on Q, SA, UK",%,NA
+DJR4,"Output per hour: Acco and food services I SIC07, % change on Y, SA, UK",%,NA
+DJR5,"Output per hour: Info & comms services J SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJR6,"Output per hour: Info & comms services J SIC07, % change on Q, SA, UK",%,NA
+DJR7,"Output per hour: Info & comms services J SIC07, % change on Y, SA, UK",%,NA
+DJS3,"Output per hour: Finance & insurance services K SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJS4,"Output per hour: Finance & insurance services K SIC07, % change on Q, SA, UK",%,NA
+DJS5,"Output per hour: Finance & insurance services K SIC07, % change on Y, SA, UK",%,NA
+DJS6,"Output per hour: Real estate activities L SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJS7,"Output per hour: Real estate activities L SIC07, % change on Q, SA, UK",%,NA
+DJS8,"Output per hour: Real estate activities L SIC07, % change on Y, SA, UK",%,NA
+DJS9,"Output per hour: Professional services M SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJT2,"Output per hour: Professional services M SIC07, % change on Q, SA, UK",%,NA
+DJT6,"Output per hour: Professional services M SIC07, % change on Y, SA, UK",%,NA
+DJT7,"Output per hour: Admin & support services N SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJT8,"Output per hour: Admin & support services N SIC07, % change on Q, SA, UK",%,NA
+DJT9,"Output per hour: Admin & support services N SIC07, % change on Y, SA, UK",%,NA
+DJU2,"Output per hour: Government services O-Q SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJU6,"Output per hour: Government services O-Q SIC07, % change on Q, SA, UK",%,NA
+DJU7,"Output per hour: Government services O-Q SIC07, % change on Y, SA, UK",%,NA
+DJV6,"Output per hour: Arts, ent & recreation serv R SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJV7,"Output per hour: Arts, ent & recreation serv R SIC07, % change on Q, SA, UK",%,NA
+DJV8,"Output per hour: Arts, ent & recreation serv R SIC07, % change on Y, SA, UK",%,NA
+DJV9,"Output per hour: Other services S SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJW2,"Output per hour: Other services S SIC07, % change on Q, SA, UK",%,NA
+DJW3,"Output per hour: Other services S SIC07, % change on Y, SA, UK",%,NA
+DJW6,"Productivity jobs: Production B-E SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJW7,"Productivity jobs: Production B-E SIC07, % change on Q, SA, UK",%,NA
+DJW8,"Productivity jobs: Production B-E SIC07, % change on Y, SA, UK",%,NA
+DJW9,"Productivity jobs: Manufacturing C SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DJX2,"Productivity jobs: Manufacturing C SIC07, % change on Q, SA, UK",%,NA
+DJX3,"Productivity jobs: Manufacturing C SIC07, % change on Y, SA, UK",%,NA
+DK2G,"Productivity jobs: Services G-S SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DK2H,"Productivity jobs: Services G-S SIC07, % change on Q, SA, UK",%,NA
+DK2I,"Productivity jobs: Services G-S SIC07, % change on Y, SA, UK",%,NA
+DK3S,"Productivity hours: Production B-E SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DK3T,"Productivity hours: Production B-E SIC07, % change on Q, SA, UK",%,NA
+DK3U,"Productivity hours: Production B-E SIC07, % change on Y, SA, UK",%,NA
+DK3V,"Productivity hours: Manufacturing C SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DK3Y,"Productivity hours: Manufacturing C SIC07, % change on Q, SA, UK",%,NA
+DK44,"Productivity hours: Manufacturing C SIC07, % change on Y, SA, UK",%,NA
+DK56,"Productivity hours: Services G-S SIC07, 2019=100, SA, UK","Index, base year = 100",NA
+DK57,"Productivity hours: Services G-S SIC07, % change on Q, SA, UK",%,NA
+DK58,"Productivity hours: Services G-S SIC07, % change on Y, SA, UK",%,NA
+DMWR,Output per Job : Whole Economy : % change quarter on previous quarter SA:UK,%,NA
+GYY4,Output per Worker: Market Sector SA: Index 2019=100: UK,"Index, base year = 100",NA
+GYY5,Output per Worker: Market Sector: % change per annum SA: UK,%,NA
+GYY6,Output per Worker: Market Sector: % change quarter on previous quarter SA: UK,%,NA
+GYY7,Output per Hour Worked: Market Sector SA: Index 2019=100: UK,"Index, base year = 100",NA
+GYY8,Output per Hour Worked: Market Sector: % change per annum SA: UK,%,NA
+GYY9,Output per Hour Worked:Market Sector:% change quarter on previous quarter SA: UK,%,NA
+LNNM,Productivity jobs. Whole Economy SA: Index 2019=100: UK,"Index, base year = 100",NA
+LNNN,Output per Filled Job : Whole Economy SA: Index 2019=100: UK,"Index, base year = 100",NA
+LNNO,Productivity jobs: whole economy: % change per annum: SA: UK,%,NA
+LNNP,Output per filled job: Whole economy: % change per annum SA: UK,%,NA
+LZVA,UK Whole Economy: Productivity hours SA: Index 2019 = 100,"Index, base year = 100",NA
+LZVB,UK Whole Economy: Output per hour worked SA: Index 2019 = 100,"Index, base year = 100",NA
+LZVC,UK Whole Economy: Productivity hours % change per annum SA,%,NA
+LZVD,UK Whole Economy: Output per hour worked % change per annum SA,%,NA
+TXAJ,Productivity Jobs:Whole Economy: % change quarter on previous quarter SA:UK,%,NA
+TXBB,UK Whole Economy: Output per hour worked % change quarter on previous quarter SA,%,NA
+TXBU,UK Whole Economy: Productivity Hours : % change quarter on previous quarter SA,%,NA
+TXEL,Whole Economy index of LFS Employment: SA 2019=100,"Index, base year = 100",NA
+TXET,Ratio of Whole economy jobs to Whole economy workers: SA,NA,NA

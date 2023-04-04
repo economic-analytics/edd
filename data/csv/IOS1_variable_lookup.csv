@@ -1,0 +1,583 @@
+code,name,unit,preunit
+DYQO,GBServTO: 53 - Postal and courier services TOTAL (£m),NA,NA
+JQ2J,GBServTO: 45 - Wholesale/retail trade; repair mtr vehicles/mtorcycles TOTAL (£m),NA,NA
+JQ2N,"GBServTO: 46 - Wholesale trade serv, except mtr vehicles/motorcycles TOTAL (£m",NA,NA
+JQ2Y,GBServTO: 49.3-5 - Land trnsprt/trnsprt via pipeline excl. rail trans TOTAL (£m),NA,NA
+JQ32,GBServTO: 52 - Warehousing and support services for transportation TOTAL (£m),NA,NA
+JQ34,GBServTO: 55 - Accommodation services TOTAL (£m),NA,NA
+JQ37,GBServTO: 56 - Food & beverage serving services TOTAL (£m),NA,NA
+JQ3B,GBServTO: 58 - Publishing services TOTAL (£m),NA,NA
+JQ3C,"GBServTO: 59 - Motion pic, vid/tv prod; sound recrdin/music publshing TOTAL (£",NA,NA
+JQ3D,GBServTO: 60 - Programming & broadcasting services TOTAL (£m),NA,NA
+JQ3E,GBServTO: 61 - Telecommunications services TOTAL (£m),NA,NA
+JQ3I,"GBServTO: 62 - Computer programming, consultancy & related services TOTAL (£m)",NA,NA
+JQ3M,GBServTO: 63 - Information services TOTAL (£m),NA,NA
+JQ3N,GBServTO: 68.3 - Real estate activities on a fee or contract basis TOTAL (£m),NA,NA
+JQ3O,GBServTO: 69.1 - Legal activities TOTAL (£m),NA,NA
+JQ3P,GBServTO: 69.2 - Accountng bookkeepng auditing activ: tax consultancy TOTAL (£m),NA,NA
+JQ3Q,GBServTO: 70.2 - Management consulting services TOTAL (£m),NA,NA
+JQ3R,GBServTO: 71 - Architcture/engineerng serv; technical testng/analysis TOTAL (£m),NA,NA
+JQ3S,GBServTO: 73 - Advertising & market research services TOTAL (£m),NA,NA
+JQ3V,"GBServTO: 74 - Other professional, scientific and technical services TOTAL (£m",NA,NA
+JQ3W,GBServTO: 78 - Employment services TOTAL (£m),NA,NA
+JQ3Z,"GBServTO: 79 - Travel agency, tour operator/oth reservation services TOTAL (£m",NA,NA
+JQ44,GBServTO: 80 - Security & investigation services TOTAL (£m),NA,NA
+JQ45,GBServTO: 81.2 - Cleaning activities TOTAL (£m),NA,NA
+JQ46,"GBServTO: 82 - Office admin, office support & other business support TOTAL (£m",NA,NA
+JR3D,GBServTO: 86 - Human health services TOTAL (£m),NA,NA
+JR3K,GBServTO: 93 - Sporting services and amusement & recreation services TOTAL (£m),NA,NA
+JR3P,GBServTO: 96.01-03 - Other personal serv excl. phys wellbeing/other TOTAL (£m),NA,NA
+JSK8,GBServTO: 75 - Veterinary activities TOTAL (£m),NA,NA
+JSK9,GBServTO: 72 - Scientific research & development services TOTAL (£m),NA,NA
+JSL5,GBServTO: 85.32-60 - Techncal/vocational/secndry/higher/oth education TOTAL (£m),NA,NA
+JSM2,"GBServTO: 90 - Creative, arts and entertainment services TOTAL (£m)",NA,NA
+JSM3,"GBServTO: 91 - Library, archive, museum and other cultural services TOTAL (£m)",NA,NA
+JSM6,GBServTO: 95 - Repair servs of computers/personal & household goods TOTAL (£m),NA,NA
+JT28,GBServTO: 45-96 - GB Services TOTAL (£m),NA,NA
+JT3M,GBServTO: 77 - Rental & leasing services TOTAL (£m),NA,NA
+KFI6,IoS: 49: Land Transport And Transport Via Pipelines: 1m on 1m a year ago growth,NA,NA
+KFI8,IoS: 49: Land Transport And Transport Via Pipelines : 3m on 3m a year ago growth,NA,NA
+KFJ2,IoS: 49: Land Transport And Transport Via Pipelines: 3m on 3m growth,NA,NA
+KFJ4,IoS: 60: Programming And Broadcasting Activities: 1m on 1m a yr ago growth,NA,NA
+KFJ6,IoS: 60: Programming And Broadcasting Activities : 3m on 3m a year ago growth,NA,NA
+KFJ8,IoS: 60: Programming And Broadcasting Activities: 3m on 3m growth,NA,NA
+KFK2,"IoS: 65: Insurance, Reinsurance And Pension Funding, Except Compulsory Social Security: 1m on 1m a yr ago growth",NA,NA
+KFK4,"IoS: 65: Insurance, Reinsurance And Pension Funding, Except Compulsory Social Security: 3m on 3m a year ago growth",NA,NA
+KFK6,"IoS: 65: Insurance, Reinsurance And Pension Funding, Except Compulsory Social Security: 3m on 3m growth",NA,NA
+KFK8,IoS: 68: Real Estate Activities: 1m on 1m a year ago growth,NA,NA
+KFL2,IoS: 68: Real Estate Activities: 3m on 3m a year ago growth,NA,NA
+KFL4,IoS: 68: Real Estate Activities: 3m on 3m growth,NA,NA
+KFL6,IoS: 69: Legal And Accounting Activities : 1m on 1m a yr ago growth,NA,NA
+KFL8,IoS: 69: Legal And Accounting Activities: 3m on 3m a year ago growth,NA,NA
+KFM2,IoS: 69: Legal And Accounting Activities: 3m on 3m growth,NA,NA
+KFM4,"IoS: JA: Publishing, audiovisual & broadcasting activities: 1m on 1m a yr ago growth",NA,NA
+KFM6,"IoS: JA: Publishing, audiovisual & broadcasting activities: 3m on 3m a year ago growth",NA,NA
+KFM8,"IoS: JA: Publishing, audiovisual & broadcasting activities: 3m on 3m growth",NA,NA
+KFN2,IoS: JB: Telecommunications: 1m on 1m a yr ago growth,NA,NA
+KFN4,IoS: JB: Telecommunications: 3m on 3m a year ago growth,NA,NA
+KFN6,IoS: JB: Telecommunications: 3m on 3m growth,NA,NA
+KFN8,IoS: JC: IT and other information service activities : 1m on 1m a yr ago growth,NA,NA
+KFO2,IoS: JC: IT and other information service activities: 3m on 3m a year ago growth,NA,NA
+KFO4,IoS: JC: IT and other information service activities: 3m on 3m growth,NA,NA
+KFO6,"IoS: MA: Legal, accounting, management, architecture, engineering, technical testing activities: 1m on 1m a yr ago growth",NA,NA
+KFO8,"IoS: MA: Legal, accounting, management, architecture, engineering, technical testing activities: 3m on 3m a year ago growth",NA,NA
+KFP2,"IoS: MA: Legal, accounting, management, architecture, engineering, technical testing activities: 3m on 3m growth",NA,NA
+KFP4,IoS: MB: Scientific Research And Development: 1m on 1m a yr ago growth,NA,NA
+KFP6,IoS: MB: Scientific Research And Development: 3m on 3m a year ago growth,NA,NA
+KFP8,IoS: MB: Scientific Research And Development: 3m on 3m growth,NA,NA
+KFQ2,IoS: MC: Other prof. scientific and technical activities: 1m on 1m a yr ago growth,NA,NA
+KFQ4,IoS: MC: Other professional scientific & tech activities: 3m on 3m a year ago growth,NA,NA
+KFQ6,IoS: MC: Other professional scientific and technical activities: 3m on 3m growth,NA,NA
+KFQ8,IoS: QA: Human Health Activities: 1m on 1m a yr ago growth,NA,NA
+KFR2,IoS: QA: Human Health Activities: 3m on 3m a year ago growth,NA,NA
+KFR4,IoS: QA: Human Health Activities: 3m on 3m growth,NA,NA
+KFR6,IoS: QB: Residential care and social work activities: 1m on 1m a yr ago growth,NA,NA
+KFR8,IoS: QB: Residential care and social work activities: 3m on 3m a year ago growth,NA,NA
+KFS2,IoS: QB: Residential care and social work activities: 3m on 3m growth,NA,NA
+KFV5,IoS: 49: Land Transport And Transport Via Pipelines: Period and Period Growth,NA,NA
+KFV6,Ios: 49: Land Transport And Transport Via Pipelines : Index-1dp,NA,NA
+KFV7,IoS: 60: Programming And Broadcasting Activities: Period on Period Growth,NA,NA
+KFV8,IoS: 60: Programming And Broadcasting Activities : Index-1dp,NA,NA
+KFV9,"IoS: 65: Insurance, Reinsurance And Pension Funding, Except Compulsory Social Security: Period on Period Growth",NA,NA
+KFW2,"IoS: 65: Insurance, Reinsurance And Pension Funding, Except Compulsory Social Security: Index-1dp",NA,NA
+KFW3,IoS: 68: Real Estate Activities: Period on Period Growth,NA,NA
+KFW4,IoS: 68: Real Estate Activities : Index-1dp,NA,NA
+KFW5,IoS: 69: Legal And Accounting Activities: Period on Period Growth,NA,NA
+KFW6,IoS: 69: Legal And Accounting Activities : Index-1dp,NA,NA
+KFW7,"Ios: JA: Publishing, audiovisual & broadcasting activities: Period on Period Growth",NA,NA
+KFW8,"IoS: JA: Publishing, audiovisual & broadcasting activities: Index-1dp",NA,NA
+KFW9,IoS: JB: Telecommunications: Period on Period Growth,NA,NA
+KFX2,IoS: JB: Telecommunications: Index-1dp,NA,NA
+KFX3,Ios: JC: IT and other information service activities: Period on Period Growth,NA,NA
+KFX4,IoS: JC: IT and other information service activities: Index-1dp,NA,NA
+KFX5,"IoS: MA: Legal, accounting, management, architecture, engineering, technical testing activities: Period on Period Growth",NA,NA
+KFX6,"IoS: Legal, accounting, management, architecture, engineering, technical testing activities: Index-1dp",NA,NA
+KFX7,IoS: MB: Scientific Research And Development: Period on Period Growth,NA,NA
+KFX8,IoS: MB: Scientific Research And Development : Index-1dp,NA,NA
+KFX9,IoS: MC Other professional scientific and technical activities: Period on Period Growth,NA,NA
+KFY2,IoS: MC: Other prof. scientific and technical activities: Index-1dp,NA,NA
+KFY3,IoS: QA: Human Health Activities: Period on Period Growth,NA,NA
+KFY4,IoS: QA: Human Health Activities: Index-1dp,NA,NA
+KFY5,IoS: QB: Residential care and social work activities: Period on Period Growth,NA,NA
+KFY6,IoS: QB: Residential care and social work activities: Index-1dp,NA,NA
+KI77,"IoS: H&J: Transport, storage & communications: Period on Period Growth",NA,NA
+KI7A,"IoS: H&J: Transport, storage & communications: 1m on 1m a yr ago growth",NA,NA
+KI7B,"IoS: H&J: Transport, storage & communications: Index-1dp",NA,NA
+KI7C,"IoS: H&J: Transport, storage & communications: 3m on 3m a year ago growth",NA,NA
+KI7D,"IoS: H&J: Transport, storage & communications: 3m on 3m growth",NA,NA
+KI7G,IoS: K-N: Business services & finance: Period on Period Growth,NA,NA
+KI7I,IoS: K-N: Business services & finance: 1m on 1m a yr ago growth,NA,NA
+KI7J,IoS: K-N: Business services & finance: 3m on 3m a year ago growth,NA,NA
+KI7K,IoS: K-N: Business services & finance: 3m on 3m growth,NA,NA
+KI7L,IoS: K-N: Business services & finance: Index-1dp,NA,NA
+KI7O,IoS: O-T: Government & other services: Period on Period Growth,NA,NA
+KI7Q,IoS: O-T: Government & other services: 1m on 1m a yr ago growth,NA,NA
+KI7R,IoS: O-T: Government & other services: 3m on 3m a year ago growth,NA,NA
+KI7S,IoS: O-T: Government & other services: 3m on 3m growth,NA,NA
+KI7T,IoS: O-T: Government & other services: Index-1dp,NA,NA
+KJ69,"IoS: M-N: Professional Scientific & Technical Activities, & Administrative & Support Service Activities: Index-1dp",NA,NA
+KJ6A,"IoS: M-N: Professional Scientific & Technical Activities, & Administrative & Support Service Activities: Period on Period Growth",NA,NA
+KJ6B,"IoS: M-N:Professional Scientific & Technical Activities, & Administrative & Support Service Activities:3m on 3m a year ago growth",NA,NA
+KJ6C,IoS: M-N: Professional Scientific and Technical Activities & Administrative and Support Service Activities: 3m on 3m growth,NA,NA
+KJ6D,"IoS: M-N: Professional Scientific & Technical Activities, & Administrative & Support Service Activities: 1m on 1m a yr ago growth",NA,NA
+L4VM,IoS: 45: Wholesale And Retail Trade And Repair Of Motor Vehicles And Motorcycles: Weights,NA,NA
+L4VN,IoS: 46: Wholesale Trade Except Of Motor Vehicles And Motorcycles: Weights,NA,NA
+L4VO,IoS: 46&47: Wholesale & Retail Trade: Weights,NA,NA
+L4VP,IoS: 47: Retail Trade Except Of Motor Vehicles And Motorcycles: Weights,NA,NA
+L4VQ,IoS: 49: Land Transport And Transport Via Pipelines: Weights,NA,NA
+L4VR,IoS: 49.1-2: Rail transport: Weights,NA,NA
+L4VS,"IoS: 49.3-5: Land transport services and transport services via pipelines, excluding rail transport: Weights",NA,NA
+L4VT,IoS: 50: Water Transport: Weights,NA,NA
+L4VU,IoS: 51: Air Transport: Weights,NA,NA
+L4VV,IoS: 52: Warehousing And Support Activities For Transportation: Weights,NA,NA
+L4VW,IoS: 53: Postal And Courier Activities: Weights,NA,NA
+L4VX,IoS: 55: Accommodation: Weights,NA,NA
+L4VY,IoS: 56: Food And Beverage Service Activities: Weights,NA,NA
+L4VZ,IoS: 58: Publishing Activities: Weights,NA,NA
+L4W2,"IoS: 59: Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities: Weights",NA,NA
+L4W3,IoS: 60: Programming And Broadcasting Activities: Weights,NA,NA
+L4W4,IoS: 61: Telecommunications: Weights,NA,NA
+L4W5,IoS: 62: Computer Programming Consultancy And Related Activities: Weights,NA,NA
+L4W6,IoS: 63: Information Service Activities: Weights,NA,NA
+L4W7,"IoS: 64: Financial Service Activities, Except Insurance And Pension Funding: Weights",NA,NA
+L4W8,"IoS: 65: Insurance, Reinsurance And Pension Funding, Except Compulsory Social Security: Weights",NA,NA
+L4W9,"IoS: 65.1-2: Insurance and reinsurance, except compulsory social security: Weights",NA,NA
+L4WB,IoS: 66: Activities Auxiliary To Financial Services And Insurance Activities: Weights,NA,NA
+L4WC,IoS: 68: Real Estate Activities: Weights,NA,NA
+L4WD,"IoS: 68.1-2: Buying & selling, renting & operating of own or leased real estate, excluding imputed rent: Weights",NA,NA
+L4WE,IoS: 68.2IMP: Imputed rent: Weights,NA,NA
+L4WF,IoS: 68.3: Real estate activities on a fee or contract basis: Weights,NA,NA
+L4WG,IoS: 69: Legal And Accounting Activities: Weights,NA,NA
+L4WH,IoS: 69.1: Legal activities: Weights,NA,NA
+L4WI,IoS: 69.2: Accounting bookkeeping and auditing activities; tax consultancy: Weights,NA,NA
+L4WJ,IoS: 70: Activities Of Head Offices; Management Consultancy Activities: Weights,NA,NA
+L4WK,IoS: 71: Architectural And Engineering Activities; Technical Testing And Analysis: Weights,NA,NA
+L4WL,IoS: 72: Scientific Research And Development: Weights,NA,NA
+L4WM,IoS: 73: Advertising And Market Research: Weights,NA,NA
+L4WN,IoS: 74: Other Professional Scientific And Technical Activities: Weights,NA,NA
+L4WO,IoS: 75: Veterinary Activities: Weights,NA,NA
+L4WP,IoS: 77: Rental And Leasing Activities: Weights,NA,NA
+L4WQ,IoS: 78: Employment Activities: Weights,NA,NA
+L4WR,"IoS: 79: Travel Agency, Tour Operator And Other Reservation Service And Related Activities: Weights",NA,NA
+L4WS,IoS: 80: Security And Investigation Activities: Weights,NA,NA
+L4WT,IoS: 81: Services To Buildings And Landscape Activities: Weights,NA,NA
+L4WU,IoS: 82: Office Administrative Office Support And Other Business Support Act: Weights,NA,NA
+L4WV,IoS: 84: Public Administration And Defence; Compulsory Social Security: Weights,NA,NA
+L4WW,IoS: 85: Education: Weights,NA,NA
+L4WX,IoS: 86: Human Health Activities: Weights,NA,NA
+L4WY,IoS: 87: Residential Care Activities: Weights,NA,NA
+L4WZ,IoS: 88: Social Work Activities Without Accommodation: Weights,NA,NA
+L4X2,IoS: 90: Creative Arts And Entertainment Activities: Weights,NA,NA
+L4X3,IoS: 91: Libraries Archives Museums And Other Cultural Activities: Weights,NA,NA
+L4X4,IoS: 92: Gambling And Betting Activities: Weights,NA,NA
+L4X5,IoS: 93: Sports Activities And Amusement And Recreation Activities: Weights,NA,NA
+L4X6,IoS: 94: Activities Of Membership Organisations: Weights,NA,NA
+L4X7,IoS: 95: Repair Of Computers And Personal And Household Goods: Weights,NA,NA
+L4X8,IoS: 96: Other Personal Service Activities: Weights,NA,NA
+L4X9,IoS: 97: Activities Of Households As Employers Of Domestic Personnel: Weights,NA,NA
+L4XB,IoS: G: Wholesale and Retail Trade; Repair of Motor Vehicles and Motorcycles: Weights,NA,NA
+L4XC,"IoS: G-J: Distribution, Transport, Accommodation & Food Services and Information & Communication: Weights",NA,NA
+L4XD,"IoS: G&I: Distribution, hotels & catering: Weights",NA,NA
+L4XE,IoS: H: Transportation and Storage: Weights,NA,NA
+L4XF,"IoS: H+J: Transportation, Storage, Information and Communication: Weights",NA,NA
+L4XG,IoS: I: Accommodation and Food Service Activities: Weights,NA,NA
+L4XH,IoS: IoS: Services: Weights,NA,NA
+L4XI,IoS: IOS-xOPQ: IoS excluding Government: Weights,NA,NA
+L4XJ,IoS: J: Information and Communication: Weights,NA,NA
+L4XK,"IoS: J-N: Information, Communication, Financial Intermediation, Real Estate and Business Services: Weights",NA,NA
+L4XL,"IoS: J-T: Services Excluding Distribution, Transport, Accommodation and Food Services: Weights",NA,NA
+L4XM,"IoS: JA: Publishing, audiovisual & broadcasting activities: Weights",NA,NA
+L4XN,IoS: JB: Telecommunications: Weights,NA,NA
+L4XO,IoS: JC: IT and other information service activities: Weights,NA,NA
+L4XP,IoS: K: Financial and Insurance Activities: Weights,NA,NA
+L4XR,IoS: K-N: Business services & finance: Weights,NA,NA
+L4XT,IoS: L: Real Estate Activities: Weights,NA,NA
+L4XV,IoS: M: Professional Scientific and Technical Activities: Weights,NA,NA
+L4XW,"IoS: M-N: Professional Scientific & Technical Activities, & Administrative & Support Service Activities: Weights",NA,NA
+L4XX,"IoS: MA: Legal, accounting, management, architecture, engineering, technical testing activities: Weights",NA,NA
+L4XY,IoS: MB: Scientific Research And Development: Weights,NA,NA
+L4XZ,IoS: MC: Other professional scientific and technical activities: Weights,NA,NA
+L4Y2,IoS: N: Administrative and Support Service Activities: Weights,NA,NA
+L4Y3,IoS: O: Public Administration and Defence; Compulsory Social Security: Weights,NA,NA
+L4Y4,"IoS: O-Q: PAD, Education and Health: Weights",NA,NA
+L4Y5,IoS: O-T: Government & other services: Weights,NA,NA
+L4Y6,IoS: P: Education: Weights,NA,NA
+L4Y7,IoS: P&Q: Education and Health: Weights,NA,NA
+L4Y8,IoS: Q: Human Health and Social Work Activities: Weights,NA,NA
+L4Y9,IoS: QA: Human Health Activities: Weights,NA,NA
+L4YA,IoS: QB: Residential care and social work activities: Weights,NA,NA
+L4YB,"IoS: R: Art, Entertainment and Recreation: Weights",NA,NA
+L4YC,IoS: R-T: Other Services: Weights,NA,NA
+L4YD,IoS: S: Other Service Activities: Weights,NA,NA
+L4YE,IoS: T: Activities Of Households As Employers Of Domestic Personnel: Weights,NA,NA
+N3AE,IoS: H-N and R-U: PNDS: Private Non-Distribution Services: Period on Period Growth,NA,NA
+N3AG,IoS: H-N and R-U: PNDS: Private Non-Distribution Services: 1m on 1m a yr ago growth,NA,NA
+N3AI,IoS: H-N and R-U: PNDS: Private Non-Distribution Services: 3m on 3m a year ago growth,NA,NA
+N3AK,IoS: H-N and R-U: PNDS: Private Non-Distribution Services: 3m on 3m growth,NA,NA
+N3AM,IoS: H-N and R-U: PNDS: Private Non-Distribution Services: Index-1dp,NA,NA
+N3AN,IoS: PNDS: Private Non-Distribution Services: Weights,NA,NA
+S222,IoS: Services: Period on Period Growth,NA,NA
+S223,"IoS: G: Wholesale, Retail and Motor Trade: Period on Period Growth",NA,NA
+S224,IoS: 45: Wholesale And Retail Trade And Repair Of Motor Vehicles And Motorcycles: Period on Period Growth,NA,NA
+S225,IoS: 46: Wholesale trade except motor vehicles & motorcycles: Period on Period Growth,NA,NA
+S226,IoS: 47: Retail trade except motor vehicles and motorcycles: Period on Period Growth,NA,NA
+S227,IoS: H: Transportation and storage: Period on Period Growth,NA,NA
+S228,IoS: 49.1-2:Rail transport: Period on Period Growth,NA,NA
+S229,"IoS: 49.3-5: Land transport services and transport services via pipelines, excluding rail transport: Period on Period Growth",NA,NA
+S22A,IoS: 50: Water transport: Period on Period Growth,NA,NA
+S22B,IoS: 51: Air transport: Period on Period Growth,NA,NA
+S22C,IoS: 52: Warehousing And Support Activities For Transportation: Period on Period Growth,NA,NA
+S22D,IoS: 53: Postal and courier activities: Period on Period Growth,NA,NA
+S22E,IoS: I: Accommodation and food service activities: Period on Period Growth,NA,NA
+S22F,IoS: 55: Accommodation: Period on Period Growth,NA,NA
+S22G,IoS: 56: Food and beverage service activities: Period on Period Growth,NA,NA
+S22H,IoS: J: Information and communication: Period on Period Growth,NA,NA
+S22I,IoS: 58: Publishing activities: Period on Period Growth,NA,NA
+S22J,"IoS: 59: Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities: Period on Period Growth",NA,NA
+S22K,IoS: 61: Telecommunications: Period on Period Growth,NA,NA
+S22L,IoS: 62:Computer programming consultancy & related activities: Period on Period Growth,NA,NA
+S22M,IoS: 63: Information service activities: Period on Period Growth,NA,NA
+S22N,IoS: K: Financial and insurance services: Period on Period Growth,NA,NA
+S22O,"IoS: 64: Financial Service Activities, Except Insurance And Pension Funding: Period on Period Growth",NA,NA
+S22P,"IoS: 65.1-2: Insurance and reinsurance, except compulsory social security: Period on Period Growth",NA,NA
+S22R,IoS: 66: Activities Auxiliary To Financial Services And Insurance Activities: Period on Period Growth,NA,NA
+S22S,IoS: L: Real Estate Activities: Period on Period Growth,NA,NA
+S22T,"IoS: 68.1-2: Buying & selling, renting & operating of own or leased real estate, excluding imputed rent: Period on Period Growth",NA,NA
+S22U,IoS: 68.2IMP: Imputed rent: Period on Period Growth,NA,NA
+S22V,IoS: 68.3: Real estate activities on a fee or contract basis: Period on Period Growth,NA,NA
+S22W,IoS: M: Professional Scientific and Technical Activities: Period on Period Growth,NA,NA
+S22X,IoS: 69.1: Legal activities: Period on Period Growth,NA,NA
+S22Y,"IoS: 69.2: Accounting, bookkeeping and auditing activities; tax consultancy: Period on Period Growth",NA,NA
+S22Z,IoS: 70: Activities of head offices; management consultancy activities: Period on Period Growth,NA,NA
+S232,IoS: 71: Architectural And Engineering Activities; Technical Testing And Analysis: Period on Period Growth,NA,NA
+S233,IoS: 72: Scientific research and development: Period on Period Growth,NA,NA
+S234,IoS: 73: Advertising and market research: Period on Period Growth,NA,NA
+S235,IoS: 74: Other profess scientific and technical activities: Period on Period Growth,NA,NA
+S236,IoS: 75: Veterinary activities: Period on Period Growth,NA,NA
+S237,IoS: N: Administrative and Support Service Activities: Period on Period Growth,NA,NA
+S238,IoS: 77: Rental and leasing activities: Period on Period Growth,NA,NA
+S239,IoS: 78: Employment activities: Period on Period Growth,NA,NA
+S23A,"IoS: 79: Travel Agency, Tour Operator And Other Reservation Service And Related Activities: Period on Period Growth",NA,NA
+S23B,IoS: 80: Security and investigation activities: Period on Period Growth,NA,NA
+S23C,IoS: 81: Services to buildings and landscape activities: Period on Period Growth,NA,NA
+S23D,"IoS: 82: Office Administrative, Office Support And Other Business Support Activities: Period on Period Growth",NA,NA
+S23E,IoS: O: Public Administration and Defence; Compulsory Social Security: Period on Period Growth,NA,NA
+S23F,IoS: 84: Public Administration And Defence; Compulsory Social Security: Period on Period Growth,NA,NA
+S23G,IoS: P: Education: Period on Period Growth,NA,NA
+S23H,IoS: 85: Education: Period on Period Growth,NA,NA
+S23I,IoS: Q: Human Health and Social Work Activities: Period on Period Growth,NA,NA
+S23J,IoS: 86: Human health activities: Period on Period Growth,NA,NA
+S23K,IoS: 87: Residential care activities: Period on Period Growth,NA,NA
+S23L,IoS: 88: Social Work Activities Without Accommodation: Period on Period Growth,NA,NA
+S23M,IoS: R: Arts Entertainment and Recreation: Period on Period Growth,NA,NA
+S23N,IoS: 90: Creative arts and entertainment activities: Period on Period Growth,NA,NA
+S23O,IoS: 91: Libraries archives museums and other cultural activities: Period on Period Growth,NA,NA
+S23P,IoS: 92: Gambling and betting activities: Period on Period Growth,NA,NA
+S23Q,IoS: 93: Sports Activities And Amusement And Recreation Activities: Period on Period Growth,NA,NA
+S23R,IoS: S: Other service activities: Period on Period Growth,NA,NA
+S23S,IoS: 94: Activities of membership orgs: Period on Period Growth,NA,NA
+S23T,IoS: 95: Repair of computers and personal and household goods: Period on Period Growth,NA,NA
+S23U,IoS: 96: Other personal service activities: Period on Period Growth,NA,NA
+S23V,IoS: T: Activities Of Households As Employers Of Domestic Personnel: Period on Period Growth,NA,NA
+S23W,IoS: 97: Activities Of Households As Employers Of Domestic Personnel: Period on Period Growth,NA,NA
+S242,IoS: 46&47: Wholesale & Retail Trade: Period on Period Growth,NA,NA
+S243,"IoS: G&I: Distribution, hotels & catering: Period on Period Growth",NA,NA
+S244,"IoS: G-J: Distribution, Transport, Accommodation & Food Services and Information & Communication: Period on Period Growth",NA,NA
+S245,"IoS: J-N: Information, Communication, Financial Intermediation, Real Estate and Business Services: Period on Period Growth",NA,NA
+S246,"IoS: J-T: Services Excluding Distribution, Transport, Accommodation and Food Services: Period on Period Growth",NA,NA
+S247,IoS: R-T: Other Services: Period on Period Growth,NA,NA
+S24A,"IoS: O-Q: PAD, Education and Health: Period on Period Growth",NA,NA
+S24B,IoS: P&Q: Education and Health: Period on Period Growth,NA,NA
+S24C,IoS: IOS-xOPQ: IoS excluding Government: Period on Period Growth,NA,NA
+S26Q,IoS: Services: 1m on 1m a yr ago growth,NA,NA
+S26R,"IoS: G: Wholesales, Retail and Motor Trade: 1m on 1m a yr ago growth",NA,NA
+S26S,IoS: 45: Wholesale And Retail Trade And Repair Of Motor Vehicles And Motorcycles: 1m on 1m a yr ago growth,NA,NA
+S26T,IoS: 46: Wholesale trade except motor vehicles & motorcycles: 1m on 1m a yr ago growth,NA,NA
+S26U,IoS: 47: Retail trade except of motor vehicles and motorcycles: 1m on 1m a yr ago growth,NA,NA
+S26V,IoS: H: Transportation and storage: 1m on 1m a yr ago growth,NA,NA
+S26W,IoS: 49.1-2: Rail transport: 1m on 1m a yr ago growth,NA,NA
+S26X,"IoS: 49.3-5: Land transport services and transport services via pipelines, excluding rail transport: 1m on 1m a yr ago growth",NA,NA
+S26Y,IoS: 50: Water transport: 1m on 1m a yr ago growth,NA,NA
+S26Z,IoS: 51: Air transport: 1m on 1m a year ago growth,NA,NA
+S272,IoS: 52: Warehousing And Support Activities For Transportation: 1m on 1m a yr ago growth,NA,NA
+S273,IoS: 53: Postal and courier activities: 1m on 1m a year ago growth,NA,NA
+S274,IoS: I: Accommodation and food service activities: 1m on 1m a yr ago growth,NA,NA
+S275,IoS: 55: Accommodation: 1m on 1m a year ago growth,NA,NA
+S276,IoS: 56: Food and beverage service activities: 1m on 1m a year ago growth,NA,NA
+S277,IoS: J: Information and communication: 1m on 1m a yr ago growth,NA,NA
+S278,IoS: 58: Publishing activities: 1m on 1m a yr ago growth,NA,NA
+S279,"IoS: 59: Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities: 1m on 1m a yr ago growth",NA,NA
+S27A,IoS: 61: Telecommunications: 1m on 1m a year ago growth,NA,NA
+S27B,IoS: 62: Computer programming consultancy & related activities: 1m on 1m a yr ago growth,NA,NA
+S27C,IoS: 63: Information service activities: 1m on 1m a year ago growth,NA,NA
+S27D,IoS: K: Financial and insurance services: 1m on 1m a yr ago growth,NA,NA
+S27E,"IoS: 64: Financial Service Activities, Except Insurance And Pension Funding: 1m on 1m a yr ago growth",NA,NA
+S27F,"IoS: 65.1-2: Insurance and reinsurance, except compulsory social security: 1m on 1m a yr ago growth",NA,NA
+S27H,IoS: 66: Activities Auxiliary To Financial Services And Insurance Activities: 1m on 1m a yr ago growth,NA,NA
+S27I,IoS: L: Real Estate Activities: 1m on 1m a yr ago growth,NA,NA
+S27J,"IoS: 68.1-2: Buying & selling, renting & operating of own or leased real estate, excluding imputed rent: 1m on 1m a yr ago growth",NA,NA
+S27K,IoS: 68.2IMP: Imputed rent: 1m on 1m a yr ago growth,NA,NA
+S27L,IoS: 68.3: Real estate activities on a fee or contract basis: 1m on 1m a yr ago growth,NA,NA
+S27M,IoS: M: Professional Scientific and Technical Activities: 1m on 1m a yr ago growth,NA,NA
+S27N,IoS: 69.1: Legal activities: 1m on 1m a yr ago growth,NA,NA
+S27O,"IoS: 69.2: Accounting, bookkeeping and auditing activities; tax consultancy: 1m on 1m a yr ago growth",NA,NA
+S27P,IoS: 70: Activities of head offices; management consultancy activities: 1m on 1m a yr ago growth,NA,NA
+S27Q,IoS: 71: Architectural And Engineering Activities; Technical Testing And Analysis: 1m on 1m a yr ago growth,NA,NA
+S27R,IoS: 72: Scientific research and development: 1m on 1m a yr ago growth,NA,NA
+S27S,IoS: 73: Advertising and market research: 1m on 1m a yr ago growth,NA,NA
+S27T,IoS: 74: Other professional scientific and technical activities: 1m on 1m a yr ago growth,NA,NA
+S27U,IoS: 75: Veterinary activities: 1m on 1m a yr ago growth,NA,NA
+S27V,IoS: N: Administrative and Support Service Activities: 1m on 1m a yr ago growth,NA,NA
+S27W,IoS: 77: Rental and leasing activities: 1m on 1m a yr ago growth,NA,NA
+S27X,IoS: 78: Employment activities: 1m on 1m a yr ago growth,NA,NA
+S27Y,"IoS: 79: Travel Agency, Tour Operator And Other Reservation Service And Related Activities: 1m on 1m a yr ago growth",NA,NA
+S27Z,IoS: 80: Security and investigation activities: 1m on 1m a yr ago growth,NA,NA
+S282,IoS: 81: Services to buildings and landscape activities: 1m on 1m a yr ago growth,NA,NA
+S283,"IoS: 82: Office Administrative, Office Support And Other Business Support Activities: 1m on 1m a yr ago growth",NA,NA
+S284,IoS: O: Public Administration and Defence; Compulsory Social Security: 1m on 1m a yr ago growth,NA,NA
+S285,IoS: 84: Public Administration And Defence; Compulsory Social Security: 1m on 1m a yr ago growth,NA,NA
+S286,IoS: P: Education: 1m on 1m a yr ago growth,NA,NA
+S287,IoS: 85: Education: 1m on 1m a year ago growth,NA,NA
+S288,IoS: Q: Human Health and Social Work Activities: 1m on 1m a yr ago growth,NA,NA
+S289,IoS: 86: Human health activities: 1m on 1m a yr ago growth,NA,NA
+S28A,IoS: 87: Residential care activities: 1m on 1m a yr ago growth,NA,NA
+S28B,IoS: 88: Social Work Activities Without Accommodation: 1m on 1m a yr ago growth,NA,NA
+S28C,IoS: R: Arts Entertainment and Recreation: 1m on 1m a yr ago growth,NA,NA
+S28D,IoS: 90: Creative arts and entertainment activities: 1m on 1m a yr ago growth,NA,NA
+S28E,IoS: 91: Libraries archives museums and other cultural activities: 1m on 1m a yr ago growth,NA,NA
+S28F,IoS: 92: Gambling and betting activities: 1m on 1m a yr ago growth,NA,NA
+S28G,IoS: 93: Sports Activities And Amusement And Recreation Activities: 1m on 1m a yr ago growth,NA,NA
+S28H,IoS: S: Other service activities: 1m on 1m a yr ago growth,NA,NA
+S28I,IoS: 94: Activities of membership organisations: 1m on 1m a yr ago growth,NA,NA
+S28J,IoS: 95: Repair of computers and personal and household goods: 1m on 1m a yr ago growth,NA,NA
+S28K,IoS: 96: Other personal service activities: 1m on 1m a yr ago growth,NA,NA
+S28L,IoS: T: Activities Of Households As Employers Of Domestic Personnel: 1m on 1m a yr ago growth,NA,NA
+S28M,IoS: 97: Activities Of Households As Employers Of Domestic Personnel: 1m on 1m a yr ago growth,NA,NA
+S28Q,IoS: 46&47: Wholesale & Retail Trade: 1m on 1m a yr ago growth,NA,NA
+S28R,"IoS: G&I: Distribution, hotels & catering: 1m on 1m a yr ago growth",NA,NA
+S28S,"IoS: G-J: Distribution, Transport, Accommodation & Food Services and Information & Communication: 1m on 1m a yr ago growth",NA,NA
+S28T,"IoS: J-N: Information, Communication, Financial Intermediation, Real Estate and Business Services: 1m on 1m a yr ago growth",NA,NA
+S28U,"IoS: J-T: Services Excluding Distribution, Transport, Accommodation and Food Services: 1m on 1m a yr ago growth",NA,NA
+S28V,IoS: R-T: Other Services: 1m on 1m a yr ago growth,NA,NA
+S28Y,"IoS: O-Q: PAD, Education and Health: 1m on 1m a yr ago growth",NA,NA
+S28Z,IoS: P&Q: Education and Health: 1m on 1m a yr ago growth,NA,NA
+S292,IoS: IoS-xOPQ: IoS excluding Government: 1m on 1m a yr ago growth,NA,NA
+S2BG,IoS: Services: 3m on 3m growth,NA,NA
+S2BH,"IoS: G: Wholesales, Retail and Motor Trade: 3m on 3m growth",NA,NA
+S2BI,IoS: 45: Wholesale And Retail Trade And Repair Of Motor Vehicles And Motorcycles: 3m on 3m growth,NA,NA
+S2BJ,IoS: 46: Wholesale trade except motor vehicles and motorcycles: 3m on 3m growth,NA,NA
+S2BK,IoS: 47: Retail trade except of motor vehicles and motorcycles: 3m on 3m growth,NA,NA
+S2BL,IoS: H: Transportation and storage: 3m on 3m growth,NA,NA
+S2BM,IoS: 49.1-2: Rail transport: 3m on 3m growth,NA,NA
+S2BN,"IoS: 49.3-5: Land transport services and transport services via pipelines, excluding rail transport: 3m on 3m growth",NA,NA
+S2BO,IoS: 50: Water transport: 3m on 3m growth,NA,NA
+S2BP,IoS: 51: Air transport: 3m on 3m growth,NA,NA
+S2BQ,IoS: 52: Warehousing And Support Activities For Transportation: 3m on 3m growth,NA,NA
+S2BR,IoS: 53: Postal and courier activities: 3m on 3m growth,NA,NA
+S2BS,IoS: I: Accommodation and food service activities: 3m on 3m growth,NA,NA
+S2BT,IoS: 55: Accommodation: 3m on 3m growth,NA,NA
+S2BU,IoS: 56: Food and beverage service activities: 3m on 3m growth,NA,NA
+S2BV,IoS: J: Information and communication: 3m on 3m growth,NA,NA
+S2BW,IoS: 58: Publishing activities: 3m on 3m growth,NA,NA
+S2BX,"IoS: 59: Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities: 3m on 3m growth",NA,NA
+S2BY,IoS: 61: Telecommunications: 3m on 3m growth,NA,NA
+S2BZ,IoS: 62: Computer programming consultancy & related activities: 3m on 3m growth,NA,NA
+S2C2,IoS: 63: Information service activities: 3m on 3m growth,NA,NA
+S2C3,IoS: K: Financial and insurance services: 3m on 3m growth,NA,NA
+S2C4,"IoS: 64: Financial Service Activities, Except Insurance And Pension Funding: 3m-3m growth",NA,NA
+S2C5,"IoS: 65.1-2: Insurance and reinsurance, except compulsory social security: 3m on 3m growth",NA,NA
+S2C7,IoS: 66: Activities Auxiliary To Financial Services And Insurance Activities: 3m on 3m growth,NA,NA
+S2C8,IoS: L: Real Estate Activities: 3m on 3m growth,NA,NA
+S2C9,"IoS: 68.1-2: Buying & selling, renting & operating of own or leased real estate, excluding imputed rent: 3m on 3m growth",NA,NA
+S2CA,IoS: 68.2IMP: Imputed rent: 3m on 3m growth,NA,NA
+S2CB,IoS: 68.3: Real estate activities on a fee or contract basis: 3m on 3m growth,NA,NA
+S2CC,IoS: M: Professional Scientific and Technical Activities: 3m on 3m growth,NA,NA
+S2CD,IoS: 69.1: Legal activities: 3m on 3m growth,NA,NA
+S2CE,"IoS: 69.2: Accounting, bookkeeping and auditing activities; tax consultancy: 3m on 3m growth",NA,NA
+S2CF,IoS: 70: Activities of head offices; management consultancy activities: 3m on 3m growth,NA,NA
+S2CG,IoS: 71: Architectural And Engineering Activities; Technical Testing And Analysis: 3m on 3m growth,NA,NA
+S2CH,IoS: 72: Scientific research and development: 3m on 3m growth,NA,NA
+S2CI,IoS: 73: Advertising and market research: 3m on 3m growth,NA,NA
+S2CJ,IoS: 74: Other professional scientific and technical activities: 3m on 3m growth,NA,NA
+S2CK,IoS: 75: Veterinary activities: 3m on 3m growth,NA,NA
+S2CL,IoS: N: Administrative and Support Service Activities: 3m on 3m growth,NA,NA
+S2CM,IoS: 77: Rental and leasing activities: 3m on 3m growth,NA,NA
+S2CN,IoS: 78: Employment activities: 3m on 3m growth,NA,NA
+S2CO,"IoS: 79: Travel Agency, Tour Operator And Other Reservation Service And Related Activities: 3m on 3m growth",NA,NA
+S2CP,IoS: 80: Security and investigation activities: 3m on 3m growth,NA,NA
+S2CQ,IoS: 81: Services to buildings and landscape activities: 3m on 3m growth,NA,NA
+S2CR,"IoS: 82: Office Administrative, Office Support And Other Business Support Activities: 3m on 3m growth",NA,NA
+S2CS,IoS: O: Public Administration and Defence; Compulsory Social Security: 3m on 3m growth,NA,NA
+S2CT,IoS: 84: Public Administration And Defence; Compulsory Social Security: 3m on 3m growth,NA,NA
+S2CU,IoS: P: Education: 3m on 3m growth,NA,NA
+S2CV,IoS: 85: Education: 3m on 3m growth.,NA,NA
+S2CW,IoS: Q: Human Health and Social Work Activities: 3m on 3m growth,NA,NA
+S2CX,IoS: 86: Human health activities: 3m on 3m growth,NA,NA
+S2CY,IoS: 87: Residential care activities: 3m on 3m growth,NA,NA
+S2CZ,IoS: 88: Social Work Activities Without Accommodation: 3m on 3m growth,NA,NA
+S2D2,IoS: R: Arts Entertainment and Recreation: 3m on 3m growth,NA,NA
+S2D3,IoS: 90: Creative arts and entertainment activities: 3m on 3m growth,NA,NA
+S2D4,IoS: 91: Libraries archives museums and other cultural activities: 3m on 3m growth,NA,NA
+S2D5,IoS: 92: Gambling and betting activities: 3m on 3m growth,NA,NA
+S2D6,IoS: 93: Sports Activities And Amusement And Recreation Activities: 3m on 3m growth,NA,NA
+S2D7,IoS: S: Other service activities: 3m on 3m growth,NA,NA
+S2D8,IoS: 94: Activities of membership organisations: 3m on 3m growth,NA,NA
+S2D9,IoS: 95: Repair of computers and personal and household goods: 3m on 3m growth,NA,NA
+S2DA,IoS: 96: Other personal service activities: 3m on 3m growth,NA,NA
+S2DB,IoS: T: Activities Of Households As Employers Of Domestic Personnel: 3m on 3m growth,NA,NA
+S2DC,IoS: 97: Activities Of Households As Employers Of Domestic Personnel: 3m on 3m growth,NA,NA
+S2DG,IoS: 46&47: Wholesale & Retail Trade: 3m on 3m growth,NA,NA
+S2DH,"IoS: G&I: Distribution, hotels & catering: 3m on 3m growth",NA,NA
+S2DI,"IoS: G-J: Distribution, Transport, Accommodation & Food Services and Information & Communication: 3m on 3m growth",NA,NA
+S2DJ,"IoS: J-N: Information, Communication, Financial Intermediation, Real Estate and Business Services: 3m on 3m growth",NA,NA
+S2DK,"IoS: J-T: Services Excluding Distribution, Transport, Accommodation and Food Services: 3m on 3m growth",NA,NA
+S2DL,IoS: R-T: Other Services: 3m on 3m growth,NA,NA
+S2DO,"IoS: O-Q: PAD, Education and Health: 3m on 3m growth",NA,NA
+S2DP,IoS: P&Q: Education and Health: 3m on 3m growth,NA,NA
+S2DQ,IoS: IoS-xOPQ: IoS excluding Government: 3m on 3m growth,NA,NA
+S2G6,IoS: Services: 3m on 3m a year ago growth,NA,NA
+S2G7,"IoS: G: Wholesales, Retail and Motor Trade: 3m on 3m a year ago growth",NA,NA
+S2G8,IoS: 45: W/sale & Retail Trade; Repair Motor Vehicle &Motorcycles: 3m on 3m a year ago growth,NA,NA
+S2G9,IoS: 46: Wholesale trade except motor vehicles & motorcycles: 3m on 3m a year ago growth,NA,NA
+S2GA,IoS: 47: Retail trade except motor vehicles & motorcycles: 3m-3m a year ago,NA,NA
+S2GB,IoS: H: Transportation and storage: 3m on 3m a year ago growth,NA,NA
+S2GC,IoS: 49.1-2: Rail transport: 3m on 3m a year ago growth,NA,NA
+S2GD,"IoS: 49.3-5: Land transport services and transport services via pipelines, excluding rail transport: 3m on 3m a year ago growth",NA,NA
+S2GE,IoS: 50: Water transport: 3m on 3m a year ago growth,NA,NA
+S2GF,IoS: 51: Air transport: 3m on 3m a year ago growth,NA,NA
+S2GG,IoS: 52: Warehousing And Support Activities For Transportation: 3m on 3m a year ago growth,NA,NA
+S2GH,IoS: 53: Postal and courier activities: 3m on 3m a year ago growth,NA,NA
+S2GI,IoS: I: Accommodation and food service activities: 3m on 3m a year ago growth,NA,NA
+S2GJ,IoS: 55: Accommodation: 3m on 3m a year ago growth,NA,NA
+S2GK,IoS: 56: Food and beverage service activities: 3m on 3m a year ago growth,NA,NA
+S2GL,IoS: J: Information and communication: 3m on 3m a year ago growth,NA,NA
+S2GM,IoS: 58: Publishing activities: 3m on 3m a year ago growth,NA,NA
+S2GN,"IoS: 59:Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities:3m on 3m a year ago growth",NA,NA
+S2GO,IoS: 61: Telecommunications: 3m on 3m a year ago growth,NA,NA
+S2GP,IoS: 62: Computer programming consultancy & related activities: 3m on 3m a year ago growth,NA,NA
+S2GQ,IoS: 63: Information service activities: 3m on 3m a year ago growth,NA,NA
+S2GR,IoS: K: Financial and insurance services: 3m on 3m a year ago growth,NA,NA
+S2GS,"IoS: 64: Financial Service Activities, Except Insurance And Pension Funding: 3m on 3m a year ago growth",NA,NA
+S2GT,"IoS: 65.1-2: Insurance and reinsurance, except compulsory social security: 3m on 3m a year ago growth",NA,NA
+S2GV,IoS: 66: Activities Auxiliary To Financial Services And Insurance Activities: 3m on 3m a year ago growth,NA,NA
+S2GW,IoS: L: Real Estate Activities: 3m on 3m a year ago growth,NA,NA
+S2GX,"IoS: 68.1-2:Buying & selling, renting & operating of own or leased real estate, excluding imputed rent:3m on 3m a year ago growth",NA,NA
+S2GY,IoS: 68.2IMP: Imputed rent: 3m on 3m a year ago growth,NA,NA
+S2GZ,IoS: 68.3: Real estate activities on a fee or contract basis: 3m on 3m a year ago growth,NA,NA
+S2H2,IoS: M: Professional Scientific and Technical Activities: 3m on 3m a year ago growth,NA,NA
+S2H3,IoS: 69.1: Legal activities: 3m on 3m a year ago growth,NA,NA
+S2H4,"IoS: 69.2: Accounting, bookkeeping and auditing activities; tax consultancy: 3m on 3m a year ago growth",NA,NA
+S2H5,IoS: 70: Activities of head offices; management consultancy activities: 3m on 3m a year ago growth,NA,NA
+S2H6,IoS: 71: Architectural And Engineering Activities; Technical Testing And Analysis: 3m on 3m a year ago growth,NA,NA
+S2H7,IoS: 72: Scientific research and development: 3m on 3m a year ago growth,NA,NA
+S2H8,IoS: 73: Advertising and market research: 3m on 3m a year ago growth,NA,NA
+S2H9,IoS: 74: Other professional scientific and technical activities: 3m on 3m a year ago growth,NA,NA
+S2HA,IoS: 75: Veterinary activities: 3m on 3m a year ago growth,NA,NA
+S2HB,IoS: N: Administrative and Support Service Activities: 3m on 3m a year ago growth,NA,NA
+S2HC,IoS: 77: Rental and leasing activities: 3m on 3m a year ago growth,NA,NA
+S2HD,IoS: 78: Employment activities: 3m on 3m a year ago growth,NA,NA
+S2HE,"IoS: 79: Travel Agency, Tour Operator And Other Reservation Service And Related Activities: 3m on 3m a year ago growth",NA,NA
+S2HF,IoS: 80: Security and investigation activities: 3m on 3m a year ago growth,NA,NA
+S2HG,IoS: 81: Services to buildings and landscape activities: 3m on 3m a year ago growth,NA,NA
+S2HH,"IoS: 82: Office Administrative, Office Support And Other Business Support Activities: 3m on 3m a year ago growth",NA,NA
+S2HI,IoS: O: Public Administration and Defence; Compulsory Social Security: 3m on 3m a year ago growth,NA,NA
+S2HJ,IoS: 84: Public Administration And Defence; Compulsory Social Security: 3m on 3m a year ago,NA,NA
+S2HK,IoS: P: Education: 3m on 3m a year ago growth,NA,NA
+S2HL,IoS: 85: Education: 3m on 3m a year ago growth,NA,NA
+S2HM,IoS: Q: Human Health and Social Work Activities: 3m on 3m a year ago growth,NA,NA
+S2HN,IoS: 86: Human health activities: 3m on 3m a year ago growth,NA,NA
+S2HO,IoS: 87: Residential care activities: 3m on 3m a year ago growth,NA,NA
+S2HP,IoS: 88: Social Work Activities Without Accommodation: 3m on 3m a year ago growth,NA,NA
+S2HQ,IoS: R: Arts Entertainment and Recreation: 3m on 3m a year ago growth,NA,NA
+S2HR,IoS: 90: Creative arts and entertainment activities: 3m on 3m a year ago growth,NA,NA
+S2HS,IoS: 91: Libraries archives museums and other cultural activities: 3m on 3m a year ago growth,NA,NA
+S2HT,IoS: 92: Gambling and betting activities: 3m on 3m a year ago growth,NA,NA
+S2HU,IoS: 93: Sports Activities And Amusement And Recreation Activities: 3m on 3m a year ago growth,NA,NA
+S2HV,IoS: S: Other service activities: 3m on 3m a year ago growth,NA,NA
+S2HW,IoS: 94: Activities of membership organisations: 3m on 3m a year ago growth,NA,NA
+S2HX,IoS: 95: Repair of computers and personal and household goods: 3m on 3m a year ago growth,NA,NA
+S2HY,IoS: 96: Other personal service activities: 3m on 3m a year ago growth,NA,NA
+S2HZ,IoS: T: Activities of Households as Employers: 3m on 3m a year ago growth,NA,NA
+S2I2,IoS: 97: Activities Of Households As Employers Of Domestic Personnel: 3m on 3m a year ago growth,NA,NA
+S2I6,IoS: 46&47: Wholesale & Retail Trade: 3m on 3m a year ago growth,NA,NA
+S2I7,"IoS: G&I: Distribution, hotels & catering: 3m on 3m a year ago growth",NA,NA
+S2I8,"IoS: G-J: Distribution, Transport, Accommodation & Food Services and Information & Communication: 3m on 3m a year ago growth",NA,NA
+S2I9,"IoS: J-N: Information, Communication, Financial Intermediation, Real Estate and Business Services: 3m on 3m a year ago growth",NA,NA
+S2IA,"IoS: J-T: Services Excluding Distribution, Transport, Accommodation and Food Services: 3m on 3m a year ago growth",NA,NA
+S2IB,IoS: R-T: Other Services: 3m on 3m a year ago growth,NA,NA
+S2IE,"IoS: O-Q: PAD, Education and Health: 3m on 3m a year ago growth",NA,NA
+S2IF,IoS: P&Q: Education and Health: 3m on 3m a year ago growth,NA,NA
+S2IG,IoS: IoS-xOPQ: IoS excluding Government: 3m on 3m a year ago growth,NA,NA
+S2KU,IoS: Services: Index-1dp,NA,NA
+S2KV,"IoS: G: Wholesales, Retail and Motor Trade: Index-1dp",NA,NA
+S2KW,IoS: 45: Wholesale And Retail Trade And Repair Of Motor Vehicles And Motorcycles: Index-1dp,NA,NA
+S2KX,IoS: 46: Wholesale trade except of motor vehicles and motorcycles: Index-1dp,NA,NA
+S2KY,IoS: 47: Retail trade except of motor vehicles and motorcycles: Index-1dp,NA,NA
+S2KZ,IoS: H: Transportation and storage: Index-1dp,NA,NA
+S2L2,IoS: 49.1-2: Rail transport: Index-1dp,NA,NA
+S2L3,"IoS: 49.3-5: Land transport services and transport services via pipelines, excluding rail transport: Index-1dp",NA,NA
+S2L4,IoS: 50: Water transport: Index-1dp,NA,NA
+S2L5,IoS: 51: Air transport: Index-1dp,NA,NA
+S2L6,IoS: 52: Warehousing And Support Activities For Transportation: Index-1dp,NA,NA
+S2L7,IoS: 53: Postal and courier activities: Index-1dp,NA,NA
+S2L8,IoS: I: Accommodation and food service activities: Index-1dp,NA,NA
+S2L9,IoS: 55: Accommodation: Index-1dp,NA,NA
+S2LA,IoS: 56: Food and beverage service activities: Index-1dp,NA,NA
+S2LB,IoS: J: Information and communication: Index-1dp,NA,NA
+S2LC,IoS: 58: Publishing activities: Index-1dp,NA,NA
+S2LD,"IoS: 59: Motion Picture, Video & TV Programme Production, Sound Recording & Music Publishing Activities: Index-1dp",NA,NA
+S2LE,IoS: 61: Telecommunications: Index-1dp,NA,NA
+S2LF,IoS: 62: Computer programming consultancy and related activities: Index-1dp,NA,NA
+S2LG,IoS: 63: Information service activities: Index-1dp,NA,NA
+S2LH,IoS: K: Financial and insurance services: Index-1dp,NA,NA
+S2LI,"IoS: 64: Financial Service Activities, Except Insurance And Pension Funding: Index-1dp",NA,NA
+S2LJ,"IoS: 65.1-2: Insurance and reinsurance, except compulsory social security: Index-1dp",NA,NA
+S2LL,IoS: 66: Activities Auxiliary To Financial Services And Insurance Activities: Index-1dp,NA,NA
+S2LM,IoS: L: Real Estate Activities: Index-1dp,NA,NA
+S2LN,"IoS: 68.1-2: Buying & selling, renting & operating of own or leased real estate, excluding imputed rent: Index-1dp",NA,NA
+S2LO,IoS: 68.2IMP: Imputed rent: Index-1dp,NA,NA
+S2LP,IoS: 68.3: Real estate activities on a fee or contract basis: Index-1dp,NA,NA
+S2LQ,IoS: M: Professional Scientific and Technical Activities: Index-1dp,NA,NA
+S2LR,IoS: 69.1: Legal activities: Index-1dp,NA,NA
+S2LS,"IoS: 69.2: Accounting, bookkeeping and auditing activities; tax consultancy: Index-1dp",NA,NA
+S2LT,IoS: 70: Activities of head offices; management consultancy activities: Index-1dp,NA,NA
+S2LU,IoS: 71: Architectural And Engineering Activities; Technical Testing And Analysis: Index-1dp,NA,NA
+S2LV,IoS: 72: Scientific research and development: Index-1dp,NA,NA
+S2LW,IoS: 73: Advertising and market research: Index-1dp,NA,NA
+S2LX,IoS: 74: Other professional scientific and technical activities: Index-1dp,NA,NA
+S2LY,IoS: 75: Veterinary activities: Index-1dp,NA,NA
+S2LZ,IoS: N: Administrative and Support Service Activities: Index-1dp,NA,NA
+S2M2,IoS: 77: Rental and leasing activities: Index-1dp,NA,NA
+S2M3,IoS: 78: Employment activities: Index-1dp,NA,NA
+S2M4,"IoS: 79: Travel Agency, Tour Operator And Other Reservation Service And Related Activities: Index-1dp",NA,NA
+S2M5,IoS: 80: Security and investigation activities: Index-1dp,NA,NA
+S2M6,IoS: 81: Services to buildings and landscape activities: Index-1dp,NA,NA
+S2M7,"IoS: 82: Office Administrative, Office Support And Other Business Support Activities: Index-1dp",NA,NA
+S2M8,IoS: O: Public Administration and Defence; Compulsory Social Security: Index-1dp,NA,NA
+S2M9,IoS: 84: Public Administration And Defence; Compulsory Social Security: Index-1dp,NA,NA
+S2MA,IoS: P: Education: Index-1dp,NA,NA
+S2MB,IoS: 85: Education: Index-1dp,NA,NA
+S2MC,IoS: Q: Human Health and Social Work Activities: Index-1dp,NA,NA
+S2MD,IoS: 86: Human health activities: Index-1dp,NA,NA
+S2ME,IoS: 87: Residential care activities: Index-1dp,NA,NA
+S2MF,IoS: 88: Social Work Activities Without Accommodation: Index-1dp,NA,NA
+S2MG,IoS: R: Arts Entertainment and Recreation: Index-1dp,NA,NA
+S2MH,IoS: 90: Creative arts and entertainment activities: Index-1dp,NA,NA
+S2MI,IoS: 91: Libraries archives museums and other cultural activities: Index-1dp,NA,NA
+S2MJ,IoS: 92: Gambling and betting activities: Index-1dp,NA,NA
+S2MK,IoS: 93: Sports Activities And Amusement And Recreation Activities: Index-1dp,NA,NA
+S2ML,IoS: S: Other service activities: Index-1dp,NA,NA
+S2MM,IoS: 94: Activities of membership organisations: Index-1dp,NA,NA
+S2MN,IoS: 95: Repair of computers and personal and household goods: Index-1dp,NA,NA
+S2MO,IoS: 96: Other personal service activities: Index-1dp,NA,NA
+S2MP,IoS: T: Activities Of Households As Employers Of Domestic Personnel: Index-1dp,NA,NA
+S2MQ,IoS: 97: Activities Of Households As Employers Of Domestic Personnel: Index-1dp,NA,NA
+S2MU,IoS: 46&47: Wholesale & Retail Trade: Index-1dp,NA,NA
+S2MV,"IoS: G&I: Distribution, hotels & catering: Index-1dp",NA,NA
+S2MW,"IoS: G-J: Distribution, Transport, Accommodation & Food Services and Information & Communication: Index-1dp",NA,NA
+S2MX,"IoS: J-N: Information, Communication, Financial Intermediation, Real Estate and Business Services: Index-1dp",NA,NA
+S2MY,"IoS: J-T: Services Excluding Distribution, Transport, Accommodation and Food Services: Index-1dp",NA,NA
+S2MZ,IoS: R-T: Other Services: Index-1dp,NA,NA
+S2N4,"IoS: O-Q: PAD, Education and Health Index-1dp",NA,NA
+S2N5,IoS: P&Q: Education and Health: Index-1dp,NA,NA
+S2N6,IoS: IoS-xOPQ: IoS excluding Government: Index-1dp,NA,NA

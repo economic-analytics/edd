@@ -1,0 +1,613 @@
+code,name,unit,preunit
+EQUB,EU Imports of Processed and Preserved Meat,NA,NA
+EQUD,EU Imports of Meat and Poultry Meat Products,NA,NA
+EQUE,"EU Imports of Preserved and Processed Fish, Crustaceans and Molluscs",NA,NA
+EQUG,EU Imports of Fruit and Vegetable Juices,NA,NA
+EQVA,EU Imports of Distilled Alcoholic Beverages,NA,NA
+EQVI,EU Imports of Textile Yarn and Thread,NA,NA
+EQVJ,EU Imports of Woven Textiles,NA,NA
+EQWD,EU Imports of Wood; Sawn and Planed,NA,NA
+EQWG,EU Imports of Other Builders' Carpentry and Joinery,NA,NA
+EQWK,EU Imports of Paper and Paperboard,NA,NA
+EQWM,EU Imports of Household and Sanitary Goods and Toilet Requisites,NA,NA
+EQWZ,EU Imports of Other Inorganic Basic Chemicals,NA,NA
+EQXA,EU Imports of Other Organic Basic Chemicals,NA,NA
+EQXC,EU Imports of Plastics in Primary Forms,NA,NA
+EQXH,EU Imports of Perfumes and Toilet Preparations,NA,NA
+EQXL,EU Imports of Other Chemical Products N.E.C.,NA,NA
+EQXP,EU Imports of Rubber Tyres and Tubes; Retreading and Rebuilding of Rubber Tyres,NA,NA
+EQXQ,EU Imports of Other Rubber Products,NA,NA
+EQXR,"EU Imports of Plastic Plates, Sheets, Tubes and Profiles",NA,NA
+EQXU,EU Imports of Other Plastic Products,NA,NA
+EQXW,EU Imports of Shaped and Processed Flat Glass,NA,NA
+EQXX,EU Imports of Hollow Glass,NA,NA
+EQYA,EU Imports of Refractory Products,NA,NA
+EQYB,EU Imports of Ceramic Tiles and Flags,NA,NA
+EQYC,"EU Imports of Bricks, Tiles and Construction Products, in Baked Clay",NA,NA
+EQYD,EU Imports of Ceramic Household and Ornamental Articles,NA,NA
+EQYQ,"EU Imports of Cut, Shaped and Finished Stone",NA,NA
+EQYU,"EU Imports of Tubes, Pipes, Hollow Profiles and Fittings of Steel",NA,NA
+EQZA,EU Imports of Aluminium,NA,NA
+EQZC,EU Imports of Copper,NA,NA
+EQZD,EU Imports of Other Non-Ferrous Metal,NA,NA
+EQZL,EU Imports of Central Heating Radiators and Boilers,NA,NA
+ER3X,"EU Imports of Measuring, Testing and Navigating Equipment",NA,NA
+ER5X,"EU Imports of Electric Motors, Generators and Transformers",NA,NA
+ER73,EU Imports of Electric Domestic Appliances,NA,NA
+ER75,EU Imports of Other Electrical Equipment,NA,NA
+ER77,EU Imports of Fluid Power Equipment,NA,NA
+ER78,EU Imports of Other Pumps and Compressors,NA,NA
+ER79,EU Imports of Other Taps and Valves,NA,NA
+ER7A,"EU Imports of Bearings, Gears, Gearing and Driving Elements",NA,NA
+ER7H,EU Imports of Agricutural and Forestry Machinery,NA,NA
+ER7L,"EU Imports of Machinery for Mining, Quarrying and Construction",NA,NA
+ER9T,EU Imports of Medical and Dental Instruments and Supplies,NA,NA
+ERB5,EU Imports of Other Manufactured Goods N.E.C.,NA,NA
+ES2E,NEU Imports of Processed and Preserved Meat,NA,NA
+ES3L,"NEU Imports of Preserved and Processed Fish, Crustaceans and Molluscs",NA,NA
+ES53,NEU Imports of Other Processed and Preserved Fruit and Vegetables,NA,NA
+ES9I,NEU Imports of Processed Tea and Coffee,NA,NA
+ES9Y,NEU Imports of Textile Yarn and Thread,NA,NA
+ES9Z,NEU Imports of Woven Textiles,NA,NA
+ESA4,"NEU Imports of Made-Up Textile Articles, Except Apparel",NA,NA
+ESA6,"NEU Imports of Cordage, Rope, Twine and Netting",NA,NA
+ESC5,NEU Imports of Wood; Sawn and Planed,NA,NA
+ESC7,NEU Imports of Veneer Sheets and Wood-Based Panels,NA,NA
+ESD7,NEU Imports of Household and Sanitary Goods and Toilet Requisites,NA,NA
+ESD8,NEU Imports of Paper Stationery,NA,NA
+ESJY,NEU Imports of Other Inorganic Basic Chemicals,NA,NA
+ESJZ,NEU Imports of Other Organic Basic Chemicals,NA,NA
+ESKN,NEU Imports of Plastics in Primary Forms,NA,NA
+ESKS,NEU Imports of Perfumes and Toilet Preparations,NA,NA
+ESKW,NEU Imports of Other Chemical Products N.E.C.,NA,NA
+ESKY,NEU Imports of Basic Pharmaceutical Products,NA,NA
+ESKZ,NEU Imports of Pharmaceutical Preparations,NA,NA
+ESL9,NEU Imports of Rubber Tyres and Tubes; Retreading and Rebuilding of Rubber Tyres,NA,NA
+ESLA,NEU Imports of Other Rubber Products,NA,NA
+ESLB,"NEU Imports of Plastic Plates, Sheets, Tubes and Profiles",NA,NA
+ESLI,NEU Imports of Glass Fibres,NA,NA
+ESLJ,"NEU Imports of Other Processed Glass, Including Technical Glassware",NA,NA
+ESLN,NEU Imports of Ceramic Household and Ornamental Articles,NA,NA
+ESLO,NEU Imports of Ceramic Sanitary Fixtures,NA,NA
+ESM6,"NEU Imports of Cut, Shaped and Finished Stone",NA,NA
+ESMC,NEU Imports of Basic Iron and Steel and of Ferro-Alloys,NA,NA
+ESMD,"NEU Imports of Tubes, Pipes, Hollow Profiles and Fittings of Steel",NA,NA
+ESMJ,NEU Imports of Aluminium,NA,NA
+ESMM,NEU Imports of Other Non-Ferrous Metal,NA,NA
+ETP9,NEU Imports of Communication Equipment,NA,NA
+ETQ2,NEU Imports of Consumer Electronics,NA,NA
+ETQ8,"NEU Imports of Measuring, Testing and Navigating Equipment",NA,NA
+ETW9,NEU Imports of Batteries and Accumulators,NA,NA
+ETX6,NEU Imports of Electric Domestic Appliances,NA,NA
+ETX7,NEU Imports of Non-Electric Domestic Appliances,NA,NA
+ETX8,NEU Imports of Other Electrical Equipment,NA,NA
+ETY4,NEU Imports of Other Pumps and Compressors,NA,NA
+ETY5,NEU Imports of Other Taps and Valves,NA,NA
+ETZ3,NEU Imports of Non-Domestic Cooling and Ventilation Equipment,NA,NA
+ETZ6,NEU Imports of Metal Forming Machinery,NA,NA
+ETZ7,NEU Imports of Other Machine Tools,NA,NA
+ETZ9,"NEU Imports of Machinery for Mining, Quarrying and Construction",NA,NA
+EU2K,NEU Imports of Electrical and Electronic Equipment for Motor Vehicles,NA,NA
+EU2L,NEU Imports of Other Parts and Accessories for Motor Vehicles,NA,NA
+EU6K,NEU Imports of Musical Instruments,NA,NA
+EU6N,NEU Imports of Medical and Dental Instruments and Supplies,NA,NA
+EUAY,EU Exports of Processed and Preserved Meat,NA,NA
+EUBP,"EU Exports of Preserved and Processed Fish, Crustaceans and Molluscs",NA,NA
+EUBS,EU Exports of Other Processed and Preserved Fruit and Vegetables,NA,NA
+EUCC,EU Exports of Grain Mill Products,NA,NA
+EUCF,EU Exports of Rusks and Biscuits; Preserved Pastry Goods and Cakes,NA,NA
+EUCI,"EU Exports of Cocoa, Chocolate and Sugar Confectionery",NA,NA
+EUCK,EU Exports of Condiments and Seasonings,NA,NA
+EUCN,EU Exports of Other Food Products N.E.C.,NA,NA
+EUCY,EU Exports of Textile Yarn and Thread,NA,NA
+EUCZ,EU Exports of Woven Textiles,NA,NA
+EUDB,"EU Exports of Made-Up Textile Articles, Except Apparel",NA,NA
+EUDD,"EU Exports of Cordage, Rope, Twine and Netting",NA,NA
+EUDE,"EU Exports of Non-Wovens and Articles Made From Non-Wovens, Except Apparel",NA,NA
+EUDF,EU Exports of Other Technical and Industrial Textiles,NA,NA
+EUDL,EU Exports of Other Wearing Apparel and Accessories,NA,NA
+EUDS,EU Exports of Wood; Sawn and Planed,NA,NA
+EUDZ,EU Exports of Paper and Paperboard,NA,NA
+EUEA,EU Exports of Corrugated Paper and Paperboard and Containers of Paper and Paperboard,NA,NA
+EUEE,EU Exports of Other Articles of Paper and Paperboard,NA,NA
+EUEN,EU Exports of Dyes and Pigments,NA,NA
+EUEP,EU Exports of Other Organic Basic Chemicals,NA,NA
+EUER,EU Exports of Plastics in Primary Forms,NA,NA
+EUES,EU Exports of Synthetic Rubber in Primary Forms,NA,NA
+EUEU,"EU Exports of Paints, Varnishes and Similar Coatings, Printing Ink and Mastics",NA,NA
+EUEV,"EU Exports of Soap and Detergents, Cleaning and Polishing Preparations",NA,NA
+EUEW,EU Exports of Perfumes and Toilet Preparations,NA,NA
+EUEY,EU Exports of Glues,NA,NA
+EUEZ,EU Exports of Essential Oils,NA,NA
+EUFA,EU Exports of Other Chemical Products N.E.C.,NA,NA
+EUFB,EU Exports of Man-Made Fibres,NA,NA
+EUFD,EU Exports of Pharmaceutical Preparations,NA,NA
+EUFH,EU Exports of Other Rubber Products,NA,NA
+EUFI,"EU Exports of Plastic Plates, Sheets, Tubes and Profiles",NA,NA
+EUFJ,EU Exports of Plastic Packing Goods,NA,NA
+EUFL,EU Exports of Other Plastic Products,NA,NA
+EUFP,EU Exports of Glass Fibres,NA,NA
+EUFQ,"EU Exports of Other Processed Glass, Including Technical Glassware",NA,NA
+EUFR,EU Exports of Refractory Products,NA,NA
+EUGL,EU Exports of Other Non-Metallic Mineral Products N.E.C.,NA,NA
+EUGN,"EU Exports of Tubes, Pipes, Hollow Profiles and Fittings of Steel",NA,NA
+EUGT,EU Exports of Aluminium,NA,NA
+EUGV,EU Exports of Copper,NA,NA
+EUGW,EU Exports of Other Non-Ferrous Metal,NA,NA
+EUHC,EU Exports of Metal Structures and Parts of Structures,NA,NA
+EUHF,EU Exports of Doors and Windows of Metal,NA,NA
+EUHH,"EU Exports of Other Tanks, Reservoirs and Containers of Metal",NA,NA
+EUHP,EU Exports of Tools,NA,NA
+EUHR,EU Exports of Light Metal Packaging,NA,NA
+EUHS,"EU Exports of Wire Products, Chain and Springs",NA,NA
+EUHT,EU Exports of Fasteners and Screw Machine Products,NA,NA
+EUHU,EU Exports of Other Fabricated Metal Products N.E.C.,NA,NA
+EUHV,EU Exports of Electronic Components,NA,NA
+EUHX,EU Exports of Computers & Peripheral Equipment,NA,NA
+EUHZ,EU Exports of Consumer Electronics,NA,NA
+EUIA,"EU Exports of Measuring, Testing and Navigating Equipment",NA,NA
+EUIE,"EU Exports of Irradiation, Electromedical and Electrotherapeutic Equipment",NA,NA
+EUIH,"EU Exports of Electric Motors, Generators and Transformers",NA,NA
+EUII,EU Exports of Electricity Distribution and Control Apparatus,NA,NA
+EUIM,EU Exports of Wiring Devices,NA,NA
+EUIN,EU Exports of Electric Lighting Equipment,NA,NA
+EUIO,EU Exports of Electric Domestic Appliances,NA,NA
+EUIQ,EU Exports of Other Electrical Equipment,NA,NA
+EUIR,"EU Exports of Engines and Turbines, Except Aircraft, Vehicle and Cycle Engines",NA,NA
+EUIT,EU Exports of Other Pumps and Compressors,NA,NA
+EUIV,"EU Exports of Bearings, Gears, Gearing and Driving Elements",NA,NA
+EUJA,EU Exports of Non-Domestic Cooling and Ventilation Equipment,NA,NA
+EUJB,EU Exports of Other General-Purpose Machinery N.E.C.,NA,NA
+EUJE,EU Exports of Metal Forming Machinery,NA,NA
+EUJF,EU Exports of Other Machine Tools,NA,NA
+EUKJ,EU Exports of Other Special-Purpose Machinery N.E.C.,NA,NA
+EUKL,"EU Exports of Bodies (Coachwork) for Motor Vehicles, Trailers and Semi-Trailers",NA,NA
+EUKM,EU Exports of Electrical and Electronic Equipment for Motor Vehicles,NA,NA
+EUKT,EU Exports of Motorcycles,NA,NA
+EUKW,EU Exports of Seats and Parts Thereof; Parts of Furniture,NA,NA
+EUKX,EU Exports of Office and Shop Furniture,NA,NA
+EULA,EU Exports of Other Furniture,NA,NA
+EULE,EU Exports of Musical Instruments,NA,NA
+EULF,EU Exports of Sports Goods,NA,NA
+EULG,EU Exports of Games & Toys,NA,NA
+EULH,EU Exports of Medical and Dental Instruments and Supplies,NA,NA
+EULI,EU Exports of Brooms and Brushes,NA,NA
+EULJ,EU Exports of Other Manufactured Goods N.E.C.,NA,NA
+EUVC,NEU Exports of Rusks and Biscuits; Preserved Pastry Goods and Cakes,NA,NA
+EUVF,"NEU Exports of Cocoa, Chocolate and Sugar Confectionery",NA,NA
+EUVH,NEU Exports of Condiments and Seasonings,NA,NA
+EUVK,NEU Exports of Other Food Products N.E.C.,NA,NA
+EUVW,NEU Exports of Woven Textiles,NA,NA
+EUVZ,"NEU Exports of Made-Up Textile Articles, Except Apparel",NA,NA
+EUW6,"NEU Exports of Non-Wovens and Articles Made From Non-Wovens, Except Apparel",NA,NA
+EUWA,NEU Exports of Other Technical and Industrial Textiles,NA,NA
+EUWG,NEU Exports of Other Wearing Apparel and Accessories,NA,NA
+EUWU,NEU Exports of Paper and Paperboard,NA,NA
+EUWZ,NEU Exports of Other Articles of Paper and Paperboard,NA,NA
+EUXI,NEU Exports of Dyes and Pigments,NA,NA
+EUXM,NEU Exports of Plastics in Primary Forms,NA,NA
+EUXP,"NEU Exports of Paints, Varnishes and Similar Coatings, Printing Ink and Mastics",NA,NA
+EUXQ,"NEU Exports of Soap and Detergents, Cleaning and Polishing Preparations",NA,NA
+EUXR,NEU Exports of Perfumes and Toilet Preparations,NA,NA
+EUXT,NEU Exports of Glues,NA,NA
+EUXU,NEU Exports of Essential Oils,NA,NA
+EUXV,NEU Exports of Other Chemical Products N.E.C.,NA,NA
+EUXY,NEU Exports of Pharmaceutical Preparations,NA,NA
+EUYA,NEU Exports of Other Rubber Products,NA,NA
+EUYB,"NEU Exports of Plastic Plates, Sheets, Tubes and Profiles",NA,NA
+EUYC,NEU Exports of Plastic Packing Goods,NA,NA
+EUYE,NEU Exports of Other Plastic Products,NA,NA
+EUYK,NEU Exports of Refractory Products,NA,NA
+EUYN,NEU Exports of Ceramic Household and Ornamental Articles,NA,NA
+EUZB,NEU Exports of Abrasive Products,NA,NA
+EUZK,NEU Exports of Aluminium,NA,NA
+EUZM,NEU Exports of Copper,NA,NA
+EUZN,NEU Exports of Other Non-Ferrous Metal,NA,NA
+EUZT,NEU Exports of Metal Structures and Parts of Structures,NA,NA
+EUZU,NEU Exports of Doors and Windows of Metal,NA,NA
+EUZW,"NEU Exports of Other Tanks, Reservoirs and Containers of Metal",NA,NA
+EV5F,NEU Exports of Tools,NA,NA
+EV5L,"NEU Exports of Wire Products, Chain and Springs",NA,NA
+EV5N,NEU Exports of Fasteners and Screw Machine Products,NA,NA
+EV5P,NEU Exports of Other Fabricated Metal Products N.E.C.,NA,NA
+EV5R,NEU Exports of Electronic Components,NA,NA
+EV5T,NEU Exports of Loaded Electronic Boards,NA,NA
+EV5V,NEU Exports of Computers & Peripheral Equipment,NA,NA
+EV63,"NEU Exports of Measuring, Testing and Navigating Equipment",NA,NA
+EV67,"NEU Exports of Irradiation, Electromedical and Electrotherapeutic Equipment",NA,NA
+EV69,NEU Exports of Optical Instruments and Photographic Equipment,NA,NA
+EV6D,"NEU Exports of Electric Motors, Generators and Transformers",NA,NA
+EV6F,NEU Exports of Electricity Distribution and Control Apparatus,NA,NA
+EV8O,NEU Exports of Wiring Devices,NA,NA
+EV8R,NEU Exports of Electric Lighting Equipment,NA,NA
+EV92,NEU Exports of Other Electrical Equipment,NA,NA
+EV95,"NEU Exports of Engines and Turbines, Except Aircraft, Vehicle and Cycle Engines",NA,NA
+EV98,NEU Exports of Fluid Power Equipment,NA,NA
+EV9B,NEU Exports of Other Pumps and Compressors,NA,NA
+EV9N,NEU Exports of Lifting and Handling Equipment,NA,NA
+EV9W,NEU Exports of Non-Domestic Cooling and Ventilation Equipment,NA,NA
+EVB2,NEU Exports of Other Machine Tools,NA,NA
+EVBZ,"NEU Exports of Machinery for Food, Beverage and Tobacco Processing",NA,NA
+EVCA,"NEU Exports of Machinery for Textile, Apparel and Leather Production",NA,NA
+EVHR,NEU Exports of Other Special-Purpose Machinery N.E.C.,NA,NA
+EVHT,"NEU Exports of Bodies (Coachwork) for Motor Vehicles, Trailers and Semi-Trailers",NA,NA
+EVHU,NEU Exports of Electrical and Electronic Equipment for Motor Vehicles,NA,NA
+EVJK,NEU Exports of Seats and Parts Thereof; Parts of Furniture,NA,NA
+EVJL,NEU Exports of Office and Shop Furniture,NA,NA
+EVJO,NEU Exports of Other Furniture,NA,NA
+EVJS,NEU Exports of Musical Instruments,NA,NA
+EVJT,NEU Exports of Sports Goods,NA,NA
+EVJU,NEU Exports of Games & Toys,NA,NA
+EVJV,NEU Exports of Medical and Dental Instruments and Supplies,NA,NA
+EVJW,NEU Exports of Brooms and Brushes,NA,NA
+EVJX,NEU Exports of Other Manufactured Goods N.E.C.,NA,NA
+EVNT,"Gravel, Sand, Clays and Kaolin for Domestic Market",NA,NA
+EVNU,"Gravel, Sand, Clays and Kaolin for Domestic Market",NA,NA
+EVOF,Processed and Preserved Meat for Domestic Market,NA,NA
+EVOG,Processed and Preserved Poultry Meat for Domestic Market,NA,NA
+EVOH,Meat and Poultry Meat Products for Domestic Market,NA,NA
+EVOI,"Preserved and Processed Fish, Crustaceans and Molluscs for Domestic Market",NA,NA
+EVOJ,Processed and Preserved Potatoes for Domestic Market,NA,NA
+EVOK,Fruit and Vegetable Juices for Domestic Market,NA,NA
+EVOL,Other Processed and Preserved Fruit and Vegetables for Domestic Market,NA,NA
+EVOO,Dairy and Cheese Products for Domestic Market,NA,NA
+EVOP,Ice Cream for Domestic Market,NA,NA
+EVOQ,Grain Mill Products for Domestic Market,NA,NA
+EVOR,Starches and Starch Products for Domestic Market,NA,NA
+EVOS,Bread; Fresh Pastry Goods and Cakes for Domestic Market,NA,NA
+EVOT,Rusks and Biscuits; Preserved Pastry Goods and Cakes for Domestic Market,NA,NA
+EVOU,"Macaroni, Noodles, Couscous and Similar Farinaceous Products for Domestic Market",NA,NA
+EVOW,"Cocoa, Chocolate and Sugar Confectionery for Domestic Market",NA,NA
+EVOX,Processed Tea and Coffee for Domestic Market,NA,NA
+EVOY,Condiments and Seasonings for Domestic Market,NA,NA
+EVOZ,Prepared Meals and Dishes for Domestic Market,NA,NA
+EVPB,Other Food Products N.E.C. for Domestic Market,NA,NA
+EVPC,Prepared Feeds for Farm Animals for Domestic Market,NA,NA
+EVPD,Prepared Pet Foods for Domestic Market,NA,NA
+EVPE,Distilled Alcoholic Beverages for Domestic Market,NA,NA
+EVPF,Distilled Alcoholic Beverages for Domestic Market,NA,NA
+EVPO,Cider and Other Fruit Wines for Domestic Market,NA,NA
+EVPP,Cider and Other Fruit Wines for Domestic Market,NA,NA
+EVPR,Beer for Domestic Market,NA,NA
+EVPS,Beer for Domestic Market,NA,NA
+EVPU,Soft Drinks; Mineral Waters and Other Bottled Waters for Domestic Market,NA,NA
+EVPX,Textile Yarn and Thread for Domestic Market,NA,NA
+EVQA,Woven Textiles for Domestic Market,NA,NA
+EVQB,Textile Finishing Services for Domestic Market,NA,NA
+EVQC,Knitted and Crocheted Fabrics for Domestic Market,NA,NA
+EVQD,"Made-Up Textile Articles, Except Apparel for Domestic Market",NA,NA
+EVQE,Carpets and Rugs for Domestic Market,NA,NA
+EVQG,"Non-Wovens and Articles Made From Non-Wovens, Except Apparel for Domestic Market",NA,NA
+EVSS,Workwear for Domestic Market,NA,NA
+EVSU,Other Outerwear for Domestic Market,NA,NA
+EVTV,Footwear for Domestic Market,NA,NA
+EVUD,Wood; Sawn and Planed for Domestic Market,NA,NA
+EVUJ,Other Builders' Carpentry and Joinery for Domestic Market,NA,NA
+EVUP,Wooden Containers for Domestic Market,NA,NA
+EVUR,"Other Products of Wood; Articles of Cork, Straw and Plaiting Materials for Domestic Market",NA,NA
+EVVL,Paper and Paperboard for Domestic Market,NA,NA
+EVVQ,Corrugated Paper and Paperboard and Containers of Paper and Paperboard for Domestic Market,NA,NA
+EVVR,Household and Sanitary Goods and Toilet Requisites for Domestic Market,NA,NA
+EVVS,Paper Stationery for Domestic Market,NA,NA
+EVVU,Other Articles of Paper and Paperboard for Domestic Market,NA,NA
+EVVW,Other Printing Services for Domestic Market,NA,NA
+EVVX,Pre-Press and Pre-Media Services for Domestic Market,NA,NA
+EVWS,Refined Petroleum Products for Domestic Market,NA,NA
+EVWT,Refined Petroleum Products for Domestic Market,NA,NA
+EVWX,Dyes and Pigments for Domestic Market,NA,NA
+EVXB,Other Inorganic Basic Chemicals for Domestic Market,NA,NA
+EVXD,Other Organic Basic Chemicals for Domestic Market,NA,NA
+EVXG,Fertilisers and Nitrogen Compounds for Domestic Market,NA,NA
+EVXH,Plastics in Primary Forms for Domestic Market,NA,NA
+EVYI,"Paints, Varnishes and Similar Coatings, Printing Ink and Mastics for Domestic Market",NA,NA
+EVYJ,"Soap and Detergents, Cleaning and Polishing Preparations for Domestic Market",NA,NA
+EW46,Perfumes and Toilet Preparations for Domestic Market,NA,NA
+EW48,Glues for Domestic Market,NA,NA
+EW4D,Other Chemical Products N.E.C. for Domestic Market,NA,NA
+EW4F,Basic Pharmaceutical Products for Domestic Market,NA,NA
+EW4G,Pharmaceutical Preparations for Domestic Market,NA,NA
+EW4H,Rubber Tyres and Tubes; Retreading and Rebuilding of Rubber Tyres for Domestic Market,NA,NA
+EW4I,Other Rubber Products for Domestic Market,NA,NA
+EW4J,"Plastic Plates, Sheets, Tubes and Profiles for Domestic Market",NA,NA
+EW4K,Plastic Packing Goods for Domestic Market,NA,NA
+EW4L,Builders Ware of Plastic for Domestic Market,NA,NA
+EW4M,Other Plastic Products for Domestic Market,NA,NA
+EW66,Shaped and Processed Flat Glass for Domestic Market,NA,NA
+EW69,"Other Processed Glass, Including Technical Glassware for Domestic Market",NA,NA
+EW6A,Refractory Products for Domestic Market,NA,NA
+EW6G,Other Technical Ceramic Products for Domestic Market,NA,NA
+EW6I,Cement for Domestic Market,NA,NA
+EW6J,Lime and Plaster for Domestic Market,NA,NA
+EW6K,Concrete Products for Construction Purposes for Domestic Market,NA,NA
+EW6M,Ready-Mixed Concrete for Domestic Market,NA,NA
+EW6P,"Other Articles of Concrete, Plaster and Cement for Domestic Market",NA,NA
+EW6Q,"Cut, Shaped and Finished Stone for Domestic Market",NA,NA
+EW6R,Abrasive Products for Domestic Market,NA,NA
+EW6S,Other Non-Metallic Mineral Products N.E.C. for Domestic Market,NA,NA
+EW6T,Basic Iron and Steel and of Ferro-Alloys for Domestic Market,NA,NA
+EW6U,"Tubes, Pipes, Hollow Profiles and Fittings of Steel for Domestic Market",NA,NA
+EW6X,Cold Formed or Folded Products for Domestic Market,NA,NA
+EW72,Aluminium for Domestic Market,NA,NA
+EW74,Copper for Domestic Market,NA,NA
+EW75,Other Non-Ferrous Metal for Domestic Market,NA,NA
+EW77,Casting Services of Iron for Domestic Market,NA,NA
+EW79,Casting Services of Light Metals for Domestic Market,NA,NA
+EW7B,Metal Structures and Parts of Structures for Domestic Market,NA,NA
+EW7C,Doors and Windows of Metal for Domestic Market,NA,NA
+EW7D,Central Heating Radiators and Boilers for Domestic Market,NA,NA
+EW7E,"Other Tanks, Reservoirs and Containers of Metal for Domestic Market",NA,NA
+EW7F,Steam Generators Except Central Heating Hot Water Boilers for Domestic Market,NA,NA
+EW7H,"Forging, Pressing, Stamping and Roll Forming Services of Metal; Powder Metallurgy for Domestic Market",NA,NA
+EW7I,Treatment and Coating Services of Metals for Domestic Market,NA,NA
+EW7J,Machining Services for Domestic Market,NA,NA
+EW7L,Locks and Hinges for Domestic Market,NA,NA
+EW7M,Tools for Domestic Market,NA,NA
+EW7N,Steel Drums and Similar Containers for Domestic Market,NA,NA
+EW7O,Light Metal Packaging for Domestic Market,NA,NA
+EWCZ,"Wire Products, Chain and Springs for Domestic Market",NA,NA
+EWJA,Fasteners and Screw Machine Products for Domestic Market,NA,NA
+EWJD,Other Fabricated Metal Products N.E.C. for Domestic Market,NA,NA
+EWJS,Computers & Peripheral Equipment for Domestic Market,NA,NA
+EWJT,Communication Equipment for Domestic Market,NA,NA
+EWJX,"Irradiation, Electromedical and Electrotherapeutic Equipment for Domestic Market",NA,NA
+EWKA,"Electric Motors, Generators and Transformers for Domestic Market",NA,NA
+EWKB,Electricity Distribution and Control Apparatus for Domestic Market,NA,NA
+EWKC,Batteries and Accumulators for Domestic Market,NA,NA
+EWKE,Other Electronic and Electric Wires and Cables for Domestic Market,NA,NA
+EWKF,Wiring Devices for Domestic Market,NA,NA
+EWKG,Electric Lighting Equipment for Domestic Market,NA,NA
+EWKH,Electric Domestic Appliances for Domestic Market,NA,NA
+EWKI,Non-Electric Domestic Appliances for Domestic Market,NA,NA
+EWKJ,Other Electrical Equipment for Domestic Market,NA,NA
+EWKM,"Engines and Turbines, Except Aircraft, Vehicle and Cycle Engines for Domestic Market",NA,NA
+EWKN,Fluid Power Equipment for Domestic Market,NA,NA
+EWKO,Other Pumps and Compressors for Domestic Market,NA,NA
+EWKP,Other Taps and Valves for Domestic Market,NA,NA
+EWKQ,"Bearings, Gears, Gearing and Driving Elements for Domestic Market",NA,NA
+EWKR,"Ovens, Furnaces and Furnace Burners for Domestic Market",NA,NA
+EWKS,Lifting and Handling Equipment for Domestic Market,NA,NA
+EWKV,Non-Domestic Cooling and Ventilation Equipment for Domestic Market,NA,NA
+EWKW,Other General-Purpose Machinery N.E.C. for Domestic Market,NA,NA
+EWKX,Agricultural and Forestry Machinery for Domestic Market,NA,NA
+EWLB,"Machinery for Mining, Quarrying and Construction for Domestic Market",NA,NA
+EWLC,"Machinery for Food, Beverage and Tobacco Processing for Domestic Market",NA,NA
+EWLE,Machinery for Paper and Paperboard Production for Domestic Market,NA,NA
+EWLG,Other Special-Purpose Machinery N.E.C. for Domestic Market,NA,NA
+EWLH,Motor Vehicles for Domestic Market,NA,NA
+EWLI,"Bodies (Coachwork) for Motor Vehicles, Trailers and Semi-Trailers for Domestic Market",NA,NA
+EWLL,Electrical and Electronic Equipment for Motor Vehicles for Domestic Market,NA,NA
+EWLM,Other Parts and Accessories for Motor Vehicles for Domestic Market,NA,NA
+EWLQ,Air & Spacecraft and Related Machinery for Domestic Market,NA,NA
+EWLT,Bicycles and Invalid Carriages for Domestic Market,NA,NA
+EWLU,Other Transport Equipment N.E.C. for Domestic Market,NA,NA
+EWLV,Seats and Parts Thereof; Parts of Furniture for Domestic Market,NA,NA
+EWLW,Office and Shop Furniture for Domestic Market,NA,NA
+EWLX,Kitchen Furniture for Domestic Market,NA,NA
+EWLY,Mattresses for Domestic Market,NA,NA
+EWLZ,Other Furniture for Domestic Market,NA,NA
+EWMB,Jewellery and Related Articles for Domestic Market,NA,NA
+EWME,Sports Goods for Domestic Market,NA,NA
+EWMF,Games & Toys for Domestic Market,NA,NA
+EWMG,Medical and Dental Instruments and Supplies for Domestic Market,NA,NA
+EWMH,Brooms and Brushes for Domestic Market,NA,NA
+EWMI,Other Manufactured Goods N.E.C. for Domestic Market,NA,NA
+EWMK,Repair Services of Machinery for Domestic Market,NA,NA
+EWML,Repair Services of Electronic and Optical Equipment for Domestic Market,NA,NA
+EWMN,Repair and Maintenance Services of Ships and Boats for Domestic Market,NA,NA
+EWMP,Repair and Maintenance Services of Other Transport Equipment for Domestic Market,NA,NA
+FUBK,Manufactured Products Exc Petroleum Products for Domestic Market,NA,NA
+G2ZA,Vegetable and Animal Oils and Fats for Domestic Market,NA,NA
+G33H,Other General-Purpose Machinery for Domestic Market,NA,NA
+G33J,Metal Forming Machinery and Machine Tools for Domestic Market,NA,NA
+G33O,Ships and Boats for Domestic Market,NA,NA
+G639,EU Imports of Food Products,NA,NA
+G63A,EU Imports of Beverages,NA,NA
+G63R,EU Imports of Textiles,NA,NA
+G63X,"EU Imports of Wood and of Products of Wood and Cork, Except Furniture; Articles of Straw and Plaiting Materials",NA,NA
+G63Y,EU Imports of Paper and Paper Products,NA,NA
+G643,EU Imports of Chemicals and Chemical Products,NA,NA
+G644,EU Imports of Basic Pharmaceutical Products and Pharmaceutical Preparations,NA,NA
+G645,EU Imports of Rubber and Plastic Products,NA,NA
+G646,EU Imports of Other Non-Metallic Mineral Products,NA,NA
+G647,EU Imports of Basic Metals,NA,NA
+G649,"EU Imports of Computer, Electronic and Optical Products",NA,NA
+G64A,EU Imports of Electrical Equipment,NA,NA
+G64B,EU Imports of Machinery and Equipment N.E.C.,NA,NA
+G64C,"EU Imports of Motor Vehicles, Trailers and Semi-Trailers",NA,NA
+G64D,EU Imports of Other Transport Equipment,NA,NA
+G64F,EU Imports of Other Manufactured Goods,NA,NA
+G67M,Imports of Food Products,NA,NA
+G67N,Imports of Beverages,NA,NA
+G67P,Imports of Textiles,NA,NA
+G67S,"Imports of Wood and of Products of Wood and Cork, Except Furniture; Articles of Straw and Plaiting Materials",NA,NA
+G67T,Imports of Paper and Paper Products,NA,NA
+G689,Imports of Chemicals and Chemical Products,NA,NA
+G68A,Imports of Basic Pharmaceutical Products and Pharmaceutical Preparations,NA,NA
+G68H,Imports of Rubber and Plastic Products,NA,NA
+G68I,Imports of Other Non-Metallic Mineral Products,NA,NA
+G68J,Imports of Basic Metals,NA,NA
+G68Q,"Imports of Computer, Electronic and Optical Products",NA,NA
+G68R,Imports of Electrical Equipment,NA,NA
+G68S,Imports of Machinery and Equipment N.E.C.,NA,NA
+G68T,"Imports of Motor Vehicles, Trailers and Semi-Trailers",NA,NA
+G68U,Imports of Other Transport Equipment,NA,NA
+G698,Imports of Other Manufactured Goods,NA,NA
+G6H5,NEU Imports of Food Products,NA,NA
+G6H6,NEU Imports of Beverages,NA,NA
+G6PG,NEU Imports of Textiles,NA,NA
+G6PJ,"NEU Imports of Wood and of Products of Wood and Cork, Except Furniture; Articles of Straw and Plaiting Materials",NA,NA
+G6PK,NEU Imports of Paper and Paper Products,NA,NA
+G6PN,NEU Imports of Chemicals and Chemical Products,NA,NA
+G6PO,NEU Imports of Basic Pharmaceutical Products and Pharmaceutical Preparations,NA,NA
+G6PP,NEU Imports of Rubber and Plastic Products,NA,NA
+G6PQ,NEU Imports of Other Non-Metallic Mineral Products,NA,NA
+G6PR,NEU Imports of Basic Metals,NA,NA
+G6PT,"NEU Imports of Computer, Electronic and Optical Products",NA,NA
+G6PU,NEU Imports of Electrical Equipment,NA,NA
+G6PV,NEU Imports of Machinery and Equipment N.E.C.,NA,NA
+G6PW,"NEU Imports of Motor Vehicles, Trailers and Semi-Trailers",NA,NA
+G6PX,NEU Imports of Other Transport Equipment,NA,NA
+G6PZ,NEU Imports of Other Manufactured Goods,NA,NA
+G6QR,Exports of Food Products,NA,NA
+G6QU,Exports of Textiles,NA,NA
+G6QV,Exports of Wearing Apparel,NA,NA
+G6QX,"Exports of Wood and of Products of Wood and Cork, Except Furniture; Articles of Straw and Plaiting Materials",NA,NA
+G6QY,Exports of Paper and Paper Products,NA,NA
+G6R3,Exports of Chemicals and Chemical Products,NA,NA
+G6R4,Exports of Basic Pharmaceutical Products and Pharmaceutical Preparations,NA,NA
+G6R5,Exports of Rubber and Plastic Products,NA,NA
+G6R6,Exports of Other Non-Metallic Mineral Products,NA,NA
+G6R7,Exports of Basic Metals,NA,NA
+G6R9,"Exports of Fabricated Metal Products, Except Machinery and Equipment",NA,NA
+G6RB,"Exports of Computer, Electronic and Optical Products",NA,NA
+G6RC,Exports of Electrical Equipment,NA,NA
+G6RD,Exports of Machinery and Equipment N.E.C.,NA,NA
+G6RE,"Exports of Motor Vehicles, Trailers and Semi-Trailers",NA,NA
+G6RF,Exports of Other Transport Equipment,NA,NA
+G6RH,Exports of Furniture,NA,NA
+G6RI,Exports of Other Manufactured Goods,NA,NA
+G6SF,"Other Mining and Quarrying Products for Domestic Market, Exc Aggregate Levy",NA,NA
+G6SG,"Other Mining and Quarrying Products for Domestic Market, Incl Aggregate Levy",NA,NA
+G6SI,Food Products for Domestic Market,NA,NA
+G6SJ,"Beverages for Domestic Market, Excl Duty",NA,NA
+G6SK,"Beverages for Domestic Market, Incl Duty",NA,NA
+G6SL,"Tobacco Products for Domestic Market, Excl Duty",NA,NA
+G6SM,"Tobacco Products for Domestic Market, Incl Duty",NA,NA
+G6SN,Textiles for Domestic Market,NA,NA
+G6SO,Wearing Apparel for Domestic Market,NA,NA
+G6SP,Leather and Related Products for Domestic Market,NA,NA
+G6SQ,"Wood and of Products of Wood and Cork, Except Furniture; Articles of Straw and Plaiting Materials for Domestic Market",NA,NA
+G6SR,Paper and Paper Products for Domestic Market,NA,NA
+G6SS,Printing and Reproduction Services of Recorded Media for Domestic Market,NA,NA
+G6ST,"Coke and Refined Petroleum Products for Domestic Market, Excl Duty",NA,NA
+G6SU,"Coke and Refined Petroleum Products for Domestic Market, Incl Duty",NA,NA
+G6SV,Chemicals and Chemical Products for Domestic Market,NA,NA
+G6SW,Basic Pharmaceutical Products and Pharmaceutical Preparations for Domestic Market,NA,NA
+G6SX,Rubber and Plastic Products for Domestic Market,NA,NA
+G6SY,Other Non-Metallic Mineral Products for Domestic Market,NA,NA
+G6SZ,Basic Metals for Domestic Market,NA,NA
+G6T3,"Fabricated Metal Products, Except Machinery and Equipment for Domestic Market",NA,NA
+G6T5,"Computer, Electronic and Optical Products for Domestic Market",NA,NA
+G6VF,Electrical Equipment for Domestic Market,NA,NA
+G6VG,Machinery and Equipment N.E.C. for Domestic Market,NA,NA
+G6WH,"Motor Vehicles, Trailers and Semi-Trailers for Domestic Market",NA,NA
+G72N,Other Transport Equipment for Domestic Market,NA,NA
+G75I,Furniture for Domestic Market,NA,NA
+G776,Other Manufactured Goods for Domestic Market,NA,NA
+G777,Repair and Installation Services of Machinery and Equipment for Domestic Market,NA,NA
+GB7R,Exports of Manufactured Products,NA,NA
+GB7S,"Manufactured Products for Domestic Market, Excl Duty",NA,NA
+GBA6,"Food, Beverages and Tobacco Products Exc Duty for Domestic Market",NA,NA
+GBA7,"Food, Beverages and Tobacco Products Inc Duty for Domestic Market",NA,NA
+GBAP,Textiles and Textile Products for Domestic Market,NA,NA
+GBBV,"Manufactured Products Exc Food, Beverages, Tobacco and Petroleum Products for Domestic Market",NA,NA
+GC27,EU Imports of Total EU Imports,NA,NA
+GC2C,NEU Imports of Total Non-EU Imports,NA,NA
+GC2D,EU Exports of Manufactured Products,NA,NA
+GC2G,NEU Exports of Manufactured Products,NA,NA
+GD74,Imports of Total Imports,NA,NA
+GHDX,Inputs into Extraction of Crude Petroleum and Natural Gas; Mining of Metal Ores Incl CCL,NA,NA
+GHDZ,"Inputs into Other Mining and Quarrying, Incl CCL",NA,NA
+GHEA,Inputs into Other Mining and Quarrying,NA,NA
+GHEB,"Inputs into Mining Support Services, Incl CCL",NA,NA
+GHED,Fuel Purchased by Manufacturing Industry Exc CCL,NA,NA
+GHEE,Inputs into Preserved Meat and Meat Products,NA,NA
+GHEF,Inputs into Preserved Meat and Meat Products,NA,NA
+GHEG,"Inputs into Domestic Product Used in the Processing and Preserving of Fish, Crustaceans, Molluscs, Fruit and Vegetables",NA,NA
+GHEH,"Inputs into Domestic Product Used in the Processing and Preserving of Fish, Crustaceans, Molluscs, Fruit and Vegetables",NA,NA
+GHEI,Inputs into Production of Vegetable and Animal Oils and Fats,NA,NA
+GHEJ,Inputs into Production of Vegetable and Animal Oils and Fats,NA,NA
+GHEK,Inputs into Production of Dairy Products,NA,NA
+GHEL,Inputs into Production of Dairy Products,NA,NA
+GHEM,"Inputs into Production of Grain Mill Products, Starches and Starch Products",NA,NA
+GHEN,"Inputs into Production of Grain Mill Products, Starches and Starch Products",NA,NA
+GHEO,Inputs into Production of Bakery and Farinaceous Products,NA,NA
+GHEP,Inputs into Production of Bakery and Farinaceous Products,NA,NA
+GHEQ,Inputs into Production of Other Food Products,NA,NA
+GHER,Inputs into Production of Other Food Products,NA,NA
+GHES,Inputs into Production of Prepared Animal Feeds,NA,NA
+GHET,Inputs into Production of Prepared Animal Feeds,NA,NA
+GHEU,Imported Products Used in the Manufacture of Alcoholic Beverages,NA,NA
+GHEV,Imported Products Used in the Manufacture of Alcoholic Beverages,NA,NA
+GHEW,Inputs into Production of Soft Drinks; Mineral Waters and Other Bottled Waters,NA,NA
+GHEX,Inputs into Production of Soft Drinks; Mineral Waters and Other Bottled Waters,NA,NA
+GHEY,Inputs into Production of Tobacco Products,NA,NA
+GHEZ,Inputs into Production of Tobacco Products,NA,NA
+GHFA,Inputs into Production of Textiles,NA,NA
+GHFB,Inputs into Production of Textiles,NA,NA
+GHFC,Inputs into Production of Wearing Apparel,NA,NA
+GHFD,Inputs into Production of Wearing Apparel,NA,NA
+GHFE,Inputs into Production of Leather and Related Products,NA,NA
+GHFF,Inputs into Production of Leather and Related Products,NA,NA
+GHFG,"Inputs into Production of Wood and of Products of Wood and Cork, Except Furniture; Articles of Straw and Plaiting Materials",NA,NA
+GHFH,"Inputs into Production of Wood and of Products of Wood and Cork, Except Furniture; Articles of Straw and Plaiting Materials",NA,NA
+GHFI,Inputs into Production of Paper and Paper Products,NA,NA
+GHFJ,Inputs into Production of Paper and Paper Products,NA,NA
+GHFK,Inputs into Printing and Reproduction Services of Recorded Media,NA,NA
+GHFL,Inputs into Printing and Reproduction Services of Recorded Media,NA,NA
+GHFM,Inputs into Production of Coke and Refined Petroleum Products,NA,NA
+GHFN,Inputs into Production of Coke and Refined Petroleum Products,NA,NA
+GHFO,"Inputs into Production of Paints, Varnishes and Similar Coatings, Printing Ink and Mastics",NA,NA
+GHFP,"Inputs into Production of Paints, Varnishes and Similar Coatings, Printing Ink and Mastics",NA,NA
+GHFQ,"Inputs into Production of Soap and Detergents, Cleaning and Polishing Preparations, Perfumes and Toilet Preparations",NA,NA
+GHFR,"Inputs into Production of Soap and Detergents, Cleaning and Polishing Preparations, Perfumes and Toilet Preparations",NA,NA
+GHFS,Inputs into Production of Other Chemical Products,NA,NA
+GHFT,Inputs into Production of Other Chemical Products,NA,NA
+GHFU,Purchase of Materials & Fuels for Manufactureof Industrial Gases; Other Inorganic Chemicals; Fertilisers & Nitrogen Compounds,NA,NA
+GHFV,Purchase of Materials & Fuels for Manufactureof Industrial Gases; Other Inorganic Chemicals; Fertilisers & Nitrogen Compounds,NA,NA
+GHFW,Petrochemicals 20.14/16/17/60 Inc Duty,NA,NA
+GHFX,Petrochemicals 20.14/16/17/60,NA,NA
+GHFY,"Purchase of Materials and Fuels Used in Manufacture of Dyes & Pigmants, Pesticides and Other Agrochemical Products",NA,NA
+GHFZ,"Purchase of Materials and Fuels Used in Manufacture of Dyes & Pigmants, Pesticides and Other Agrochemical Products",NA,NA
+GHGA,Inputs into Production of Basic Pharmaceutical Products and Pharmaceutical Preparations,NA,NA
+GHGB,Inputs into Production of Basic Pharmaceutical Products and Pharmaceutical Preparations,NA,NA
+GHGC,Inputs into Production of Rubber and Plastic Products,NA,NA
+GHGD,Inputs into Production of Rubber and Plastic Products,NA,NA
+GHGE,"Purchase of Fuels & Materials for the Manufacture of Cement, Lime, Plaster and Articles of Concrete, Cement & Plaster Imc CCL",NA,NA
+GHGF,"Purchase of Fuels & Materials for the Manufacture of Cement, Lime, Plaster and Articles of Concrete, Cement & Plaster",NA,NA
+GHGG,"Fuels and Materials Used in Manufacture of Glass,Refractory Clay, Porcelain, Ceramic and Stone Products - 23.1-4/7-9 Inc CCL",NA,NA
+GHGH,"Fuels and Materials Used in Manufacture of Glass,Refractory Clay, Porcelain, Ceramic and Stone Products - 23.1-4/7-9",NA,NA
+GHGI,"Purchases of Materials and Fules for Manufacture of Basic Iron, Steel and Alloys, Tubes Pipes, Hollow Profiles and Fittings",NA,NA
+GHGJ,"Purchases of Materials and Fules for Manufacture of Basic Iron, Steel and Alloys, Tubes Pipes, Hollow Profiles and Fittings",NA,NA
+GHGK,Inputs into Manufacture of Other Basic Metals and Casting,NA,NA
+GHGL,Inputs into Manufacture of Other Basic Metals and Casting,NA,NA
+GHGM,Inputs into Production of Weapons and Ammunition,NA,NA
+GHGN,Inputs into Production of Weapons and Ammunition,NA,NA
+GHGO,Purchase of Fuel and Material for Manufacture of Fabricated Metal Product Excluding Weapons and Ammunition 25.1-3/5-9 Inc CCL,NA,NA
+GHGP,Purchase of Fuel and Material for Manufacture of Fabricated Metal Product Excluding Weapons and Ammunition 25.1-3/5-9,NA,NA
+GHGQ,"Inputs into Production of Computer, Electronic and Optical Products",NA,NA
+GHGR,"Inputs into Production of Computer, Electronic and Optical Products",NA,NA
+GHGS,Inputs into Production of Electrical Equipment,NA,NA
+GHGT,Inputs into Production of Electrical Equipment,NA,NA
+GHGU,Inputs into Production of Machinery and Equipment N.E.C.,NA,NA
+GHGV,Inputs into Production of Machinery and Equipment N.E.C.,NA,NA
+GHGW,"Inputs into Production of Motor Vehicles, Trailers and Semi-Trailers",NA,NA
+GHGX,"Inputs into Production of Motor Vehicles, Trailers and Semi-Trailers",NA,NA
+GHGY,Inputs into Production of Ships and Boats,NA,NA
+GHGZ,Inputs into Production of Ships and Boats,NA,NA
+GHHA,Inputs into Production of Air and Spacecraft and Related Machinery,NA,NA
+GHHB,Inputs into Production of Air and Spacecraft and Related Machinery,NA,NA
+GHHD,Purchases of Fuels and Materials for Manufacture of Other Transport Equipment 30.2/4/9,NA,NA
+GHHE,Inputs into Production of Furniture,NA,NA
+GHHF,Inputs into Production of Furniture,NA,NA
+GHHG,Inputs into Production of Other Manufactured Goods,NA,NA
+GHHH,Inputs into Production of Other Manufactured Goods,NA,NA
+GHHJ,Inputs into Repair and Maintenance Services of Ships and Boats,NA,NA
+GHHL,Inputs into Repair and Maintenance Services of Aircraft and Spacecraft,NA,NA
+GHHN,Purchases of Materials and Fuel for the Rest of Repair; Installation-33.11-14/17/19/20,NA,NA
+GHHP,"Inputs into Production of Electricity, Transmission and Distribution Services",NA,NA
+GHHR,Purchases of Material and Fuels for Gas Distribution,NA,NA
+GHHS,Inputs into Production of Water Treatment and Supply Services,NA,NA
+GHHV,"Inputs into Production of Food, Beverages and Tobacco Products",NA,NA
+GHHW,Purchase of Materials and Fuels for Manufacture of Textiles and Textile Products,NA,NA
+GHHZ,"Purchases of Materials and Fuels for Manufacture of Pulp, Paper Amd Paper Products; Recorded Media; Printing Services",NA,NA
+GHIB,"Purchase of Fuels and Material for Manufacture of Chemicals, Chemical Products and Man-Made Fibres",NA,NA
+GHIF,Basic Metals and Fabricated Products,NA,NA
+GHIG,"Purchases of Material and Fuel for Manufacture of Computer, Elecronic & Optical Products; Electrical Equipment",NA,NA
+GHII,Purchase of Material & Fuel for Manufacture Motor Vehicles and Other Transport Equipment,NA,NA
+GHIJ,Purchase of Material and Fuel for Manufacture of Other Manufactured Good Nec,NA,NA
+GHIK,Materials Purchased by Manufacturing Industry Exc CCL,NA,NA
+GHIL,Materials Purchased by Manufacturing Industry Exc CCL Other Than FBTP Industry,NA,NA
+GHIM,Purchases of Fuels for All Manufacturing Other Than Those Made by FBTP Producing Industries,NA,NA
+GHIO,Purchases of Materials and Fuels for All Manufacturing Other Than Those Made by FBTP Producing Industries,NA,NA
+GHIP,Inputs into Manufacturing,NA,NA

@@ -1,0 +1,973 @@
+code,name,unit,preunit
+A24M,"PP: Household final consumption expenditure, growth Q on Q",NA,NA
+A24X,"PP: NPISH final consumption expenditure, growth Q on Q",NA,NA
+A24Y,"PP: General Government final consumption expenditure, growth Q on Q",NA,NA
+A25I,"PP: Gross Capital Formation, growth Q on Q",NA,NA
+A25J,"PP: Gross fixed capital formation, growth Q on Q",NA,NA
+A25M,"PP: Business investment, growth Q on Q",NA,NA
+A264,"PP: Exports, growth Q on Q",NA,NA
+A268,"PP: Less imports, growth Q on Q",NA,NA
+A26C,"PP: Household final consumption expenditure, growth Q on Q yr ago",NA,NA
+A26H,"PP: NPISH final consumption expenditure, growth Q on Q yr ago",%,NA
+A26I,"PP: General Government final consumption expenditure, growth Q on Q yr ago",%,NA
+A26J,"PP: Gross Capital Formation, growth Q on Q yr ago",%,NA
+A26K,"PP: Gross fixed capital formation, growth Q on Q yr ago",%,NA
+A26L,"PP: Business investment, growth Q on Q yr ago",%,NA
+A26M,"PP: Exports, growth Q on Q yr ago",%,NA
+A26N,"PP: Less imports, growth Q on Q yr ago",%,NA
+A275,"PP: Household final consumption expenditure, growth annual",%,NA
+A276,"PP: NPISH final consumption expenditure, growth annual",%,NA
+A289,"PP: General Government final consumption expenditure, growth annual",%,NA
+A28J,"PP: Gross Capital Formation, growth annual",NA,NA
+A28L,"PP: Gross fixed capital formation, growth annual",%,NA
+A29D,"PP: Business investment, growth annual",%,NA
+A29F,"PP: Exports, growth annual",%,NA
+A2CK,"PP: Less imports, growth annual",%,NA
+A2CL,"PP: Compensation of employees, growth Q on Q",%,NA
+A2CM,"PP: GOS of corporations, growth Q on Q",%,NA
+A2CN,"PP: Other income, growth Q on Q",NA,NA
+A2CO,"PP: Taxes less subsidies on products and production, growth Q on Q",NA,NA
+A2CP,"PP: Compensation of employees, growth Q on Q yr ago",%,NA
+A2CQ,"PP: GOS of corporations, growth Q on Q yr ago",%,NA
+A2CR,"PP: Other income, growth Q on Q yr ago",%,NA
+A2CS,"PP: Taxes less subsidies on products and production, growth Q on Q yr ago",%,NA
+A2CT,"PP: Compensation of employees, growth annual",NA,NA
+A2CU,"PP: GOS of corporations, growth annual",%,NA
+A2CV,"PP: Other income, growth annual",%,NA
+A2CW,"PP: Taxes less subsidies on products and production, growth annual",%,NA
+A2CX,"PP: Agriculture, growth Q on Q",%,NA
+A2CY,"PP: Total Production, growth Q on Q",%,NA
+A2DL,"PP: Manufacturing, growth Q on Q",%,NA
+A2DO,"PP: Extraction, growth Q on Q",%,NA
+A2DR,"PP: Electricity, growth Q on Q",%,NA
+A2DS,"PP: Water and sewerage, growth Q on Q",%,NA
+A2DT,"PP: Construction, growth Q on Q",%,NA
+A2DU,"PP: Total Services, growth Q on Q",%,NA
+A2DV,"PP: Distn, hotels and catering, growth Q on Q",NA,NA
+A2DW,"PP: Transport, storage and comms, growth Q on Q",%,NA
+A2DX,"PP: Business services and finance, growth Q on Q",%,NA
+A2DY,"PP: Government and other, growth Q on Q",%,NA
+A2DZ,"PP: Agriculture, growth Q on Q yr ago",%,NA
+A2E2,"PP: Total Production, growth Q on Q yr ago",%,NA
+A2E3,"PP: Manufacturing, growth Q on Q yr ago",%,NA
+A2E4,"PP: Extraction, growth Q on Q yr ago",%,NA
+A2E5,"PP: Electricity, gas and air, growth Q on Q yr ago",%,NA
+A2EE,"PP: Water and sewerage, growth Q on Q yr ago",%,NA
+A2EK,"PP: Construction, growth Q on Q yr ago",%,NA
+A2EL,"PP: Total Services, growth Q on Q yr ago",%,NA
+A2EM,"PP: Distn, hotels and catering, growth Q on Q yr ago",%,NA
+A2EN,"PP: Transport, storage and comms, growth Q on Q yr ago",%,NA
+A2EO,"PP: Business services and finance, growth Q on Q yr ago",%,NA
+A2EP,"PP: Government and other, growth Q on Q yr ago",NA,NA
+A2EQ,"PP: Agriculture, growth annual",%,NA
+A2ER,"PP: Total Production, growth annual",%,NA
+A2ES,"PP: Manufacturing, growth annual",%,NA
+A2ET,"PP: Extraction, growth annual",%,NA
+A2EU,"PP: Electricity, gas and air, growth annual",%,NA
+A2EV,"PP: Water and sewerage, growth annual",%,NA
+A2EW,"PP: Construction, growth annual",NA,NA
+A2EY,"PP: Total Services, growth annual",%,NA
+A2F2,"PP: Distn, hotels and catering, growth annual",%,NA
+A2F3,"PP: Transport, storage and comms, growth annual",%,NA
+A2F4,"PP: Business services and finance, growth annual",%,NA
+A2F5,"PP: Government and other, growth annual",%,NA
+A8L9,"Gross Domestic Product at market prices, q-on-q1 growth: CP: NSA £m",NA,NA
+A8LA,"Gross Domestic Product at market prices, q-on-q4 growth: CP: NSA £m",NA,NA
+AAXW,General govt : subsidies - CYSA,NA,NA
+ABJQ,Households (S.14): Individual consumption expenditure (P.31) Uses: Current price: £m: SA,m,£
+ABJR,Household final consumption expenditure :National concept CVM SA - £m,m,£
+ABMF,Total gross final expenditure (aligned) - P.3+P.5+P.6 : CP SA £m,m,£
+ABMG,Total gross final expenditure (aligned) - P.3+P.5+P.6 : CVM SA £m,m,£
+ABMI,Gross Domestic Product: chained volume measures: Seasonally adjusted £m,m,£
+ABML,Gross Value Added (Average) at basic prices: CP SA £m,m,£
+ABMM,Gross Value Added at basic prices:chained volume measures:Seasonally adjusted £m,m,£
+ABMZ,Gross National Income: Current price: Seasonally adjusted £m,m,£
+ABTF,Household final consumption expenditure: Net tourist expenditure CP SA £m,m,£
+ABTH,Household final consumption expenditure :Net tourist expenditure CVM SA £m,£m,NA
+ACAC,Central Government: Consolidated fund Cash receipts from Customs & Excise: £m,NA,NA
+ACCD,CG: Current receipts: Taxes on income: Corporation tax: £m CPNSA,NA,NA
+ACCI,HMRC : stamp duty receipts UK Total £ million,NA,NA
+ACDD,Customs & Excise : hydrocarbon oils duty receipts £ million,NA,NA
+ACDE,Customs & Excise : tobacco duty receipts £ million,NA,NA
+ACDF,Customs & Excise : spirit duty receipts £ million,NA,NA
+ACDG,Customs & Excise : beer duty receipts £ million,NA,NA
+ACDH,Customs & Excise : wine duty receipts £ million,NA,NA
+ACDI,"Customs & Excise : made-wine , cider & perry duty receipts £ million",NA,NA
+ACDJ,Customs & Excise : betting & gaming levy receipts £ million,NA,NA
+ACDO,Customs & Excise: Insurance Premium Tax £ million,NA,NA
+ACDP,Customs & Excise: Air Passenger Duty £ million,NA,NA
+ACJY,Central govt : accruals adjustment : social security contributions,NA,NA
+AIPA,Central government finance: official reserves: Asset Flow: CP NSA: £m,NA,NA
+AUYN,Money stock M4 (end period) : level £m Seas Adj,NA,NA
+AVAB,Notes & coins in circulation outside Bank of England (BOE): level SA £m,NA,NA
+BKSG,Public expenditure: Vocational Training Relief (VTR),NA,NA
+BKSH,Public expenditure: Charities,NA,NA
+BKSP,PC liquid assets: level: bank and building society deposits,NA,NA
+BKSQ,PC liquid assets: level: PC other short term liquid assets,NA,NA
+BKTL,Gross Domestic Product at market prices: CP: NSA £m,m,£
+BOKG,Trade in Goods (T): WW: Exports: BOP: CP: SA,m,£
+BOKH,Trade in Goods (T): WW: Imports: BOP: CP: SA,m,£
+BOKI,Trade in Goods (T): WW: Balance: BOP: CP: SA,m,£
+BQKO,Trade in Goods (T): WW: Imports: BOP: CVM: SA,m,£
+BQKQ,Trade in Goods (T): WW: Exports: BOP: CVM: SA,m,£
+CAEQ,Gross Operating Surplus: NFCos: Public: Current price: SA £m,m,£
+CAER,Private non-financial corporations (S.11002+S.11003): Gross Operating Surplus: Resource: CP £m: SA,m,£
+CAES,Net income from abroad: Current price: Seasonally adjusted £m,m,£
+CAEX,Changes in inventories (CP SA) including alignment adjustment £m,m,£
+CAFU,Changes in inventories including alignment adjustment - CVM NAYear SA £m,m,£
+CAGQ,Gross Domestic Product (Expenditure) current basic prices: aligned:SA £m,m,£
+CAGR,Gross Domestic Product (Expenditure) chained volume measure SA £m,m,£
+CAGS,Gross Domestic Product (Income) current basic prices: aligned: SA £m,m,£
+CEAN,CG : employers social security contributions (accrued),NA,NA
+CFGW,ESA: Tax credits - NPISH: NSA:,NA,NA
+CGBV,Gross Value Added at basic prices: Implied deflator:SA,"Index, last full year = 100",NA
+CGBX,Income based: Other income: CP SA £m,m,£
+CGBZ,Income based: Gross operating surplus of corporations : Total: CP SA £m,m,£
+CGCB,Income based: Gross value added at factor cost: CP SA £m,m,£
+CGCE,Gross value added at basic prices:CVM:Index:SA,"Index, base year = 100",NA
+CMSU,CG: MR23: D&I NLF: line 8: CG payments: Index-linked gilts interest (marketable),NA,NA
+CMVL,whole economy: D2 less D3: pre-ESA95 factor cost adjustment: SA CP £m,m,£
+CQOQ,LA: payments of business rates: D.59 deduction series : £m nsa,NA,NA
+CQTC,CG: D.59 receipts: total NP payments of NNDR: £m nsa,NA,NA
+CT9E,CG: AF4 A: Net Lending to Private Sector: Student Loans (£m NSA),NA,NA
+CTVT,Trade in Goods (T): EU: Balance: BOP: CVM: SA,NA,NA
+CTVU,Trade in Goods (T): Non-EU: Balance: BOP: CVM: SA,NA,NA
+CUCZ,VAT paid by LG's,NA,NA
+CUEM,Gilts interest - net market flows,NA,NA
+CUNW,"Total vat refunds paid by cg, excl la's £m",NA,NA
+CWNE,Employers' social contribution (D.12) Annual growth rate YoY CP SA %,NA,NA
+CWNF,Employers' social contribution (D.12) one quarter growth rate %,NA,NA
+CWNG,Employers' social contribution (D.12) four quarter growth rate %,NA,NA
+CWNH,UK (S.1): Wages and salaries (D.11) Uses: Annual growth rate YoY CP SA %,NA,NA
+CWNI,UK (S.1): Wages and salaries (D.11) Uses: one quarter growth rate %,NA,NA
+CWNJ,UK (S.1): Wages and salaries (D.11) Uses: four quarter growth rate %,NA,NA
+CWVD,Changes in inventories: other industries incl. alignment adjustment: £M CP SA,NA,NA
+CYNX,CG: PAYE Withheld: Accruals Adjustment: NSA: £ Million,NA,NA
+D69U,Total CG interest on Reserves,NA,NA
+DBJY,Central Government Receipts: North Sea Corporation Tax,NA,NA
+DBKE,Central Govt: Accruals adjustment: PC tax (interest) witheld,NA,NA
+DCHF,Public Expenditure: Life Company Relief: NSA: £ Million,NA,NA
+DCHG,Public Expenditure: MIRAS: NSA: £ Million,NA,NA
+DFEG,Gross Fixed Capital Formation:Total Economy: Dwellings: D0-9:CVM SA £m,m,£
+DFT5,ESA95: CG: OFGEM fees,NA,NA
+DHBM,CII: VPI:Manufacturing Total: CVM SA £m,m,£
+DJDS,National accounts residual error: CP: SA: £m,m,£
+DKHE,Local authority gross schedule 53: accruals adjustment,NA,NA
+DKHH,Total scheduale 20: accruals adjustment,NA,NA
+DLWF,Gross Fixed Capital Formation:Total General Government P51:CVM SA: £m,m,£
+DLWL,"Gross Fixed Capital Formation: Vehicles, Ships & Aircraft: CVM SA: £m",m,£
+DLWO,Gross Fixed Capital Formation: Plant & Machinery: CVM SA: £m,m,£
+DLWT,GFCF: Other New Buildings & Structures and transfer costs:CVM SA: £m,m,£
+DLWX,Change in inventories: Other Industries: CVM SA £m,m,£
+DMUM,CVM SA changes in inventories timing adjustment £m,m,£
+DMUN,CP SA changes in inventories timing adjustment £m,m,£
+DMUQ,Gross Operating Surplus: NFCos: Private: Alignment adjustments: CP SA £m,m,£
+DOLC,UK Total Landfill tax (cash),NA,NA
+DTWL,UK (S.1): Wages and salaries (D.11) Uses: Current price: £m: SA,NA,NA
+DTWM,UK (S.1): Compensation of employees (D.1) Uses: Current price: £m: SA,m,£
+DTWP,Households (S.14): Employers' social contribution (D.12) Resources: Current price: £m: SA,NA,NA
+DTWS,ESA: B.2g: FC: Operating Surplus: Rent: SA,NA,NA
+DW9E,CG resources: D51 Taxes on income & wealth: Horserace Betting Levy Board: NSA CP,NA,NA
+EBAQ,UK resident population: mid-year estimates (Qtly data interpolated),",000",NA
+EO2E,CG: D511 res: OFGEM tax on NFPA renewable energy income £m nsa,NA,NA
+EQDO,Gross Fixed Capital Formation: Total Economy:All Intangible Fixed Assets CVM SA,NA,NA
+EQED,GFCF: Total economy:Other buildings & structures and transfer costs: CP SA,NA,NA
+F8YF,FA: CG: level: Finance Leasing incl PFI/PPP Control Total: £m CP NSA,NA,NA
+F8YH,FA: LG: level: Finance Leasing incl PFI/PPP Control Total: £m CP NSA,NA,NA
+F8YJ,FA: PC: level: Finance Leasing incl PFI/PPP Control Total: £m CP NSA,NA,NA
+FADY,Change in Inventories: Manufacturing: Work in Progress: £M: CP: SA,NA,NA
+FAEA,Change in Inventories: Mining & Quarrying: £M: CVM NAYear: SA £m,m,£
+FAEB,"Change in Inventories: Electricity, Gas & Water: £M: CVM NAYear: SA £m",m,£
+FAGF,"Change in Inventories: Manufacturing: Materials, Stores & Fuel: £M: CP: SA",NA,NA
+FAGI,"Change in Inventories: Electricity, Gas & Water: £M: CP: SA",NA,NA
+FAHA,Change in Inventories: Retail: £M: CP: SA,NA,NA
+FAHS,Change in Inventories: Mining & Quarrying: £M: CP: SA,NA,NA
+FAJX,Change in Inventories: Wholesale: £M: CVM NAYear: SA £m,m,£
+FALR,Change in Inventories: Manufacturing: Finished Goods: £M: CP: SA,NA,NA
+FBHE,Change in Inventories: Wholesale: £M: CP: SA,NA,NA
+FBNF,"Change in Inventories: Manufacturing: Materials, Stores & Fuel: £M: CVM: SA £m",m,£
+FBNG,Change in Inventories: Manufacturing: Work in Progress: £M: CVM: SA £m,m,£
+FBNH,Change in Inventories: Manufacturing: Finished Goods: £M: CVM: SA £m,m,£
+FBYN,Change in Inventories: Retail: £M: CVM NAYear: SA £m,m,£
+FLUK,Govt Social Benefits (Debits) Total CP SA,NA,NA
+FLVE,"Oth Sectors Current Taxes on Income, Wealth etc. (Debits) Total CP SA",NA,NA
+FLVY,Oth Sectors Oth Transfers (Debits) Premiums paid by UK [OTIS07] (FJXS) CP SA,NA,NA
+FLYE,Insurance Memo (Exports) Gross Insurance Claims [OTIS08] CP SA,NA,NA
+GAN8,Bus Inv exc. exceptional transfer: CVM SA,NA,NA
+GCJG,"D51,D62 income tax relief change series for MIRAS,LAPRAS and PMI",NA,NA
+GCJJ,D62: medical insurance income tax relief: voted PE,NA,NA
+GCMP,ESA95:CG:resources:D61112:Voluntary employers contributions from HH CP NSA,NA,NA
+GCMR,ESA95:CG:D41:uses:imputed interest for discount on gilts,NA,NA
+GCSW,ESA95: CG: USES: D.41/F.33211: British gov securities: Accruals adjust CP NSA,NA,NA
+GDPQ,ESA95 % change on previous quarter: Gross value added at basic prices,%,NA
+GDPR,ESA95 % change on same quarter previous year: Gross value added at basic prices,%,NA
+GGAE,"Gross Fixed Capital Formation:Total Economy:Total New Dwellings,excluding land",NA,NA
+GIXM,Difference between GDP(E) and GDP(A) MP (SA CP) £m,m,£
+GIXQ,Statistical discrepancy (income) £m,m,£
+GIXS,Difference between GDP(Expenditure) and GDP(Average) MP(CVM SA) £m,m,£
+GRXE,"Company Income Tax Reciepts, net of Repayments",NA,NA
+GTAX,CG receipts: taxes on expenditure: motor vehicle duties,NA,NA
+HAYE,NPISH (S.15): Individual consumption expenditure (P.31): Uses: Current price: £m: SA,m,£
+HAYO,Final Consumption Expenditure of NPISHs CVM SA £m,m,£
+IE9R,FC: Total adjustment for FISIM,NA,NA
+IHXT,"Gross domestic product (Average) per head,at current market prices: SA",£,NA
+IHXW,"Gross domestic product (Average) per head, CVM market prices: SA",£,NA
+IHYA,Gross Domestic Product (Expenditure) current basic prices index SA,NA,NA
+IHYB,Gross Domestic Product (Income) current basic prices index SA,"Index, base year = 100",NA
+IHYC,Gross Domestic Product (Expenditure) chained volume index: SA,NA,NA
+IHYD,Gross Domestic Product (Income) chained volume index: SA,"Index, base year = 100",NA
+IHYM,Gross domestic product at market prices annual growth rate CP SA %,%,NA
+IHYN,Gross Domestic Product: quarter on quarter growth rate: CP SA %,%,NA
+IHYO,Gross Domestic Product: q-on-q4 growth quarter growth: CP SA %,%,NA
+IHYP,Gross Domestic Product: Year on Year growth: CVM SA %,%,NA
+IHYQ,Gross Domestic Product: Quarter on Quarter growth: CVM SA %,%,NA
+IHYR,Gross Domestic Product: q-on-q4 growth rate CVM SA %,%,NA
+IHYS,GDP Deflator: Year on Year growth: SA %,%,NA
+IHYT,GDP Deflator: Quarter on quarter growth: SA %,%,NA
+IHYU,GDP Deflator: Quarter on quarter previous year growth: SA %,%,NA
+IKBB,Trade in Services (TS): WW: Exports: BOP: CP: SA,m,£
+IKBC,Trade in Services (TS): WW: Imports: BOP: CP: SA,m,£
+IKBD,Trade in Services (TS): WW: Balance: BOP: CP: SA,m,£
+IKBE,Trade in Services (TS): WW: Exports: BOP: CVM: SA,m,£
+IKBF,Trade in Services (TS): WW: Imports: BOP: CVM: SA,m,£
+IKBH,Total Trade (TT): WW: Exports: BOP: CP: SA,m,£
+IKBI,Total Trade (TT): WW: Imports: BOP: CP: SA,m,£
+IKBJ,Total Trade (TT): WW: Balance: BOP: CP: SA,m,£
+IKBK,Total Trade (TT): WW: Exports: BOP: CVM: SA,m,£
+IKBL,Total Trade (TT): WW: Imports: BOP: CVM: SA,m,£
+IKBM,Total Trade (TT): WW: Balance: BOP: CVM: SA,m,£
+IV8B,"FISIM: Final consumption by HH and NPISH, CP NSA £mn",NA,NA
+JJDC,Taxes on products & production annual growth rate YoY,NA,NA
+JJDH,Taxes on products & production one quarter growth rate %,NA,NA
+JJDS,Taxes on products & production four quarter growth rate %,NA,NA
+JJDU,Subsidies annual growth rate YoY,NA,NA
+JJDZ,Subsidies one quarter growth rate %,NA,NA
+JJG4,Subsidies four quarter growth rate %,NA,NA
+KB7D,Revision to GDP at market prices £m,m,£
+KB7E,Revision to basic price adjustment (bpa) £m,m,£
+KB7F,Revision to GVA at bp £m,m,£
+KB7K,Revision to HH - component of GDP(E) £m,m,£
+KB7L,Revision to NPISH - component of GDP(E) £m,m,£
+KB7M,Revision to CG - component of GDP(E) £m,m,£
+KB7N,Revision to GFCF - component of GDP(E) £m,m,£
+KB7O,Revision to changes in inventories - component of GDP(E) £m,m,£
+KB7P,Revision to Acquistions less disposals of valuables - component of GDP(E) £m,m,£
+KB7Q,Revisions to domestic expenditure on goods and services at market prices. £m,m,£
+KB7R,Revision to total exports - component of GDP(E) £m,m,£
+KB7S,Revision to total imports - component of GDP(E) £m,m,£
+KB7T,Revisions to statistical discrepancy (E) £m,m,£
+KB7U,Revisions to CoE £m,m,£
+KB7V,Revisions to GoS of corporations £m,m,£
+KB7W,Revisions to other income £m,m,£
+KB7X,Revisions to GVA at fc £m,m,£
+KB7Y,Revisions to taxes on products & production less subsidies £m,m,£
+KB7Z,Revisions to statistical discrepancy (I) £m,m,£
+KB82,Revisions to GDP CVM growth %,%,NA
+KB83,Revision to Agriculture CVM growth %,%,NA
+KB84,Revision to Extraction CVM growth %,%,NA
+KB85,Revision to Manufacturing CVM growth %,%,NA
+KB86,Revisions to Utilities CVM growth %,%,NA
+KB87,Revisions to Total production CVM growth %,%,NA
+KB88,Revisions to Construction CVM growth %,%,NA
+KB89,"Revisions to Distribution, hotels & catering CVM growth %",%,NA
+KB8A,"Revisions to Transport, storage & comms CVM growth %",%,NA
+KB8B,Revisions to Business services & finance CVM growth %,%,NA
+KB8C,Revisions to Goverment & other CVM growth %,%,NA
+KB8D,Revisions to Total services CVM growth %,%,NA
+KB8E,Revisions to Total GVA CVM growth %,%,NA
+KB8F,Revisions to Total GVA exc oil CVM growth %,%,NA
+KB8G,Revisions to Households CVM growth %,%,NA
+KB8H,Revisions to NPISH CVM growth table %,%,NA
+KB8I,Revisions to General government CVM growth %,%,NA
+KB8J,Revisions to Gross fixed capital formation CVM growth %,%,NA
+KB8K,Revisions to total (domestic expenditure) CVM growth %,%,NA
+KB8L,Revisions to Total export CVM growth %,%,NA
+KB8M,Revisions to Total imports CVM growth %,%,NA
+KB94,Revisions to GDP CVM quarter on same quarter a year earlier. £m,m,£
+KG6N,Gross Fixed Capital Formation: Business Investment: CP SA: % change latest year on previous year,NA,NA
+KG6O,Gross fixed capital formation annual growth rate YoY CP SA %,%,NA
+KG6R,Gross Fixed Capital Formation:Total Economy:Total Intangible Fixed Assets: CP SA,NA,NA
+KG6S,"Gross Fixed Capital Formation: Whole economy: Plant and machinery: CP SA, % chan",%,NA
+KG6T,"Gross Fixed Capital Formation :Total Economy:Total Transport Equipment: CP SA, %",%,NA
+KG6U,Total Domestic Household Final Consumption: Annual growth rate %: Current Price: Seasonally Adjusted,%,NA
+KG6V,"Gross Fixed Capital Formation: Business Investment: CP SA: £m, % change, latest quarter on previous quarer",NA,NA
+KG6W,Gross fixed capital formation one quarter growth rate CP SA %,%,NA
+KG6Z,Gross Fixed Capital Formation:Total Economy:Total Intangible Fixed Assets: CP SA,NA,NA
+KG72,"Gross Fixed Capital Formation: Whole economy: Plant and machinery: CP SA, % chan",NA,NA
+KG73,"Gross Fixed Capital Formation :Total Economy:Total Transport Equipment: CP SA, %",NA,NA
+KG74,Total Domestic Household Final Consumption: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KG75,"Gross Fixed Capital Formation: Business Investment: CP SA: £m, % change, latest quarter on corresponding quarter of previous year",NA,NA
+KG76,Gross fixed capital formation four quarter growth rate CP SA %,%,NA
+KG79,Gross Fixed Capital Formation:Total Economy:Total Intangible Fixed Assets: CP SA,NA,NA
+KG7A,"Gross Fixed Capital Formation: Whole economy: Plant and machinery: CP SA, % chan",NA,NA
+KG7B,"Gross Fixed Capital Formation :Total Economy:Total Transport Equipment: CP SA, %",NA,NA
+KG7C,Total Domestic Household Final Consumption: Four quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KG7M,Gross Fixed Capital Formation: Business Investment: CVM SA: % change latest year on previous year,%,NA
+KG7N,Total fixed capital formation annual growth rate YoY CVM SA %,%,NA
+KG7O,Total Domestic Household Final Consumption: Annual growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KG7P,"Gross Fixed Capital Formation: Business Investment: CVM SA: £m, % change, latest quarter on previous quarer",£m,NA
+KG7Q,Gross fixed capital formation - q-on-q1 growth rate CVM SA %,%,NA
+KG7R,Total Domestic Household Final Consumption: One quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KG7S,"Gross Fixed Capital Formation: Business Investment: CVM SA: £m, % change, latest quarter on corresponding quarter of previous year",£m,NA
+KG7T,Gross fixed capital formation - q-on-q4 growth rate CVM SA %,%,NA
+KG7U,Total Domestic Household Final Consumption: Four quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KG9K,Exports goods annual growth rate CP SA %,%,NA
+KG9L,Imports goods annual growth rate CP SA %,%,NA
+KG9N,Household Final Consumption Expenditure: Food & drink: Annual growth rate %: Current Price: Seasonally Adjusted,%,NA
+KG9O,Exports goods one quarter growth rate CP SA %,%,NA
+KG9P,Imports goods one quarter growth rate CP SA %,%,NA
+KG9R,Household Final Consumption Expenditure: Food & drink: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KG9S,Exports goods four quarter growth rate CP SA %,%,NA
+KG9T,Imports goods four quarter growth rate CP SA %,%,NA
+KG9V,Household Final Consumption Expenditure: Food & drink: Four quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KG9W,Imports goods annual growth rate CVM SA %,%,NA
+KG9X,Exports goods annual growth rate CVM SA %,%,NA
+KG9Y,Household Final Consumption Expenditure: Food & drink: Annual growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KG9Z,Imports goods one quarter growth rate CVM SA %,%,NA
+KGA2,Exports goods one quarter growth rate CVM SA %,%,NA
+KGA3,Household Final Consumption Expenditure: Food & drink: One quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGA4,Imports goods four quarter growth rate CVM SA %,%,NA
+KGA5,Exports goods four quarter growth rate CVM SA %,%,NA
+KGA6,Household Final Consumption Expenditure: Food & drink: Four quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGB2,Household Final Consumption Expenditure: Education: Annual growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGB3,Household Final Consumption Expenditure: Education: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGB4,Household Final Consumption Expenditure: Education: Four quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGB8,Household Final Consumption Expenditure: Education: Annual growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGB9,Household Final Consumption Expenditure: Education: One quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGC2,Household Final Consumption Expenditure: Education: Four quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGC6,Household Final Consumption Expenditure: Restaurants & hotels: Annual growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGC7,Household Final Consumption Expenditure: Restaurants & hotels: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGC8,Household Final Consumption Expenditure: Restaurants & hotels: Four quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGD4,Household Final Consumption Expenditure: Restaurants & hotels: Annual growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGD5,Household Final Consumption Expenditure: Restaurants & hotels: One quarter growth rate %: Chained Volume Measures: Seasonally Adju,%,NA
+KGD6,Household Final Consumption Expenditure: Restaurants & hotels: Four quarter growth rate %: Chained Volume Measures: Seasonally Adj,%,NA
+KGE2,Miscellaneous annual growth rate %,%,NA
+KGE3,Miscellaneous one quarter growth rate %,%,NA
+KGE4,Miscellaneous four quarter growth rate %,%,NA
+KGE8,COICOP 12 Misc CVM annual growth rate %,%,NA
+KGE9,COICOP 12 Misc CVM quarter on quarter growth rate %,%,NA
+KGF2,COICOP 12 Misc CVM Q on same Q 4 periods earlier growth rate %,%,NA
+KGF3,Household Final Consumption Expenditure: Alcohol & tobacco: Annual growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGF4,Household Final Consumption Expenditure: Alcohol & tobacco: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGF5,Household Final Consumption Expenditure: Alcohol & tobacco: Four quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGF6,Household Final Consumption Expenditure: Alcohol & tobacco: Annual growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGF7,Household Final Consumption Expenditure:Alcohool & tobacco: One quarter growth rate %: Chained Volume Measures: Seasonally Adjuste,%,NA
+KGF8,Household Final Consumption Expenditure: Alcohol & tobacco: Four quarter growth rate %: Chained Volume Measures: Seasonally Adjust,%,NA
+KGF9,Household Final Consumption Expenditure: Clothing & footwear: Annual growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGG2,Household Final Consumption Expenditure: Clothing & footwear: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGG3,Household Final Consumption Expenditure: Clothing & footwear: Four quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGG4,Household Final Consumption Expenditure: Clothing & footwear: Annual growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGG5,Household Final Consumption Expenditure: Clothing & footwear: One quarter growth rate %: Chained Volume Measures: Seasonally Adjus,%,NA
+KGG6,Household Final Consumption Expenditure: Clothing & footwear: Four quarter growth rate %: Chained Volume Measures: Seasonally Adju,%,NA
+KGG7,Household Final Consumption Expenditure: Housing: Annual growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGG8,Household Final Consumption Expenditure: Housing: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGG9,Household Final Consumption Expenditure: Housing: Four quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGH2,Household Final Consumption Expenditure: Housing: Annual growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGH3,Household Final Consumption Expenditure: Housing: One quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGH4,Household Final Consumption Expenditure: Housing: Four quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGH5,Household Final Consumption Expenditure: Household goods & services: Annual growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGH6,Household Final Consumption Expenditure: Household goods & services: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGH7,Household Final Consumption Expenditure: Household goods & services: Four quarter growth rate %: Current Price: Seasonally Adjuste,%,NA
+KGH8,Household Final Consumption Expenditure: Household goods & services: Annual growth rate %: Chained Volume Measures: Seasonally Adj,%,NA
+KGH9,Household Final Consumption Expenditure: Household goods & services: One quarter growth rate %: Chained Volume Measures: Seasonall,%,NA
+KGI2,Household Final Consumption Expenditure: Household goods & services: Four qrtr growth rate %: Chained Volume Measures: Seasonally,%,NA
+KGI3,Compensation of employees D.1 annual growth rate YoY CP SA %,%,NA
+KGI4,Compensation of employees one quarter growth rate %,%,NA
+KGI5,Compensation of employees four quarter growth rate %,%,NA
+KGI6,Household Final Consumption Expenditure: Health: Annual growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGI7,Household Final Consumption Expenditure: Health: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGI8,Household Final Consumption Expenditure: Health: Four quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGI9,Household Final Consumption Expenditure: Health: Annual growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGJ2,Household Final Consumption Expenditure: Health: One quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGJ3,Household Final Consumption Expenditure: Health: Four quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGJ4,Household Final Consumption Expenditure: Transport: Annual growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGJ5,Household Final Consumption Expenditure: Transport: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGJ6,Household Final Consumption Expenditure: Transport: Four quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGJ7,Household Final Consumption Expenditure: Transport: Annual growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGJ8,Household Final Consumption Expenditure: Transport: One quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGJ9,Household Final Consumption Expenditure: Transport: Four quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGK2,Household Final Consumption Expenditure: Communication: Annual growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGK3,Household Final Consumption Expenditure: Communication: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGK4,Household Final Consumption Expenditure: Communication: Four quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGK5,Household Final Consumption Expenditure: Communication: Annual growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGK6,Household Final Consumption Expenditure: Communication: One quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGK7,Household Final Consumption Expenditure: Communication: Four quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGK8,Household Final Consumption Expenditure: Recreation & culture: Annual growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGK9,Household Final Consumption Expenditure: Recreation & culture: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGL2,Household Final Consumption Expenditure: Recreation & culture: Four quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KGL3,Household Final Consumption Expenditure: Recreation & culture: Annual growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KGL4,Household Final Consumption Expenditure: Recreation & culture: One quarter growth rate %: Chained Volume Measures: Seasonally Adju,%,NA
+KGL5,Household Final Consumption Expenditure: Recreation & culture: Four quarter growth rate %: Chained Volume Measures: Seasonally Adj,%,NA
+KGL6,Gross value added at basic prices annual growth rate CP SA %,%,NA
+KGL8,Gross value added at basic prices one quarter growth rate CP SA %,%,NA
+KGM2,Gross value added at basic prices four quarter growth rate CP SA %,%,NA
+KGM4,Gross value added at basic prices annual deflator growth rate SA %,%,NA
+KGM5,Gross value added at basic prices one quarter deflator growth rate SA %,%,NA
+KGM6,Gross value added at basic prices four quarter deflator growth rate SA %,%,NA
+KGM7,Gross value added at basic prices annual growth CVM SA %,%,NA
+KGM9,Gross value added at basic prices one quarter growth CVM SA %,%,NA
+KGN3,Gross value added at basic prices four quarter growth CVM SA %,%,NA
+KGV7,Gross final expenditure annual growth rate YoY CP SA %,NA,NA
+KGV8,Gross final expenditure one quarter growth rate CP SA %,%,NA
+KGV9,Gross final expenditure four quarter growth rate CP SA %,%,NA
+KGW5,Gross final expenditure annual growth rate YoY CVM SA %,NA,NA
+KGW6,Gross final expenditure one quarter growth rate CVM SA %,%,NA
+KGW7,Gross final expenditure four quarter growth rate CVM SA %,%,NA
+KGX3,Total domestic expenditure annual growth rate YoY CP SA %,NA,NA
+KGX4,Total domestic expenditure one quarter growth rate CP SA %,%,NA
+KGX5,Total domestic expenditure four quarter growth rate CP SA %,%,NA
+KGX9,Total domestic expenditure annual growth rate YoY CVM SA %,NA,NA
+KGY2,Total domestic expenditure one quarter growth rate CVM SA %,%,NA
+KGY3,Total domestic expenditure four quarter growth rate CVM SA %,%,NA
+KGY7,Total national household final consumption annual growth rate %,%,NA
+KGY8,Households one quarter growth rate CP SA %,%,NA
+KGY9,Households four quarter growth rate CP SA %,%,NA
+KGZ5,Total national household final consumption annual growth rate YoY CVM SA %,%,NA
+KGZ6,Households one quarter growth rate CVM SA %,%,NA
+KGZ7,Households four quarter growth rate CVM SA %,%,NA
+KGZ8,Non-profits institutions annual growth rate YoY CP SA %,NA,NA
+KGZ9,Non-profits institutions one quarter growth rate CP SA %,%,NA
+KH22,Non-profits institutions four quarter growth rate CP SA %,%,NA
+KH26,Non-profits institutions annual growth rate YoY CVM SA %,NA,NA
+KH27,Non-profits institutions one quarter growth rate CVM SA %,%,NA
+KH28,Non-profits institutions four quarter growth rate CVM SA %,%,NA
+KH2C,General government annual growth rate YoY CP SA %,NA,NA
+KH2D,General government one quarter growth rate CP SA %,%,NA
+KH2E,General government four quarter growth rate CP SA %,%,NA
+KH2I,General government annual growth rate YoY CVM SA %,NA,NA
+KH2J,General government one quarter growth rate CVM SA %,%,NA
+KH2K,General government four quarter growth rate CVM SA %,%,NA
+KH2O,Total exports annual growth rate YoY CP SA %,NA,NA
+KH2P,Total exports one quarter growth rate CP SA %,%,NA
+KH2Q,Total exports four quarter growth rate CP SA %,%,NA
+KH2U,Total exports annual growth rate YoY CVM SA %,NA,NA
+KH2V,Total exports one quarter growth rate CVM SA %,%,NA
+KH2W,Total exports four quarter growth rate CVM SA %,%,NA
+KH35,Exports services annual growth rate CP SA %,%,NA
+KH36,Exports services one quarter growth rate CP SA %,%,NA
+KH37,Exports services four quarter growth rate CP SA %,%,NA
+KH3B,Exports services annual growth rate CVM SA %,%,NA
+KH3C,Exports services one quarter growth rate CVM SA %,%,NA
+KH3D,Exports services four quarter growth rate CVM SA %,%,NA
+KH3H,Total imports annual growth rate YoY CP SA %,NA,NA
+KH3I,Total imports one quarter growth rate CP SA %,%,NA
+KH3J,Total imports four quarter growth rate CP SA %,%,NA
+KH3N,Total imports annual growth rate YoY CVM SA %,NA,NA
+KH3O,Total imports one quarter growth rate CVM SA %,%,NA
+KH3P,Total imports four quarter growth rate CVM SA %,%,NA
+KH3W,Imports services annual growth rate CP SA %,%,NA
+KH3X,Imports services one quarter growth rate CP SA %,%,NA
+KH3Y,Imports services four quarter growth rate CP SA %,%,NA
+KH44,Imports services annual growth rate CVM SA %,%,NA
+KH45,Imports services one quarter growth rate CVM SA %,%,NA
+KH46,Imports services four quarter growth rate CVM SA %,%,NA
+KH47,Expenditure based estimate annual growth rate CP SA %,%,NA
+KH49,Expenditure based estimate one quarter growth rate CP SA %,%,NA
+KH4B,Expenditure based estimate four quarter growth rate CP SA %,%,NA
+KH4D,Expenditure based estimate annual growth rate CVM SA %,%,NA
+KH4F,Expenditure based estimate one quarter growth rate CVM SA %,%,NA
+KH4H,Expenditure based estimate four quarter growth rate CVM SA %,%,NA
+KH4V,GOS of corporations annual growth YoY CP SA %,NA,NA
+KH4W,Total corporations one quarter growth rate,NA,NA
+KH4X,Total corporations four quarter growth rate,NA,NA
+KH53,GOS Public corporations annual growth rate YoY CP SA %,NA,NA
+KH54,Public corporations one quarter growth rate,NA,NA
+KH55,Public corporations four quarter growth rate,NA,NA
+KH59,Private non-financial corporations (S.11002+S.11003): Gross Operating Surplus: Resource: Y on Y-1 growth %: CP £m: SA,%,NA
+KH5A,Private non-financial corporations (S.11002+S.11003): Gross Operating Surplus: Resource: Q on Q-1 growth %: CP £m: SA,%,NA
+KH5B,Private non-financial corporations (S.11002+S.11003): Gross Operating Surplus: Resource: Q on Q-4 growth %: CP £m: SA,%,NA
+KH5L,GOS Financial corporations annual growth rate YoY CP SA %,NA,NA
+KH5M,Private financial corporations one quarter growth rate,NA,NA
+KH5N,Private financial corporations four quarter growth rate,NA,NA
+KH65,Taxes on products & production less subsidies annual growth rate YoY CP SA %,NA,NA
+KH66,Taxes on products & production less subsidies one quarter growth rate %,%,NA
+KH67,Taxes on products & production less subsidies four quarter growth rate %,%,NA
+KH68,Income based estimate annual growth rate CP SA %,%,NA
+KH6A,Income based estimate one quarter growth rate CP SA %,%,NA
+KH6C,Income based estimate four quarter growth rate CP SA %,%,NA
+KH6E,Income based estimate annual growth rate CVM SA %,%,NA
+KH6G,Income based estimate one quarter growth rate CVM SA %,%,NA
+KH6I,Income based estimate four quarter growth rate CVM SA %,%,NA
+KH6N,Gross added value at factor cost annual growth rate YoY CP SA %,NA,NA
+KH6O,Gross added value at factor cost one quarter growth rate %,%,NA
+KH6P,Gross added value at factor cost four quarter growth rate %,%,NA
+KH6T,Other income annual growth rate YoY CP SA %,NA,NA
+KH6U,Other income one quarter growth rate %,%,NA
+KH6V,Other income four quarter growth rate %,%,NA
+KH6X,GNDI: chained volume measures: SA. % change compared with previous year,%,NA
+KH6Z,GNDI: chained volume measures: SA. % change compared with previous quarter,%,NA
+KH73,GNDI: chained volume measures: SA.% change compared with same quarter a year ago,%,NA
+KH74,Gross national income at market prices annual growth rate CP SA %,%,NA
+KH75,Gross national income at market prices one quarter growth rate CP SA %,%,NA
+KH76,Gross national income at market prices four quarter growth rate CP SA %,%,NA
+KH7D,Gross domestic expenditure annual deflator growth rate SA %,%,NA
+KH7E,Gross domestic expenditure one quarter deflator growth rate SA %,%,NA
+KH7F,Gross domestic expenditure four quarter deflator growth rate SA %,%,NA
+KH7N,GFCF general government annual growth CP SA %,NA,NA
+KH7P,GFCF general government one quarter growth CP SA %,%,NA
+KH7R,GFCF general government four quarter growth CP SA %,%,NA
+KH7W,"Gross Fixed Capital Formation: Whole economy: Other buildings and structures and transfer costs: CVM SA, % chan",NA,NA
+KH7X,"Gross Fixed Capital Formation: Whole economy: Dwellings: CVM SA, % chan",NA,NA
+KH82,"Gross Fixed Capital Formation: Whole economy: Other buildings and structures and transfer costs: CP SA, % chan",NA,NA
+KH83,"Gross Fixed Capital Formation: Whole economy: Dwellings: CP SA, % chan",NA,NA
+KH86,"Gross Fixed Capital Formation: Whole economy: Other buildings and structures and transfer costs: CP SA, % QonQ4 chan",NA,NA
+KH87,"Gross Fixed Capital Formation: Whole economy: Dwellings: CP SA, % QonQ4 chan",NA,NA
+KH8Y,Dwellings - annual growth rate %,%,NA
+KH92,GFCF: General government - annual growth rate: CVM: SA %,%,NA
+KH95,Transport equipment - annual growth rate %,%,NA
+KH96,Other machinery and equipment - annual growth rate %,%,NA
+KH97,Other buildings and structures - annual growth rate %,%,NA
+KH98,Intangible fixed assets - annual growth rate %,%,NA
+KH9A,Dwellings - q-on-q1 growth rate %,%,NA
+KH9C,GFCF: General government - q-on-q1 growth rate CVM SA %,%,NA
+KH9F,Transport equipment - q-on-q1 growth rate %,%,NA
+KH9G,Other machinery and equipment - q-on-q1 growth rate %,%,NA
+KH9H,Other buildings and structures -q-on-q1 growth rate %,%,NA
+KH9I,Intangible fixed assets -q-on-q1 growth rate %,%,NA
+KH9K,Dwellings - q-on-q4 growth rate %,%,NA
+KH9M,GFCF: General government - q-on-q4 growth rate: CVM: SA %,%,NA
+KH9P,Transport equipment - q-on-q4 growth rate %,%,NA
+KH9Q,Other machinery and equipment - q-on-q4 growth rate %,%,NA
+KH9R,Other buildings and structures- q-on-q4 quarter growth rate %,%,NA
+KH9S,Intangible fixed assets - q-on-q4 growth rate %,%,NA
+KHB5,Household Final Consumption Expenditure: Durable goods: Annual growth rate %: Current Price: Seasonally Adjusted,%,NA
+KHB6,Household Final Consumption Expenditure: Durable goods: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KHB7,Household Final Consumption Expenditure: Durable goods: Four quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KHC3,Household Final Consumption Expenditure: Durable goods: Annual growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KHC4,Household Final Consumption Expenditure: Durable goods: One quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KHC5,Household Final Consumption Expenditure: Durable goods: Four quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KHC9,Household Final Consumption Expenditure: Total goods: Annual growth rate %: Current Price: Seasonally Adjusted,%,NA
+KHD2,Household Final Consumption Expenditure: Total goods: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KHD3,Household Final Consumption Expenditure: Total goods: Four quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KHD7,Household Final Consumption Expenditure: Total goods: Annual growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KHD8,Household Final Consumption Expenditure: Total goods: One quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KHD9,Household Final Consumption Expenditure: Total goods: Four quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KHE5,Non-durable goods annual growth rate YoY CP SA %,NA,NA
+KHE6,Non-durable goods one quarter growth rate % CP SA,%,NA
+KHE7,Non-durable goods four quarter growth rate % CP SA,%,NA
+KHF3,Non-durable goods annual growth rate %,%,NA
+KHF4,Non-durable goods one quarter growth rate % CVM SA,%,NA
+KHF5,Non-durable goods four quarter growth rate % CVM SA,%,NA
+KHF9,Services annual growth rate % CP SA,%,NA
+KHG2,Household Final Consumption Expenditure: Services: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KHG3,Household Final Consumption Expenditure: Services: Four quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KHG7,Services annual growth rate % CVM SA,%,NA
+KHG8,Household Final Consumption Expenditure: Services: One quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KHG9,Household Final Consumption Expenditure: Services: Four quarter growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KHH5,Household Final Consumption Expenditure: Semi-durable goods: Annual growth rate %: Current Price: Seasonally Adjusted,%,NA
+KHH6,Household Final Consumption Expenditure: Semi-durable goods: One quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KHH7,Household Final Consumption Expenditure: Semi-durable goods: Four quarter growth rate %: Current Price: Seasonally Adjusted,%,NA
+KHI3,Household Final Consumption Expenditure: Semi-durable goods: Annual growth rate %: Chained Volume Measures: Seasonally Adjusted,%,NA
+KHI4,Household Final Consumption Expenditure: Semi-durable goods One quarter growth rate %: Chained Volume Measures: Seasonally Adjuste,%,NA
+KHI5,Household Final Consumption Expenditure: Semi-durable goods: Four quarter growth rate %: Chained Volume Measures: Seasonally Adjus,%,NA
+KI8L,H+J : Transp. and Storage and Communication (period on period growth):CVM,%,NA
+KI8M,"H and J : Transport, Storage and Communication (Index):CVM","Index, base year = 100",NA
+KI8N,K-N: Business services and Finance (period on period growth):CVM,%,NA
+KI8O,K to N : Business services and Finance (Index):CVM,"Index, base year = 100",NA
+KI8P,O-T: Government and other services (period on period growth):CVM,%,NA
+KI8Q,O to T : Government and Other Services (Index):CVM,"Index, base year = 100",NA
+KIH8,O-T: Government and other services (quarter on 4 quarter growth):CVM,%,NA
+KIH9,K-N: Business services and Finance (quarter on 4 quarter growth):CVM,%,NA
+KII2,H+J : Transp. and Storage and Communication (quarter on 4 quarter growth):CVM,%,NA
+KIY5,New PAYE System Recoveries : Accrual Adjustments (flow),NA,NA
+KLH7,GVA excluding oil and gas (06) (Index):CVM,"Index, base year = 100",NA
+KLH8,"GVA exc oil and gas growth rate, QonQ, AonA %:CVM",%,NA
+KLH9,"GVA exc oil and gas growth rate, Q on same Q 4 periods earlier % :CVM",%,NA
+KLS2,GVAx06 : GVA exc oil and gas £m:CVM,m,£
+KNT7,"Revisions to Water supply, sewerage £m",m,£
+KSP3,Education CP SA,NA,NA
+KSP4,Health CP SA,NA,NA
+KSP5,Military Defence CP SA,NA,NA
+KSP6,Justice & Fire CP SA,NA,NA
+KSP7,Social Protection CP SA,NA,NA
+KSQ2,CG Other CP SA,NA,NA
+KSQ3,LG Other CP SA,NA,NA
+KSR5,Education CVM SA,NA,NA
+KSR6,Health CVM SA,NA,NA
+KSR7,Military Defence CVM SA,NA,NA
+KSR8,Justice & Fire CVM SA,NA,NA
+KSR9,Social Protection CVM SA,NA,NA
+KSS4,CG Other CVM SA,NA,NA
+KSS5,LG Other CVM SA,NA,NA
+KX5Q,PS: exc PS Banks: Total managed expenditure: £m CPNSA,NA,NA
+L2KL,"A : Agriculture, Forestry and Fishing (Index):CVM","Index, base year = 100",NA
+L2KQ,"Total Production : Sections B, C, D and E (Index):CVM","Index, base year = 100",NA
+L2KR,B : Mining and Quarrying (Index):CVM,"Index, base year = 100",NA
+L2KX,C : Manufacturing (Index):CVM,"Index, base year = 100",NA
+L2MW,"D : Electricity, Gas, Steam and Air Conditioning Supply(Index):CVM","Index, base year = 100",NA
+L2N2,"E : Water Supply; Sewerage, Waste Management and Remediation Activities (Index)","Index, base year = 100",NA
+L2N8,F : Construction (Index):CVM,"Index, base year = 100",NA
+L2NC,Total Services : G to T (Index):CVM,"Index, base year = 100",NA
+L2NE,Wholesale & Retail Trade;Repair of Motor Vehicles and Motorcycles:CVM Index,"Index, base year = 100",NA
+L2NQ,Accommodation and Food Service Activities: CVM Index,"Index, base year = 100",NA
+L2O6,Financial and Insurance Activities: CVM Index,"Index, base year = 100",NA
+L2OC,Real Estate Activities: CVM Index,"Index, base year = 100",NA
+L2OH,Sections: M and N:CVM Index,"Index, base year = 100",NA
+L2P8,Public Administration and Defence; Compulsory Social Security:CVM Index,"Index, base year = 100",NA
+L2PA,Education:CVM Index,"Index, base year = 100",NA
+L2PC,Human Health and Social Work Activities:CVM Index,"Index, base year = 100",NA
+L2PZ,"G and I : Distribution, hotels and restaurants (Index):CVM","Index, base year = 100",NA
+L2Q5,Other Services:CVM Index,"Index, base year = 100",NA
+L3BB,"Agriculture, Forestry and Fishing (period on period growth) %:CVM",%,NA
+L3BG,"Sections: B, C, D and E (period on period growth) %:CVM",%,NA
+L3BH,Mining and Quarrying (period on period growth) %:CVM,%,NA
+L3BN,Manufacturing (period on period growth) %:CVM,%,NA
+L3DM,"Electricity, Gas, Steam and Air Conditioning Supply(period on period growth):CV",%,NA
+L3DQ,"Water Supply; Sewerage,Waste Management & Remediation Act (period-period growth",%,NA
+L3DW,Construction (period on period growth) %:CVM,%,NA
+L3E2,Total Services: Period on Period Growth %:CVM,%,NA
+L3E4,Wholesale & Retail Trade;Repair Of Motor Vehicles/cycles (period-period growth),%,NA
+L3EG,Accommodation and Food Service Activities (period on period growth):CVM,%,NA
+L3EU,Financial and Insurance Activities (period on period growth) %:CVM,%,NA
+L3F2,Real Estate Activities (period on period growth) %:CVM,%,NA
+L3F7,Sections: M and N (period on period growth) %:CVM,%,NA
+L3FW,Public Admin and Defence; Compulsory Social Security (period on period growth),%,NA
+L3FY,Education (period on period growth) %:CVM,%,NA
+L3G2,Human Health and Social Work Activities (period on period growth):CVM,%,NA
+L3GP,"Distribution, hotels and restaurants (period on period growth):CVM",%,NA
+L3GT,Other Services (period on period growth) %:CVM,%,NA
+L3ZZ,"Agriculture, Forestry and Fishing (quarter on 4 quarter growth):CVM",%,NA
+L426,"Sections: B, C, D and E (quarter on 4 quarter growth):CVM",%,NA
+L427,Mining and Quarrying (quarter on 4 quarter growth):CVM,%,NA
+L42D,Manufacturing (quarter on 4 quarter growth):CVM,%,NA
+L44C,"Electricity, Gas, Steam and Air Conditioning Supply(quarter on 4 quarter growth",%,NA
+L44G,"Water Supply;Sewerage,Waste Management and Remediation Act (four quarter growth",%,NA
+L44M,Construction (quarter on 4 quarter growth):CVM,%,NA
+L44Q,Total Services: Quarter on 4 Quarter Growth % (quarter on 4 quarter growth):CVM,%,NA
+L44S,Wholesale & Retail Trade;Repair Of Motor Vehicles/cycles (4 quarter growth):CVM,%,NA
+L456,Accommodation and Food Service Activities £m (quarter on 4 quarter growth):CVM,%,NA
+L45K,Financial and Insurance Activities (quarter on 4 quarter growth):CVM,%,NA
+L45Q,Real Estate Activities £m (quarter on 4 quarter growth):CVM,%,NA
+L45V,Sections: M and N £m (quarter on 4 quarter growth):CVM,%,NA
+L46M,Public Admin & Defence; Compulsory Social Security (quarter on 4 quarter growth),%,NA
+L46O,Education £m (quarter on 4 quarter growth):CVM,%,NA
+L46Q,Human Health and Social Work Activities £m (quarter on 4 quarter growth):CVM,%,NA
+L47F,"Distribution, hotels and restaurants (quarter on 4 quarter growth):CVM",%,NA
+L47J,Other Services £m (quarter on 4 quarter growth):CVM,%,NA
+L489,Total Market Sector GVA : Period on period growth %:CVM,%,NA
+L48D,Total Market Sector GVA : Quarter on 4 Quarter Growth %:CVM,%,NA
+L48H,Total Market Sector GVA : Index 1dp:CVM,NA,NA
+L62R,"GFCF:Public non-fin corps: TOTAL: Dwellings, excluding land: £m: CP: SA",NA,NA
+L62S,GFCF:Public non-fin corps: TOTAL: Transfer of ownership costs: £m: CP: SA,NA,NA
+L62T,"GFCF:Private sector: TOTAL: Dwellings, excluding land: £m: CP: SA",NA,NA
+L62U,GFCF:Private sector: TOTAL: Transfer of ownership costs: £m: CP: SA,NA,NA
+L634,"GFCF:Public non-fin corps: TOTAL: Dwellings, excluding land: £m: CVM: SA",m,£
+L635,GFCF:Public non-fin corps: TOTAL: Transfer of ownership costs: £m: CVM: SA,m,£
+L636,"GFCF:Private sector: TOTAL: Dwellings, excluding land: £m: CVM: SA",m,£
+L637,GFCF:Private sector: TOTAL: Transfer of ownership costs: £m: CVM: SA,m,£
+L64E,GFCF-1,NA,NA
+L64F,GFCF-1,NA,NA
+L64G,GFCF-1,NA,NA
+L64H,GFCF-2,NA,NA
+L64I,GFCF-2,NA,NA
+L64J,GFCF-2,NA,NA
+L64K,GFCF-3,NA,NA
+L64L,GFCF-3,NA,NA
+L64M,GFCF-3,NA,NA
+L64N,GFCF-4,NA,NA
+L64O,GFCF-4,NA,NA
+L64P,GFCF-4,NA,NA
+L64T,GFCF public corps dwellings annual growth rate CVM SA %,%,NA
+L64U,GFCF public corps dwellings one quarter growth rate CVM SA %,%,NA
+L64V,GFCF public corps dwellings four quarter growth rate CVM SA %,%,NA
+L64W,GFCF public corps transfer of ownership costs annual growth rate CVM SA %,%,NA
+L64X,GFCF public corps transfer of ownership costs one quarter growth rate CVM SA %,%,NA
+L64Y,GFCF public corps transfer of ownership costs four quarter growth rate CVM SA %,%,NA
+L64Z,GFCF private sector transfer of ownership costs annual growth rate CVM SA %,%,NA
+L652,GFCF private sector transfer of ownership costs one quarter growth rate CVM SA %,%,NA
+L653,GFCF private sector transfer of ownership costs four quarter growth rate CVM SA,%,NA
+L654,GFCF private sector dwellings annual growth rate CVM SA %,%,NA
+L655,GFCF private sector dwellings one quarter growth rate CVM SA %,%,NA
+L656,GFCF private sector dwellings four quarter growth rate CVM SA %,%,NA
+L87K,Trade in Goods (T): Non-EU: Balance: BOP: CP: SA,NA,NA
+L87M,Trade in Goods (T): Non-EU: Exports: BOP: CP: SA,NA,NA
+L87O,Trade in Goods (T): Non-EU: Imports: BOP: CP: SA,NA,NA
+L87Q,Trade in Goods (T): EU: Balance: BOP: CP: SA,NA,NA
+L87S,Trade in Goods (T): EU: Exports: BOP: CP: SA,NA,NA
+L87U,Trade in Goods (T): EU: Imports: BOP: CP: SA,NA,NA
+L8GG,Implied GDP deflator at market prices: SA Index,"Index, last full year = 100",NA
+L8GH,Implied GDP deflator: Quarter on quarter growth: SA %,%,NA
+L8GI,Implied GDP deflator: Quarter on quarter previous year: SA £m,m,£
+LGCN,Trade in Goods (T): EU: Exports: BOP: CVM: SA,NA,NA
+LGDF,Trade in Goods (T): EU: Imports: BOP: CVM: SA,NA,NA
+LGEB,Trade in Goods (T): Non-EU: Exports: BOP: CVM: SA,NA,NA
+LGEU,Trade in Goods (T): Non-EU: Imports: BOP: CVM: SA,NA,NA
+LIBJ,CG uses: D624: Working Families Tax Credit: NSA CP,NA,NA
+LIPG,GG tax receipts: Income tax (gross of tax credits): cash basis: NSA CP,NA,NA
+LITR,D.29: Office of the Rail Regulator:Running Costs (millions),NA,NA
+LSNS,CG receipt: CPNSA: Climate change levy: Cash receipts,NA,NA
+MDUP,CG receipt: CPNSA: Aggregates levy: Cash receipts,NA,NA
+MDYL,CG Inland Revenue tax: WTC/CTC: Income tax negative tax,NA,NA
+MDYN,CG Inland revenue tax: WTC/CTC Income tax expenditure,NA,NA
+MIYF,Betting and gaming duty - switch from D.214 to D51,NA,NA
+MNE2,Total national expenditure:Implied deflator:SA,NA,NA
+MNE3,Gross domestic expenditure annual deflator growth rate SA %,%,NA
+MNE4,Gross domestic expenditure one quarter deflator growth rate SA %,%,NA
+MNE5,Gross domestic expenditure four quarter deflator growth rate SA %,%,NA
+MNF2,Gross Domestic Product at market prices:Implied deflator:SA,NA,NA
+MNF3,GDP Deflator: Year on Year growth: SA %,%,NA
+MNF4,GDP Deflator: Quarter on quarter growth: SA %,%,NA
+MNF5,GDP Deflator: Quarter on quarter previous year growth: SA %,%,NA
+MNX5,Gross Value Added at basic prices: Implied deflator:SA,"Index, last full year = 100",NA
+MNX6,Gross value added at basic prices annual deflator growth rate SA %,%,NA
+MNX7,Gross value added at basic prices one quarter deflator growth rate SA %,%,NA
+MNX8,Gross value added at basic prices four quarter deflator growth rate SA %,%,NA
+N3Y3,"GDP (Average) per head at market prices, year on year growth rate CP SA %",NA,NA
+N3Y4,"GDP (Average) per head at market prices, q-on-q growth rate CP SA %",%,NA
+N3Y5,"GDP (Average) per head at market prices, q-on-q4 growth rate CP SA %",%,NA
+N3Y6,"GDP (Average) per head, year on year growth rate CVM SA %",%,NA
+N3Y7,"GDP (Average) per head, q-on-q growth rate CVM SA %",%,NA
+N3Y8,"GDP (Average) per head, q-on-q4 growth rate CVM SA %",%,NA
+NHCZ,Gross Operating Surplus: Financial Corporations: Total: CP SA £m,m,£
+NMAI,"CG: Wages and salaries, paid (D11)",NA,NA
+NMGR,ESA95: CG uses: D92: investment grants to LA: CP NSA,NA,NA
+NMGT,"ESA95: CG: D99 uses: Other capital transfers, paid to general government",NA,NA
+NMJE,LG: Current expenditure: Goods and services: Staff costs (D1): £m CPNSA,NA,NA
+NMJF,"Local Govt: Wages and salaries, paid (D11)",NA,NA
+NMQZ,Accrued interest on index-linked gilts (gross) net of redemptions,NA,NA
+NMRB,Accrued interest (gross) on index-linked gilts: uplift,NA,NA
+NMRP,General Government: Final consumption expenditure (P3): CPSA £m,m,£
+NMRY,General Government: Final consumption expenditure: P3: CVM SA £m,m,£
+NPEK,Gross Fixed Capital Formation: Business Investment: CP SA: £m,NA,NA
+NPEL,Gross Fixed Capital Formation: Business Investment: CVM SA: £m,m,£
+NPJQ,"Acquisitions less disposals of valuables: total economy CP SA, £m",m,£
+NPJR,"Acquisitions less disposals of valuables: total economy CVM SA, £m",m,£
+NPQS,Total Gross Fixed Capital Formation CP SA £m,m,£
+NPQT,Total Gross Fixed Capital Formation CVM SA £m,m,£
+NTAB,ESA10: total resources: D2: taxes on production & imports: SA,NA,NA
+NTAO,Tot adjustment to basic prices (General Government + Rest of the World) CVM SA £m,£m,NA
+NTAP,Total adjustment to basic prices (General Government + ROW) CP SA £m,m,£
+NZFS,ESA95: CG: OFTEL fees,NA,NA
+NZFV,ESA95: CG: OFWAT fees,NA,NA
+NZTP,Stocks: Manufacturing: VPI CP SA,NA,NA
+QWPS,ESA95:CG:COFOG:D1 total compensation of employees,NA,NA
+QWPT,ESA95:CG:COFOG:total net procurement: £m nsa,NA,NA
+QWRY,ESA95:LA: D1 Comp of employees:COFOG:Total NSA CP,NA,NA
+QWRZ,ESA95:LA:COFOG:total net procurement +VAT,NA,NA
+RPZG,GFCF : S.13 : TOTAL : TOTAL : CP : SA : VALUE : £m : P.51g,m,£
+RUDY,D1/D75/6: NHS inflationary increase payments: PC element: CP NSA,NA,NA
+RUSD,CG Receipts: Customs & Excise: Accruals adjustment,NA,NA
+RUTC,Tax deducted from savings interest (TDSI - TOBBI as was): Acca,NA,NA
+TLPK,Gross Fixed Capital Formation:Total Economy:Total Intangible Fixed Assets: CP SA,NA,NA
+TLPW,Gross Fixed Capital Formation: Whole economy: Plant and machinery: CP SA,NA,NA
+TLPX,Gross Fixed Capital Formation :Total Economy:Total Transport Equipment: CP SA,NA,NA
+UTIB,Durable goods: Total CP SA £m,m,£
+UTID,Durable goods :Total CVM NAYear SA £m,m,£
+UTIF,Total goods: Total CP SA £m,m,£
+UTIH,Total goods :Total CVM NAYear SA £m,m,£
+UTIJ,Non-durable goods: Total CP SA £m,m,£
+UTIL,Non-durable goods :Total CVM NAYear SA £m,m,£
+UTIN,Services: Total CP SA £m,m,£
+UTIP,Services :Total CVM NAYear SA £m,m,£
+UTIR,Semi-durable goods: Total CP SA £m,m,£
+UTIT,Semi-durable goods :Total CVM NAYear SA £m,m,£
+VQSH,M4 sectoral analysis: holdings of M4 by ICCs: levels £m sa,NA,NA
+VQSJ,M4 sectoral analysis: holdings of M4 by OFIs: levels £m sa,NA,NA
+YBEU,Gross Domestic Product index: Current price: Seasonally adjusted,NA,NA
+YBEX,Gross value added at basic price index: Current price: Seasonally adjusted,NA,NA
+YBEZ,Gross domestic product index: CVM: Seasonally adjusted,"Index, base year = 100",NA
+YBFP,Gross National Disposable Income index: CVM: Seasonally adjusted,"Index, base year = 100",NA
+YBFR,Gross value added at basic prices: Output Index: CVM SA,NA,NA
+YBFV,Total national expenditure:Implied deflator:SA,"Index, last full year = 100",NA
+YBGB,Gross domestic product at market prices:Implied deflator:SA,"Index, last full year = 100",NA
+YBHA,Gross Domestic Product at market prices: Current price: Seasonally adjusted £m,m,£
+YBIL,Total national expenditure (aligned) - P.3+P.5: CP SA £m,m,£
+YBIM,Total national expenditure (aligned) - P.3+P.5: CVM SA £m,m,£
+ZAKV,0 Household final consumption expenditure: Domestic concept CP SA £m,m,£
+ZAKW,0 Household final consumption expenditure :Domestic concept CVM NAYear SA £m,m,£
+ZAKX,"02 Alcoholic beverages, tobacco & narcotics CP SA £m",m,£
+ZAKY,"02 Alcoholic beverages, tobacco & narcotics CVM NAYear SA £m",m,£
+ZAKZ,03 Clothing and footwear CP SA £m,m,£
+ZALA,03 Clothing and footwear CVM NAYear SA £m,m,£
+ZAVN,04 Housing; water; electricity; gas and other fuels CP SA £m,m,£
+ZAVO,04 Housing; water; electricity; gas and other fuels CVM NAYear SA £m,m,£
+ZAVV,05 Furnishings; household equipment and routine maintenance of the house CP SA £m,£m,NA
+ZAVW,05 Furnishings; household equipment & routine maintenance of the house CVM £m,£m,NA
+ZAWB,06 Health CP SA £m,m,£
+ZAWC,06 Health CVM NAYear SA £m,m,£
+ZAWL,07 Transport CP SA £m,m,£
+ZAWM,07 Transport CVM NAYear SA £m,m,£
+ZAWV,08 Communication CP SA £m,m,£
+ZAWW,08 Communication CVM NAYear SA £m,m,£
+ZAWZ,09 Recreation and culture CP SA £m,m,£
+ZAXA,09 Recreation and culture CVM NAYear SA £m,m,£
+ZAXR,11 Restaurants and hotels CP SA £m,m,£
+ZAXS,11 Restaurants and hotels CVM NAYear SA £m,m,£
+ZAYF,12 Miscellaneous goods and services CP SA £m,m,£
+ZAYG,12 Miscellaneous goods and services CVM NAYear SA £m,m,£
+ZWUM,01 Food and non-alcoholic beverages CP SA £m,m,£
+ZWUN,01 Food and non-alcoholic beverages CVM NAYear SA £m,m,£
+ZWUS,10 Education CP SA £m,m,£
+ZWUT,10 Education CVM NAYear SA £m,m,£
+ZYBE,Inland Revenue: Company IT witheld Check Total,NA,NA
+ZZ2F,"Agriculture, cont Q on Q",NA,NA
+ZZ2G,"Total Production, cont Q on Q",NA,NA
+ZZ2H,"Manufacturing, cont Q on Q",NA,NA
+ZZ2I,"Extraction, cont Q on Q",NA,NA
+ZZ2J,"Electricity, gas and air, cont Q on Q",NA,NA
+ZZ2K,"Water and sewerage, cont Q on Q",NA,NA
+ZZ2L,"Construction, cont Q on Q",NA,NA
+ZZ2M,"Total Services, cont Q on Q",NA,NA
+ZZ2N,"Distn, hotels and catering, cont Q on Q",NA,NA
+ZZ2O,"Transport, storage and comms, cont Q on Q",NA,NA
+ZZ2P,"Business services and finance, cont Q on Q",NA,NA
+ZZ2Q,"Government and other, cont Q on Q",NA,NA
+ZZ36,"Agriculture, cont Q on Q yr ago",NA,NA
+ZZ37,"Total Production, cont Q on Q yr ago",NA,NA
+ZZ38,"Manufacturing, cont Q on Q yr ago",NA,NA
+ZZ39,"Extraction, cont Q on Q yr ago",NA,NA
+ZZ3A,"Electricity, gas and air, cont Q on Q yr ago",NA,NA
+ZZ3B,"Water and sewerage, cont Q on Q yr ago",NA,NA
+ZZ3C,"Construction, cont Q on Q yr ago",NA,NA
+ZZ3D,"Total Services, cont Q on Q yr ago",NA,NA
+ZZ3E,"Distn, hotels and catering, cont Q on Q yr ago",NA,NA
+ZZ3F,"Transport, storage and comms, cont Q on Q yr ago",NA,NA
+ZZ3G,"Business services and finance, cont Q on Q yr ago",NA,NA
+ZZ3H,"Government and other, cont Q on Q yr ago",NA,NA
+ZZ3V,"Agriculture, cont annual",NA,NA
+ZZ3W,"Total Production, cont annual",NA,NA
+ZZ3X,"Manufacturing, cont annual",NA,NA
+ZZ3Y,"Extraction, cont annual",NA,NA
+ZZ3Z,"Electricity, gas and air, cont annual",NA,NA
+ZZ42,"Water and sewerage, cont annual",NA,NA
+ZZ43,"Construction, cont annual",NA,NA
+ZZ44,"Total Services, cont annual",NA,NA
+ZZ45,"Distn, hotels and catering, cont annual",NA,NA
+ZZ46,"Transport, storage and comms, cont annual",NA,NA
+ZZ47,"Business services and finance, cont annual",NA,NA
+ZZ48,"Government and other, cont annual",NA,NA
+ZZ4A,"Revision: Agriculture, growth Q on Q",NA,NA
+ZZ4B,"Revision: Total Production, growth Q on Q",NA,NA
+ZZ4C,"Revision: Manufacturing, growth Q on Q",NA,NA
+ZZ4D,"Revision: Extraction, growth Q on Q",NA,NA
+ZZ4E,"Revision: Electricity, growth Q on Q",NA,NA
+ZZ4F,"Revision: Water and sewerage, growth Q on Q",NA,NA
+ZZ4G,"Revision: Construction, growth Q on Q",NA,NA
+ZZ4H,"Revision: Total Services, growth Q on Q",NA,NA
+ZZ4I,"Revision: Distn, hotels and catering, growth Q on Q",NA,NA
+ZZ4J,"Revision: Transport, storage and comms, growth Q on Q",NA,NA
+ZZ4K,"Revision: Business services and finance, growth Q on Q",NA,NA
+ZZ4L,"Revision: Government and other, growth Q on Q",NA,NA
+ZZ4N,"Revision: Agriculture, growth Q on Q yr ago",NA,NA
+ZZ4O,"Revision: Total Production, growth Q on Q yr ago",NA,NA
+ZZ4P,"Revision: Manufacturing, growth Q on Q yr ago",NA,NA
+ZZ4Q,"Revision: Extraction, growth Q on Q yr ago",NA,NA
+ZZ4R,"Revision: Electricity, gas and air, growth Q on Q yr ago",NA,NA
+ZZ4S,"Revision: Water and sewerage, growth Q on Q yr ago",NA,NA
+ZZ4T,"Revision: Construction, growth Q on Q yr ago",NA,NA
+ZZ4U,"Revision: Total Services, growth Q on Q yr ago",NA,NA
+ZZ4V,"Revision: Distn, hotels and catering, growth Q on Q yr ago",NA,NA
+ZZ4W,"Revision: Transport, storage and comms, growth Q on Q yr ago",NA,NA
+ZZ4X,"Revision: Business services and finance, growth Q on Q yr ago",NA,NA
+ZZ4Y,"Revision: Government and other, growth Q on Q yr ago",NA,NA
+ZZ52,"Revision: Agriculture, growth annual",NA,NA
+ZZ53,"Revision: Total Production, growth annual",NA,NA
+ZZ54,"Revision: Manufacturing, growth annual",NA,NA
+ZZ55,"Revision: Extraction, growth annual",NA,NA
+ZZ56,"Revision: Electricity, gas and air, growth annual",NA,NA
+ZZ57,"Revision: Water and sewerage, growth annual",NA,NA
+ZZ58,"Revision: Construction, growth annual",NA,NA
+ZZ59,"Revision: Total Services, growth annual",NA,NA
+ZZ5A,"Revision: Distn, hotels and catering, growth annual",NA,NA
+ZZ5B,"Revision: Transport, storage and comms, growth annual",NA,NA
+ZZ5C,"Revision: Business services and finance, growth annual",NA,NA
+ZZ5D,"Revision: Government and other, growth annual",NA,NA
+ZZ5H,"Gross Capital Formation, growth Q on Q",NA,NA
+ZZ5M,"Household final consumption expenditure, cont Q on Q",NA,NA
+ZZ5N,"NPISH final consumption expenditure, cont Q on Q",NA,NA
+ZZ5O,"General Government final consumption expenditure, cont Q on Q",NA,NA
+ZZ5P,"Gross Capital Formation, cont Q on Q",NA,NA
+ZZ5Q,"Gross fixed capital formation, cont Q on Q",NA,NA
+ZZ5R,"Business investment, cont Q on Q",NA,NA
+ZZ5S,"Exports, cont Q on Q",NA,NA
+ZZ5T,"Less imports, cont Q on Q",NA,NA
+ZZ5U,"Net trade, cont Q on Q",NA,NA
+ZZ5Y,"Gross Capital Formation, growth Q on Q yr ago",%,NA
+ZZ65,"Household final consumption expenditure, cont Q on Q yr ago",NA,NA
+ZZ66,"NPISH final consumption expenditure, cont Q on Q yr ago",NA,NA
+ZZ67,"General Government final consumption expenditure, cont Q on Q yr ago",NA,NA
+ZZ68,"Gross Capital Formation, cont Q on Q yr ago",NA,NA
+ZZ69,"Gross fixed capital formation, cont Q on Q yr ago",NA,NA
+ZZ6A,"Business investment, cont Q on Q yr ago",NA,NA
+ZZ6B,"Exports, cont Q on Q yr ago",NA,NA
+ZZ6C,"Less imports, cont Q on Q yr ago",NA,NA
+ZZ6D,"Net trade, cont Q on Q yr ago",NA,NA
+ZZ6H,"Gross Capital Formation, growth annual",NA,NA
+ZZ6M,"Household final consumption expenditure, cont annual",NA,NA
+ZZ6N,"NPISH final consumption expenditure, cont annual",NA,NA
+ZZ6O,"General Government final consumption expenditure, cont annual",NA,NA
+ZZ6P,"Gross Capital Formation, cont annual",NA,NA
+ZZ6Q,"Gross fixed capital formation, cont annual",NA,NA
+ZZ6R,"Business investment, cont annual",NA,NA
+ZZ6S,"Exports, cont annual",NA,NA
+ZZ6T,"Less imports, cont annual",NA,NA
+ZZ6U,"Net trade, cont annual",NA,NA
+ZZ6Z,"Compensation of employees, cont Q on Q",NA,NA
+ZZ72,"GOS of corporations, cont Q on Q",NA,NA
+ZZ73,"Other income, cont Q on Q",NA,NA
+ZZ74,"Taxes less subsidies on products and production, cont Q on Q",NA,NA
+ZZ79,"Compensation of employees, cont Q on Q yr ago",NA,NA
+ZZ7A,"GOS of corporations, cont Q on Q yr ago",NA,NA
+ZZ7B,"Other income, cont Q on Q yr ago",NA,NA
+ZZ7C,"Taxes less subsidies on products and production, cont Q on Q yr ago",NA,NA
+ZZ7H,"Compensation of employees, cont annual",NA,NA
+ZZ7I,"GOS of corporations, cont annual",NA,NA
+ZZ7J,"Other income, cont annual",NA,NA
+ZZ7K,"Taxes less subsidies on products and production, cont annual",NA,NA
+ZZ7L,"Revision: Household final consumption expenditure, growth Q on Q",NA,NA
+ZZ7M,"Revision: NPISH final consumption expenditure, growth Q on Q",NA,NA
+ZZ7N,"Revision: General Government final consumption expenditure, growth Q on Q",NA,NA
+ZZ7O,"Revision: Gross Capital Formation, growth Q on Q",NA,NA
+ZZ7P,"Revision: Gross fixed capital formation, growth Q on Q",NA,NA
+ZZ7Q,"Revision: Business investment, growth Q on Q",NA,NA
+ZZ7R,"Revision: Exports, growth Q on Q",NA,NA
+ZZ7S,"Revision: Less imports, growth Q on Q",NA,NA
+ZZ7T,"Revision: Household final consumption expenditure, growth Q on Q yr ago",NA,NA
+ZZ7U,"Revision: NPISH final consumption expenditure, growth Q on Q yr ago",NA,NA
+ZZ7V,"Revision: General Government final consumption expenditure, growth Q on Q yr ag",NA,NA
+ZZ7W,"Revision: Gross Capital Formation, growth Q on Q yr ago",NA,NA
+ZZ7X,"Revision: Gross fixed capital formation, growth Q on Q yr ago",NA,NA
+ZZ7Y,"Revision: Business investment, growth Q on Q yr ago",NA,NA
+ZZ7Z,"Revision: Exports, growth Q on Q yr ago",NA,NA
+ZZ82,"Revision: Less imports, growth Q on Q yr ago",NA,NA
+ZZ83,"Revision: Household final consumption expenditure, growth annual",NA,NA
+ZZ84,"Revision: NPISH final consumption expenditure, growth annual",NA,NA
+ZZ85,"Revision: General Government final consumption expenditure, growth annual",NA,NA
+ZZ86,"Revision: Gross Capital Formation, growth annual",NA,NA
+ZZ87,"Revision: Gross fixed capital formation, growth annual",NA,NA
+ZZ88,"Revision: Business investment, growth annual",NA,NA
+ZZ89,"Revision: Exports, growth annual",NA,NA
+ZZ8A,"Revision: Less imports, growth annual",NA,NA
+ZZ8B,"Revision: Compensation of employees, growth Q on Q",NA,NA
+ZZ8C,"Revision: GOS of corporations, growth Q on Q",%,NA
+ZZ8D,"Revision: Other income, growth Q on Q",NA,NA
+ZZ8E,"Revision: Taxes less subsidies on products and production, growth Q on Q",NA,NA
+ZZ8F,"Revision: Compensation of employees, growth Q on Q yr ago",NA,NA
+ZZ8G,"Revision: GOS of corporations, growth Q on Q yr ago",NA,NA
+ZZ8H,"Revision: Other income, growth Q on Q yr ago",NA,NA
+ZZ8I,"Revision: Taxes less subsidies on products and production, growth Q on Q yr ago",NA,NA
+ZZ8J,"Revision: Compensation of employees, growth annual",NA,NA
+ZZ8K,"Revision: GOS of corporations, growth annual",NA,NA
+ZZ8L,"Revision: Other income, growth annual",NA,NA
+ZZ8M,"Revision: Taxes less subsidies on products and production, growth annual",NA,NA
+ZZ8N,"Deflator: Household final consumption expenditure, growth Q on Q",NA,NA
+ZZ8O,"Deflator: NPISH final consumption expenditure, growth Q on Q",NA,NA
+ZZ8P,"Deflator: General Government final consumption expenditure, growth Q on Q",NA,NA
+ZZ8Q,"Deflator: Gross Capital Formation, growth Q on Q",NA,NA
+ZZ8R,"Deflator: Gross fixed capital formation, growth Q on Q",NA,NA
+ZZ8S,"Deflator: Exports, growth Q on Q",NA,NA
+ZZ8T,"Deflator: Less imports, growth Q on Q",NA,NA
+ZZ8U,"Deflator: Household final consumption expenditure, growth Q on Q yr ago",NA,NA
+ZZ8V,"Deflator: NPISH final consumption expenditure, growth Q on Q yr ago",NA,NA
+ZZ8W,"Deflator: General Government final consumption expenditure, growth Q on Q yr ag",NA,NA
+ZZ8X,"Deflator: Gross Capital Formation, growth Q on Q yr ago",NA,NA
+ZZ8Y,"Deflator: Gross fixed capital formation, growth Q on Q yr ago",NA,NA
+ZZ8Z,"Deflator: Exports, growth Q on Q yr ago",NA,NA
+ZZ92,"Deflator: Less imports, growth Q on Q yr ago",NA,NA
+ZZ93,"Deflator: Household final consumption expenditure, growth annual",NA,NA
+ZZ94,"Deflator: NPISH final consumption expenditure, growth annual",NA,NA
+ZZ95,"Deflator: General Government final consumption expenditure, growth annual",NA,NA
+ZZ96,"Deflator: Gross Capital Formation, growth annual",NA,NA
+ZZ97,"Deflator: Gross fixed capital formation, growth annual",NA,NA
+ZZ98,"Deflator: Exports, growth annual",NA,NA
+ZZ99,"Deflator: Less imports, growth annual",NA,NA

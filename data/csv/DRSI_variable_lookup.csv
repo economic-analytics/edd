@@ -1,0 +1,622 @@
+code,name,unit,preunit
+A4RT,Implied deflator:AGG 1:Pred food stores - month on previous month%,%,NA
+A4RU,Implied deflator:AGG 12:Pred non-food stores - month on previous month%,%,NA
+A4RV,Implied deflator:47.19:Non-specialised stores - month on previous month%,%,NA
+A4RW,"Implied deflator:AGG 5:Textile, clothing & footwear - month on previous month%",%,NA
+A4RX,Implied deflator:AGG 7:Household goods stores - month on previous month%,%,NA
+A4RY,Implied deflator:AGG 13:Other stores - month on previous month%,%,NA
+A4VJ,Implied deflator:AGG 1:Predominantly food stores - year on year%,%,NA
+A4VK,Implied deflator:AGG 12:Predominantly non-food stores total - year on year%,%,NA
+A4VL,Implied deflator:47.19:Non-specialised stores - year on year%,%,NA
+A4VM,"Implied deflator:AGG 5:Textile, clothing & footwearstores - year on year%",%,NA
+A4VN,Implied deflator:AGG 7:Household goods stores - year on year%,%,NA
+A4VO,Implied deflator:AGG 13:Other stores - year on year%,%,NA
+CWY9,RSI: Specialist Food Stores (val nsa) All Business %,%,NA
+CWZ4,"RSI: Alcoholic Drinks, Beverages & Tobacco (val nsa) All Business %",%,NA
+CWZ7,RSI: Other Specialised Stoes NEC (val nsa) All Business %,%,NA
+CX25,RSI: Specialist Food Stores (vol nsa) All Business %,%,NA
+CX28,"RSI: Alcoholic Drinks, Beverages & Tobacco (vol nsa) All Business %",%,NA
+CX2B,RSI: Other Specialised Stoes NES (vol nsa) All Business %,%,NA
+CX2H,RSI:Year to date : Index : Specialist Food Stores : All Business,NA,NA
+CX2K,"RSI:Year to date : Index : Alcoholic Drinks, Beverages & Tobacco : All Business",NA,NA
+CX2N,RSI:Year to date : Index : Other Specialised Stores NES : All Business,NA,NA
+CX2T,RSI: Year to date % change Specialist Food Stores : All Business,%,NA
+CX2W,"RSI: Year to date % change Alcoholic Drinks, Beverages & Tobacco : All Business",%,NA
+CX2Z,RSI: Year to date % change Other Specialised Stores NES : All Business,%,NA
+CY3X,RSI: Specialist Food Stores (val nsa) All Business Index,NA,NA
+CY3Y,RSI: Specialist Food Stores (vol nsa) All Business Index,NA,NA
+CY45,"RSI: Alcoholic Drinks, Beverages & Tobacco (val nsa) All Business Index",NA,NA
+CY46,"RSI: Alcoholic Drinks, Beverages & Tobacco (vol nsa) All Business Index",NA,NA
+CY4B,RSI: Other Specialised Stores NES (val nsa) All Business Index,NA,NA
+CY4C,RSI: Other Specialised Stores NES (vol nsa) All Business Index,NA,NA
+EAFS,RSI:Predominantly food stores (val nsa):All Business Index,NA,NA
+EAFT,RSI:Predominantly non-food stores (val nsa):All Business Index,NA,NA
+EAFU,"RSI:textiles, clothing & footwear (val nsa):All Business Index",NA,NA
+EAFV,RSI:Household goods stores (val nsa):All Business Index,NA,NA
+EAFW,RSI:Other non-food stores (val nsa):All Business Index,NA,NA
+EAGB,RSI:Non-Special Food stores (val nsa):All Business Index,NA,NA
+EAGC,RSI:Non-Special Food stores (val nsa) Large Business Index,NA,NA
+EAGD,RSI:Non-Special Food stores (val nsa) Small Business Index,NA,NA
+EAGE,RSI:Non-Specialised Non Food stores (val nsa):All Business Index,NA,NA
+EAGF,RSI:Non-Specialised Non Food stores (val nsa) Large Business Index,NA,NA
+EAGG,RSI:Non-Specialised Non Food stores (val nsa) Small Business Index,NA,NA
+EAGH,RSI:Retail sale of clothing (val nsa):All Business Index,NA,NA
+EAGI,RSI:Retail sale of clothing (val nsa) Large Business) Index,NA,NA
+EAGJ,RSI:Retail sale of clothing (val nsa) Small Business Index,NA,NA
+EAGK,RSI:Predominantly food stores (val nsa) Large Business Index,NA,NA
+EAGL,RSI:Predominantly food stores (val nsa) Small Business Index,NA,NA
+EAGM,RSI:Predominantly non-food stores (val nsa) Large Business Index,NA,NA
+EAGN,RSI:Predominantly non-food stores (val nsa) Small Business Index,NA,NA
+EAGO,RSI:Textiles:Cloth:Foot & Leather (val nsa) Large Business Index,NA,NA
+EAGP,RSI:Textiles:Cloth:Foot & Leather (val nsa) Small Business Index,NA,NA
+EAGQ,RSI:Household goods stores (val nsa) Large Business Index,NA,NA
+EAGR,RSI:Household goods stores (val nsa) Small Business Index,NA,NA
+EAGS,RSI:other Specialised non-food stores (val nsa) Large Business Index,NA,NA
+EAGT,RSI:other Specialised non-food stores (val nsa) Small Business Index,NA,NA
+EAGW,RSI:Predominantly Food stores (vol nsa):All Business Index,NA,NA
+EAGX,RSI:Predominantly non-food stores (volnsa):All Business Index,NA,NA
+EAGY,"RSI:Textiles, clothing & footwear (vol nsa):All Business Index",NA,NA
+EAGZ,RSI:Household goods stores (vol nsa):All Business Index,NA,NA
+EAHA,RSI:Other non-food stores (vol nsa):All Business Index,NA,NA
+EAHF,RSI:Retail non-Specialised food stores (vol nsa):All Business Index,NA,NA
+EAHG,RSI:Retail Non-Specialised Food (vol nsa) Large Business Index,NA,NA
+EAHH,RSI:Retail Non-Specialised Food (vol nsa) Small Business) Index,NA,NA
+EAHI,RSI:Non-Specialised Non Food stores (vol nsa):All Business Index,NA,NA
+EAHJ,RSI:Non-Specialised Non Food stores (vol nsa) Large Business Index,NA,NA
+EAHK,RSI:Non-Specialised Non Food stores (vol nsa) Small Business Index,NA,NA
+EAHL,RSI:Retail sale of clothing (vol nsa):All Business Index,NA,NA
+EAHM,RSI:Retail sale of clothing (vol nsa) Large Business) Index,NA,NA
+EAHN,RSI:Retail sale of clothing (vol nsa) Small Business Index,NA,NA
+EAHO,RSI:Predominantly Food stores (vol nsa) Large Business Index,NA,NA
+EAHP,RSI:Predominantly Food stores (vol nsa) Small Business Index,NA,NA
+EAHQ,RSI:Predominantly non-food stores (vol nsa) Large Business Index,NA,NA
+EAHR,RSI:Predominantly non-food stores (vol nsa) Small Business Index,NA,NA
+EAHS,RSI:Textiles:Cloth:Foot & Leather (vol nsa) Large Business Index,NA,NA
+EAHT,RSI:Textiles:Cloth:Foot & Leather (vol nsa) Small Business Index,NA,NA
+EAHU,RSI:Household goods stores (vol nsa) Large Business Index,NA,NA
+EAHV,RSI:Household goods stores (vol nsa) Small Business Index,NA,NA
+EAHW,RSI:Other non-food stores (vol nsa) Large Business Index,NA,NA
+EAHX,RSI:Other non-food stores (vol nsa) Small Business Index,NA,NA
+EAIA,RSI:Pred Food stores:All Business:VAL NSA:%change on same month a year ago,%,NA
+EAIB,RSI:Pred non-food stores:All Business:VAL NSA:%change on same month a year ago,%,NA
+EAIC,"RSI:Textile,clothing&footwear:All Bus:VAL NSA:%change on same month a year ago",%,NA
+EAID,RSI:Household goods stores:All Business:VAL NSA:%change on same month a year ago,%,NA
+EAIF,RSI:Other non-food stores:All Business:VAL NSA:%change on same month a year ago,%,NA
+EAIK,RSI:Non-Special Food stores (val nsa):All Business %,%,NA
+EAIL,RSI:Non-Special Food stores (val nsa) Large Business %,%,NA
+EAIM,RSI:Non-Special Food stores (val nsa) Small Business %,%,NA
+EAIN,RSI:Non-Specialised stores:All Business:VAL NSA:%change on same month a year ago,%,NA
+EAIO,RSI:Non-Specialised Non Food stores (val nsa) Large Business %,%,NA
+EAIP,RSI:Non-Specialised Non Food stores (val nsa) Small Business %,%,NA
+EAIQ,RSI:Retail sale of clothing (val nsa):All Business %,%,NA
+EAIR,RSI:Retail sale of clothing (val nsa) Large Business %,%,NA
+EAIS,RSI:Retail sale of clothing (val nsa) Small Business %,%,NA
+EAIT,RSI:Predominantly food stores (val nsa) Large Business %,%,NA
+EAIU,RSI:Predominantly food stores (val nsa) Small Business %,%,NA
+EAIV,RSI:Predominantly non-food stores (val nsa) Large Business %,%,NA
+EAIW,RSI:Predominantly non-food stores (val nsa) Small Business %,%,NA
+EAIX,RSI:Textiles:Cloth:Foot & Leather (val nsa) Large Business %,%,NA
+EAIY,RSI:Textiles:clothing:footwear & leather goods(val nsa)Small Business%,%,NA
+EAIZ,RSI:Household goods stores (val nsa) Large Business %,%,NA
+EAJA,RSI:Household goods stores (val nsa) Small Business %,%,NA
+EAJB,RSI:other Specialised non-food stores (val nsa) Large Business %,%,NA
+EAJC,RSI:other Specialised non-food stores (val nsa) Small Business %,%,NA
+EAJF,RSI:Pred Food stores:All Business:VOL NSA:%change on same month a year ago,%,NA
+EAJG,RSI:Pred non-food stores:All Business:VOL NSA:%change on same month a year ago,%,NA
+EAJH,"RSI:Textile,clothing&footwearAll Bus:VOL NSA:%change on same month a year ago",%,NA
+EAJI,RSI:Household goods stores:All Business:VOL NSA:%change on same month a year ago,%,NA
+EAJJ,RSI:Other non-food stores:All Business:VOL NSA:%change on same month a year ago,%,NA
+EAJO,RSI:Retail non-Specialised food stores (vol nsa):All Business %,%,NA
+EAJP,RSI:Retail non-Specialised food stores (vol nsa) Large Business %,%,NA
+EAJQ,RSI:Retail non-Specialised food stores (vol nsa) Small Business %,%,NA
+EAJR,RSI:Non-Specialised stores:All Business:VOL NSA:%change on same month a year ago,%,NA
+EAJS,RSI:Non-Specialised Non Food stores (vol nsa) Large Business %,%,NA
+EAJT,RSI:Non-Specialised Non Food stores (vol nsa) Small Business %,%,NA
+EAJU,RSI:Retail sale of clothing (vol nsa):All Business %,%,NA
+EAJV,RSI:Retail sale of clothing (vol nsa) Large Business %,%,NA
+EAJW,RSI:Retail sale of clothing (vol nsa) Small Business %,%,NA
+EAJX,RSI:Predominantly Food stores (vol nsa) Large Business %,%,NA
+EAJY,RSI:Predominantly Food stores (vol nsa) Small Business %,%,NA
+EAJZ,RSI:Predominantly non-food stores (vol nsa) Large Business %,%,NA
+EAKA,RSI:Predominantly non-food stores (vol nsa) Small Business %,%,NA
+EAKB,RSI:textiles:clothing:footwear & leather goods(vol nsa)Large Business %,%,NA
+EAKC,RSI:textiles:clothing:footwear & leather goods(vol nsa)Small Business %,%,NA
+EAKD,RSI:Household goods stores (vol nsa) Large Business %,%,NA
+EAKE,RSI:Household goods stores (vol nsa) Small Business %,%,NA
+EAKF,RSI:Other non-food stores (vol nsa) Large Business %,%,NA
+EAKG,RSI:Other non-food stores (vol nsa) Small Business %,%,NA
+EAPG,RSI:Retail sale of textiles (val nsa):All Business Index,NA,NA
+EAPH,RSI:Retail of footwear & leather goods (val nsa):All Business Index,NA,NA
+EAPI,RSI:Retail Furniture & Lighting (val nsa):All Business Index,NA,NA
+EAPK,"RSI:Retail hardware, paints & glass (val nsa):All Business Index",NA,NA
+EAPM,RSI:Retail sale of Floorcoverings (val nsa):All Business Index,NA,NA
+EAPN,RSI:Retail sale via mail order houses (val nsa):All Business Index,NA,NA
+EAPO,RSI:Non-store retail exc mail order (val nsa):All Business Index,NA,NA
+EAPQ,RSI:Pharmaceutical:Medical & Toilet (val nsa):All Business Index,NA,NA
+EAPT,RSI:Predominantly food stores (vol sa):All Business Index,NA,NA
+EAPU,RSI:Non-specialised stores (vol sa):All Business Index,NA,NA
+EAPV,RSI:Predominantly non-food stores (vol sa):All Business Index,NA,NA
+EAPW,RSI:Other non-food stores (vol sa):All Business Index,NA,NA
+EAPX,RSI:textiles:clothing:footwear (vol sa):All Business Index,NA,NA
+EAPY,RSI:Household goods stores (vol sa):All Business Index,NA,NA
+EAQI,RSI:Retail sale of textiles (vol nsa):All Business Index,NA,NA
+EAQJ,RSI:Retail of footwear & leather goods (vol nsa):All Business Index,NA,NA
+EAQK,RSI:Retail Furniture & Lighting (vol nsa):All Business Index,NA,NA
+EAQM,"RSI:Retail hardware, paints & glass (vol nsa):All Business Index",NA,NA
+EAQO,RSI:Retail sale of Floorcoverings (vol nsa):All Business Index,NA,NA
+EAQP,RSI:Retail sale via mail order houses (vol nsa):All Business Index,NA,NA
+EAQQ,RSI:Non-store Retail exc mail order (vol nsa):All Business Index,NA,NA
+EAQS,RSI:Pharmaceutical:Medical & Toilet (vol nsa):All Business Index,NA,NA
+EAQW,RSI:Predominantly food stores (val sa):All Business Index,NA,NA
+EAQX,RSI:Non-specialised stores (val sa):All Business Index,NA,NA
+EAQY,RSI:Predominantly non-food stores (valsa):All Business Index,NA,NA
+EAQZ,RSI:Other non-food stores (val sa):All Business Index,NA,NA
+EARA,"RSI:Textiles, clothing & footwear (val sa):All Business Index",NA,NA
+EARB,RSI:Household goods stores (val sa):All Business Index,NA,NA
+EARK,RSI:Retail sale of textiles (val nsa):All Business %,%,NA
+EARL,RSI:Retail of footwear & leather goods (val nsa):All Business %,%,NA
+EARM,RSI:Retail Furniture & Lighting (val nsa):All Business %,%,NA
+EARO,"RSI:Retail hardware, paints & glass (val nsa):All Business %",%,NA
+EARQ,RSI:Retail sale via mail order houses (val nsa):All Business %,%,NA
+EARR,RSI:Non-store retail exc mail order (val nsa):All Business %,%,NA
+EART,RSI:Pharmaceutical:Medical & Toilet Goods (val nsa):All Business %,%,NA
+EASE,RSI:Retail sale of textiles (vol nsa):All Business %,%,NA
+EASF,RSI:Retail of footwear & leather goods (vol nsa):All Business %,%,NA
+EASG,RSI:Retail Furniture & Lighting (vol nsa):All Business %,%,NA
+EASI,"RSI:Retail hardware, paints & glass (vol nsa):All Business %",%,NA
+EASK,RSI:Retail sale via mail order houses (vol nsa):All Business %,%,NA
+EASL,RSI:Non-store Retail exc mail order (vol nsa):All Business %,%,NA
+EASN,RSI:Pharmaceutical:Medical & Toilet goods (vol nsa):All Business %,%,NA
+EAVP,RSI:Retail sale of Floorcoverings (vol nsa):All Business %,%,NA
+EAWF,RSI:Retail sale of floorcoverings (val nsa):All Business %,%,NA
+EAWN,Monthly commodity inquiry:value NSA:food drink & tobacco Index,NA,NA
+EAWO,Monthly commodity inquiry:value NSA clothing & footwear Index,NA,NA
+EAWP,Monthly commodity inquiry:value NSA household goods Index,NA,NA
+EAWQ,Monthly commodity inquiry:value NSA other non-food Index,NA,NA
+GDIU,RSI:Year to date index:Predominantly food stores:All Business,NA,NA
+GDIV,RSI:Year to date % change:Predominantly food stores:All Business,%,NA
+GDIW,RSI:Year to date index:Predominantly food stores:Small Business,NA,NA
+GDIX,RSI:Year to date % change:Predominantly food stores:Small Business,%,NA
+GDIY,RSI:Year to date index:Predominantly food stores:Large Business,NA,NA
+GDIZ,RSI:Year to date % change:Predominantly food stores:Large Business,%,NA
+GDJA,RSI:Year to date index:non-Specialised food stores:All Business,NA,NA
+GDJB,RSI:Year to date % change:non-Specialised food stores:All Business,%,NA
+GDJC,RSI:Year to date index:non-Specialised food stores:Small Business,NA,NA
+GDJD,RSI:Year to date % change:non-Specialised food stores:Small Business,%,NA
+GDJE,RSI:Year to date index:non-specialised food stores:Large Business,NA,NA
+GDJF,"RSI:Year to date %change:Non-spec stores (food,beverages,tobacco):Large Business",%,NA
+GDLC,RSI:Year to date index:Predominantly non-food stores:All Business,NA,NA
+GDLD,RSI:Year to date % change:Predominantly non-food stores:All Business,%,NA
+GDLE,RSI:Year to date index:Predominantly non-food stores:Small Business,NA,NA
+GDLF,RSI:Year to date % change:Predominantly non-food stores:Small Business,%,NA
+GDLG,RSI:Year to date index:Predominantly non-food stores:Large Business,NA,NA
+GDLH,RSI:Year to date % change:Predominantly non-food stores:Large Business,%,NA
+GDLI,RSI:Year to date index:non specialised stores:All Business,NA,NA
+GDLJ,RSI:Year to date % change:non specialised stores:All Business,%,NA
+GDLK,RSI:Year to date index:non specialised stores:Small Business,NA,NA
+GDLL,RSI:Year to date % change:non specialised stores:Small Business,%,NA
+GDLM,RSI:Year to date index:non specialised stores:Large Business,NA,NA
+GDLN,RSI:Year to date % change:Non-specialised stores:Large Business,%,NA
+GDLO,"RSI:Year to date index:textiles, clothing & footwear:All Business",NA,NA
+GDLP,"RSI:Year to date % change:textiles, clothing & footwear:All Business",%,NA
+GDLQ,"RSI:Year to date index:textiles, clothing & footwear:Small Business",NA,NA
+GDLR,"RSI:Year to date % change:textiles, clothing & footwear:Small Business",%,NA
+GDLS,"RSI:Year to date index:textiles, clothing & footwear:Large Business",NA,NA
+GDLT,"RSI:Year to date % change:textiles, clothing & footwear:Large Business",%,NA
+GDLU,RSI:Year to date index:textiles:All Business,NA,NA
+GDLV,RSI:Year to date % change:textiles:All Business,%,NA
+GDMA,RSI:Year to date index:clothing:All Business,NA,NA
+GDMB,RSI:Year to date % change:clothing:All Business,%,NA
+GDMC,RSI:Year to date index:clothing:Small Business,NA,NA
+GDMD,RSI:Year to date % change:clothing:Small Business,%,NA
+GDME,RSI:Year to date index:clothing:Large Business,NA,NA
+GDMF,RSI:Year to date % change:clothing:Large Business,%,NA
+GDMG,RSI:Year to date index:footwear & leather goods:All Business,NA,NA
+GDMH,RSI:Year to date % change:footwear & leather goods:All Business,%,NA
+GDMM,RSI:Year to date index:household goods:All Business,NA,NA
+GDMN,RSI:Year to date % change:household goods:All Business,%,NA
+GDMO,RSI:Year to date index:household goods:Small Business,NA,NA
+GDMP,RSI:Year to date % change:household goods:Small Business,%,NA
+GDMQ,RSI:Year to date index:household goods:Large Business,NA,NA
+GDMR,RSI:Year to date % change:household goods:Large Business,%,NA
+GDMS,"RSI:Year to date index:furniture, lighting etc:All Business",NA,NA
+GDMT,"RSI:Year to date % change:furniture, lighting etc:All Business",%,NA
+GDNE,"RSI:Year to date index:hardware, paints & glass:All Business",NA,NA
+GDNF,"RSI:Year to date % change:hardware, paints & glass:All Business",%,NA
+GDNK,RSI:Year to date index:Other non-food stores:All Business,NA,NA
+GDNL,RSI:Year to date % change:Other non-food stores:All Business,%,NA
+GDNM,RSI:Year to date index:Other non-food stores:Small Business,NA,NA
+GDNN,RSI:Year to date % change:Other non-food stores:Small Business,%,NA
+GDNO,RSI:Year to date index:Other non-food stores:Large Business,NA,NA
+GDNP,RSI:Year to date % change:Other non-food stores:Large Business,%,NA
+GDNQ,"RSI:Year to date index:pharm, medical & cosmetics:All Business",NA,NA
+GDNR,"RSI:Year to date % change:pharm, medical & cosmetics:All Business",%,NA
+GDOC,RSI:Year to date index:floor coverings:All Business,NA,NA
+GDOD,RSI:Year to date % change:floor coverings:All Business,%,NA
+GFXI,RSI:Year to date index:mail order:All Business,NA,NA
+GFXJ,RSI:Year to date % change:mail order:All Business,%,NA
+GFXO,RSI:Year to date index:non-store excl mail order:All Business,NA,NA
+GFXP,RSI:Year to date % change:non-store excl mail order:All Business,%,NA
+HN5T,"MCI:value NSA:food, drink & tobacco:rolling 3month on same year ago % change",%,NA
+HN5U,MCI:value NSA:clothing & footwear:rolling 3month on same year ago % change,%,NA
+HN5V,MCI:value NSA:household goods:rolling 3month on same year ago % change,%,NA
+HN5W,MCI:value NSA:other non-food:rolling 3month on same year ago % change,%,NA
+HN5X,"MCI:value NSA:food, drink & tobacco: month on same month a year ago %change",%,NA
+HN5Y,MCI:value NSA:clothing & footwear: month on same month a year ago %change,%,NA
+HN5Z,MCI:value NSA:household goods: month on same month a year ago %change,%,NA
+HN62,MCI:value NSA:other non-food: month on same month a year ago %change,%,NA
+IDIE,RSI:Non-Specialised stores:All Business:VAL SA:percentage on year earlier,%,NA
+IDIF,RSI:Pred Food stores:All Business:VAL SA:percentage on year earlier,%,NA
+IDIG,RSI:Pred non-food stores:All Business:VAL SA:percentage on year earlier,%,NA
+IDIH,RSI:Other non-food stores:All Business:VAL SA:percentage on year earlier,%,NA
+IDIK,"RSI:Textile,clothing&footwear:All Bus:VAL SA:percentage on year earlier",%,NA
+IDIL,RSI:Household goods stores:All Business:VAL SA:percentage on year earlier,%,NA
+IDOA,RSI:Non-specialised:All Business:VOL SA percentage on year earlier,%,NA
+IDOB,RSI:Pred food stores:All Business:VOL SA percentage on year earlier,%,NA
+IDOC,RSI:Pred non-food:All Business:VOL SA percentage on year earlier,%,NA
+IDOD,RSI:Other non-food stores:All Business:VOL SA: percentage on year earlier,%,NA
+IDOG,"RSI:Textile,clothing&footwear:All Bus:VOL SA percentage on year earlier",%,NA
+IDOH,RSI:Household good stores:All Business:VOL SA percentage on year earlier,%,NA
+IDXJ,RSI:Non-specialised:All Business:VAL NSA:Rolling 3m on same 3m a year ago %,%,NA
+IDXN,RSI:Pred food stores:All Business:VAL NSA:Rolling 3m on same 3m a year ago %,%,NA
+IDZU,RSI:Pred non-food stores:All Business:VAL NSA:Rolling 3m on same 3m a year ago %,%,NA
+IDZY,RSI:Other non-food:All Business:VAL NSA:Rolling 3m on same 3m a year ago %,%,NA
+IEAK,"RSI:Textile,clothing&footwear:All Bus:VAL NSA:Rolling 3m on same 3m a year ago %",%,NA
+IEAO,RSI:Household goods:All Business:VAL NSA:Rolling 3m on same 3m a year ago %,%,NA
+IEAP,RSI:Non-Specialised stores:All Business:VAL SA:Month on prev month % change,%,NA
+IEAQ,RSI:Non-specialised stores:All Business:VAL SA:Rolling 3m on prev 3m %change,%,NA
+IEAR,RSI:Non-specialised:All Business:VAL SA:Rolling 3m on same 3m a year ago %,%,NA
+IEAS,RSI:Pred Food stores:All Business:VAL SA:Month on prev month % change,%,NA
+IEAT,RSI:Pred food stores:All Business:VAL SA:Rolling 3m on prev 3m %change,%,NA
+IEAU,RSI:Pred food stores:All Business:VAL SA:Rolling 3m on same 3m a year ago %,%,NA
+IEAV,RSI:Pred non-food stores:All Business:VAL SA:Month on prev month % change,%,NA
+IEAW,RSI:Pred non-food stores:All Business:VAL SA:Rolling 3m on prev 3m %change,%,NA
+IEAX,RSI:Pred non-food stores:All Business:VAL SA:Rolling 3m on same 3m a year ago %,%,NA
+IEAY,RSI:Other non-food stores:All Business:VAL SA:Month on prev month % change,%,NA
+IEAZ,RSI:Other non-food stores:All Business:VAL SA:Rolling 3m on prev 3m %change,%,NA
+IEBA,RSI:Other non-food stores:All Business:VAL SA:Rolling 3m on same 3m a year ago %,%,NA
+IEBH,"RSI:Textile,clothing&footwear:All Bus:VAL SA:Month on prev month % change",%,NA
+IEBI,"RSI:Textile,clothing&footwear:All Business:VAL SA:Rolling 3m on prev 3m %change",%,NA
+IEBJ,"RSI:Textile,clothing&footwear:All Bus:VAL SA:Rolling 3m on same 3m a year ago %",%,NA
+IEBK,RSI:Household goods stores:All Business:VAL SA:Month on prev month % change,%,NA
+IEBL,RSI:Household goods stores:All Business:VAL SA:Rolling 3m on prev 3m %change,%,NA
+IEBM,RSI:Household good stores:All Business:VAL SA:Rolling 3m on same 3m a year ago %,%,NA
+IEBQ,RSI:Non-specialised stores:All Bus:VOL NSA:Rolling 3m on same 3m a year ago %,%,NA
+IEDX,RSI:Pred food stores:All Business:VOL NSA:Rolling 3m on same 3m a year ago %,%,NA
+IEEB,RSI:Pred non-food stores:All Business:VOL NSA:Rolling 3m on same 3m a year ago %,%,NA
+IEEF,RSI:Other non-food:All Business:VOL NSA:Rolling 3m on same 3m a year ago %,%,NA
+IEER,"RSI:Textile,clothing&footwear:All Bus:VOL NSA:Rolling 3m on same 3m a year ago %",%,NA
+IEEV,RSI:Household goods:All Business:VOL NSA:Rolling 3m on same 3m a year ago %,%,NA
+IEEW,RSI:Non-specialised:All Business:VOL SA:Month on prev month % change,%,NA
+IEEX,RSI:Non-specialised stores:All Business:VOL SA:Rolling 3m on prev 3m % change,%,NA
+IEEY,RSI:Non-specialised:All Business:VOL SA:Rolling 3m on same 3m a year ago %,%,NA
+IEEZ,RSI:Pred food stores:All Business:VOL SA:Month on prev month % change,%,NA
+IEFA,RSI:Pred food stores:All Business:VOL SA:Rolling 3m on prev 3m % change,%,NA
+IEFB,RSI:Pred food stores:All Business:VOL SA:Rolling 3m on same 3m a year ago %,%,NA
+IEFC,RSI:Pred non-food:All Business:VOL SA:Month on prev month % change,%,NA
+IEFD,RSI:Pred non-food:All Business:VOL SA:Rolling 3m on prev 3m % change,%,NA
+IEFE,RSI:Pred non-food:All Business:VOL SA:Rolling 3m on same 3m a year ago %,%,NA
+IEFF,RSI:Other non-food stores:All Business:VOL SA:Month on prev month % change,%,NA
+IEFG,RSI:Other non-food stores:All Business:VOL SA:Rolling 3m on prev 3m % change,%,NA
+IEFH,RS:Other non-food stores:All Business:VOL SA:Rolling 3m on same 3m a year ago %,%,NA
+IEFO,"RSI:Textile,clothing&footwear:All Bus:VOL SA:Month on prev month % change",%,NA
+IEFP,"RS:Textile,clothing & footwear:All Business:VOL SA:Rolling 3m on prev 3m %change",%,NA
+IEFQ,"RSI:Textile,clothing&footwear:All Bus:VOL SA:Rolling 3m on same 3m a year ago %",%,NA
+IEFR,RSI:Household good stores:All Business:VOL SA:Month on prev month % change,%,NA
+IEFS,RSI:Household goods stores:All Business:VOL SA:Rolling 3m on prev 3m % change,%,NA
+IEFT,RSI:Household good stores:All Business:VOL SA:Rolling 3m on same 3m a year ago %,%,NA
+IYP9,RSI:Automotive fuel:All Business:VAL NSA:% change on same month a year ago,%,NA
+IZ5T,RSI:Year to date index:Automotive fuel:All Business,NA,NA
+IZJ7,RSI:Retail of electrical household appliances (val nsa):All Business %,%,NA
+J24D,RSI:Year to date index:Electrical household appliance stores:All Business,NA,NA
+J3L2,RSI:All retail ex fuelAll Business:VAL NSA:% change on same month a year ago,%,NA
+J3L3,RSI:All retail ex fuel:Large Business:VAL NSA:% change on same month a year ago,%,NA
+J3L4,RSI:All retail ex fuel:Small Business:VAL NSA:% change on same month a year ago,%,NA
+J3LI,RSI:Year to date index:All retail ex fuel:All Business,NA,NA
+J3LJ,RSI:Year to date index:All retail ex fuel:Large Business,NA,NA
+J3LK,RSI:Year to date index:All retail ex fuel:Small Business,NA,NA
+J3MK,RSI:All retail ex fuel:All Business:VAL SA:% change on same month a year ago,%,NA
+J3TJ,RSI: Implied deflator:47.3:Automotive fuel - month on previous month%,%,NA
+J3TU,RSI:Implied deflator:AGG21X:All retail ex fuel - month on previous month%,%,NA
+J3TV,RSI:Automotive fuel:All Business:VOL NSA:% change on same month a year ago,%,NA
+J3U3,RSI:Retail of electrical household appliances (vol nsa):All Business %,%,NA
+J3UU,RSI:All retail ex fuel:All Business:VOL NSA:% change on same month a year ago,%,NA
+J3UV,RSI:All retail ex fuel:Large Business:VOL NSA:% change on same month a year ago,%,NA
+J3UW,RSI:All retail ex fuel:Small Business:VOL NSA:% change on same month a year ago,%,NA
+J3UX,RSI:Implied deflator:47.3:Automotive fuel - year on year%,%,NA
+J3VA,RSI: Implied deflator:AGG21X:All retail ex fuel - year on year%,%,NA
+J43H,RSI:Value Not seasonally Adjusted:Automotive fuel:All Business Index,NA,NA
+J43J,RSI:Retail of electrical household appliances (val nsa):All Business Index,NA,NA
+J43S,RSI:Value Not seasonally Adjusted:All Retailers ex fuel:All Business Index,NA,NA
+J43T,RSI:Value Not seasonally Adjusted:All Retailers ex fuel:Large Business Index,NA,NA
+J43U,RSI:Value Not seasonally Adjusted:All Retailers ex fuel:Small Business Index,NA,NA
+J43V,RSI:Volume Not seasonally Adjusted:Automotive fuel:All Business Index,NA,NA
+J43X,RSI:Retail of electrical household appliances (vol nsa):All Business Index,NA,NA
+J448,RSI:Volume Not seasonally Adjusted:All Retailers ex fuel:All Business Index,NA,NA
+J449,RSI:Volume Not seasonally Adjusted:All Retailers ex fuel:Large Business Index,NA,NA
+J44A,RSI:Volume Not seasonally Adjusted:All Retailers ex fuel:Small Business Index,NA,NA
+J44B,RSI:Year to date % change:Automotive fuel:All Business,%,NA
+J44H,RSI:Year to date % change:Electrical household appliance stores:All Business,%,NA
+J45A,RSI:Year to date % change:All retail ex fuel:All Business,%,NA
+J45B,RSI:Year to date % change:All retail ex fuel:Large Business,%,NA
+J45C,RSI:Year to date % change:All retail ex fuel:Small Business,%,NA
+J45J,RSI:All retail ex fuel:All Business:VAL NSA:Rolling 3m on same 3m a year ago %,%,NA
+J45K,RSI:Rolling 3mnth on prev 3mnth %change:All Business All retail inc fuel VAL SA,%,NA
+J45L,RSI:All retail ex fuel:All Business:VAL SA:Rolling 3m on same 3m a year ago %,%,NA
+J45Q,RSI:All retail ex fuel:All Business:VOL NSA:Rolling 3m on same 3m a year ago %,%,NA
+J45R,RSI:Rolling 3mnth on prev 3mnth %change:All Business All retail exl fuel VOL SA,%,NA
+J45S,RSI:All retail ex fuel:All Business:VOL SA:Rolling 3m on same 3m a year ago %,%,NA
+J45U,RSI:All retail ex fuel:All Business:VOL SA:% change on same month a year ago,%,NA
+J45W,RSI:Month on prev month % change:All Business All retail ex fuel VOL SA,%,NA
+J45X,RSI:Month on prev month % change:All Business All retail ex fuel VAL SA,%,NA
+J467,RSI:Volume Seasonally Adjusted:All Retailers ex fuel:All Business Index,"Index, base year = 100",NA
+J468,RSI:Value Seasonally Adjusted:All Retailers ex fuel:All Business Index,"Index, base year = 100",NA
+J4DH,RSI:Retail of audio visual recordings and equipment (val nsa):All Business %,%,NA
+J4DS,RSI:Retail of computers and telecomms equipment (val nsa):All Business %,%,NA
+J4ER,"RSI:Retail of books, newspapers and stationery (val nsa):All Business %",%,NA
+J4GP,RSI:Retail of audio visual recordings and equipment (vol nsa):All Business %,%,NA
+J4GX,RSI:Retail of computers and telecomms equipment (vol nsa):All Business %,%,NA
+J4HN,"RSI:Retail of books, newspapers and stationery (vol nsa):All Business %",%,NA
+J4MC,Internet sales as a percentage of total retail sales (ratio) (%),%,NA
+J58L,RSI:Non-store retail:All Business:VAL NSA:% change on same month a year ago,%,NA
+J58M,RSI:Non-store retail:Large Business:VAL NSA:% change on same month a year ago,%,NA
+J58N,RSI:Non-store retail:Small Business:VAL NSA:% change on same month a year ago,%,NA
+J58U,RSI:Non-store retailing:All Business:VAL NSA:Rolling 3m on same 3m a year ago %,%,NA
+J596,RSI:Value Not seasonally Adjusted:Non-store Retailing:All Business Index,NA,NA
+J597,RSI:Value Not seasonally Adjusted:Non-store Retailing:Large Business Index,NA,NA
+J598,RSI:Value Not seasonally Adjusted:Non-store retailing:Small Business Index,NA,NA
+J599,RSI:Year to date % change:Non-store retailingl:All Business,%,NA
+J59A,RSI:Year to date % change:Non-store retailing:Large Business,%,NA
+J59B,RSI:Year to date % change:Non-store retailing:Small Business,%,NA
+J59C,RSI:Year to date index:Non-store retailing:All Business,NA,NA
+J59D,RSI:Year to date index:Non-store retailing:Large Business,NA,NA
+J59E,RSI:Year to date index:Non-store retailing:Small Business,NA,NA
+J59V,RSI:All retail inc fuel:All Business:VAL NSA:% change on same month a year ago,%,NA
+J59W,RSI:All retail inc fuel:Large Business:VAL NSA:% change on same month a year ago,%,NA
+J59X,RSI:All retail inc fuel:Small Business:VAL NSA:% change on same month a year ago,%,NA
+J5A8,RSI:All retail inc fuel:All Business:VAL NSA:Rolling 3m on same 3m a year ago %,%,NA
+J5AH,RSI:Value Not seasonally Adjusted:All Retailers inc fuel:All Business Index,NA,NA
+J5AI,RSI:Value Not seasonally Adjusted:All Retailers inc fuel:Large Business Index,NA,NA
+J5AJ,RSI:Value Not seasonally Adjusted:All Retailers inc fuel:Small Business Index,NA,NA
+J5AK,RSI:Year to date % change:All retail inc fuel:All Business,%,NA
+J5AL,RSI:Year to date % change:All retail inc fuel:Large Business,%,NA
+J5AM,RSI:Year to date % change:All retail inc fuel:Small Business,%,NA
+J5AN,RSI:Year to date index:All retail inc fuel:All Business,NA,NA
+J5AO,RSI:Year to date index:All retail inc fuel:Large Business,NA,NA
+J5AP,RSI:Year to date index:All retail inc fuel:Small Business,NA,NA
+J5B2,RSI:Non-store retail:All Business:VAL SA:% change on same month a year ago,%,NA
+J5B3,RSI:Month on prev month % change:All Business Non-store retail VAL SA,%,NA
+J5B9,RSI:Rolling 3mnth on prev 3mnth %change:All Business Non-store retail VAL SA,%,NA
+J5BA,RSI:Non-store retailing:All Business:VAL SA:Rolling 3m on same 3m a year ago %,%,NA
+J5BI,RSI:Value Seasonally Adjusted:Non-store Retailing:All Business Index,NA,NA
+J5BS,RSI:All retail inc fuel:All Business:VAL SA:% change on same month a year ago,%,NA
+J5BT,RSI:Month on prev month % change:All Business All retail inc fuel VAL SA,%,NA
+J5BX,RSI:Rolling 3mnth on prev 3mnth %change:All Business All retail exl fuel VAL SA,%,NA
+J5BY,RSI:All retail inc fuel:All Business:VAL SA:Rolling 3m on same 3m a year ago %,%,NA
+J5C4,RSI:Value Seasonally Adjusted:All Retailers inc fuel:All Business Index,"Index, base year = 100",NA
+J5C5,RSI:Non-store retail:All Business:VOL NSA:% change on same month a year ago,%,NA
+J5C6,RSI:Non-store retail:Large Business:VOL NSA:% change on same month a year ago,%,NA
+J5C7,RSI:Non-store retail:Small Business:VOL NSA:% change on same month a year ago,%,NA
+J5CE,RSI:Non-store retailing:All Business:VOL NSA:Rolling 3m on same 3m a year ago %,%,NA
+J5CL,RSI:Volume Not seasonally Adjusted:Non-store Retailing:All Business Index,NA,NA
+J5CM,RSI:Volume Not seasonally Adjusted:Non-store Retailing:Large Business Index,NA,NA
+J5CN,RSI:Volume Not seasonally Adjusted:Non-store Retailing:Small Business Index,NA,NA
+J5CV,RSI:All retail inc fuel:All Business:VOL NSA:% change on same month a year ago,%,NA
+J5CW,RSI:All retail inc fuel:Large Business:VOL NSA:% change on same month a year ago,%,NA
+J5CX,RSI:All retail inc fuel:Small Business:VOL NSA:% change on same month a year ago,%,NA
+J5D6,RSI:All retail inc fuel:All Business:VOL NSA:Rolling 3m on same 3m a year ago %,%,NA
+J5DD,RSI:Volume Not seasonally Adjusted:All Retailers inc fuel:All Business Index,NA,NA
+J5DE,RSI:Volume Not seasonally Adjusted:All Retailers inc fuel:Large Business Index,NA,NA
+J5DF,RSI:Volume Not seasonally Adjusted:All Retailers inc fuel:Small Business Index,NA,NA
+J5DK,RSI:Non-store retail:All Business:VOL NSA:% change on same month a year ago,%,NA
+J5DL,RSI:Month on prev month % change:All Business Non-store retail VOL SA,%,NA
+J5DR,RSI:Rolling 3mnth on prev 3mnth %change:All Business Non-store retail VOL SA,%,NA
+J5DS,RSI:Non-store retailing:All Business:VOL SA:Rolling 3m on same 3m a year ago %,%,NA
+J5DZ,RSI:Volume Seasonally Adjusted:Non-store Retailing:All Business Index,NA,NA
+J5EB,RSI:All retail inc fuel:All Business:VOL SA:% change on same month a year ago,%,NA
+J5EC,RSI:Month on prev month % change:All Business All retail inc fuel VOL SA,%,NA
+J5EG,RSI:Rolling 3mnth on prev 3mnth %change:All Business All retail inc fuel VOL SA,%,NA
+J5EH,RSI:All retail inc fuel:All Business:VOL SA:Rolling 3m on same 3m a year ago %,%,NA
+J5EK,RSI:Volume Seasonally Adjusted:All Retailers inc fuel:All Business Index,"Index, base year = 100",NA
+J5HT,RSI:Implied deflator:AGG14:Non-store retailing - month on previous month%,%,NA
+J5HU,RSI:Implied deflator:AGG14:Non-store retailing - year on year%,%,NA
+J5HV,RSI:Implied deflator:AGG21:All retail inc fuel - month on previous month%,%,NA
+J5HW,RSI:Implied deflator:AGG21:All retail inc fuel - year on year%,%,NA
+JE2J,"Internet retail sales, £ millions. All retailing",m,£
+JE4W,Average weekly value for all retailing (£ million),m,£
+JJ8J,RSI:Retail of computer and telecomms equipment (val nsa):All Business Index,NA,NA
+JJ8K,RSI:Retail of computer and telecomms equipment (vol nsa):All Business Index,NA,NA
+JJ8L,RSI:Year to date % change:Computers and telecomms equipment:All Business,%,NA
+JJ8O,RSI:Year to date index:Computers and telecomms equipment:All Business,NA,NA
+JKO6,RSI:Retail of books newspapers and stationery (val nsa):All Business Index,NA,NA
+JKO7,RSI:Retail of books newspapers and stationery (vol nsa):All Business Index,NA,NA
+JKO8,RSI:Year to date % change:Books newspapers and stationery:All Business,%,NA
+JKP3,RSI:Year to date index:Books newspapers and stationery:All Business,NA,NA
+JO2F,RSI:Non-Special Food stores (val sa):All Business Index,NA,NA
+JO2G,RSI:Value Seasonally Adjusted:Automotive fuel:All Business Index,NA,NA
+JO2I,RSI:Retail sale of textiles (val sa):All Business Index,NA,NA
+JO2J,"RSI:Retail hardware, paints & glass (val sa):All Business Index",NA,NA
+JO2K,RSI:Retail sale of Floorcoverings (val sa):All Business Index,NA,NA
+JO2L,RSI:Retail of electrical household appliances (val sa):All Business Index,NA,NA
+JO2M,RSI:Retail Furniture & Lighting (val sa):All Business Index,NA,NA
+JO2O,RSI:Retail sale of clothing (val sa):All Business Index,NA,NA
+JO2P,RSI:Retail of footwear & leather goods (val sa):All Business Index,NA,NA
+JO2Q,RSI:Retail dispensing chemists (val sa):All Business Index,NA,NA
+JO2R,RSI:Retail of medical goods (val sa):All Business Index,NA,NA
+JO2S,RSI:Retail cosmetic & toilet articles (val sa):All Business Index,NA,NA
+JO2T,"RSI:Retail of flowers, garden centres and pet (val sa):All Business Index",NA,NA
+JO2U,RSI:Retail of watches and jewellery (val sa):All Business Index,NA,NA
+JO2V,RSI:Other retail sales in specialised stores (val sa):All Business Index,NA,NA
+JO2W,RSI:Retail of second hand goods in stores (val sa):All Business Index,NA,NA
+JO2X,RSI:Retail sale via mail order houses (val sa):All Business Index,NA,NA
+JO2Y,RSI:Non-store retail exc mail order (val sa):All Business Index,NA,NA
+JO32,RSI: Specialist Food Stores (val sa) All Business Index,NA,NA
+JO33,"RSI: Alcoholic Drinks, Beverages & Tobacco (val sa) All Business Index",NA,NA
+JO36,RSI:Retail of audio visual recording and equipment (val sa):All Business Index,NA,NA
+JO37,RSI:Retail of computer and telecomms equipment (val sa):All Business Index,NA,NA
+JO38,RSI:Retail of sports equipment games and toys (val sa):All Business Index,NA,NA
+JO3A,RSI:Retail of books newspapers and stationery (val sa):All Business Index,NA,NA
+JO3D,RSI:Non-Special Food stores (val sa):All Business %,%,NA
+JO3E,RSI:Automotive fuel:All Business:VAL SA:% change on same month a year ago,%,NA
+JO3G,RSI:Retail sale of textiles (val sa):All Business %,%,NA
+JO3H,"RSI:Retail hardware, paints & glass (val sa):All Business %",%,NA
+JO3I,RSI:Retail sale of floorcoverings (val sa):All Business %,%,NA
+JO3J,RSI:Retail of electrical household appliances (val sa):All Business %,%,NA
+JO3K,RSI:Retail Furniture & Lighting (val sa):All Business %,%,NA
+JO3M,RSI:Retail sale of clothing (val sa):All Business %,%,NA
+JO3N,RSI:Retail of footwear & leather goods (val sa):All Business %,%,NA
+JO3O,RSI:Retail of dispensing chemists (val sa):All Business %,%,NA
+JO3P,RSI:Retail of medical goods (val sa):All Business %,%,NA
+JO3Q,RSI:Retail sale of cosmetic and toilet articles (val sa):All Business %,%,NA
+JO3R,"RSI:Retail of flowers, garden centres and pet (val sa):All Business %",%,NA
+JO3S,RSI:Retail of watches and jewellery (val sa):All Business %,%,NA
+JO3T,RSI:Other retail sales in specialised stores (val sa):All Business %,%,NA
+JO3U,RSI:Retail of second hand goods in stores (val sa):All Business %,%,NA
+JO3V,RSI:Retail sale via mail order houses (val sa):All Business %,%,NA
+JO3W,RSI:Non-store retail exc mail order (val sa):All Business %,%,NA
+JO3Y,RSI: Specialist Food Stores (val sa) All Business %,%,NA
+JO3Z,"RSI: Alcoholic Drinks, Beverages & Tobacco (val sa) All Business %",%,NA
+JO44,RSI:Retail of audio visual recordings and equipment (val sa):All Business %,%,NA
+JO45,RSI:Retail of computers and telecomms equipment (val sa):All Business %,%,NA
+JO46,"RSI:Retail of sports equipment, games and toys (val sa):All Business %",%,NA
+JO48,"RSI:Retail sale of books, newspapers and stationery (val sa):All Business %",%,NA
+JO4B,RSI:Retail non-Specialised food stores (vol sa):All Business %,%,NA
+JO4C,RSI:Automotive fuel:All Business:VOL SA:% change on same month a year ago,%,NA
+JO4E,RSI:Retail sale of textiles (vol sa):All Business %,%,NA
+JO4F,"RSI:Retail hardware, paints & glass (vol sa):All Business %",%,NA
+JO4G,RSI:Retail sale of Floorcoverings (vol sa):All Business %,%,NA
+JO4H,RSI:Retail of electrical household appliances (vol sa):All Business %,%,NA
+JO4I,RSI:Retail Furniture & Lighting (vol sa):All Business %,%,NA
+JO4K,RSI:Retail sale of clothing (vol sa):All Business %,%,NA
+JO4L,RSI:Retail of footwear & leather goods (vol sa):All Business %,%,NA
+JO4M,RSI:Retail of dispensing chemists (vol sa):All Business %,%,NA
+JO4N,RSI:Retail of medical goods (vol sa):All Business %,%,NA
+JO4O,RSI:Retail of cosmetic and toilet articles (vol sa):All Business %,%,NA
+JO4P,"RSI:Retail of flowers, garden centre and pet (vol sa):All Business %",%,NA
+JO4Q,RSI:Retail of watches and jewellery (vol sa):All Business %,%,NA
+JO4R,RSI:Other retail sales in specialised stores (vol sa):All Business %,%,NA
+JO4S,RSI:Retail of second hand goods in stores (vol sa):All Business %,%,NA
+JO4T,RSI:Retail sale via mail order houses (vol sa):All Business %,%,NA
+JO4U,RSI:Non-store Retail exc mail order (vol sa):All Business %,%,NA
+JO4W,RSI: Specialist Food Stores (vol sa) All Business %,%,NA
+JO4X,"RSI: Alcoholic Drinks, Beverages & Tobacco (vol sa) All Business %",%,NA
+JO52,RSI:Retail of audio visual recordings and equipment (vol sa):All Business %,%,NA
+JO53,RSI:Retail of computers and telecomms equipment (vol sa):All Business %,%,NA
+JO54,"RSI:Retail of sports equipment, games and toys (vol sa):All Business %",%,NA
+JO56,"RSI:Retail of books, newspapers and stationery (vol sa):All Business %",%,NA
+JO59,RSI:Retail non-specialised food stores (vol sa):All Business Index,NA,NA
+JO5A,RSI:Volume Seasonally Adjusted:Automotive fuel:All Business Index,NA,NA
+JO5C,RSI:Retail sale of textiles (vol sa):All Business Index,NA,NA
+JO5D,"RSI:Retail hardware, paints & glass (vol sa):All Business Index",NA,NA
+JO5E,RSI:Retail sale of Floorcoverings (vol sa):All Business Index,NA,NA
+JO5F,RSI:Retail of electrical household appliances (vol sa):All Business Index,NA,NA
+JO5G,RSI:Retail Furniture & Lighting (vol sa):All Business Index,NA,NA
+JO5I,RSI:Retail sale of clothing (vol sa):All Business Index,NA,NA
+JO5J,RSI:Retail of footwear & leather goods (vol sa):All Business Index,NA,NA
+JO5K,RSI:Retail of dispensing chemists (vol sa):All Business Index,NA,NA
+JO5L,RSI:Retail of medical goods (vol sa):All Business Index,NA,NA
+JO5M,RSI:Retail of cosmetic and toilet articles (vol sa):All Business Index,NA,NA
+JO5N,"RSI:Retail of flowers, garden centres and pet (vol sa):All Business Index",NA,NA
+JO5O,RSI:Retail of watches and jewellery (vol sa):All Business Index,NA,NA
+JO5P,RSI:Other retail sales in specialised stores (vol sa):All Business %,%,NA
+JO5Q,RSI:Retail of second hand goods in stores (vol sa):All Business Index,NA,NA
+JO5R,RSI:Retail sale via mail order houses (vol sa):All Business Index,NA,NA
+JO5S,RSI:Non-store Retail exc mail order (vol sa):All Business Index,NA,NA
+JO5U,RSI: Specialist Food Stores (vol sa) All Business Index,NA,NA
+JO5V,"RSI: Alcoholic Drinks, Beverages & Tobacco (vol sa) All Business Index",NA,NA
+JO5Y,RSI:Retail of audio visual recording and equipment (vol sa):All Business Index,NA,NA
+JO5Z,RSI:Retail of computer and telecomms equipment (vol sa):All Business Index,NA,NA
+JO62,"RSI:Retail of sports equipment, games and toys (vol sa):All Business Index",NA,NA
+JO64,RSI:Retail of books newspapers and stationery (vol sa):All Business Index,NA,NA
+JO69,RSI:Month on prev month % change:All Business Automotive fuel VAL SA,%,NA
+JO6A,RSI:Rolling 3 month on prev 3month % change:All Business Automotive fuel VAL SA,%,NA
+JO6B,RSI:Automotive fuel:All Business:VAL SA:Rolling 3m on same 3m a year ago %,%,NA
+JO6C,RSI:Month on prev month % change:All Business Automotive fuel VOL SA,%,NA
+JO6D,RSI:Rolling 3 month on prev 3month % change:All Business Automotive fuel VOL SA,%,NA
+JO6E,RSI:Automotive fuel:All Business:VOL SA:Rolling 3m on same 3m a year ago %,%,NA
+JO6H,RSI:Automotive fuel:All Business:VOL NSA:Rolling 3m on same 3m a year ago %,%,NA
+JO6K,RSI:Automotive fuel:All Business:VAL NSA:Rolling 3m on same 3m a year ago %,%,NA
+JOE9,RSI:Retail of audio visual recording and equipment (vol nsa):All Business Index,NA,NA
+JOF2,RSI:Retail of audio visual recording and equipment (val nsa):All Business Index,NA,NA
+JOF3,RSI:Year to date % change:Audio video recording and equipment:All Business,%,NA
+JOF6,RSI:Year to date index:Audio video recordings and equipment:All Business,NA,NA
+KP3O,RSI:Internet:Non-Specialised stores:All Bus:VAL NSA:%change month a year ago,%,NA
+KP3P,RSI:Internet:Pred Food stores:All Bus:VAL NSA:%change month a year ago,%,NA
+KP3Q,RSI:Internet:Pred non-food stores:All Business:VAL NSA:%change month a year ago,%,NA
+KP3R,RSI:Internet:Other non-food stores:All Business:VAL NSA:%change month a year ago,%,NA
+KP3S,RSI:Internet:Non-store retail:All Business:VAL NSA:% change month a year ago,%,NA
+KP3T,RSI:Internet:All retail ex fuelAll Business:VAL NSA:% change month a year ago,%,NA
+KP3U,"RSI:Internet:Textile,clothing&footwear:All Bus:VAL NSA:%change month a year ago",%,NA
+KP3V,RSI:Internet:Household goods stores:All Bus:VAL NSA:%change month a year ago,%,NA
+KP5R,RSI:Internet:Non-Specialised Non Food stores (val nsa):All Business Index,NA,NA
+KP5S,RSI:Internet:Predominantly food stores (val nsa):All Business Index,NA,NA
+KP5T,RSI:Internet:Predominantly non-food stores (val nsa):All Business Index,NA,NA
+KP5U,RSI:Internet:Other non-food stores (val nsa):All Business Index,NA,NA
+KP5V,RSI:Internet: Val NSA:Non-store Retailing:All Business Index,NA,NA
+KP5W,RSI:Internet: Val NSA:All Retailers ex fuel:All Business Index,NA,NA
+KP5X,"RSI:Internet: Textiles, clothing & footwear (val nsa):All Business Index",NA,NA
+KP5Y,RSI:Internet: Household goods stores (val nsa):All Business Index,NA,NA
+KP8C,RSI:Internet:Non-Specialised stores:All Bus:VAL SA:%change month a year ago,%,NA
+KP8D,RSI:Internet:Pred Food stores:All Bus:VAL SA:%change month a year ago,%,NA
+KP8E,RSI:Internet:Pred non-food stores:All Business:VAL SA:%change month a year ago,%,NA
+KP8F,RSI:Internet:Other non-food stores:All Business:VALNSA:%change month a year ago,%,NA
+KP8G,RSI:Internet:Non-store retail:All Business:VAL SA:% change month a year ago,%,NA
+KP8H,RSI:Internet:All retail ex fuelAll Business:VAL SA:% change month a year ago,%,NA
+KP8I,"RSI:Internet:Textile,clothing&footwear:All Bus:VAL SA:%change month a year ago",%,NA
+KP8J,RSI:Internet:Household goods stores:All Bus:VAL SA:%change month a year ago,%,NA
+KP8K,RSI:Internet:Month on prev month % change:All Business 47.19 CP SA,%,NA
+KP8L,RSI:Internet:Month on prev month % change:All Business AGG1 CP SA,%,NA
+KP8M,RSI:Internet:Month on prev month % change:All Business AGG12 CP SA,%,NA
+KP8N,RSI:Internet:Month on prev month % change:All Business AGG13 CP SA,%,NA
+KP8O,RSI:Internet:Month on prev month % change:All Business Non-store retail VAL SA,%,NA
+KP8P,RSI:Internet:Month on prev month %change:All Business All retail ex fuel VAL SA,%,NA
+KP8Q,RSI:Internet:Month on prev month % change:All Business AGG5 CP SA,%,NA
+KP8R,RSI:Internet:Month on prev month % change:All Business AGG7 CP SA,%,NA
+KPB7,RSI:Internet:Non-Specialised Non Food stores (val sa):All Business Index,NA,NA
+KPB8,RSI:Internet:Predominantly food stores (val sa):All Business Index,NA,NA
+KPB9,RSI:Internet:Predominantly non-food stores (val sa):All Business Index,NA,NA
+KPC2,RSI:Internet:Other non-food stores (val sa):All Business Index,NA,NA
+KPC3,RSI:Internet: Val SA:Non-store Retailing:All Business Index,NA,NA
+KPC4,RSI:Internet: Val SA:All Retailers ex fuel:All Business Index,NA,NA
+KPC5,"RSI:Internet: Textiles, clothing & footwear (val sa):All Business Index",NA,NA
+KPC6,RSI:Internet: Household goods stores (val sa):All Business Index,NA,NA
+KQ76,RSI: Internet: Non-Specialised stores:All Bus:VAL NSA:proportion of retail,NA,NA
+KQ77,RSI: Internet: Pred Food stores:All Bus:VAL NSA:proportion of retail,NA,NA
+KQ78,RSI: Internet:Pred non-food stores:All Business:VAL NSA:proportion of retail,NA,NA
+KQ79,RSI: Internet:Other non-food stores:All Business:VAL NSA:proportion of retail,NA,NA
+KQ7A,RSI: Internet: Non-store retail:All Business:VAL NSA:proportion of retail,NA,NA
+KQ7B,"RSI: Internet: Textile,clothing&footwear:All Bus:VAL NSA:proportion of retail",NA,NA
+KQ7C,RSI: Internet: Household goods stores:All Bus:VAL NSA:proportion of retail,NA,NA
+KQ7E,RSI:Internet:Non-Specialised stores:All Bus:VAL NSA:Internet ave weekly sales £m,m,£
+KQ7F,RSI:Internet:Pred Food stores:All Bus:VAL NSA:internet ave weekly sales £m,m,£
+KQ7G,RSI:Internet:Pred non-food stores:All Bus:VAL NSA:internet ave weekly sales £m,m,£
+KQ7H,RSI:Internet:Other non-food stores:All Bus:VAL NSA:internet ave weekly sales £m,m,£
+KQ7I,RSI:Internet:Non-store retail:All Business:VAL NSA:internet ave weekly sales £m,m,£
+KQ7J,"RSI:Internet:Textile,clothing&footwear:All Bus:VAL NSA:internet av week sales £m",m,£
+KQ7K,RSI:Internet:Household goods stores:All Bus:VAL NSA:internet ave weekly sales £m,m,£
+MS6Y,RSI: Internet: All Retailing excl auto fuel: All Bus: SA: proportion of retail,NA,NA
+MS6Z,RSI: Internet: Non-specialised stores: All Bus: SA: proportion of retail,NA,NA
+MS72,RSI: Internet: Predominantly Food stores: All Bus: SA: proportion of retail,NA,NA
+MS73,RSI: Internet: Predominantly non-food stores: All Bus: SA: proportion of retail,NA,NA
+MS74,RSI: Internet: Other non-food stores: All Bus: SA: proportion of retail,NA,NA
+MS75,RSI: Internet: Non-store retail: All Bus: SA: proportion of retail,NA,NA
+MS76,"RSI: Internet: Textile, clothing & footwear: All Bus: SA: proportion of retail",NA,NA
+MS77,RSI: Internet: Household goods stores: All Bus: SA: proportion of retail,NA,NA
+MZX6,RSI:Internet: Val SA:All Retailing ex fuel: Average Weekly Sales £million,m,£
+MZX7,RSI:Internet: Val SA:Predominantly Food Stores: Average Weekly Sales £million,m,£
+MZX8,RSI:Internet: Val SA:Total Non-Food ex fuel: Average Weekly Sales £million,m,£
+MZX9,RSI:Internet: Val SA:Non-specialised stores: Average Weekly Sales £million,m,£
+MZXV,"RSI:Internet: Val SA:Textile,clothing & footwear: Average Weekly Sales £million",m,£
+MZY2,RSI:Internet: Val SA:Household goods stores: Average Weekly Sales £million,m,£
+MZY3,RSI:Internet: Val SA:Other Stores: Average Weekly Sales £million,m,£
+MZY4,RSI:Internet: Val SA:Non-Store retailing: Average Weekly Sales £million,m,£
+N3DK,AGG 21: Implied Deflator Index: All retailing including automotive fuel,NA,NA
+N3DL,AGG 21X: Implied Deflator Index: All retailing excluding automotive fuel,NA,NA
+N3DM,AGG 1: Implied Deflator Index: Predominantly food stores,NA,NA
+N3DN,AGG 12: Implied Deflator Index:Total Predominantly non-food stores,NA,NA
+N3DO,47.19: Implied Deflator Index: Non-specialised stores,NA,NA
+N3DP,"AGG 5: Implied Deflator Index: Textile, clothing and footwear stores",NA,NA
+N3DQ,AGG 7: Implied Deflator Index: Household goods stores,NA,NA
+N3DR,AGG 13: Implied Deflator Index: Other stores,NA,NA
+N3DS,AGG 14: Implied Deflator Index: Non store retailing,NA,NA
+N3DT,47.30: Implied Deflator Index: Predominantly automotive fuel,NA,NA

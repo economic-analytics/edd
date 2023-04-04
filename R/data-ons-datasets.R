@@ -6,7 +6,7 @@
 
 # Master function (for export) --------------------------------------------
 
-ons_update_datasets <- function(save_separate_rds = TRUE, ...) {
+ons_update_datasets <- function(save_separate_rds = TRUE, save_processed_csv = TRUE, ...) {
   # problems with VROOM_CONNECTION_SIZE means we have to set this as the
   # download is large and overflows the connection buffer
   Sys.setenv("VROOM_CONNECTION_SIZE" = "500000")
@@ -56,13 +56,34 @@ ons_update_datasets <- function(save_separate_rds = TRUE, ...) {
       message("Done.")
     }
   }
+
+  if (save_processed_csv) {
+    if (!dir.exists("data/csv")) {
+      dir.create("data/csv")
+    }
+    for (i in seq_along(processed)) {
+      message("Writing ", names(processed)[i], ".csv files ...")
+      readr::write_csv(jsonlite::flatten(processed[[i]]$data),
+                       file.path("data", "csv",
+                                 paste0(names(processed)[i], "_data.csv"))
+      )
+
+      for (j in seq_along(processed[[i]]$dimensions)) {
+        readr::write_csv(jsonlite::flatten(processed[[i]][["dimensions"]][[j]]),
+                         file.path("data", "csv",
+                                   paste0(names(processed)[i],
+                                          "_",
+                                          names(processed[[i]][["dimensions"]])[j], "_lookup.csv")))
+      }
+    }
+  }
   message("data/ons_datasets.rds successfully updated")
 }
 
 
 # Download data (not for export) ------------------------------------------
 
-ons_download_dataset <- function(url, save_csv = FALSE) {
+ons_download_dataset <- function(url, save_csv = TRUE) {
 
   # if we want to keep a copy of the original ONS .csv
   if (save_csv) {

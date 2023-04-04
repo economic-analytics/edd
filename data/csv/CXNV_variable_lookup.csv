@@ -1,0 +1,312 @@
+code,name,unit,preunit
+CRGO,GFCF: Households:TOTAL:New Dwellings:excl land:£m:CP:NSA,NA,NA
+CRGP,GFCF:NPISH:TOTAL:New Dwellings:excl land:£m:CP:NSA,NA,NA
+CRGY,GFCF: Households:TOTAL:Costs Associated with Transfer of Non-Produced Assets:£m:CP:NSA,NA,NA
+CRGZ,GFCF:NPISH:TOTAL:Costs Associated with Transfer of Non-Produced Assets:£m:CP:NSA,NA,NA
+D7QK,GG uses: P51 GFCF exc BNFL asset transfer: CP SA,NA,NA
+DFDK,"Gross Fixed Capital Formation:Total Economy:Total New Dwellings,excluding land",NA,NA
+DFDV,Gross Fixed Capital Formation:Total Economy:: Dwellings: D0-9:CVM NSA £m,NA,NA
+DFEG,Gross Fixed Capital Formation:Total Economy: Dwellings: D0-9:CVM SA £m,m,£
+DLWF,Gross Fixed Capital Formation:Total General Government P51:CVM SA: £m,NA,NA
+DLWJ,"Gross Fixed Capital Formation: Vehicles, Ships & Aircraft: CVM NSA: £m",NA,NA
+DLWK,ESA:GFCF:Total Economy:New Dwellings excl land:Households and NPISH NSA,NA,NA
+DLWL,"Gross Fixed Capital Formation: Vehicles, Ships & Aircraft: CVM SA: £m",m,£
+DLWM,Gross Fixed Capital Formation: Plant & Machinery: CVM NSA: £m,NA,NA
+DLWO,Gross Fixed Capital Formation: Plant & Machinery: CVM SA: £m,m,£
+DLWQ,GFCF: Other New Buildings & Structures and transfer costs:CVM NSA: £m,NA,NA
+DLWT,GFCF: Other New Buildings & Structures and transfer costs:CVM SA: £m,m,£
+DLWZ,Gross Fixed Capital Formation :Total Economy:Total Transport Equipment: CP NSA,NA,NA
+DLXI,GFCF:Total Economy:Total Other Machinery & Equipment & Cultivated Assets,NA,NA
+DLXP,Gross Fixed Capital Formation:Total Economy:Total Intangible Fixed Assets,NA,NA
+DLXV,ESA:GFCF:Total Economy:Costs Assoctd with Transfer Non-Prod Assets:Hhlds & NPISH NSA,NA,NA
+DS38,Priv Sect: Non-Manuf: Agriculture forestry and fishing: Total Asset: £m: CP: NSA,m,£
+DS39,Priv Sect: Agriculture forestry and fishing: Total Asset: £m: CVM: NSA,m,£
+DS3A,Priv Sect: Non-Manuf: Agriculture forestry and fishing: Total Asset: £m: CP: SA,m,£
+DS3B,Priv Sect: Agriculture forestry and fishing: Total Asset: £m: CVM: SA,m,£
+DS3G,Priv Sect: Non-Manuf: Mining and quarrying : Total Asset: £m: CP: NSA,m,£
+DS3H,Priv Sect: Mining and quarrying : Total Asset: £m: CVM: NSA,m,£
+DS3I,Priv Sect: Non-Manuf: Mining and quarrying : Total Asset: £m: CP: SA,m,£
+DS3J,Priv Sect: Mining and quarrying : Total Asset: £m: CVM: SA,m,£
+DS3K,Pub Corps: Manufacturing: Total Asset: £m: CP: NSA,m,£
+DS3L,Pub Corps: Manufacturing: Total Asset: £m: CVM: NSA,m,£
+DS3M,Pub Corps: Manufacturing: Total Asset: £m: CP: SA,m,£
+DS3N,Pub Corps: Manufacturing: Total Asset: £m: CVM: SA,m,£
+DS3O,Priv Sect: Manufacturing: New buildings: £m: CP: NSA,m,£
+DS3P,Priv Sect: Manufacturing: New buildings: £m: CVM: NSA,m,£
+DS3Q,Priv Sect: Manufacturing: New buildings: £m: CP: SA,m,£
+DS3R,Priv Sect: Manufacturing: New buildings: £m: CVM: SA,m,£
+DS3S,Priv Sect: Non-manufacturing: Other production: Total asset: £m: CVM: NSA,m,£
+DS3T,Priv Sect: Non-manufacturing: Other services : Total asset: £m: CVM: NSA,m,£
+DS3U,Priv Sect: Total Non-manufacturing : Total asset: £m: CVM: NSA,m,£
+DS3V,Pub Corps: Total Non-manufacturing : Total asset: £m: CVM: NSA,m,£
+DS3W,Priv Sect & Pub Corps: Total Non-manufacturing : Total asset: £m: CVM: NSA,m,£
+DS3Y,Priv Sect: Non-manufacturing: Other production: Total asset: £m: CVM: SA,m,£
+DS3Z,Priv Sect: Non-manufacturing: Other services : Total asset: £m: CVM: SA,m,£
+DS42,Priv Sect: Total Non-manufacturing: Total asset: £m: CVM: SA,m,£
+DS43,Pub Corps: Total Non-manufacturing: Total asset: £m: CVM: SA,m,£
+DS44,Priv Sect & Pub Corps: Total Non-manufacturing: Total asset: £m: CVM: SA,m,£
+DS4E,Priv Sect: Manufacturing: Total Asset: £m: CP: NSA,m,£
+DS4F,Priv Sect: Manufacturing: Total Asset: £m: CVM: NSA,m,£
+DS4G,Priv Sect: Manufacturing: Total Asset: £m: CP: SA,m,£
+DS4H,Priv Sect: Manufacturing: Total Asset: £m: CVM: SA,m,£
+DS4I,Priv Sect: Non-manufacturing: Other production: Total asset: £m: CP: NSA,m,£
+DS4J,Priv Sect: Non-manufacturing: Other services: Total asset: £m: CP: NSA,m,£
+DS4K,Priv Sect: Total Non-manufacturing: Total asset: £m: CP: NSA,m,£
+DS4L,Pub Corps: Total Non-manufacturing: Total asset: £m: CP: NSA,m,£
+DS4M,Priv Sect: Manufacturing: Vehicles: £m: CP: NSA,m,£
+DS4N,Priv Sect: Manufacturing: Vehicles: £m: CVM: NSA,m,£
+DS4O,Priv Sect: Manufacturing: Vehicles: £m: CP: SA,m,£
+DS4P,Priv Sect: Manufacturing: Vehicles: £m: CVM: SA,m,£
+DS4Q,"Priv Sect: Manufacture of food, drink and tobacco: Total Asset: £m: CP: NSA",m,£
+DS4R,"Priv Sect: Manufacture of food, drink and tobacco: Total Asset: £m: CVM: NSA",m,£
+DS4S,"Priv Sect: Manufacture of food, drink and tobacco: Total Asset: £m: CP: SA",m,£
+DS4T,"Priv Sect: Manufacture of food, drink and tobacco: Total Asset: £m: CVM: SA",m,£
+DS4U,Priv Sect: Manufacture of textiles and leather: Total Asset: £m: CP: NSA,m,£
+DS4V,Priv Sect: Manufacture of textiles and leather: Total Asset: £m: CVM: NSA,m,£
+DS4W,Priv Sect: Manufacture of textiles and leather: Total Asset: £m: CP: SA,m,£
+DS4X,Priv Sect: Manufacture of textiles and leather: Total Asset: £m: CVM: SA,m,£
+DS55,"Priv Sect: Manufacture of coke, refined petroleum: Total Asset: £m: CP: NSA",m,£
+DS56,"Priv Sect: Manufacture of coke, refined petroleum:Total Asset: £m: CVM: NSA",m,£
+DS57,"Priv Sect: Manufacture of coke, refined petroleum: Total Asset: £m: CP: SA",m,£
+DS58,"Priv Sect: Manufacture of coke, refined petroleum:Total Asset: £m: CVM: SA",m,£
+DS5L,"Priv Sect: Manufacture of basic metals, metal prod: Total Asset: £m: CP: NSA",m,£
+DS5M,"Priv Sect: Manufacture of basic metals, metal prod:Total Asset:£m: CVM: NSA",m,£
+DS5N,"Priv Sect: Manufacture of basic metals, metal prod:Total Asset: £m: CP: SA",m,£
+DS5O,"Priv Sect: Manufacture of basic metals, metal prod:Total Asset:£m: CVM: SA",m,£
+DS6V,Priv Sect: Non-manufacturing: Construction : Total Asset: £m: CP: NSA,m,£
+DS6W,Priv Sect: Construction : Total Asset: £m: CVM: NSA,m,£
+DS6X,Priv Sect: Non-manufacturing: Construction : Total Asset: £m: CP: SA,m,£
+DS6Y,Priv Sect: Construction : Total Asset: £m: CVM: SA,m,£
+DS7H,Priv Sect: Non-manufacturing: Distribution services: Total Asset: £m: CP: NSA,m,£
+DS7I,Priv Sect: Distribution services: Total Asset: £m: CVM: NSA,m,£
+DS7J,Priv Sect: Non-manufacturing: Distribution services: Total Asset: £m: CP: SA,m,£
+DS7K,Priv Sect: Distribution services: Total Asset: £m: CVM: SA,m,£
+DS7T,Priv Sect: Non-Manuf: Transportation and storage: Total Asset: £m: CP: NSA,m,£
+DS7U,Priv Sect: Transportation and storage: Total Asset: £m: CVM: NSA,m,£
+DS7V,Priv Sect: Non-Manuf: Transportation and storage: Total Asset: £m: CP: SA,m,£
+DS7W,Priv Sect: Transportation and storage: Total Asset: £m: CVM: SA,m,£
+DS83,Priv Sect: Non-Manuf: Accom. and food serv.activities: Tot Asset: £m: CP: NSA,m,£
+DS84,Priv Sect: Accommodation and food serv.activities: Total Asset: £m: CVM: NSA,m,£
+DS85,Priv Sect: Non-Manuf: Accom. and food serv.activities: Tot Asset: £m: CP: SA,m,£
+DS86,Priv Sect: Accommodation and food serv.activities: Total Asset: £m: CVM: SA,m,£
+DS8B,Priv Sect: Non-Manuf: Information and communication: Total Asset: £m: CP: NSA,m,£
+DS8C,Priv Sect: Information and communication: Total Asset: £m: CVM: NSA,m,£
+DS8D,Priv Sect: Non-Manuf: Information and communication: Total Asset: £m: CP: SA,m,£
+DS8E,Priv Sect: Information and communication: Total Asset: £m: CVM: SA,m,£
+DS8J,Priv Sect: Non-Manuf: Financial and ins. activities: Total Asset: £m: CP: NSA,m,£
+DS8K,Priv Sect: Financial and insurance activities: Total Asset: £m: CVM: NSA,m,£
+DS8L,Priv Sect: Non-Manuf: Financial and ins. activities: Total Asset:£m: CP: SA,m,£
+DS8M,Priv Sect: Financial and insurance activities: Total Asset: £m: CVM: SA,m,£
+DS9Q,Priv Sect: Non-Manuf: Education: Total Asset: £m: CP: NSA,m,£
+DS9R,Priv Sect: Education: Total Asset: £m: CVM: NSA,m,£
+DS9S,Priv Sect: Non-Manuf: Education: Total Asset: £m: CP: SA,m,£
+DS9T,Priv Sect: Education: Total Asset: £m: CVM: SA,m,£
+DS9Y,Priv Sect: Non-Manuf: Human health and social work act: Tot Asset: £m: CP: NSA,m,£
+DS9Z,Priv Sect: Human health and social work activities: Total Asset: £m: CVM: NSA,m,£
+DSA2,Priv Sect: Non-Manuf: Human health and social work act: Tot Asset: £m: CP: SA,m,£
+DSA3,Priv Sect: Human health and social work activities: Total Asset: £m: CVM: SA,m,£
+DSD5,Priv Sect & Pub Corps: Total Non-manufacturing: Total asset: £m: CP: NSA,m,£
+DSD7,Priv Sect: Non-manufacturing: Other production: Total asset: £m: CP: SA,m,£
+DSD8,Priv Sect: Non-manufacturing: Other services : Total asset: £m: CP: SA,m,£
+DSD9,Priv Sect: Total Non-manufacturing : Total asset: £m: CP: SA,m,£
+DSE2,Pub Corps: Total Non-manufacturing: Total asset: £m: CP: SA,m,£
+DSE3,Priv Sect & Pub Corps: Total Non-manufacturing : Total asset: £m: CP: SA,m,£
+DSE5,Priv Sect: Manufacturing: Chemicals and pharm. Prod.: Total asset: £m: CVM: NSA,m,£
+DSE6,Priv Sect: Manufacturing: Engineering and vehicles: Total asset: £m: CVM: NSA,m,£
+DSE7,Priv Sect: Manufacturing: Other manufacturing: Total asset: £m: CVM: NSA,m,£
+DSE8,Priv Sect: Manufacturing: Chemicals and pharm. Prod.: Total asset: £m: CVM: SA,m,£
+DSE9,Priv Sect: Manufacturing: Engineering and vehicles: Total asset: £m: CVM: SA,m,£
+DSF2,Priv Sect: Manufacturing: Other manufacturing: Total asset: £m: CVM: SA,m,£
+DSF3,Priv Sect: Manufacturing: Chemicals and pharm. Prod.: Total asset: £m: CP: NSA,m,£
+DSF4,Priv Sect: Manufacturing: Engineering and vehicles: Total asset: £m: CP: NSA,m,£
+DSF5,Priv Sect: Manufacturing: Other manufacturing: Total asset: £m: CP: NSA,m,£
+DSF6,Priv Sect: Manufacturing: Chemicals and pharm. Prod.: Total asset: £m: CP: SA,m,£
+DSF7,Priv Sect: Manufacturing: Engineering and vehicles: Total asset: £m: CP: SA,m,£
+DSF8,Priv Sect: Manufacturing: Other manufacturing: Total asset: £m: CP: SA,m,£
+DSF9,Priv Sect: Manufacturing: Other capital equipment : Other assets: £m: CVM: NSA,m,£
+DSG2,Priv Sect: Manufacturing: Other capital equipment : Other assets: £m: CVM: SA,m,£
+DSG3,Priv Sect: Manufacturing: Other capital equipment : Other assets: £m: CP: NSA,m,£
+DSG4,Priv Sect: Manufacturing: Other capital equipment : Other assets: £m: CP: SA,m,£
+DSG5,"Priv Sect: Non-Manuf: Other prod: Elec, gas & water: Total asset: £m: CVM: NSA",m,£
+DSG6,"Priv Sect: Non-Manuf: Oth prod: Real est, rent & bus: Tot asset: £m: CVM: NSA",m,£
+DSG7,Priv Sect: Non-Manuf: Other prod: Other services: Total asset: £m: CVM: NSA,m,£
+DSG8,"Priv Sect: Non-Manuf: Other prod: Elec, gas & water: Total asset: £m: CVM: SA",m,£
+DSG9,"Priv Sect: Non-Manuf: Oth prod: Real est, rent & bus: Tot asset: £m: CVM: SA",m,£
+DSH2,Priv Sect: Non-Manuf: Other prod: Other services: Total asset: £m: CVM: SA,m,£
+DSH3,"Priv Sect: Non-Manuf: Elec, gas & water: Total asset: £m: CP: NSA",m,£
+DSH4,"Priv Sect: Non-Manuf: Real est, rent & bus: Tot asset: £m: CP: NSA",m,£
+DSH5,Priv Sect: Non-Manuf: Other services: Total asset: £m: CP: NSA,m,£
+DSH6,"Priv Sect: Non-Manuf: Elec, gas & water: Total asset: £m: CP: SA",m,£
+DSH7,"Priv Sect: Non-Manuf: Real est, rent & bus: Tot asset: £m: CP: SA",m,£
+DSH8,Priv Sect: Non-Manuf: Other services: Total asset: £m: CP: SA,m,£
+DSI2,Priv Sect & Pub Corps: Total Manufacturing: Total asset: £m: CVM: NSA,m,£
+DSI3,Priv Sect & Pub Corps: Total Manufacturing: Total asset: £m: CVM: SA,m,£
+DSI4,Priv Sect & Pub Corps: Total Manufacturing: Total asset: £m: CP: NSA,m,£
+DSI5,Priv Sect & Pub Corps: Total Manufacturing: Total asset: £m: CP: SA,m,£
+EDOH,Non Gov: Transport Equipment: Total Industry: £m: CVM: SA,NA,NA
+EDOP,Non Gov: ICT equipment and other machinery: Total Industry: £m: CVM: SA,NA,NA
+EDQZ,Non Gov: Other buildings and structures: Total Industry: £m: CVM: SA,NA,NA
+EDRA,Non Gov: Intellectual Property Products: Total Industry: £m: CVM: SA,NA,NA
+EDRB,Non Gov: Transport Equipment: Total Industry: £m: CP: SA,NA,NA
+EDWH,Non Gov: ICT equipment and other machinery: Total Industry: £m: CP: SA,NA,NA
+EDYP,Non Gov: Other buildings and structures: Total Industry: £m: CP: SA,NA,NA
+EDYS,Non Gov: Intellectual Property Products: Total Industry: £m: CP: SA,NA,NA
+EDZC,Total Sector: Weapons: Total Industry: £m: CP: NSA,NA,NA
+EE73,Total Sector: New Dwellings: Total Industry: £m: CP: SA,NA,NA
+EE74,Total Sector: New Dwellings: Total Industry: £m: CVM: SA,NA,NA
+EED5,Total Sector: Improvements to existing Dwellings: Total Industry: £m: CP: SA,NA,NA
+EED6,Total Sector: Improvements to existing Dwellings: Total Industry: £m: CVM: SA,NA,NA
+EED7,Private Sector: ICT: Total Industry: £m: CP: NSA,NA,NA
+EED8,Private Sector: ICT: Manufacturing: £m: CP: NSA,NA,NA
+EED9,Private Sector: ICT: Wholesale and Retail: £m: CP: NSA,NA,NA
+EEE2,Private Sector: ICT: Transportation and Storage: £m: CP: NSA,NA,NA
+EEI7,Private Sector: ICT: Information and Communication: £m: CP: NSA,NA,NA
+EEI8,Private Sector: ICT: Financial and Insurance Activities: £m: CP: NSA,NA,NA
+EEI9,"Private Sector: ICT: Professional, Scientific and Technical Activities: £m: CP: NSA",NA,NA
+EEJ2,Private Sector: ICT: Administrative and Support Service Activities: £m: CP: NSA,NA,NA
+EF2K,"Total Sector: Total IPP: AGRICULTURE, FORESTRY AND FISHING: £m: CP: NSA",NA,NA
+EF2L,Total Sector: Total IPP: MINING AND QUARRYING: £m: CP: NSA,NA,NA
+EF2M,Total Sector: Total IPP: MANUFACTURING: £m: CP: NSA,NA,NA
+EF2N,"Total Sector: Total IPP: ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY: £m: CP: NSA",NA,NA
+EF2O,"Total Sector: Total IPP: WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES: £m: CP: NSA",NA,NA
+EF2P,Total Sector: Total IPP: CONSTRUCTION: £m: CP: NSA,NA,NA
+EF2Q,Total Sector: Total IPP: WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES: £m: CP: NSA,NA,NA
+EF2R,Total Sector: Total IPP: TRANSPORTATION AND STORAGE: £m: CP: NSA,NA,NA
+EF2S,Total Sector: Total IPP: ACCOMMODATION AND FOOD SERVICE ACTIVITIES: £m: CP: NSA,NA,NA
+EF2T,Total Sector: Total IPP: INFORMATION AND COMMUNICATION: £m: CP: NSA,NA,NA
+EF2U,Total Sector: Total IPP: FINANCIAL AND INSURANCE ACTIVITIES: £m: CP: NSA,NA,NA
+EF33,Total Sector: Total IPP: REAL ESTATE ACTIVITIES: £m: CP: NSA,NA,NA
+EF34,"Total Sector: Total IPP: PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES: £m: CP: NSA",NA,NA
+EF35,Total Sector: Total IPP: ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES: £m: CP: NSA,NA,NA
+EF36,Total Sector: Total IPP: PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY: £m: CP: NSA,NA,NA
+EF37,Total Sector: Total IPP: EDUCATION: £m: CP: NSA,NA,NA
+EF39,Total Sector: Total IPP: HUMAN HEALTH AND SOCIAL WORK ACTIVITIES: £m: CP: NSA,NA,NA
+EF3A,"Total Sector: Total IPP: ARTS, ENTERTAINMENT AND RECREATION: £m: CP: NSA",NA,NA
+EF3B,Total Sector: Total IPP: OTHER SERVICE ACTIVITIES: £m: CP: NSA,NA,NA
+EF3C,Total Sector: Total Software: Total Industry: £m: CP: NSA,NA,NA
+EF3D,"Total Sector: Total Software: AGRICULTURE, FORESTRY AND FISHING: £m: CP: NSA",NA,NA
+EF3E,Total Sector: Total Software: MINING AND QUARRYING: £m: CP: NSA,NA,NA
+EF3F,Total Sector: Total Software: MANUFACTURING: £m: CP: NSA,NA,NA
+EF3G,"Total Sector: Total Software: ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY: £m: CP: NSA",NA,NA
+EF3Q,"Total Sector: Total Software: WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES: £m: CP: NSA",NA,NA
+EF87,Total Sector: Total Software: CONSTRUCTION: £m: CP: NSA,NA,NA
+EF88,Total Sector: Total Software: WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES: £m: CP: NSA,NA,NA
+EF89,Total Sector: Total Software: TRANSPORTATION AND STORAGE: £m: CP: NSA,NA,NA
+EF8A,Total Sector: Total Software: ACCOMMODATION AND FOOD SERVICE ACTIVITIES: £m: CP: NSA,NA,NA
+EF8B,Total Sector: Total Software: INFORMATION AND COMMUNICATION: £m: CP: NSA,NA,NA
+EF8C,Total Sector: Total Software: FINANCIAL AND INSURANCE ACTIVITIES: £m: CP: NSA,NA,NA
+EF8D,Total Sector: Total Software: REAL ESTATE ACTIVITIES: £m: CP: NSA,NA,NA
+EF8E,"Total Sector: Total Software: PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES: £m: CP: NSA",NA,NA
+EF8F,Total Sector: Total Software: ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES: £m: CP: NSA,NA,NA
+EF8G,Total Sector: Total Software: PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY: £m: CP: NSA,NA,NA
+EF8H,Total Sector: Total Software: EDUCATION: £m: CP: NSA,NA,NA
+EF8I,Total Sector: Total Software: HUMAN HEALTH AND SOCIAL WORK ACTIVITIES: £m: CP: NSA,NA,NA
+EF8J,"Total Sector: Total Software: ARTS, ENTERTAINMENT AND RECREATION: £m: CP: NSA",NA,NA
+EF8K,Total Sector: Total Software: OTHER SERVICE ACTIVITIES: £m: CP: NSA,NA,NA
+EF8L,Total Sector: Purchased Software: Total Industry: £m: CP: NSA,NA,NA
+EF8M,"Total Sector: Purchased Software: AGRICULTURE, FORESTRY AND FISHING: £m: CP: NSA",NA,NA
+EF8N,Total Sector: Purchased Software: MINING AND QUARRYING: £m: CP: NSA,NA,NA
+EF8O,Total Sector: Purchased Software: MANUFACTURING: £m: CP: NSA,NA,NA
+EF99,"Total Sector: Purchased Software: ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY: £m: CP: NSA",NA,NA
+EF9A,"Total Sector: Purchased Software: WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES: £m: CP: NSA",NA,NA
+EF9B,Total Sector: Purchased Software: CONSTRUCTION: £m: CP: NSA,NA,NA
+EF9C,Total Sector: Purchased Software: WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES: £m: CP: NSA,NA,NA
+EF9D,Total Sector: Purchased Software: TRANSPORTATION AND STORAGE: £m: CP: NSA,NA,NA
+EF9E,Total Sector: Purchased Software: ACCOMMODATION AND FOOD SERVICE ACTIVITIES: £m: CP: NSA,NA,NA
+EF9F,Total Sector: Purchased Software: INFORMATION AND COMMUNICATION: £m: CP: NSA,NA,NA
+EF9G,Total Sector: Purchased Software: FINANCIAL AND INSURANCE ACTIVITIES: £m: CP: NSA,NA,NA
+EF9H,Total Sector: Purchased Software: REAL ESTATE ACTIVITIES: £m: CP: NSA,NA,NA
+EF9I,"Total Sector: Purchased Software: PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES: £m: CP: NSA",NA,NA
+EF9J,Total Sector: Purchased Software: ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES: £m: CP: NSA,NA,NA
+EF9K,Total Sector: Purchased Software: PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY: £m: CP: NSA,NA,NA
+EF9L,Total Sector: Purchased Software: EDUCATION: £m: CP: NSA,NA,NA
+EF9M,Total Sector: Purchased Software: HUMAN HEALTH AND SOCIAL WORK ACTIVITIES: £m: CP: NSA,NA,NA
+EF9N,"Total Sector: Purchased Software: ARTS, ENTERTAINMENT AND RECREATION: £m: CP: NSA",NA,NA
+EF9O,Total Sector: Purchased Software: OTHER SERVICE ACTIVITIES: £m: CP: NSA,NA,NA
+EF9P,Total Sector: Own Account Software: Total Industry: £m: CP: NSA,NA,NA
+EF9Q,"Total Sector: Own Account Software: AGRICULTURE, FORESTRY AND FISHING: £m: CP: NSA",NA,NA
+EF9R,Total Sector: Own Account Software: MINING AND QUARRYING: £m: CP: NSA,NA,NA
+EF9S,Total Sector: Own Account Software: MANUFACTURING: £m: CP: NSA,NA,NA
+EF9T,"Total Sector: Own Account Software: ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY: £m: CP: NSA",NA,NA
+EF9U,"Total Sector: Own Account Software: WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES: £m: CP: NSA",NA,NA
+EF9V,Total Sector: Own Account Software: CONSTRUCTION: £m: CP: NSA,NA,NA
+EF9W,Total Sector: Own Account Software: WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES: £m: CP: NSA,NA,NA
+EF9X,Total Sector: Own Account Software: TRANSPORTATION AND STORAGE: £m: CP: NSA,NA,NA
+EF9Y,Total Sector: Own Account Software: ACCOMMODATION AND FOOD SERVICE ACTIVITIES: £m: CP: NSA,NA,NA
+EF9Z,Total Sector: Own Account Software: INFORMATION AND COMMUNICATION: £m: CP: NSA,NA,NA
+EFA2,Total Sector: Own Account Software: FINANCIAL AND INSURANCE ACTIVITIES: £m: CP: NSA,NA,NA
+EFA3,Total Sector: Own Account Software: REAL ESTATE ACTIVITIES: £m: CP: NSA,NA,NA
+EFA4,"Total Sector: Own Account Software: PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES: £m: CP: NSA",NA,NA
+EFA5,Total Sector: Own Account Software: ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES: £m: CP: NSA,NA,NA
+EFA6,Total Sector: Own Account Software: PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY: £m: CP: NSA,NA,NA
+EFA7,Total Sector: Own Account Software: EDUCATION: £m: CP: NSA,NA,NA
+EFA8,Total Sector: Own Account Software: HUMAN HEALTH AND SOCIAL WORK ACTIVITIES: £m: CP: NSA,NA,NA
+EFA9,"Total Sector: Own Account Software: ARTS, ENTERTAINMENT AND RECREATION: £m: CP: NSA",NA,NA
+EFB2,Total Sector: Own Account Software: OTHER SERVICE ACTIVITIES: £m: CP: NSA,NA,NA
+EFM3,Total Sector: Mineral Exploration: Total Industry: £m: CP: NSA,NA,NA
+EFN6,Total Sector: Mineral Exploration: MINING AND QUARRYING: £m: CP: NSA,NA,NA
+EFQ9,Total Sector: Artistic Originals: Total Industry: £m: CP: NSA,NA,NA
+EFT2,Total Sector: Artistic Originals: INFORMATION AND COMMUNICATION: £m: CP: NSA,NA,NA
+EFU6,"Total Sector: Artistic Originals: ARTS, ENTERTAINMENT AND RECREATION: £m: CP: NSA",NA,NA
+EFU8,Total Sector: Research and Development: Total Industry: £m: CP: NSA,NA,NA
+EFV4,"Total Sector: Research and Development: AGRICULTURE, FORESTRY AND FISHING: £m: CP: NSA",NA,NA
+EFV5,Total Sector: Research and Development: MINING AND QUARRYING: £m: CP: NSA,NA,NA
+EFV6,Total Sector: Research and Development: MANUFACTURING: £m: CP: NSA,NA,NA
+EFV7,"Total Sector: Research and Development: ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY: £m: CP: NSA",NA,NA
+EFV8,"Total Sector: Research and Development: WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES: £m: CP: NSA",NA,NA
+EFV9,Total Sector: Research and Development: CONSTRUCTION: £m: CP: NSA,NA,NA
+EFW2,Total Sector: Research and Development: WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES: £m: CP: NSA,NA,NA
+EFW4,Total Sector: Research and Development: TRANSPORTATION AND STORAGE: £m: CP: NSA,NA,NA
+EFW5,Total Sector: Research and Development: ACCOMMODATION AND FOOD SERVICE ACTIVITIES: £m: CP: NSA,NA,NA
+EFW6,Total Sector: Research and Development: INFORMATION AND COMMUNICATION: £m: CP: NSA,NA,NA
+EFW7,Total Sector: Research and Development: FINANCIAL AND INSURANCE ACTIVITIES: £m: CP: NSA,NA,NA
+EFW8,Total Sector: Research and Development: REAL ESTATE ACTIVITIES: £m: CP: NSA,NA,NA
+EFW9,"Total Sector: Research and Development: PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES: £m: CP: NSA",NA,NA
+EFX2,Total Sector: Research and Development: ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES: £m: CP: NSA,NA,NA
+EFX3,Total Sector: Research and Development: PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY: £m: CP: NSA,NA,NA
+EFX4,Total Sector: Research and Development: EDUCATION: £m: CP: NSA,NA,NA
+EFX5,Total Sector: Research and Development: HUMAN HEALTH AND SOCIAL WORK ACTIVITIES: £m: CP: NSA,NA,NA
+EFX7,"Total Sector: Research and Development: ARTS, ENTERTAINMENT AND RECREATION: £m: CP: NSA",NA,NA
+EFX8,Total Sector: Research and Development: OTHER SERVICE ACTIVITIES: £m: CP: NSA,NA,NA
+EQDN,Gross Fixed Capital Formation:Total General Government P51:CVM NSA: £m,NA,NA
+EQDO,Gross Fixed Capital Formation: Total Economy:All Intangible Fixed Assets CVM SA,NA,NA
+EQDT,Gross Fixed Capital Formation:Total Economy:All Intangible Fixed Assets CVM NSA,NA,NA
+EQEC,GFCF:Total economy: Other buildings& structures and transfer costs: CP NSA,NA,NA
+EQED,GFCF: Total economy:Other buildings & structures and transfer costs: CP SA,NA,NA
+FSM5,GG uses: P51 GFCF exc BNFL asset transfer: CP NSA,NA,NA
+FSM6,GG uses: P51 GFCF exc BNFL asset transfer: CVM NSA,NA,NA
+G93X,GG uses: P51 GFCF exc BNFL asset transfer: CVM SA,NA,NA
+GAN7,Bus Inv exc. exceptional transfer: CVM NSA,NA,NA
+GAN8,Bus Inv exc. exceptional transfer: CVM SA,NA,NA
+GAO3,Bus Inv exc. exceptional transfer: CP NSA,NA,NA
+GAO4,Bus Inv exc. exceptional transfer: CP SA,NA,NA
+GGAE,"Gross Fixed Capital Formation:Total Economy:Total New Dwellings,excluding land",NA,NA
+L5YQ,"GFCF:Public non-fin corps: TOTAL: Dwellings, excluding land: £m: CP: NSA",NA,NA
+L5ZL,GFCF:Public non-fin corps: TOTAL: Transfer of ownership costs: £m: CP: NSA,NA,NA
+L5ZQ,"GFCF:Private sector: TOTAL: Dwellings, excluding land: £m: CP: NSA",NA,NA
+L5ZR,GFCF:Private sector: TOTAL: Transfer of ownership costs: £m: CP: NSA,NA,NA
+L62K,"GFCF:Private sector: TOTAL: Dwellings, excluding land: £m: CVM: NSA",NA,NA
+L62L,GFCF:Private sector: TOTAL: Transfer of ownership costs: £m: CVM: NSA,NA,NA
+L62M,"GFCF:Public non-fin corps: TOTAL: Dwellings, excluding land: £m: CVM: NSA",NA,NA
+L62N,GFCF:Public non-fin corps: TOTAL: Transfer of ownership costs: £m: CVM: NSA,NA,NA
+L62R,"GFCF:Public non-fin corps: TOTAL: Dwellings, excluding land: £m: CP: SA",NA,NA
+L62S,GFCF:Public non-fin corps: TOTAL: Transfer of ownership costs: £m: CP: SA,NA,NA
+L62T,"GFCF:Private sector: TOTAL: Dwellings, excluding land: £m: CP: SA",NA,NA
+L62U,GFCF:Private sector: TOTAL: Transfer of ownership costs: £m: CP: SA,NA,NA
+L634,"GFCF:Public non-fin corps: TOTAL: Dwellings, excluding land: £m: CVM: SA",m,£
+L635,GFCF:Public non-fin corps: TOTAL: Transfer of ownership costs: £m: CVM: SA,m,£
+L636,"GFCF:Private sector: TOTAL: Dwellings, excluding land: £m: CVM: SA",m,£
+L637,GFCF:Private sector: TOTAL: Transfer of ownership costs: £m: CVM: SA,m,£
+NNBF,Gross Fixed capital formation: General Government: P51: CP NSA: £m,NA,NA
+NPEK,Gross Fixed Capital Formation: Business Investment: CP SA: £m,m,£
+NPEL,Gross Fixed Capital Formation: Business Investment: CVM SA: £m,m,£
+NPEM,Gross Fixed Capital Formation: Business Investment: CP NSA: £m,m,£
+NPEN,Gross Fixed Capital Formation: Business Investment: CVM NSA: £m,m,£
+NPQR,Total Gross Fixed Capital Formation CVM NSA £m,NA,NA
+NPQS,Total Gross Fixed Capital Formation CP SA £m,NA,NA
+NPQT,Total Gross Fixed Capital Formation CVM SA £m,NA,NA
+NPQX,Total Gross Fixed Capital Formation CP NSA £m,NA,NA
+RPZG,GFCF : S.13 : TOTAL : TOTAL : CP : SA : VALUE : £m : P.51g,NA,NA
+TLPK,Gross Fixed Capital Formation:Total Economy:Total Intangible Fixed Assets: CP SA,NA,NA
+TLPW,Gross Fixed Capital Formation: Whole economy: Plant and machinery: CP SA,NA,NA
+TLPX,Gross Fixed Capital Formation :Total Economy:Total Transport Equipment: CP SA,NA,NA
