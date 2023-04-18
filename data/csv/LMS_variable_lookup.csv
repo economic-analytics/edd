@@ -1568,7 +1568,7 @@ YCGW,LFS: ILO unemployment rate: Aged 35-49: UK: Male: %: SA,%,NA
 YCGX,LFS: ILO unemployment rate: Aged 35-49: UK: Female: %: SA,%,NA
 YCHC,LFS: Population aged 16 and over: North East: All: Thousands: NSA,NA,NA
 YCHD,LFS: Population aged 16 and over: North West (GOR): All: Thousands: NSA,NA,NA
-YCHE,LFS: Population over 16 and over: Yorks & the Humber: All: Thousands: NSA,NA,NA
+YCHE,LFS: Population aged 16 and over: Yorks & the Humber: All: Thousands: NSA,NA,NA
 YCHF,LFS: Population aged 16 and over: East Midlands: All: Thousands: NSA,NA,NA
 YCHG,LFS: Population aged 16 and over: West Midlands: All: Thousands: NSA,NA,NA
 YCHH,LFS: Population aged 16 and over: East: All: Thousands: NSA,NA,NA
@@ -1587,7 +1587,7 @@ YCHT,LFS: Economically active: West Midlands: All: Thousands: SA,NA,NA
 YCHU,LFS: Economically active: East: All: Thousands: SA,NA,NA
 YCHV,LFS: Economically active: London: All: Thousands: SA,NA,NA
 YCHW,LFS: Economically active: South East (GOR): All: Thousands: SA,NA,NA
-YCHX,LFS: Economically active: South West: All: Thosuands: SA,NA,NA
+YCHX,LFS: Economically active: South West: All: Thousands: SA,NA,NA
 YCHY,LFS: Economically active: England: All: Thousands: SA,NA,NA
 YCHZ,LFS: Economically active: Wales: All: Thousands: SA,NA,NA
 YCIA,LFS: Economically active: Scotland: All: Thousands: SA,NA,NA
