@@ -1,0 +1,5 @@
+stages:
+  test:
+    cmd: Rscript test.R
+    deps:
+      - test.R
