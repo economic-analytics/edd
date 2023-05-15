@@ -17,7 +17,7 @@ Imports:
     dplyr,
     DT,
     ggplot2,
-    leaflet,
+    leaflet (>= 2.1),
     lubridate,
     magrittr,
     pkgload,
