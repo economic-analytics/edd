@@ -37,7 +37,7 @@ df_to_edd_obj <- function(df) {
 
   # build data df
   data <- df |>
-    dplyr::mutate(dates = purrr::map_df(date, ons_parse_dates, frequency = TRUE)) |>
+    dplyr::mutate(dates = date_text_to_df(date)) |>
     dplyr::select(dates, dplyr::ends_with("_code"), value) |>
     dplyr::rename_with(~ stringr::str_remove(.x, "_code"))
 

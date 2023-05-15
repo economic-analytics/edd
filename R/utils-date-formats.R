@@ -32,7 +32,8 @@ date_iso_to_quarter <- function(date) {
 date_text_to_iso <- function(date_as_text, frequency = NULL) {
 
   #TODO move ons_parse_dates here and refine ----
-  ons_parse_dates(date_as_text)
+  # ons_parse_dates(date_as_text)
+  warning("Function not in use")
 }
 
 date_text_to_df <- function(dates) {
