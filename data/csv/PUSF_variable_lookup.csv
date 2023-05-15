@@ -118,6 +118,7 @@ ANTC,Financing of CGNCR: Deposits with CG by other sectors,NA,NA
 ANTD,Financing of CGNCR: NILO (except PWLB),NA,NA
 ANVQ,PC: Accounts receivable/payable: £m CPNSA,m,£
 ANVU,PC: Other financial transactions: £m CPNSA,m,£
+APEI,FA: LA: Asset: Level: British government securities,NA,NA
 BKPJ,CG: Sterling treasury bills: £m CPNSA,NA,NA
 BKPM,CG: British government stock (gilts): £m CPNSA,NA,NA
 BKPW,CG: Total central government gross debt: £m CPNSA,NA,NA
@@ -169,6 +170,7 @@ CPPJ,GG: Net Financial Liabilities: NSA:£m,NA,NA
 CPPK,PC: Net Financial Liabilities: NSA:£m,NA,NA
 CPPL,BoE: Net Financial Liabilities: NSA:£m,NA,NA
 CPRN,CG: Receipts: Corporation tax: Accrued: Gross of tax credits: £m:NSA,NA,NA
+CT9G,CG: AS: F424N1 K.7 Nominal holding gains/losses: Student Loan Book Sale,NA,NA
 CUDG,CG: Current receipts: Taxes on production: Fuel duty: £m CPNSA,NA,NA
 CUKY,CG: Current receipts: Taxes on production: Business rates (NNDR): £m CPNSA,NA,NA
 CWNY,Public Sector Pensions: Net Borrowing (B.9n): (£m) CP NSA,NA,NA
@@ -177,6 +179,8 @@ CWP3,Public Sector Pensions: Gross Debt Held by All Other Sectors (including CG)
 CWP4,Public Sector Pensions: Consolidated Gross Debt: cross holdings of CG debt,NA,NA
 CWP5,Public Sector Pensions: deposits and other short term assets: Other liquid assets: £m CP NSA,NA,NA
 CWPL,APF: Corporate Bond purchases: Level of purchases £m,NA,NA
+CWQG,Public Sector Pensions: AF.2: Level: Liability: Currency and Deposits: £m CP NSA,NA,NA
+CWQK,Public Sector Pensions: AF.4: Level: Liability: Loans: £m CP NSA,NA,NA
 CWVM,Pub Sec: AF.62: Level: Asset: Life insurance and annuity entitlements: £m CP NSA,NA,NA
 CWVN,Pub sector pensions: Net Financial Liabilities: NSA:£m,NA,NA
 CXLP,CG: D39: CV19 HMRC Job Retention Scheme: Accrued: £m: NSA,NA,NA
@@ -222,6 +226,9 @@ FZIY,BoE: Banking & Issue department: Liabilities not recognised in PSND: £m CP
 FZJ4,BoE: Asset Purchase Facility: Total cash held within the APF: £m CPNSA,NA,NA
 FZKV,BoE: Banking & Issue department: AF.4: Level: Asset: APF Loan: £m CP NSA,NA,NA
 GTAO,CG: Current receipts: Taxes on production: Tobacco: £m CPNSA,NA,NA
+GTI9,Financial Level: GG Consolidation: F29 LG Deposits with CG,NA,NA
+GTK4,Financial Level: GG Consolidated: F2 Liabilities,NA,NA
+GTK7,Financial Level: GG Consolidated: F4 Liabilities,NA,NA
 GVHE,CG: Interest & dividends from private sector and rest of world (D41/42):£m CPNSA,m,£
 GVHF,LG: Interest & dividends from private sector and rest of world (D41/42):£m CPNSA,m,£
 GVHG,PC: Interest & dividends from private sector and rest of world (D41/42):£m CPNSA,m,£
@@ -248,16 +255,155 @@ IL6C,PS: PS Banks: Other financial transactions: £m CPNSA,m,£
 IL6D,PS: Public Sector Banks net cash requirement: £m CPNSA,NA,NA
 IL6K,PS: PS Banks: Capital grants to private sector: £m CPNSA,m,£
 IL6L,PS: PS Banks: Capital grants from private sector: £m CPNSA,m,£
+J42X,S.1311: K.7 Nominal holding gains and losses: FL: F.66: Covid-19 Loan Guarantee Schemes: £m,NA,NA
 J4DD,PS: Net Borrowing as a % of GDP: CPNSA,%,NA
 J5IH,PC: Net cash requirement / market and overseas borrowing: £m CPNSA,m,£
 J5II,PS: Net Borrowing (excluding public sector banks): £m: CPNSA,m,£
 J5IJ,PS: Net Borrowing (exc PS Banks) as a % of GDP: CPNSA,%,NA
 J5IK,PS: PS Banks: Capital grants (net) within public sector: £m CPNSA,m,£
 J5IL,PS: PS Banks: Net acquisition of company securities: £m CPNSA,m,£
+J67M,Public Sector: Asset: Total Assets £m: CP: NSA,NA,NA
+J67N,Public Sector: Asset: Produced Non-Financial Assets: (AN.1): £m: CP: NSA,NA,NA
+J67O,Public Sector: Asset: Fixed Assets: (AN.11): £m: CP: NSA,NA,NA
+J67P,Public Sector: Asset: Dwellings: (AN.111): £m: CP: NSA,NA,NA
+J67Q,Public Sector: Asset: Other Buildings and Structures: (AN.112): £m: CP: NSA,NA,NA
+J67R,"""Public Sector: Asset: Machinery, Equipment and Weapons Systems: (AN.113+114): £m: CP: NSA""",NA,NA
+J67S,Public Sector: Asset: Intellectual Property Products: (AN.117): £m: CP: NSA,NA,NA
+J67T,Public Sector: Asset: Inventories: (AN.12): £m: CP: NSA,NA,NA
+J67W,Public Sector: Asset: Non-Produced Non-Financial Assets: (AN.2): £m: CP: NSA,NA,NA
+J67Y,Public Sector: Asset: Land: (AN.211): £m: CP: NSA,NA,NA
+J682,Public Sector: Asset: Monetary Gold: (AF.11): £m: CP: NSA,NA,NA
+J687,Public Sector: Asset: Special Drawing Rights: (AF.12): £m: CP: NSA,NA,NA
+J688,Public Sector: Asset: Currency: (AF.21): £m: CP: NSA,NA,NA
+J68B,Public Sector: Asset: Transferrable Deposits: (AF.22): £m: CP: NSA,NA,NA
+J68C,Public Sector: Asset: Other Deposits: (AF.29): £m: CP: NSA,NA,NA
+J6BF,Public Sector: Asset: Short-Term Debt Securities: (AF.31): £m: CP: NSA,NA,NA
+J6BR,Public Sector: Asset: Short-Term Debt Securities; Issued by UK MFIs and Other UK Residents: (AF.31N5-6): £m: CP: NSA,NA,NA
+J6BS,Public Sector: Asset: Short-Term Debt Securities; MMIs Issued by Rest of the World: (AF.31N9 ): £m: CP: NSA,NA,NA
+J6BY,Public Sector: Asset: Long-Term Debt Securities: (AF.32): £m: CP: NSA,NA,NA
+J6BZ,Public Sector: Asset: Long-Term Debt Securities; Issued by UK MFIs and Other UK Residents: (AF.32N5-6): £m: CP: NSA,NA,NA
+J6C2,Public Sector: Asset: Long-Term Debt Securities; Bonds Issued by the Rest of the World: (AF.32N9): £m: CP: NSA,NA,NA
+J6C6,Public Sector: Asset: Short-Term Loans: (AF.41): £m: CP: NSA,NA,NA
+J6FS,Public Sector: Asset: Long-Term Loans: (AF.42): £m: CP: NSA,NA,NA
+J6FT,Public Sector: Asset: Direct Investment: (AF.421): £m: CP: NSA,NA,NA
+J6FU,Public Sector: Asset: Loans Secured on Dwellings: (AF.422 ): £m: CP: NSA,NA,NA
+J6FY,Public Sector: Asset: Finance Leases: (AF.423): £m: CP: NSA,NA,NA
+J6GF,Public Sector: Asset: Other Long-Term Loans: (AF.424): £m: CP: NSA,NA,NA
+J6GI,Public Sector: Asset: Other Long-Term Loans;of Which Student Loans: (AF.424): £m: CP: NSA,NA,NA
+J6GN,Public Sector: Asset: Equity: (AF.51): £m: CP: NSA,NA,NA
+J6HH,Public Sector: Asset: Listed Shares: (AF.511): £m: CP: NSA,NA,NA
+J6KA,Public Sector: Asset: Unlisted Shares and Other Equity: (AF.512 + AF.519): £m: CP: NSA,NA,NA
+J8CN,Public Sector: Asset: Investment Fund Shares and Units: (AF.52): £m: CP: NSA,NA,NA
+J8DR,"""Public Sector: Asset: Insurance, Pension and Standardised Guarantee Schemes: (AF.6 ): £m: CP: NSA""",NA,NA
+J8EW,Public Sector: Asset: Trade Credits and Advances: (AF.81): £m: CP: NSA,NA,NA
+J8K8,"Public Sector: Asset: Other Accounts Receivable, Excluding Trade Credits and Advances: (AF.89): £m: CP: NSA",NA,NA
+J8K9,Public Sector: Liability: Long-Term Debt Securities; Issued by UK local government: (AF.32N2): £m: CP: NSA,NA,NA
+J8KB,Public Sector: Liability: Special Drawing Rights: (AF.12): £m: CP: NSA,NA,NA
+J8KC,Public Sector: Liability: Currency: (AF.21): £m: CP: NSA,NA,NA
+J8MH,Public Sector: Liability: Transferrable Deposits: (AF.22): £m: CP: NSA,NA,NA
+J8MJ,Public Sector: Liability: Other Deposits: (AF.29): £m: CP: NSA,NA,NA
+J8ML,Public Sector: Liability: Short-Term Debt Securities: (AF.31): £m: CP: NSA,NA,NA
+J8MN,Public Sector: Liability: Short-Term Debt Securities; Issued by UK Central Government: (AF.31N1 ): £m: CP: NSA,NA,NA
+J8MP,Public Sector: Liability: Short-Term Debt Securities; Issued by UK Local Government: (AF.31N2 ): £m: CP: NSA,NA,NA
+J8MR,Public Sector: Liability: Short-Term Debt Securities; Issued by UK MFIs and Other UK Residents: (AF.31N5-6): £m: CP: NSA,NA,NA
+J8MT,Public Sector: Liability: Long-Term Debt Securities: (AF.32): £m: CP: NSA,NA,NA
+J8MV,Public Sector: Liability: Long-Term Debt Securities; Issued by UK Central Government: (AF.32N1): £m: CP: NSA,NA,NA
+J8MX,Public Sector: Liability: Long-Term Debt Securities; British Government Securities: (AF.32N11): £m: CP: NSA,NA,NA
+J8MZ,Public Sector: Liability: Long-Term Debt Securities; Other UK Central Government Sterling Bonds: (AF.32N12): £m: CP: NSA,NA,NA
+J8N5,Public Sector: Liability: Long-Term Debt Securities; Issued by UK MFIs and Other UK Residents: (AF.32N5-6): £m: CP: NSA,NA,NA
+J8N7,Public Sector: Liability: Short-Term Loans: (AF.41): £m: CP: NSA,NA,NA
+J8N9,Public Sector: Liability: Short Term Loans by UK MFIs: (AF.41N1 ): £m: CP: NSA,NA,NA
+J8NB,Public Sector: Liability: Long-Term Loans: (AF.42): £m: CP: NSA,NA,NA
+J8ND,Public Sector: Liability: Direct Investment: (AF.421 ): £m: CP: NSA,NA,NA
+J8NF,Public Sector: Liability: Loans Secured on Dwellings: (AF.422 ): £m: CP: NSA,NA,NA
+J8NH,Public Sector: Liability: Finance Leases: (AF.423 ): £m: CP: NSA,NA,NA
+J8NJ,Public Sector: Liability: Other Long-Term Loans: (AF.424): £m: CP: NSA,NA,NA
+J8NL,Public Sector: Liability: Equity: (AF.51): £m: CP: NSA,NA,NA
+J8NN,Public Sector: Liability: Listed Shares: (AF.511): £m: CP: NSA,NA,NA
+J8NP,Public Sector: Liability: Unlisted Shares and Other Equity: (AF.512 + AF.519): £m: CP: NSA,NA,NA
+J8NR,Public Sector: Liability: Investment Fund Shares and Units: (AF.52): £m: CP: NSA,NA,NA
+J8NT,"""Public Sector: Liability: Insurance, Pension and Standardised Guarantee Schemes: (AF.6 ): £m: CP: NSA""",NA,NA
+J8Q7,Public Sector: Liability: Life Insurance and Annuity Entitlements: (AF.62): £m: CP: NSA,NA,NA
+J8RL,Public Sector: Liability: Trade Credits and Advances: (AF.81): £m: CP: NSA,NA,NA
+J8RM,"""Public Sector: Liability: Other Accounts Payable, Excluding Trade Credits and Advances: (AF.89): £m: CP: NSA""",NA,NA
+J8RQ,Public Sector: Net Worth: (B.90): £m: CP: NSA,NA,NA
+J8RR,Public Sector: Net Financial Worth: (BF.90): £m: CP: NSA,NA,NA
+J8RS,Central Government: Net Worth: (B.90): £m: CP: NSA,NA,NA
+J8UP,Local Government: Net Worth: (B.90): £m: CP: NSA,NA,NA
+J99M,Other Public Corporations: Net Worth: (B.90): £m: CP: NSA,NA,NA
+JCHY,Public Sector Pensions: Net Worth: (B.90): £m: CP: NSA,NA,NA
+JCXN,Public Sector: Asset: Valuables: (AN.13): £m: CP: NSA,NA,NA
+JDBP,Public Sector: Liability: Monetary gold: (AF.11): £m: CP: NSA,NA,NA
+JDBQ,Public Sector: Liability: Sterling Treasury Bills: (AF.31N11): £m: CP: NSA,NA,NA
+JDCE,Public Sector: Liability: Short term loans by RoW: (AF.41N9): £m: CP: NSA,NA,NA
+JDUX,General Government: Net Worth: (B.90): £m: CP: NSA,NA,NA
+JDUY,Public Corporations: Net Worth: (B.90): £m: CP: NSA,NA,NA
+JE4Q,Net difference in valuation of British Government Securities: £m: CP: NSA,NA,NA
+JE4R,Assets associated with Public-Private Partnerships: £m: CP: NSA,NA,NA
+JEJR,Unfunded public sector pension liabilities: Pension entitlements (AF.63): £m: CP: NSA,NA,NA
+JEJT,Liabilities associated with additional Public-Private Partnerships: Imputed finance lease loans (AF.423): £m: CP: NSA,NA,NA
+JEJU,Public Sector Net Worth: IMF GFSM: £m: CP: NSA,NA,NA
+JEJV,Public Sector: Net capital formation plus acquisitions less disposals of non-produced assets (P.5LN): £m: CP: NSA,NA,NA
+JEJW,Public Sector: Net capital transfers (payable) (D.9n): £m: CP: NSA,NA,NA
+JEPL,Public Sector: Statistical discrepancy: £m: CP: NSA,NA,NA
+JF4C,Public Sector: Total changes in Net Worth £m: CP: NSA,NA,NA
+JFX7,Public Sector: Illiquid instruments outside the boundary of PSND ex: £m CP NSA,NA,NA
+JFXV,Bank of England (inc. APF): Net Worth: (B.90): £m: CP: NSA,NA,NA
+JI5V,Public Sector: Asset: Non-Financial Assets: (AN): £m: CP: NSA,NA,NA
+JI63,Public Sector: Net Worth: Opening: (B.90): £m: CP: NSA,NA,NA
+JI66,Public sector: changes in net worth due to saving and capital transfers: £m CP NSA,NA,NA
 JIS6,CG: Energy Profits Levy: Accrued basis: CPNSA £m,NA,NA
+JJ7A,GG: Level: AF.3 (excluding gilts): CG/LG cross holdings,NA,NA
+JJ7D,Financial Level: GG Consolidated: F3 Liabilities (excluding gilts),NA,NA
+JJ7G,Central Government:LI:LEVEL:Debt securities excluding gilts: CP NSA,NA,NA
 JJI9,APF: Term Funding Scheme Loan Liability: £m CPNSA (On APF balance sheet),NA,NA
+JK7N,BoE: Cross holdings with CG: AF.32N11: British government securities: face value: £m CP NSA,NA,NA
 JK7O,BoE: Cross holdings with CG: AF.424: Other long-term loans: £m CP NSA,NA,NA
 JKF4,BoE: Banking & Issue department: Liquid assets: £m CPNSA,NA,NA
+JKF5,Public Sector: AF.63: Level: Asset: Pension entitlements: £m CP NSA,NA,NA
+JKF6,Public Sector: AF.64: Level: Asset: Claims of pension funds on pension managers: £m CP NSA,NA,NA
+JKF7,Public Sector: AF.63: Level: Liability: Pension entitlements: £m CP NSA,NA,NA
+JKF8,Public Sector: AF.64: Level: Liability: Claims of pension funds on pension managers: £m CP NSA,NA,NA
+JKG5,BoE: AF.2: Level: Liability: Currency and deposits: £m CP NSA,NA,NA
+JKR9,PC: Level: AF.2: PC/GG cross holdings: £m CP NSA,NA,NA
+JKSR,GG: Level: AF.4: CG/LG cross holdings,NA,NA
+JKW2,PC: Level: AF.4: PC/GG cross holdings: £m CP NSA,NA,NA
+JL37,BoE: Level: AF.4: BoE/GG cross holdings: £m CP NSA,NA,NA
+JL4K,Public sector pensions: Level: AF.31: PSP/PS cross holdings (face value): £m CP NSA,NA,NA
+JL9R,Public sector pensions: Level: AF.32N11: PSP/PS cross holdings (face value): £m CP NSA,NA,NA
+JLL6,Public Sector Pensions: AF.3: Level: Liability: Debt Securities: Face value: £m CP NSA,NA,NA
+JLS4,Public Sector: AF.65: Level: Asset: Entitlements to non-pension benefits: £m CP NSA,NA,NA
+JLS5,Public Sector: AF.65: Level: Liability: Entitlements to non-pension benefits: £m CP NSA,NA,NA
+JLS6,Public sector: changes in net worth due to other economic flows: B.102+B.103: £m CP NSA,NA,NA
+JLS8,"Public sector: changes in net worth due to other changes in vol, of w/ changes in assumptions for funded pension schem : £m CP NSA",NA,NA
+JLV7,PC: Level: AF.31N11: PC/GG cross holdings: £m: CP: NSA,NA,NA
+JM76,Public Sector: Asset: Cultivated Biological Resources: (AN.115): £m: CP: NSA,NA,NA
+JM9S,Central Government:LI:LEVEL:Debt securities (excl gilts) and loans: £m CP NSA,NA,NA
+JM9T,Local Government:LI:LEVEL:Debt securities and loans: £m CP NSA,NA,NA
+JM9U,GG: Level: CG/LG cross holdings: debt securities (excl gilts) and loans: £m CP NSA,NA,NA
+JM9V,Financial Level: GG Consolidated: British government securities: £m CP NSA,NA,NA
+JMB8,Public sector: Level: Cross-holdings between general government and public corporations (incl BoE & PS pensions): £m CP NSA,NA,NA
+JMB9,Financial Level: GG Consolidated: Debt securities (excl gilts) and loans: £m CP NSA,NA,NA
+JMC2,PC:LI:LEVEL:Debt securities and loans: CP NSA: £m,NA,NA
+JMC3,Bank of England (incl APF): Gross debt: £m CP NSA,NA,NA
+JMC4,Public Sector Pensions: Level: Liability: Debt securities and loans: £m CP NSA,NA,NA
+JMC5,PC: Level: AF.3: PC/GG cross holdings: Debt securities (excl gilts): £m CP NSA,NA,NA
+JMC9,PC: Level: AF.3: PC/GG cross holdings: Debt securities (excl gilts) and loans: £m CP NSA,NA,NA
+JMD2,Public sector pensions: Level: AF.4: PSP/PS cross holdings: loans: £m CP NSA,NA,NA
+JMD3,Public sector pensions: Level: PSP/PS cross holdings: debt securities (excl gilts) and loans: £m CP NSA,NA,NA
+JMD4,Public sector gross debt (excl public sector banks and BoE): Currency and deposits: £m CP NSA,NA,NA
+JMD5,Public sector gross debt (excl public sector banks and BoE): British government securities: £m CP NSA,NA,NA
+JMD6,Public sector gross debt (excl public sector banks and BoE): Debt securities (excl gilts): £m CP NSA,NA,NA
+JMEK,Public sector gross debt (excl public sector banks and BoE): Loans: £m CP NSA,NA,NA
+JMEL,Public sector gross debt (excl public sector banks and BoE): Debt securities (excl gilts) and loans: £m CP NSA,NA,NA
+JMEM,Public Sector (excl public sector banks and BoE): Deposits and other short term assets: Liquid assets: £m CP NSA,NA,NA
+JMEN,BoE: Level: Liability: Other debt liabilities: £m CP NSA,NA,NA
+JMEP,Public Sector gross debt: Debt securities (excl gilts) and loans: £m: CP: NSA,NA,NA
+JMEQ,Public Sector gross debt (excl public sector banks): £m: CP: NSA,NA,NA
+JMER,Bank of England: Level: Liquid assets: £m CP NSA,NA,NA
+JMES,Public sector (excluding public sector banks): Level: Liquid assets: £m CP NSA,NA,NA
+JMET,Public sector (excluding public sector banks): Level: Liabilities outside the boundary of PSND: £m CP NSA,NA,NA
+JMEU,Public sector (excluding public sector banks): Level: Iliquid financial assets: £m CP NSA,NA,NA
 JW27,BoE: Current Receipts: Taxes on income and wealth: £m CPNSA,m,£
 JW28,BoE: Gross Operating Surplus: £m CPNSA,m,£
 JW29,BoE: Interest & divs from private sector and rest of world (D41/42): £m CPNSA,m,£
@@ -416,8 +562,14 @@ N445,CG: Corporation Tax (gross of tax credits): £m: NSA,m,£
 NAVG,"ESA: CG: LI: FLOW: F.33111, Sterling treasury bills",NA,NA
 NCBV,ESA95:DIM: LA F.33211 accr adj,NA,NA
 NCXS,ESA95:DIM PC F.33211 accr adj,NA,NA
+NIIJ,Central Government:LI:LEVEL:Currency and deposits: CP NSA,NA,NA
+NIJU,Central Government:LI:LEVEL:Loans: CP NSA,NA,NA
+NJHY,Local Government:LI:LEVEL:Securities other than shares: CP NSA,NA,NA
 NJHZ,GG: Local government gross debt: Money market instruments: £m CPNSA,NA,NA
 NJIM,GG Local government gross debt: Bonds: £m CPNSA,NA,NA
+NKGV,ESA:PC:LI:LEVEL:Currency and deposits,NA,NA
+NKHE,PC:LI:LEVEL:Securities other than shares: CP NSA: £m,NA,NA
+NKIG,PC:LI:LEVEL:Loans: CP NSA: £m,NA,NA
 NMBG,CG: Current expenditure: Goods and services: Staff costs (D1): £m CPNSA,NA,NA
 NMBJ,CG: Current expenditure:Current expenditure on goods and services (P3): £m CPNSA,NA,NA
 NMBY,"CG: Current receipts: Taxes on production, receivable: £m CPNSA",m,£
