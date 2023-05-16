@@ -106,7 +106,7 @@ ons_rgva_to_fedo <- function(rgva) { # takes the processed rgva file
   rgva_final <- list(data       = data,
                      dimensions = dimensions)
 
-  readr::write_rds(rgva_final, "data/datasets/RGVA.rds")
+  saveRDS(rgva_final, "data/datasets/RGVA.rds")
 
   return(rgva_final)
 
