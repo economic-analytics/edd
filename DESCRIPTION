@@ -33,3 +33,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/economic-analytics/edd
+BugReports: https://github.com/economic-analytics/edd/issues
