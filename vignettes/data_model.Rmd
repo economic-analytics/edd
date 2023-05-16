@@ -67,10 +67,10 @@ date.
 
 ## Dates
 
-Dates are always stored as Date objects and returned in ISO8601 format
+Dates are always stored as Date objects (`dates$date`) and returned in ISO8601 format
 (YYYY-MM-DD). To ensure that different frequencies of the same data are
 identifiable (e.g. much data is available as monthly, quarterly and
-annual series), there is a separate variable, `freq`, that holds a
+annual series), there is a separate variable, `dates$freq`, that holds a
 single character identifier ("m", "q", "a"), so that particular
 frequencies can be distinguished. Datasets contain mixed frequency data
 by design and are only separated into distinct frequency data frames
@@ -82,18 +82,21 @@ represents either October 2022 or Q4 2022. There is an included
 function, `date_to_text()`, which translates a date in EDD's two-column
 format to a string, e.g.:
 
-`date_to_text(data.frame(date = "2022-10-01", freq = "m"))`
+```
+date_to_text(data.frame(date = "2022-10-01", freq = "m"))
+#> "October 2022"
 
-`#> "October 2022"`
+dates <- data.frame(date = c("2022-07-01", "2022-10-01"),
+                    freq = rep("q", 2))
 
-`dates <- data.frame(date = c("2022-07-01", "2022-10-01"), freq = rep("q", 2)) date_to_text(dates)`
-
-`#> "Q3 2022" "Q4 2022"`
+date_to_text(dates)
+#> "Q3 2022" "Q4 2022"
+```
 
 Whilst maintaining data in a fully described "Tidy" format makes
 integration into common R packages simple, it provides a challenge in
 large datasets: high levels of duplication of dimensional data which
-occupies significant amounts of memory where datasets are particulalry
+occupies significant amounts of memory where datasets are particularly
 large and highly-dimensional. For this reason, before data flows to the
 UI, all datasets are transformed to fifth normal form (5NF) to remove
 all data redundancy and save memory.
@@ -101,24 +104,26 @@ all data redundancy and save memory.
 Example
 
 | Date       | Geography Code | Geography Name | Industry Code | Industry Name | Variable      | Value |
-|------------|----------------|----------------|---------------|---------------|---------------|-------|
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | 2022-04-01 | E08000003      | Manchester     | C             | Construction  | GVA CVM Index | 101.5 |
 
-For a large time series, with all local authorities (\>300), SIC2007
+For a large time series, with all local authorities (>300), SIC2007
 Sectors (20) and a number of variables, the data redundancy becomes
 large. Data is transformed into 5NF to remove this:
 
-`data`
+```
+data
+date | geography.code | industry.code | variable | value
 
-`date | geography.code | industry.code | variable | value`
+geography
+geography.code | geography.name
 
-`geography`
+industry
+industry.code | industry.name
 
-`geography.code | geography.name`
-
-`industry industry.code | industry.name`
-
-`variable variable.code | variable.name | variable.unit`
+variable
+variable.code | variable.name | variable.unit
+```
 
 As well as reducing both storage space and memory usage, it also allows
 for lazy loading of the primary `data` table, as UI select boxes are
@@ -142,21 +147,28 @@ any particular dimension is not separated from others. For example, in
 our initial 3NF data frame from above, the data is actually stored like
 this:
 
-`dates | geography | industry | variable | date | freq | code | name | code | name | code | name | unit | value`
-
+```
+dates       | geography   | industry    | variable           | value
+date | freq | code | name | code | name | code | name | unit | 
+```
 Notice that value, the only numeric-type variable in any EDD data frame,
 is the only "true" single variable column: the rest are all columns of
 data frames that themselves form columns in the "master" data frame. In
 R:
-
-`master <- data.frame(dates = data.frame(date, freq),                     geography = data.frame(code, name),                     industry = data.frame(code, name),                     variable = data.frame(code, name, unit),                     value                     )`
-
+```
+master <- data.frame(dates = data.frame(date, freq),
+                     geography = data.frame(code, name),
+                     industry = data.frame(code, name),
+                     variable = data.frame(code, name, unit),
+                     value
+                     )
+```
 Whilst R natively supports the above ideas, they are more easily
 expressed through the Tidyverse's `tibble`, which is the implementation
 in EDD.
 
 The advantage of this format is that all characteristics of all
-dimensions are easily passed around between functions be simply
+dimensions are easily passed around between functions by simply
 referring to the dimension, e.g. `master$geography` or
 `master[["geography"]]` and all columns, regardless of their number, are
 always passed.
@@ -166,14 +178,24 @@ dimension lookup tables grows rapidly and may cause confusion. To
 address this, dimension lookup tables are connected to their parent data
 table by their inclusion in the same list.
 
-dataset \<- list( data = tibble( dates = tibble( date, freq), industry,
-geography, variable, value), dimensions = list( geography = tibble(
-code, name), industry = tibble( code, name), variable = tibble( code,
-name, unit) ) )
+```
+dataset <- list(
+  data = tibble(dates = tibble(date, freq),
+                industry,
+                geography,
+                variable,
+                value),
+  dimensions = list(
+    geography = tibble(code, name),
+    industry  = tibble(code, name),
+    variable  = tibble(code, name, unit)
+    )
+)
+```
 
 This standardised data architecture underpins the EDD model. It is not
 (yet) enforced through any OOP tooling, but effective constructor and
-verification functions (`as_eddobj()`, `is_eddobj()`) are available, as
+verification functions (`as_eddobj()`, `is_eddobj()`) will be available, as
 well as functions to return this model to 3NF (`eddobj_to_edd_df()`) and
 vice versa (`df_to_edd_df()`, `edd_df_to_edd_obj()`).
 
