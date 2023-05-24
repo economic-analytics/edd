@@ -325,7 +325,7 @@ J8NR,Public Sector: Liability: Investment Fund Shares and Units: (AF.52): £m: C
 J8NT,"""Public Sector: Liability: Insurance, Pension and Standardised Guarantee Schemes: (AF.6 ): £m: CP: NSA""",NA,NA
 J8Q7,Public Sector: Liability: Life Insurance and Annuity Entitlements: (AF.62): £m: CP: NSA,NA,NA
 J8RL,Public Sector: Liability: Trade Credits and Advances: (AF.81): £m: CP: NSA,NA,NA
-J8RM,"""Public Sector: Liability: Other Accounts Payable, Excluding Trade Credits and Advances: (AF.89): £m: CP: NSA""",NA,NA
+J8RM,"Public Sector: Liability: Other Accounts Payable, Excluding Trade Credits and Advances: (AF.89): £m: CP: NSA",NA,NA
 J8RQ,Public Sector: Net Worth: (B.90): £m: CP: NSA,NA,NA
 J8RR,Public Sector: Net Financial Worth: (BF.90): £m: CP: NSA,NA,NA
 J8RS,Central Government: Net Worth: (B.90): £m: CP: NSA,NA,NA
