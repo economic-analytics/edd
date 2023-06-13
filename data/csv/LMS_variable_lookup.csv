@@ -260,8 +260,8 @@ EQ52,Total non-EU employment rate NSA country of birth,NA,NA
 EQ54,Total EU(EU27) employment rate NSA nationality,NA,NA
 EQ55,Romania and Bulgaria employment rate NSA nationality,NA,NA
 EQ56,Total non-EU employment rate NSA nationality,NA,NA
-F8XZ,Working Days Lost due to strike action in the public sector - monthly,NA,NA
-F8Y2,Working Days Lost due to strike action in the private sector - monthly,NA,NA
+F8XZ,Working Days Lost due to strike action in the public sector - monthly ('000's),NA,NA
+F8Y2,Working Days Lost due to strike action in the private sector - monthly ('000's),NA,NA
 F8Y3,Number of stoppages in the public sector - monthly,NA,NA
 F8Y4,Number of stoppages in the private sector - monthly,NA,NA
 FSC2,Employment levels by country of birth (16+) - Total Europe,NA,NA
