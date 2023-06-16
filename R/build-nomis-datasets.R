@@ -79,6 +79,10 @@ df_to_edd_df <- function(df) {
   dimensions <- sub("_[^_]*$", "", variables) |> unique()
 
 
+  # TODO we need to automatically deal with dimensions that don't have name or code columns. If it's just a dim_name, then it should be converted to a _name and a _code should generated automatically.
+  # In the short term, this can be a direct copy of the _name column, but in  the longer term it should generate a unique ID otherwise we (partially) lose the benefit of normalising and improved memory use
+
+
   out_df <- list()
   out_df$dates <- date_text_to_df(df$date)
 
