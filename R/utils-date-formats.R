@@ -29,11 +29,64 @@ date_iso_to_quarter <- function(date) {
   return(ceiling(as.integer(format.Date(date, "%m")) / 3))
 }
 
-date_text_to_iso <- function(date_as_text, frequency = NULL) {
+date_text_to_iso <- function(date_as_text) {
+  out <- character(length = length(date_as_text))
+  for (i in seq_along(date_as_text)) {
+    # 01-01-2000
+    if (grepl('[0-9]{1,2}-[0-9]{2}-[0-9]{4}', date_as_text[i])) {
+      out[i] <- as.Date(date_as_text[i], format = '%d-%m-%Y') |>
+        as.character()
+      next
+    }
+    # [0]1 Jan/January 2000
+    if (grepl('[0-9]{1,2} [A-Za-z]{3,} [0-9]{4}', date_as_text[i])) {
+      out[i] <- as.Date(date_as_text[i], format = '%d %b %Y') |>
+        as.character()
+      next
+    }
+    # [0]1 Jan/January (no year provided)
+    # if month < current month, use next year, else use this year
+    # TODO this should be if date < current date, use next year, else this year
+    if (grepl('^[0-9]{1,2} [A-Za-z]{3,}$', date_as_text[i])) {
+      month_text <- stringr::str_extract(date_as_text[i], '[A-Za-z]{3,}')
+      if (nchar(month_text) == 3) {
+        month_integer <- which(month.abb == month_text)
+      } else {
+        month_integer <- which(month.name == month_text)
+      }
 
-  #TODO move ons_parse_dates here and refine ----
-  # ons_parse_dates(date_as_text)
-  warning("Function not in use")
+      year <- if (month_integer < lubridate::month(Sys.Date())) {
+        lubridate::year(Sys.Date()) + 1
+      } else {
+        lubridate::year(Sys.Date())
+      }
+      out[i] <- as.Date(paste(date_as_text[i], year), format = '%d %b %Y') |>
+        as.character()
+      next
+    }
+    # January 2020 (i.e. no day provided) - write YYYY-MM
+    if (grepl('[A-Za-z]{3,} [0-9]{4}', date_as_text[i])) {
+      month_text <- stringr::str_extract(date_as_text[i], '[A-Za-z]{3,}')
+      if (nchar(month_text) == 3) {
+        month_integer <- which(month.abb == month_text)
+      } else {
+        month_integer <- which(month.name == month_text)
+      }
+
+      # ensure we return a two-digit month
+      if (month_integer < 10) {
+        month_integer <- paste0('0', month_integer)
+      }
+
+      year <- stringr::str_extract(date_as_text[i], '[0-9]{4}')
+
+      out[i] <- paste(year, month_integer, sep = "-")
+      next
+    }
+    # catch all - can't match anything
+    out[i] <- NA
+  }
+  return(out)
 }
 
 date_text_to_df <- function(dates) {
