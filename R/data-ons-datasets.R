@@ -171,13 +171,13 @@ ons_process_dataset <- function(dataset, new_format = FALSE) {
     meta <- meta[-1, ]
     meta <- unique(meta)
 
-    last_update <- date_text_to_df(unique(meta$last_update))
-    next_update <- date_text_to_df(unique(meta$next_update))
+    last_update <- date_text_to_iso(unique(meta$last_update))
+    next_update <- date_text_to_iso(unique(meta$next_update))
     notes <- unique(na.omit(meta$notes))
 
-    meta <- tibble::tibble(last_update = last_update,
-                           next_update = next_update,
-                           notes = notes)
+    meta <- list(last_update = last_update,
+                 next_update = next_update,
+                 notes = notes)
 
     # prepare variable df
     variable <- t(variable)
