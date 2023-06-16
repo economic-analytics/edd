@@ -46,10 +46,12 @@ ons_update_datasets <- function(save_separate_rds = TRUE, save_processed_csv = T
   saveRDS(processed, file.path("data", "ons_datasets.rds"))
 
   # Update edd_dict with metadata
+  message("Updating edd_dict with metadata")
 
   for (i in seq_along(processed)) {
     edd_dict$last_update[edd_dict$id == names(processed)[i]] <- processed[[i]]$meta$last_update
     edd_dict$next_update[edd_dict$id == names(processed)[i]] <- processed[[i]]$meta$next_update
+    edd_dict$last_download[edd_dict$id == names(processed)[i]] <- Sys.Date()
   }
 
   # rewrite edd_dict .rda and .csv
