@@ -39,8 +39,22 @@ ons_update_datasets <- function(save_separate_rds = TRUE, save_processed_csv = T
   # ds_name = names(processed)
   # ) %>% setNames(names(processed))
 
-  # TODO see issue #1 - add test for existence of /data
+  if (!dir.exists("data")) {
+    dir.create("data")
+  }
+
   saveRDS(processed, file.path("data", "ons_datasets.rds"))
+
+  # Update edd_dict with metadata
+
+  for (i in seq_along(processed)) {
+    edd_dict$last_update[edd_dict$id == names(processed)[i]] <- processed[i]$meta$last_update
+    edd_dict$next_update[edd_dict$id == names(processed)[i]] <- processed[i]$meta$next_update
+  }
+
+  # rewrite edd_dict .rda and .csv
+  save(edd_dict, file = 'data/edd_dict.rda')
+  readr::write_csv(edd_dict, 'data-raw/edd_dict.csv')
 
   # write separate .rds files for each dataset
   if (save_separate_rds) {
@@ -202,61 +216,6 @@ ons_process_dataset <- function(dataset, new_format = FALSE) {
 
     # readr::write_rds(ons_datasets, "../../Data/ONS/ons_datasets.rds")
 
-    # TODO write back meta to edd_dict ####
-
-
-    # TODO write rds objects for each dataset ####
-    # TODO write rds object for list of datasets? only updated ones? ####
-
     return(processed)
   }
 }
-
-
-
-# this function takes dates as strings and converts them to date objects
-# the frequency argument allows the return of a column marked "a", "m" or "q"
-# to denote the frequency of the data for each date.
-#
-# NB IT ALWAYS RETURNS A DATA FRAME. EDD_OBJs MUST REFERENCE dates$date
-# AND dates$freq TO DEAL WITH THE DATA FRAME IN THE DATA FRAME. THIS WILL ALLOW
-# THE ADDITION OF ADDITIONAL FIELDS IF REQUIRED, E.G. dates$text FOR A MORE
-# HUMAN-READABLE VERSION OF DATES. THIS IS NOT YET IMPLEMENTED.
-#
-# NB this function is NOT VECTORISED for easier code writing, so should only
-# be called through a purrr::map_df function to iterate through individual values
-#
-# TODO there should probably be a test to see if any of the dates processed
-# return an NA (i.e. not parseable) and, if so, print a warning message
-
-# DEPRECATED #####
-# ons_parse_dates <- function(dates, frequency = FALSE) {
-#   # if the date is four digits only, i.e. a year and annual
-#   if (grepl("^[0-9]{4}$", dates)) {
-#     date <- readr::parse_date(dates, format = "%Y")
-#     freq <- "a"
-#   } else if (grepl("Q", dates)) { # if the date contains a "Q", i.e. quarterly
-#     date <- lubridate::yq(dates)
-#     freq <- "q"
-#   } else if (grepl("[0-9]{4}$", dates)) { # if contains four digits at the end
-#     date <- lubridate::dmy(dates, truncated = 1)
-#     freq <- "m"
-#   } else if (grepl("^[0-9]{4}", dates)) { # if it contains four digits at the beginning
-#     date <- lubridate::ymd(dates, truncated = 1)
-#     freq <- "m"
-#   } else {
-#     date <- as.Date(NA) # if none of the above parse, return an NA to highlight the problem
-#     freq <- NA_character_
-#   }
-#   if (frequency) {
-#     # return a two-column data frame
-#     df <- tibble::tibble(date = date, freq = freq)
-#   } else {
-#     # return a one-column data frame
-#     df <- tibble::tibble(date = date)
-#   }
-#     # WHEN NA CHECKER TO BE IMPLEMENTED IT SHOULD GO HERE AND CHECK THE df$date
-#     # VARIABLE FOR PRESENCE OF NAs
-#     return(df)
-# }
-
