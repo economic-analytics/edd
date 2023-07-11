@@ -1,16 +1,16 @@
 code,name,unit,preunit
-DMWN,Unit Labour Costs : Whole Economy : % change per annum SA:UK,NA,NA
 DIX4,"Unit wage costs: Manufacturing C SIC07, 2019=100, SA, UK",NA,NA
+DJ4I,"Unit wage costs: Manufacturing C SIC07, % change on Q, SA, UK",NA,NA
+DJ4J,"Unit wage costs: Manufacturing C SIC07, % change on Y, SA, UK",NA,NA
+DMWL,Unit Wage Costs : Whole Economy : % change quarter on previous quarter SA:UK,NA,NA
+DMWN,Unit Labour Costs : Whole Economy : % change per annum SA:UK,NA,NA
 DMWO,Unit Labour Costs : Whole Economy : % change quarter on previous quarter SA:UK,NA,NA
-FZLX,Average labour compensation per hour worked: Whole economy: % change per annum: UK,NA,NA
-LNNL,Unit labour costs : whole economy SA: Index 2019=100: UK,NA,NA
 FZLN,Labour share of income: Whole economy SA: percentage: UK,NA,NA
 FZLP,Labour share of income: Whole economy: percentage change quarter on previous quarter SA: UK,NA,NA
-DJ4I,"Unit wage costs: Manufacturing C SIC07, % change on Q, SA, UK",NA,NA
 FZLR,Labour share of income: Whole economy: percentage change per annum: UK,NA,NA
-DJ4J,"Unit wage costs: Manufacturing C SIC07, % change on Y, SA, UK",NA,NA
-LNNK,Unit Wage Costs : whole economy SA: Index 2019=100: UK,NA,NA
 FZLT,Average labour compensation per hour worked: Whole economy SA: Index 2019=100: UK,NA,NA
-LOJE,Unit wage costs: Whole economy SA: % change per annum: UK,NA,NA
-DMWL,Unit Wage Costs : Whole Economy : % change quarter on previous quarter SA:UK,NA,NA
 FZLV,Average labour compensation per hour worked: Whole economy: % change quarter on previous quarter SA: UK,NA,NA
+FZLX,Average labour compensation per hour worked: Whole economy: % change per annum: UK,NA,NA
+LNNK,Unit Wage Costs : whole economy SA: Index 2019=100: UK,NA,NA
+LNNL,Unit labour costs : whole economy SA: Index 2019=100: UK,NA,NA
+LOJE,Unit wage costs: Whole economy SA: % change per annum: UK,NA,NA
