@@ -1,7 +1,10 @@
-rgva_lad <- function() {
-  rgva_la_url <- "https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/regionalgrossvalueaddedbalancedbyindustrylocalauthoritiesbyitl1region"
+rgva_lad <- function(url = NULL) {
+  if (is.null(url)) {
+    url <- "https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/regionalgrossvalueaddedbalancedbyindustrylocalauthoritiesbyitl1region"
+  }
 
-  urls <- rvest::read_html(rgva_la_url) |>
+
+  urls <- rvest::read_html(url) |>
     rvest::html_elements("a") |>
     rvest::html_attr("href")
 
@@ -25,11 +28,14 @@ rgva_lad <- function() {
     lapply(x, function(sht) {
       dplyr::filter(sht, !is.na(`LAD code`)) |>
         tidyr::pivot_longer(cols = -(1:5), names_to = "date") |>
-        dplyr::mutate(date = paste0(stringr::str_sub(date, 1, 4), "-01-01") |> as.Date())
+        dplyr::mutate(date = paste0(substr(date, 1, 4), "-01-01") |>
+                        as.Date()
+        )
     }) |>
       dplyr::bind_rows(.id = "variable")
-  }) |> dplyr::bind_rows()
+  }) |>
+    dplyr::bind_rows()
 
-  #readr::write_rds(final, "data/rgva_lad.rds")
-  #readr::write_csv(final, "../../Data/rgva_lad.csv")
+  # readr::write_rds(final, "data/rgva_lad.rds")
+  # readr::write_csv(final, "../../Data/rgva_lad.csv")
 }
