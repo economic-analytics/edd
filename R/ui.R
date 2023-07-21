@@ -1,6 +1,6 @@
 ui <- function(request) {
   navbarPage(
-    title = "EDD v0.0.0.9022 ALPHA",
+    title = "EDD v0.0.0.9023 ALPHA",
     id = "navbar",
     windowTitle = "EDD: Economic Data Dashboard",
 
@@ -106,6 +106,8 @@ ui <- function(request) {
       id = "changelog",
       title = "Change log",
       h2("Change log"),
+      h3("2023-07-21 v0.0.0.9023"),
+      p("Add code to data catalogue page"),
       h3("2023-04-03 v0.0.0.9022"),
       p("Add nominal, percentage and cumulative changes to time series transformation tool"),
       h3("2023-03-23 v0.0.0.9021"),
