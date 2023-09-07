@@ -1,0 +1,60 @@
+
+# ITL2/3 ------------------------------------------------------------------
+
+ons_process_prod <- function() {
+  prod_url <- "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/subregionalproductivitylabourproductivitygvaperhourworkedandgvaperfilledjobindicesbyuknuts2andnuts3subregions/current/itlproductivity.xlsx"
+
+  prod_path <- "~/Data/ONS/Regional Accounts/Productivity/itlproductivity.xlsx"
+
+  download.file(prod_url, prod_path, mode = "wb")
+
+  prod <- readxl::read_excel(prod_path, "B3", skip = 3)
+  names(prod)[1:3] <- c("geography_type", "geography_code", "geography_name")
+  prod <- prod[-1, ]
+  prod <- prod[complete.cases(prod), ]
+  prod_data <- prod |>
+    tidyr::pivot_longer(-(1:3), names_to = "date") |>
+    dplyr::mutate(date_name = date,
+                  date = as.Date(paste0(date, "-01-01")),
+                  value = as.numeric(value),
+                  variable_name = "GVA per filled job",
+                  variable_unit = "£") |>
+    dplyr::select(date, date_name,
+                  geography_code, geography_name, geography_type,
+                  variable_name, variable_unit,
+                  value)
+
+  # readr::write_csv(prod_data, "~/Data/ONS/Regional Accounts/Productivity/itlproductivity.csv")
+}
+
+
+# LAD ---------------------------------------------------------------------
+
+ons_process_prod_lad <- function() {
+  prod_lad_url <- "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/subregionalproductivitylabourproductivityindicesbylocalauthoritydistrict/current/ladproductivity.xlsx"
+
+  prod_lad_path <- "~/Data/ONS/Regional Accounts/Productivity"
+
+  prod_lad_file <- basename(prod_lad_url)
+
+  download.file(prod_lad_url, paste0(prod_lad_path, "/", prod_lad_file), mode = "wb")
+
+  prod_lad <- readxl::read_excel(paste0(prod_lad_path, "/", prod_lad_file), "B3", skip = 3)
+  names(prod_lad)[1:2] <- c("geography_code", "geography_name")
+  prod_lad <- prod_lad[-1, ]
+  prod_lad <- prod_lad[complete.cases(prod_lad), ]
+  prod_lad_data <- prod_lad |>
+    tidyr::pivot_longer(-(1:2), names_to = "date") |>
+    dplyr::mutate(date_name = date,
+                  date = as.Date(paste0(date, "-01-01")),
+                  value = as.numeric(value),
+                  variable_name = "GVA per filled job",
+                  variable_unit = "£",
+                  geography_type = "LAD") |>
+    dplyr::select(date, date_name,
+                  geography_code, geography_name, geography_type,
+                  variable_name, variable_unit,
+                  value)
+
+  # readr::write_csv(prod_lad_data, file.path(prod_lad_path, "ladproductivity.csv"))
+}
