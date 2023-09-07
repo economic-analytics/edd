@@ -55,14 +55,14 @@ ons_process_rgva <- function(filepath = NULL, build_for_edd = TRUE) {
 
   readr::write_csv(jsonlite::flatten(rgva), "data-raw/rgva.csv")
 
-  if (build_for_fedo) {
-    ons_rgva_to_fedo(rgva)
+  if (build_for_edd) {
+    ons_rgva_to_edd(rgva)
   } else {
     return(rgva)
   }
 }
 
-ons_rgva_to_fedo <- function(rgva) { # takes the processed rgva file
+ons_rgva_to_edd <- function(rgva) { # takes the processed rgva file
 
   variable <- rgva |>
     dplyr::select(code = variable) |>
