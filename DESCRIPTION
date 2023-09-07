@@ -1,6 +1,6 @@
 Package: edd
 Title: EDD - Economic Data Dashboard
-Version: 0.0.0.9023
+Version: 0.0.0.9024
 Authors@R: 
     person(given = "Christian",
            family = "Spence",
@@ -28,7 +28,7 @@ Imports:
     stringr,
     tidyr
 Depends: 
-    R (>= 4.2)
+    R (>= 4.3)
 Suggests: 
     knitr,
     rmarkdown
