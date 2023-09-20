@@ -1,613 +1,613 @@
 code,name,unit,preunit
-EQUB,EU Imports of Processed and Preserved Meat,NA,NA
-EQUD,EU Imports of Meat and Poultry Meat Products,NA,NA
-EQUE,"EU Imports of Preserved and Processed Fish, Crustaceans and Molluscs",NA,NA
-EQUG,EU Imports of Fruit and Vegetable Juices,NA,NA
-EQVA,EU Imports of Distilled Alcoholic Beverages,NA,NA
-EQVI,EU Imports of Textile Yarn and Thread,NA,NA
-EQVJ,EU Imports of Woven Textiles,NA,NA
-EQWD,EU Imports of Wood; Sawn and Planed,NA,NA
-EQWG,EU Imports of Other Builders' Carpentry and Joinery,NA,NA
-EQWK,EU Imports of Paper and Paperboard,NA,NA
-EQWM,EU Imports of Household and Sanitary Goods and Toilet Requisites,NA,NA
-EQWZ,EU Imports of Other Inorganic Basic Chemicals,NA,NA
-EQXA,EU Imports of Other Organic Basic Chemicals,NA,NA
-EQXC,EU Imports of Plastics in Primary Forms,NA,NA
-EQXH,EU Imports of Perfumes and Toilet Preparations,NA,NA
-EQXL,EU Imports of Other Chemical Products N.E.C.,NA,NA
-EQXP,EU Imports of Rubber Tyres and Tubes; Retreading and Rebuilding of Rubber Tyres,NA,NA
-EQXQ,EU Imports of Other Rubber Products,NA,NA
-EQXR,"EU Imports of Plastic Plates, Sheets, Tubes and Profiles",NA,NA
-EQXU,EU Imports of Other Plastic Products,NA,NA
-EQXW,EU Imports of Shaped and Processed Flat Glass,NA,NA
-EQXX,EU Imports of Hollow Glass,NA,NA
-EQYA,EU Imports of Refractory Products,NA,NA
-EQYB,EU Imports of Ceramic Tiles and Flags,NA,NA
-EQYC,"EU Imports of Bricks, Tiles and Construction Products, in Baked Clay",NA,NA
-EQYD,EU Imports of Ceramic Household and Ornamental Articles,NA,NA
-EQYQ,"EU Imports of Cut, Shaped and Finished Stone",NA,NA
-EQYU,"EU Imports of Tubes, Pipes, Hollow Profiles and Fittings of Steel",NA,NA
-EQZA,EU Imports of Aluminium,NA,NA
-EQZC,EU Imports of Copper,NA,NA
-EQZD,EU Imports of Other Non-Ferrous Metal,NA,NA
-EQZL,EU Imports of Central Heating Radiators and Boilers,NA,NA
-ER3X,"EU Imports of Measuring, Testing and Navigating Equipment",NA,NA
-ER5X,"EU Imports of Electric Motors, Generators and Transformers",NA,NA
-ER73,EU Imports of Electric Domestic Appliances,NA,NA
-ER75,EU Imports of Other Electrical Equipment,NA,NA
-ER77,EU Imports of Fluid Power Equipment,NA,NA
-ER78,EU Imports of Other Pumps and Compressors,NA,NA
-ER79,EU Imports of Other Taps and Valves,NA,NA
-ER7A,"EU Imports of Bearings, Gears, Gearing and Driving Elements",NA,NA
-ER7H,EU Imports of Agricutural and Forestry Machinery,NA,NA
-ER7L,"EU Imports of Machinery for Mining, Quarrying and Construction",NA,NA
-ER9T,EU Imports of Medical and Dental Instruments and Supplies,NA,NA
-ERB5,EU Imports of Other Manufactured Goods N.E.C.,NA,NA
-ES2E,NEU Imports of Processed and Preserved Meat,NA,NA
-ES3L,"NEU Imports of Preserved and Processed Fish, Crustaceans and Molluscs",NA,NA
-ES53,NEU Imports of Other Processed and Preserved Fruit and Vegetables,NA,NA
-ES9I,NEU Imports of Processed Tea and Coffee,NA,NA
-ES9Y,NEU Imports of Textile Yarn and Thread,NA,NA
-ES9Z,NEU Imports of Woven Textiles,NA,NA
-ESA4,"NEU Imports of Made-Up Textile Articles, Except Apparel",NA,NA
-ESA6,"NEU Imports of Cordage, Rope, Twine and Netting",NA,NA
-ESC5,NEU Imports of Wood; Sawn and Planed,NA,NA
-ESC7,NEU Imports of Veneer Sheets and Wood-Based Panels,NA,NA
-ESD7,NEU Imports of Household and Sanitary Goods and Toilet Requisites,NA,NA
-ESD8,NEU Imports of Paper Stationery,NA,NA
-ESJY,NEU Imports of Other Inorganic Basic Chemicals,NA,NA
-ESJZ,NEU Imports of Other Organic Basic Chemicals,NA,NA
-ESKN,NEU Imports of Plastics in Primary Forms,NA,NA
-ESKS,NEU Imports of Perfumes and Toilet Preparations,NA,NA
-ESKW,NEU Imports of Other Chemical Products N.E.C.,NA,NA
-ESKY,NEU Imports of Basic Pharmaceutical Products,NA,NA
-ESKZ,NEU Imports of Pharmaceutical Preparations,NA,NA
-ESL9,NEU Imports of Rubber Tyres and Tubes; Retreading and Rebuilding of Rubber Tyres,NA,NA
-ESLA,NEU Imports of Other Rubber Products,NA,NA
-ESLB,"NEU Imports of Plastic Plates, Sheets, Tubes and Profiles",NA,NA
-ESLI,NEU Imports of Glass Fibres,NA,NA
-ESLJ,"NEU Imports of Other Processed Glass, Including Technical Glassware",NA,NA
-ESLN,NEU Imports of Ceramic Household and Ornamental Articles,NA,NA
-ESLO,NEU Imports of Ceramic Sanitary Fixtures,NA,NA
-ESM6,"NEU Imports of Cut, Shaped and Finished Stone",NA,NA
-ESMC,NEU Imports of Basic Iron and Steel and of Ferro-Alloys,NA,NA
-ESMD,"NEU Imports of Tubes, Pipes, Hollow Profiles and Fittings of Steel",NA,NA
-ESMJ,NEU Imports of Aluminium,NA,NA
-ESMM,NEU Imports of Other Non-Ferrous Metal,NA,NA
-ETP9,NEU Imports of Communication Equipment,NA,NA
-ETQ2,NEU Imports of Consumer Electronics,NA,NA
-ETQ8,"NEU Imports of Measuring, Testing and Navigating Equipment",NA,NA
-ETW9,NEU Imports of Batteries and Accumulators,NA,NA
-ETX6,NEU Imports of Electric Domestic Appliances,NA,NA
-ETX7,NEU Imports of Non-Electric Domestic Appliances,NA,NA
-ETX8,NEU Imports of Other Electrical Equipment,NA,NA
-ETY4,NEU Imports of Other Pumps and Compressors,NA,NA
-ETY5,NEU Imports of Other Taps and Valves,NA,NA
-ETZ3,NEU Imports of Non-Domestic Cooling and Ventilation Equipment,NA,NA
-ETZ6,NEU Imports of Metal Forming Machinery,NA,NA
-ETZ7,NEU Imports of Other Machine Tools,NA,NA
-ETZ9,"NEU Imports of Machinery for Mining, Quarrying and Construction",NA,NA
-EU2K,NEU Imports of Electrical and Electronic Equipment for Motor Vehicles,NA,NA
-EU2L,NEU Imports of Other Parts and Accessories for Motor Vehicles,NA,NA
-EU6K,NEU Imports of Musical Instruments,NA,NA
-EU6N,NEU Imports of Medical and Dental Instruments and Supplies,NA,NA
-EUAY,EU Exports of Processed and Preserved Meat,NA,NA
-EUBP,"EU Exports of Preserved and Processed Fish, Crustaceans and Molluscs",NA,NA
-EUBS,EU Exports of Other Processed and Preserved Fruit and Vegetables,NA,NA
-EUCC,EU Exports of Grain Mill Products,NA,NA
-EUCF,EU Exports of Rusks and Biscuits; Preserved Pastry Goods and Cakes,NA,NA
-EUCI,"EU Exports of Cocoa, Chocolate and Sugar Confectionery",NA,NA
-EUCK,EU Exports of Condiments and Seasonings,NA,NA
-EUCN,EU Exports of Other Food Products N.E.C.,NA,NA
-EUCY,EU Exports of Textile Yarn and Thread,NA,NA
-EUCZ,EU Exports of Woven Textiles,NA,NA
-EUDB,"EU Exports of Made-Up Textile Articles, Except Apparel",NA,NA
-EUDD,"EU Exports of Cordage, Rope, Twine and Netting",NA,NA
-EUDE,"EU Exports of Non-Wovens and Articles Made From Non-Wovens, Except Apparel",NA,NA
-EUDF,EU Exports of Other Technical and Industrial Textiles,NA,NA
-EUDL,EU Exports of Other Wearing Apparel and Accessories,NA,NA
-EUDS,EU Exports of Wood; Sawn and Planed,NA,NA
-EUDZ,EU Exports of Paper and Paperboard,NA,NA
-EUEA,EU Exports of Corrugated Paper and Paperboard and Containers of Paper and Paperboard,NA,NA
-EUEE,EU Exports of Other Articles of Paper and Paperboard,NA,NA
-EUEN,EU Exports of Dyes and Pigments,NA,NA
-EUEP,EU Exports of Other Organic Basic Chemicals,NA,NA
-EUER,EU Exports of Plastics in Primary Forms,NA,NA
-EUES,EU Exports of Synthetic Rubber in Primary Forms,NA,NA
-EUEU,"EU Exports of Paints, Varnishes and Similar Coatings, Printing Ink and Mastics",NA,NA
-EUEV,"EU Exports of Soap and Detergents, Cleaning and Polishing Preparations",NA,NA
-EUEW,EU Exports of Perfumes and Toilet Preparations,NA,NA
-EUEY,EU Exports of Glues,NA,NA
-EUEZ,EU Exports of Essential Oils,NA,NA
-EUFA,EU Exports of Other Chemical Products N.E.C.,NA,NA
-EUFB,EU Exports of Man-Made Fibres,NA,NA
-EUFD,EU Exports of Pharmaceutical Preparations,NA,NA
-EUFH,EU Exports of Other Rubber Products,NA,NA
-EUFI,"EU Exports of Plastic Plates, Sheets, Tubes and Profiles",NA,NA
-EUFJ,EU Exports of Plastic Packing Goods,NA,NA
-EUFL,EU Exports of Other Plastic Products,NA,NA
-EUFP,EU Exports of Glass Fibres,NA,NA
-EUFQ,"EU Exports of Other Processed Glass, Including Technical Glassware",NA,NA
-EUFR,EU Exports of Refractory Products,NA,NA
-EUGL,EU Exports of Other Non-Metallic Mineral Products N.E.C.,NA,NA
-EUGN,"EU Exports of Tubes, Pipes, Hollow Profiles and Fittings of Steel",NA,NA
-EUGT,EU Exports of Aluminium,NA,NA
-EUGV,EU Exports of Copper,NA,NA
-EUGW,EU Exports of Other Non-Ferrous Metal,NA,NA
-EUHC,EU Exports of Metal Structures and Parts of Structures,NA,NA
-EUHF,EU Exports of Doors and Windows of Metal,NA,NA
-EUHH,"EU Exports of Other Tanks, Reservoirs and Containers of Metal",NA,NA
-EUHP,EU Exports of Tools,NA,NA
-EUHR,EU Exports of Light Metal Packaging,NA,NA
-EUHS,"EU Exports of Wire Products, Chain and Springs",NA,NA
-EUHT,EU Exports of Fasteners and Screw Machine Products,NA,NA
-EUHU,EU Exports of Other Fabricated Metal Products N.E.C.,NA,NA
-EUHV,EU Exports of Electronic Components,NA,NA
-EUHX,EU Exports of Computers & Peripheral Equipment,NA,NA
-EUHZ,EU Exports of Consumer Electronics,NA,NA
-EUIA,"EU Exports of Measuring, Testing and Navigating Equipment",NA,NA
-EUIE,"EU Exports of Irradiation, Electromedical and Electrotherapeutic Equipment",NA,NA
-EUIH,"EU Exports of Electric Motors, Generators and Transformers",NA,NA
-EUII,EU Exports of Electricity Distribution and Control Apparatus,NA,NA
-EUIM,EU Exports of Wiring Devices,NA,NA
-EUIN,EU Exports of Electric Lighting Equipment,NA,NA
-EUIO,EU Exports of Electric Domestic Appliances,NA,NA
-EUIQ,EU Exports of Other Electrical Equipment,NA,NA
-EUIR,"EU Exports of Engines and Turbines, Except Aircraft, Vehicle and Cycle Engines",NA,NA
-EUIT,EU Exports of Other Pumps and Compressors,NA,NA
-EUIV,"EU Exports of Bearings, Gears, Gearing and Driving Elements",NA,NA
-EUJA,EU Exports of Non-Domestic Cooling and Ventilation Equipment,NA,NA
-EUJB,EU Exports of Other General-Purpose Machinery N.E.C.,NA,NA
-EUJE,EU Exports of Metal Forming Machinery,NA,NA
-EUJF,EU Exports of Other Machine Tools,NA,NA
-EUKJ,EU Exports of Other Special-Purpose Machinery N.E.C.,NA,NA
-EUKL,"EU Exports of Bodies (Coachwork) for Motor Vehicles, Trailers and Semi-Trailers",NA,NA
-EUKM,EU Exports of Electrical and Electronic Equipment for Motor Vehicles,NA,NA
-EUKT,EU Exports of Motorcycles,NA,NA
-EUKW,EU Exports of Seats and Parts Thereof; Parts of Furniture,NA,NA
-EUKX,EU Exports of Office and Shop Furniture,NA,NA
-EULA,EU Exports of Other Furniture,NA,NA
-EULE,EU Exports of Musical Instruments,NA,NA
-EULF,EU Exports of Sports Goods,NA,NA
-EULG,EU Exports of Games & Toys,NA,NA
-EULH,EU Exports of Medical and Dental Instruments and Supplies,NA,NA
-EULI,EU Exports of Brooms and Brushes,NA,NA
-EULJ,EU Exports of Other Manufactured Goods N.E.C.,NA,NA
-EUVC,NEU Exports of Rusks and Biscuits; Preserved Pastry Goods and Cakes,NA,NA
-EUVF,"NEU Exports of Cocoa, Chocolate and Sugar Confectionery",NA,NA
-EUVH,NEU Exports of Condiments and Seasonings,NA,NA
-EUVK,NEU Exports of Other Food Products N.E.C.,NA,NA
-EUVW,NEU Exports of Woven Textiles,NA,NA
-EUVZ,"NEU Exports of Made-Up Textile Articles, Except Apparel",NA,NA
-EUW6,"NEU Exports of Non-Wovens and Articles Made From Non-Wovens, Except Apparel",NA,NA
-EUWA,NEU Exports of Other Technical and Industrial Textiles,NA,NA
-EUWG,NEU Exports of Other Wearing Apparel and Accessories,NA,NA
-EUWU,NEU Exports of Paper and Paperboard,NA,NA
-EUWZ,NEU Exports of Other Articles of Paper and Paperboard,NA,NA
-EUXI,NEU Exports of Dyes and Pigments,NA,NA
-EUXM,NEU Exports of Plastics in Primary Forms,NA,NA
-EUXP,"NEU Exports of Paints, Varnishes and Similar Coatings, Printing Ink and Mastics",NA,NA
-EUXQ,"NEU Exports of Soap and Detergents, Cleaning and Polishing Preparations",NA,NA
-EUXR,NEU Exports of Perfumes and Toilet Preparations,NA,NA
-EUXT,NEU Exports of Glues,NA,NA
-EUXU,NEU Exports of Essential Oils,NA,NA
-EUXV,NEU Exports of Other Chemical Products N.E.C.,NA,NA
-EUXY,NEU Exports of Pharmaceutical Preparations,NA,NA
-EUYA,NEU Exports of Other Rubber Products,NA,NA
-EUYB,"NEU Exports of Plastic Plates, Sheets, Tubes and Profiles",NA,NA
-EUYC,NEU Exports of Plastic Packing Goods,NA,NA
-EUYE,NEU Exports of Other Plastic Products,NA,NA
-EUYK,NEU Exports of Refractory Products,NA,NA
-EUYN,NEU Exports of Ceramic Household and Ornamental Articles,NA,NA
-EUZB,NEU Exports of Abrasive Products,NA,NA
-EUZK,NEU Exports of Aluminium,NA,NA
-EUZM,NEU Exports of Copper,NA,NA
-EUZN,NEU Exports of Other Non-Ferrous Metal,NA,NA
-EUZT,NEU Exports of Metal Structures and Parts of Structures,NA,NA
-EUZU,NEU Exports of Doors and Windows of Metal,NA,NA
-EUZW,"NEU Exports of Other Tanks, Reservoirs and Containers of Metal",NA,NA
-EV5F,NEU Exports of Tools,NA,NA
-EV5L,"NEU Exports of Wire Products, Chain and Springs",NA,NA
-EV5N,NEU Exports of Fasteners and Screw Machine Products,NA,NA
-EV5P,NEU Exports of Other Fabricated Metal Products N.E.C.,NA,NA
-EV5R,NEU Exports of Electronic Components,NA,NA
-EV5T,NEU Exports of Loaded Electronic Boards,NA,NA
-EV5V,NEU Exports of Computers & Peripheral Equipment,NA,NA
-EV63,"NEU Exports of Measuring, Testing and Navigating Equipment",NA,NA
-EV67,"NEU Exports of Irradiation, Electromedical and Electrotherapeutic Equipment",NA,NA
-EV69,NEU Exports of Optical Instruments and Photographic Equipment,NA,NA
-EV6D,"NEU Exports of Electric Motors, Generators and Transformers",NA,NA
-EV6F,NEU Exports of Electricity Distribution and Control Apparatus,NA,NA
-EV8O,NEU Exports of Wiring Devices,NA,NA
-EV8R,NEU Exports of Electric Lighting Equipment,NA,NA
-EV92,NEU Exports of Other Electrical Equipment,NA,NA
-EV95,"NEU Exports of Engines and Turbines, Except Aircraft, Vehicle and Cycle Engines",NA,NA
-EV98,NEU Exports of Fluid Power Equipment,NA,NA
-EV9B,NEU Exports of Other Pumps and Compressors,NA,NA
-EV9N,NEU Exports of Lifting and Handling Equipment,NA,NA
-EV9W,NEU Exports of Non-Domestic Cooling and Ventilation Equipment,NA,NA
-EVB2,NEU Exports of Other Machine Tools,NA,NA
-EVBZ,"NEU Exports of Machinery for Food, Beverage and Tobacco Processing",NA,NA
-EVCA,"NEU Exports of Machinery for Textile, Apparel and Leather Production",NA,NA
-EVHR,NEU Exports of Other Special-Purpose Machinery N.E.C.,NA,NA
-EVHT,"NEU Exports of Bodies (Coachwork) for Motor Vehicles, Trailers and Semi-Trailers",NA,NA
-EVHU,NEU Exports of Electrical and Electronic Equipment for Motor Vehicles,NA,NA
-EVJK,NEU Exports of Seats and Parts Thereof; Parts of Furniture,NA,NA
-EVJL,NEU Exports of Office and Shop Furniture,NA,NA
-EVJO,NEU Exports of Other Furniture,NA,NA
-EVJS,NEU Exports of Musical Instruments,NA,NA
-EVJT,NEU Exports of Sports Goods,NA,NA
-EVJU,NEU Exports of Games & Toys,NA,NA
-EVJV,NEU Exports of Medical and Dental Instruments and Supplies,NA,NA
-EVJW,NEU Exports of Brooms and Brushes,NA,NA
-EVJX,NEU Exports of Other Manufactured Goods N.E.C.,NA,NA
-EVNT,"Gravel, Sand, Clays and Kaolin for Domestic Market",NA,NA
-EVNU,"Gravel, Sand, Clays and Kaolin for Domestic Market",NA,NA
-EVOF,Processed and Preserved Meat for Domestic Market,NA,NA
-EVOG,Processed and Preserved Poultry Meat for Domestic Market,NA,NA
-EVOH,Meat and Poultry Meat Products for Domestic Market,NA,NA
-EVOI,"Preserved and Processed Fish, Crustaceans and Molluscs for Domestic Market",NA,NA
-EVOJ,Processed and Preserved Potatoes for Domestic Market,NA,NA
-EVOK,Fruit and Vegetable Juices for Domestic Market,NA,NA
-EVOL,Other Processed and Preserved Fruit and Vegetables for Domestic Market,NA,NA
-EVOO,Dairy and Cheese Products for Domestic Market,NA,NA
-EVOP,Ice Cream for Domestic Market,NA,NA
-EVOQ,Grain Mill Products for Domestic Market,NA,NA
-EVOR,Starches and Starch Products for Domestic Market,NA,NA
-EVOS,Bread; Fresh Pastry Goods and Cakes for Domestic Market,NA,NA
-EVOT,Rusks and Biscuits; Preserved Pastry Goods and Cakes for Domestic Market,NA,NA
-EVOU,"Macaroni, Noodles, Couscous and Similar Farinaceous Products for Domestic Market",NA,NA
-EVOW,"Cocoa, Chocolate and Sugar Confectionery for Domestic Market",NA,NA
-EVOX,Processed Tea and Coffee for Domestic Market,NA,NA
-EVOY,Condiments and Seasonings for Domestic Market,NA,NA
-EVOZ,Prepared Meals and Dishes for Domestic Market,NA,NA
-EVPB,Other Food Products N.E.C. for Domestic Market,NA,NA
-EVPC,Prepared Feeds for Farm Animals for Domestic Market,NA,NA
-EVPD,Prepared Pet Foods for Domestic Market,NA,NA
-EVPE,Distilled Alcoholic Beverages for Domestic Market,NA,NA
-EVPF,Distilled Alcoholic Beverages for Domestic Market,NA,NA
-EVPO,Cider and Other Fruit Wines for Domestic Market,NA,NA
-EVPP,Cider and Other Fruit Wines for Domestic Market,NA,NA
-EVPR,Beer for Domestic Market,NA,NA
-EVPS,Beer for Domestic Market,NA,NA
-EVPU,Soft Drinks; Mineral Waters and Other Bottled Waters for Domestic Market,NA,NA
-EVPX,Textile Yarn and Thread for Domestic Market,NA,NA
-EVQA,Woven Textiles for Domestic Market,NA,NA
-EVQB,Textile Finishing Services for Domestic Market,NA,NA
-EVQC,Knitted and Crocheted Fabrics for Domestic Market,NA,NA
-EVQD,"Made-Up Textile Articles, Except Apparel for Domestic Market",NA,NA
-EVQE,Carpets and Rugs for Domestic Market,NA,NA
-EVQG,"Non-Wovens and Articles Made From Non-Wovens, Except Apparel for Domestic Market",NA,NA
-EVSS,Workwear for Domestic Market,NA,NA
-EVSU,Other Outerwear for Domestic Market,NA,NA
-EVTV,Footwear for Domestic Market,NA,NA
-EVUD,Wood; Sawn and Planed for Domestic Market,NA,NA
-EVUJ,Other Builders' Carpentry and Joinery for Domestic Market,NA,NA
-EVUP,Wooden Containers for Domestic Market,NA,NA
-EVUR,"Other Products of Wood; Articles of Cork, Straw and Plaiting Materials for Domestic Market",NA,NA
-EVVL,Paper and Paperboard for Domestic Market,NA,NA
-EVVQ,Corrugated Paper and Paperboard and Containers of Paper and Paperboard for Domestic Market,NA,NA
-EVVR,Household and Sanitary Goods and Toilet Requisites for Domestic Market,NA,NA
-EVVS,Paper Stationery for Domestic Market,NA,NA
-EVVU,Other Articles of Paper and Paperboard for Domestic Market,NA,NA
-EVVW,Other Printing Services for Domestic Market,NA,NA
-EVVX,Pre-Press and Pre-Media Services for Domestic Market,NA,NA
-EVWS,Refined Petroleum Products for Domestic Market,NA,NA
-EVWT,Refined Petroleum Products for Domestic Market,NA,NA
-EVWX,Dyes and Pigments for Domestic Market,NA,NA
-EVXB,Other Inorganic Basic Chemicals for Domestic Market,NA,NA
-EVXD,Other Organic Basic Chemicals for Domestic Market,NA,NA
-EVXG,Fertilisers and Nitrogen Compounds for Domestic Market,NA,NA
-EVXH,Plastics in Primary Forms for Domestic Market,NA,NA
-EVYI,"Paints, Varnishes and Similar Coatings, Printing Ink and Mastics for Domestic Market",NA,NA
-EVYJ,"Soap and Detergents, Cleaning and Polishing Preparations for Domestic Market",NA,NA
-EW46,Perfumes and Toilet Preparations for Domestic Market,NA,NA
-EW48,Glues for Domestic Market,NA,NA
-EW4D,Other Chemical Products N.E.C. for Domestic Market,NA,NA
-EW4F,Basic Pharmaceutical Products for Domestic Market,NA,NA
-EW4G,Pharmaceutical Preparations for Domestic Market,NA,NA
-EW4H,Rubber Tyres and Tubes; Retreading and Rebuilding of Rubber Tyres for Domestic Market,NA,NA
-EW4I,Other Rubber Products for Domestic Market,NA,NA
-EW4J,"Plastic Plates, Sheets, Tubes and Profiles for Domestic Market",NA,NA
-EW4K,Plastic Packing Goods for Domestic Market,NA,NA
-EW4L,Builders Ware of Plastic for Domestic Market,NA,NA
-EW4M,Other Plastic Products for Domestic Market,NA,NA
-EW66,Shaped and Processed Flat Glass for Domestic Market,NA,NA
-EW69,"Other Processed Glass, Including Technical Glassware for Domestic Market",NA,NA
-EW6A,Refractory Products for Domestic Market,NA,NA
-EW6G,Other Technical Ceramic Products for Domestic Market,NA,NA
-EW6I,Cement for Domestic Market,NA,NA
-EW6J,Lime and Plaster for Domestic Market,NA,NA
-EW6K,Concrete Products for Construction Purposes for Domestic Market,NA,NA
-EW6M,Ready-Mixed Concrete for Domestic Market,NA,NA
-EW6P,"Other Articles of Concrete, Plaster and Cement for Domestic Market",NA,NA
-EW6Q,"Cut, Shaped and Finished Stone for Domestic Market",NA,NA
-EW6R,Abrasive Products for Domestic Market,NA,NA
-EW6S,Other Non-Metallic Mineral Products N.E.C. for Domestic Market,NA,NA
-EW6T,Basic Iron and Steel and of Ferro-Alloys for Domestic Market,NA,NA
-EW6U,"Tubes, Pipes, Hollow Profiles and Fittings of Steel for Domestic Market",NA,NA
-EW6X,Cold Formed or Folded Products for Domestic Market,NA,NA
-EW72,Aluminium for Domestic Market,NA,NA
-EW74,Copper for Domestic Market,NA,NA
-EW75,Other Non-Ferrous Metal for Domestic Market,NA,NA
-EW77,Casting Services of Iron for Domestic Market,NA,NA
-EW79,Casting Services of Light Metals for Domestic Market,NA,NA
-EW7B,Metal Structures and Parts of Structures for Domestic Market,NA,NA
-EW7C,Doors and Windows of Metal for Domestic Market,NA,NA
-EW7D,Central Heating Radiators and Boilers for Domestic Market,NA,NA
-EW7E,"Other Tanks, Reservoirs and Containers of Metal for Domestic Market",NA,NA
-EW7F,Steam Generators Except Central Heating Hot Water Boilers for Domestic Market,NA,NA
-EW7H,"Forging, Pressing, Stamping and Roll Forming Services of Metal; Powder Metallurgy for Domestic Market",NA,NA
-EW7I,Treatment and Coating Services of Metals for Domestic Market,NA,NA
-EW7J,Machining Services for Domestic Market,NA,NA
-EW7L,Locks and Hinges for Domestic Market,NA,NA
-EW7M,Tools for Domestic Market,NA,NA
-EW7N,Steel Drums and Similar Containers for Domestic Market,NA,NA
-EW7O,Light Metal Packaging for Domestic Market,NA,NA
-EWCZ,"Wire Products, Chain and Springs for Domestic Market",NA,NA
-EWJA,Fasteners and Screw Machine Products for Domestic Market,NA,NA
-EWJD,Other Fabricated Metal Products N.E.C. for Domestic Market,NA,NA
-EWJS,Computers & Peripheral Equipment for Domestic Market,NA,NA
-EWJT,Communication Equipment for Domestic Market,NA,NA
-EWJX,"Irradiation, Electromedical and Electrotherapeutic Equipment for Domestic Market",NA,NA
-EWKA,"Electric Motors, Generators and Transformers for Domestic Market",NA,NA
-EWKB,Electricity Distribution and Control Apparatus for Domestic Market,NA,NA
-EWKC,Batteries and Accumulators for Domestic Market,NA,NA
-EWKE,Other Electronic and Electric Wires and Cables for Domestic Market,NA,NA
-EWKF,Wiring Devices for Domestic Market,NA,NA
-EWKG,Electric Lighting Equipment for Domestic Market,NA,NA
-EWKH,Electric Domestic Appliances for Domestic Market,NA,NA
-EWKI,Non-Electric Domestic Appliances for Domestic Market,NA,NA
-EWKJ,Other Electrical Equipment for Domestic Market,NA,NA
-EWKM,"Engines and Turbines, Except Aircraft, Vehicle and Cycle Engines for Domestic Market",NA,NA
-EWKN,Fluid Power Equipment for Domestic Market,NA,NA
-EWKO,Other Pumps and Compressors for Domestic Market,NA,NA
-EWKP,Other Taps and Valves for Domestic Market,NA,NA
-EWKQ,"Bearings, Gears, Gearing and Driving Elements for Domestic Market",NA,NA
-EWKR,"Ovens, Furnaces and Furnace Burners for Domestic Market",NA,NA
-EWKS,Lifting and Handling Equipment for Domestic Market,NA,NA
-EWKV,Non-Domestic Cooling and Ventilation Equipment for Domestic Market,NA,NA
-EWKW,Other General-Purpose Machinery N.E.C. for Domestic Market,NA,NA
-EWKX,Agricultural and Forestry Machinery for Domestic Market,NA,NA
-EWLB,"Machinery for Mining, Quarrying and Construction for Domestic Market",NA,NA
-EWLC,"Machinery for Food, Beverage and Tobacco Processing for Domestic Market",NA,NA
-EWLE,Machinery for Paper and Paperboard Production for Domestic Market,NA,NA
-EWLG,Other Special-Purpose Machinery N.E.C. for Domestic Market,NA,NA
-EWLH,Motor Vehicles for Domestic Market,NA,NA
-EWLI,"Bodies (Coachwork) for Motor Vehicles, Trailers and Semi-Trailers for Domestic Market",NA,NA
-EWLL,Electrical and Electronic Equipment for Motor Vehicles for Domestic Market,NA,NA
-EWLM,Other Parts and Accessories for Motor Vehicles for Domestic Market,NA,NA
-EWLQ,Air & Spacecraft and Related Machinery for Domestic Market,NA,NA
-EWLT,Bicycles and Invalid Carriages for Domestic Market,NA,NA
-EWLU,Other Transport Equipment N.E.C. for Domestic Market,NA,NA
-EWLV,Seats and Parts Thereof; Parts of Furniture for Domestic Market,NA,NA
-EWLW,Office and Shop Furniture for Domestic Market,NA,NA
-EWLX,Kitchen Furniture for Domestic Market,NA,NA
-EWLY,Mattresses for Domestic Market,NA,NA
-EWLZ,Other Furniture for Domestic Market,NA,NA
-EWMB,Jewellery and Related Articles for Domestic Market,NA,NA
-EWME,Sports Goods for Domestic Market,NA,NA
-EWMF,Games & Toys for Domestic Market,NA,NA
-EWMG,Medical and Dental Instruments and Supplies for Domestic Market,NA,NA
-EWMH,Brooms and Brushes for Domestic Market,NA,NA
-EWMI,Other Manufactured Goods N.E.C. for Domestic Market,NA,NA
-EWMK,Repair Services of Machinery for Domestic Market,NA,NA
-EWML,Repair Services of Electronic and Optical Equipment for Domestic Market,NA,NA
-EWMN,Repair and Maintenance Services of Ships and Boats for Domestic Market,NA,NA
-EWMP,Repair and Maintenance Services of Other Transport Equipment for Domestic Market,NA,NA
-FUBK,Manufactured Products Exc Petroleum Products for Domestic Market,NA,NA
-G2ZA,Vegetable and Animal Oils and Fats for Domestic Market,NA,NA
-G33H,Other General-Purpose Machinery for Domestic Market,NA,NA
-G33J,Metal Forming Machinery and Machine Tools for Domestic Market,NA,NA
-G33O,Ships and Boats for Domestic Market,NA,NA
-G639,EU Imports of Food Products,NA,NA
-G63A,EU Imports of Beverages,NA,NA
-G63R,EU Imports of Textiles,NA,NA
-G63X,"EU Imports of Wood and of Products of Wood and Cork, Except Furniture; Articles of Straw and Plaiting Materials",NA,NA
-G63Y,EU Imports of Paper and Paper Products,NA,NA
-G643,EU Imports of Chemicals and Chemical Products,NA,NA
-G644,EU Imports of Basic Pharmaceutical Products and Pharmaceutical Preparations,NA,NA
-G645,EU Imports of Rubber and Plastic Products,NA,NA
-G646,EU Imports of Other Non-Metallic Mineral Products,NA,NA
-G647,EU Imports of Basic Metals,NA,NA
-G649,"EU Imports of Computer, Electronic and Optical Products",NA,NA
-G64A,EU Imports of Electrical Equipment,NA,NA
-G64B,EU Imports of Machinery and Equipment N.E.C.,NA,NA
-G64C,"EU Imports of Motor Vehicles, Trailers and Semi-Trailers",NA,NA
-G64D,EU Imports of Other Transport Equipment,NA,NA
-G64F,EU Imports of Other Manufactured Goods,NA,NA
-G67M,Imports of Food Products,NA,NA
-G67N,Imports of Beverages,NA,NA
-G67P,Imports of Textiles,NA,NA
-G67S,"Imports of Wood and of Products of Wood and Cork, Except Furniture; Articles of Straw and Plaiting Materials",NA,NA
-G67T,Imports of Paper and Paper Products,NA,NA
-G689,Imports of Chemicals and Chemical Products,NA,NA
-G68A,Imports of Basic Pharmaceutical Products and Pharmaceutical Preparations,NA,NA
-G68H,Imports of Rubber and Plastic Products,NA,NA
-G68I,Imports of Other Non-Metallic Mineral Products,NA,NA
-G68J,Imports of Basic Metals,NA,NA
-G68Q,"Imports of Computer, Electronic and Optical Products",NA,NA
-G68R,Imports of Electrical Equipment,NA,NA
-G68S,Imports of Machinery and Equipment N.E.C.,NA,NA
-G68T,"Imports of Motor Vehicles, Trailers and Semi-Trailers",NA,NA
-G68U,Imports of Other Transport Equipment,NA,NA
-G698,Imports of Other Manufactured Goods,NA,NA
-G6H5,NEU Imports of Food Products,NA,NA
-G6H6,NEU Imports of Beverages,NA,NA
-G6PG,NEU Imports of Textiles,NA,NA
-G6PJ,"NEU Imports of Wood and of Products of Wood and Cork, Except Furniture; Articles of Straw and Plaiting Materials",NA,NA
-G6PK,NEU Imports of Paper and Paper Products,NA,NA
-G6PN,NEU Imports of Chemicals and Chemical Products,NA,NA
-G6PO,NEU Imports of Basic Pharmaceutical Products and Pharmaceutical Preparations,NA,NA
-G6PP,NEU Imports of Rubber and Plastic Products,NA,NA
-G6PQ,NEU Imports of Other Non-Metallic Mineral Products,NA,NA
-G6PR,NEU Imports of Basic Metals,NA,NA
-G6PT,"NEU Imports of Computer, Electronic and Optical Products",NA,NA
-G6PU,NEU Imports of Electrical Equipment,NA,NA
-G6PV,NEU Imports of Machinery and Equipment N.E.C.,NA,NA
-G6PW,"NEU Imports of Motor Vehicles, Trailers and Semi-Trailers",NA,NA
-G6PX,NEU Imports of Other Transport Equipment,NA,NA
-G6PZ,NEU Imports of Other Manufactured Goods,NA,NA
-G6QR,Exports of Food Products,NA,NA
-G6QU,Exports of Textiles,NA,NA
-G6QV,Exports of Wearing Apparel,NA,NA
-G6QX,"Exports of Wood and of Products of Wood and Cork, Except Furniture; Articles of Straw and Plaiting Materials",NA,NA
-G6QY,Exports of Paper and Paper Products,NA,NA
-G6R3,Exports of Chemicals and Chemical Products,NA,NA
-G6R4,Exports of Basic Pharmaceutical Products and Pharmaceutical Preparations,NA,NA
-G6R5,Exports of Rubber and Plastic Products,NA,NA
-G6R6,Exports of Other Non-Metallic Mineral Products,NA,NA
-G6R7,Exports of Basic Metals,NA,NA
-G6R9,"Exports of Fabricated Metal Products, Except Machinery and Equipment",NA,NA
-G6RB,"Exports of Computer, Electronic and Optical Products",NA,NA
-G6RC,Exports of Electrical Equipment,NA,NA
-G6RD,Exports of Machinery and Equipment N.E.C.,NA,NA
-G6RE,"Exports of Motor Vehicles, Trailers and Semi-Trailers",NA,NA
-G6RF,Exports of Other Transport Equipment,NA,NA
-G6RH,Exports of Furniture,NA,NA
-G6RI,Exports of Other Manufactured Goods,NA,NA
-G6SF,"Other Mining and Quarrying Products for Domestic Market, Exc Aggregate Levy",NA,NA
-G6SG,"Other Mining and Quarrying Products for Domestic Market, Incl Aggregate Levy",NA,NA
-G6SI,Food Products for Domestic Market,NA,NA
-G6SJ,"Beverages for Domestic Market, Excl Duty",NA,NA
-G6SK,"Beverages for Domestic Market, Incl Duty",NA,NA
-G6SL,"Tobacco Products for Domestic Market, Excl Duty",NA,NA
-G6SM,"Tobacco Products for Domestic Market, Incl Duty",NA,NA
-G6SN,Textiles for Domestic Market,NA,NA
-G6SO,Wearing Apparel for Domestic Market,NA,NA
-G6SP,Leather and Related Products for Domestic Market,NA,NA
-G6SQ,"Wood and of Products of Wood and Cork, Except Furniture; Articles of Straw and Plaiting Materials for Domestic Market",NA,NA
-G6SR,Paper and Paper Products for Domestic Market,NA,NA
-G6SS,Printing and Reproduction Services of Recorded Media for Domestic Market,NA,NA
-G6ST,"Coke and Refined Petroleum Products for Domestic Market, Excl Duty",NA,NA
-G6SU,"Coke and Refined Petroleum Products for Domestic Market, Incl Duty",NA,NA
-G6SV,Chemicals and Chemical Products for Domestic Market,NA,NA
-G6SW,Basic Pharmaceutical Products and Pharmaceutical Preparations for Domestic Market,NA,NA
-G6SX,Rubber and Plastic Products for Domestic Market,NA,NA
-G6SY,Other Non-Metallic Mineral Products for Domestic Market,NA,NA
-G6SZ,Basic Metals for Domestic Market,NA,NA
-G6T3,"Fabricated Metal Products, Except Machinery and Equipment for Domestic Market",NA,NA
-G6T5,"Computer, Electronic and Optical Products for Domestic Market",NA,NA
-G6VF,Electrical Equipment for Domestic Market,NA,NA
-G6VG,Machinery and Equipment N.E.C. for Domestic Market,NA,NA
-G6WH,"Motor Vehicles, Trailers and Semi-Trailers for Domestic Market",NA,NA
-G72N,Other Transport Equipment for Domestic Market,NA,NA
-G75I,Furniture for Domestic Market,NA,NA
-G776,Other Manufactured Goods for Domestic Market,NA,NA
-G777,Repair and Installation Services of Machinery and Equipment for Domestic Market,NA,NA
-GB7R,Exports of Manufactured Products,NA,NA
-GB7S,"Manufactured Products for Domestic Market, Excl Duty",NA,NA
-GBA6,"Food, Beverages and Tobacco Products Exc Duty for Domestic Market",NA,NA
-GBA7,"Food, Beverages and Tobacco Products Inc Duty for Domestic Market",NA,NA
-GBAP,Textiles and Textile Products for Domestic Market,NA,NA
-GBBV,"Manufactured Products Exc Food, Beverages, Tobacco and Petroleum Products for Domestic Market",NA,NA
-GC27,EU Imports of Total EU Imports,NA,NA
-GC2C,NEU Imports of Total Non-EU Imports,NA,NA
-GC2D,EU Exports of Manufactured Products,NA,NA
-GC2G,NEU Exports of Manufactured Products,NA,NA
-GD74,Imports of Total Imports,NA,NA
-GHDX,Inputs into Extraction of Crude Petroleum and Natural Gas; Mining of Metal Ores Incl CCL,NA,NA
-GHDZ,"Inputs into Other Mining and Quarrying, Incl CCL",NA,NA
-GHEA,Inputs into Other Mining and Quarrying,NA,NA
-GHEB,"Inputs into Mining Support Services, Incl CCL",NA,NA
-GHED,Fuel Purchased by Manufacturing Industry Exc CCL,NA,NA
-GHEE,Inputs into Preserved Meat and Meat Products,NA,NA
-GHEF,Inputs into Preserved Meat and Meat Products,NA,NA
-GHEG,"Inputs into Domestic Product Used in the Processing and Preserving of Fish, Crustaceans, Molluscs, Fruit and Vegetables",NA,NA
-GHEH,"Inputs into Domestic Product Used in the Processing and Preserving of Fish, Crustaceans, Molluscs, Fruit and Vegetables",NA,NA
-GHEI,Inputs into Production of Vegetable and Animal Oils and Fats,NA,NA
-GHEJ,Inputs into Production of Vegetable and Animal Oils and Fats,NA,NA
-GHEK,Inputs into Production of Dairy Products,NA,NA
-GHEL,Inputs into Production of Dairy Products,NA,NA
-GHEM,"Inputs into Production of Grain Mill Products, Starches and Starch Products",NA,NA
-GHEN,"Inputs into Production of Grain Mill Products, Starches and Starch Products",NA,NA
-GHEO,Inputs into Production of Bakery and Farinaceous Products,NA,NA
-GHEP,Inputs into Production of Bakery and Farinaceous Products,NA,NA
-GHEQ,Inputs into Production of Other Food Products,NA,NA
-GHER,Inputs into Production of Other Food Products,NA,NA
-GHES,Inputs into Production of Prepared Animal Feeds,NA,NA
-GHET,Inputs into Production of Prepared Animal Feeds,NA,NA
-GHEU,Imported Products Used in the Manufacture of Alcoholic Beverages,NA,NA
-GHEV,Imported Products Used in the Manufacture of Alcoholic Beverages,NA,NA
-GHEW,Inputs into Production of Soft Drinks; Mineral Waters and Other Bottled Waters,NA,NA
-GHEX,Inputs into Production of Soft Drinks; Mineral Waters and Other Bottled Waters,NA,NA
-GHEY,Inputs into Production of Tobacco Products,NA,NA
-GHEZ,Inputs into Production of Tobacco Products,NA,NA
-GHFA,Inputs into Production of Textiles,NA,NA
-GHFB,Inputs into Production of Textiles,NA,NA
-GHFC,Inputs into Production of Wearing Apparel,NA,NA
-GHFD,Inputs into Production of Wearing Apparel,NA,NA
-GHFE,Inputs into Production of Leather and Related Products,NA,NA
-GHFF,Inputs into Production of Leather and Related Products,NA,NA
-GHFG,"Inputs into Production of Wood and of Products of Wood and Cork, Except Furniture; Articles of Straw and Plaiting Materials",NA,NA
-GHFH,"Inputs into Production of Wood and of Products of Wood and Cork, Except Furniture; Articles of Straw and Plaiting Materials",NA,NA
-GHFI,Inputs into Production of Paper and Paper Products,NA,NA
-GHFJ,Inputs into Production of Paper and Paper Products,NA,NA
-GHFK,Inputs into Printing and Reproduction Services of Recorded Media,NA,NA
-GHFL,Inputs into Printing and Reproduction Services of Recorded Media,NA,NA
-GHFM,Inputs into Production of Coke and Refined Petroleum Products,NA,NA
-GHFN,Inputs into Production of Coke and Refined Petroleum Products,NA,NA
-GHFO,"Inputs into Production of Paints, Varnishes and Similar Coatings, Printing Ink and Mastics",NA,NA
-GHFP,"Inputs into Production of Paints, Varnishes and Similar Coatings, Printing Ink and Mastics",NA,NA
-GHFQ,"Inputs into Production of Soap and Detergents, Cleaning and Polishing Preparations, Perfumes and Toilet Preparations",NA,NA
-GHFR,"Inputs into Production of Soap and Detergents, Cleaning and Polishing Preparations, Perfumes and Toilet Preparations",NA,NA
-GHFS,Inputs into Production of Other Chemical Products,NA,NA
-GHFT,Inputs into Production of Other Chemical Products,NA,NA
-GHFU,Purchase of Materials & Fuels for Manufactureof Industrial Gases; Other Inorganic Chemicals; Fertilisers & Nitrogen Compounds,NA,NA
-GHFV,Purchase of Materials & Fuels for Manufactureof Industrial Gases; Other Inorganic Chemicals; Fertilisers & Nitrogen Compounds,NA,NA
-GHFW,Petrochemicals 20.14/16/17/60 Inc Duty,NA,NA
-GHFX,Petrochemicals 20.14/16/17/60,NA,NA
-GHFY,"Purchase of Materials and Fuels Used in Manufacture of Dyes & Pigmants, Pesticides and Other Agrochemical Products",NA,NA
-GHFZ,"Purchase of Materials and Fuels Used in Manufacture of Dyes & Pigmants, Pesticides and Other Agrochemical Products",NA,NA
-GHGA,Inputs into Production of Basic Pharmaceutical Products and Pharmaceutical Preparations,NA,NA
-GHGB,Inputs into Production of Basic Pharmaceutical Products and Pharmaceutical Preparations,NA,NA
-GHGC,Inputs into Production of Rubber and Plastic Products,NA,NA
-GHGD,Inputs into Production of Rubber and Plastic Products,NA,NA
-GHGE,"Purchase of Fuels & Materials for the Manufacture of Cement, Lime, Plaster and Articles of Concrete, Cement & Plaster Imc CCL",NA,NA
-GHGF,"Purchase of Fuels & Materials for the Manufacture of Cement, Lime, Plaster and Articles of Concrete, Cement & Plaster",NA,NA
-GHGG,"Fuels and Materials Used in Manufacture of Glass,Refractory Clay, Porcelain, Ceramic and Stone Products - 23.1-4/7-9 Inc CCL",NA,NA
-GHGH,"Fuels and Materials Used in Manufacture of Glass,Refractory Clay, Porcelain, Ceramic and Stone Products - 23.1-4/7-9",NA,NA
-GHGI,"Purchases of Materials and Fules for Manufacture of Basic Iron, Steel and Alloys, Tubes Pipes, Hollow Profiles and Fittings",NA,NA
-GHGJ,"Purchases of Materials and Fules for Manufacture of Basic Iron, Steel and Alloys, Tubes Pipes, Hollow Profiles and Fittings",NA,NA
-GHGK,Inputs into Manufacture of Other Basic Metals and Casting,NA,NA
-GHGL,Inputs into Manufacture of Other Basic Metals and Casting,NA,NA
-GHGM,Inputs into Production of Weapons and Ammunition,NA,NA
-GHGN,Inputs into Production of Weapons and Ammunition,NA,NA
-GHGO,Purchase of Fuel and Material for Manufacture of Fabricated Metal Product Excluding Weapons and Ammunition 25.1-3/5-9 Inc CCL,NA,NA
-GHGP,Purchase of Fuel and Material for Manufacture of Fabricated Metal Product Excluding Weapons and Ammunition 25.1-3/5-9,NA,NA
-GHGQ,"Inputs into Production of Computer, Electronic and Optical Products",NA,NA
-GHGR,"Inputs into Production of Computer, Electronic and Optical Products",NA,NA
-GHGS,Inputs into Production of Electrical Equipment,NA,NA
-GHGT,Inputs into Production of Electrical Equipment,NA,NA
-GHGU,Inputs into Production of Machinery and Equipment N.E.C.,NA,NA
-GHGV,Inputs into Production of Machinery and Equipment N.E.C.,NA,NA
-GHGW,"Inputs into Production of Motor Vehicles, Trailers and Semi-Trailers",NA,NA
-GHGX,"Inputs into Production of Motor Vehicles, Trailers and Semi-Trailers",NA,NA
-GHGY,Inputs into Production of Ships and Boats,NA,NA
-GHGZ,Inputs into Production of Ships and Boats,NA,NA
-GHHA,Inputs into Production of Air and Spacecraft and Related Machinery,NA,NA
-GHHB,Inputs into Production of Air and Spacecraft and Related Machinery,NA,NA
-GHHD,Purchases of Fuels and Materials for Manufacture of Other Transport Equipment 30.2/4/9,NA,NA
-GHHE,Inputs into Production of Furniture,NA,NA
-GHHF,Inputs into Production of Furniture,NA,NA
-GHHG,Inputs into Production of Other Manufactured Goods,NA,NA
-GHHH,Inputs into Production of Other Manufactured Goods,NA,NA
-GHHJ,Inputs into Repair and Maintenance Services of Ships and Boats,NA,NA
-GHHL,Inputs into Repair and Maintenance Services of Aircraft and Spacecraft,NA,NA
-GHHN,Purchases of Materials and Fuel for the Rest of Repair; Installation-33.11-14/17/19/20,NA,NA
-GHHP,"Inputs into Production of Electricity, Transmission and Distribution Services",NA,NA
-GHHR,Purchases of Material and Fuels for Gas Distribution,NA,NA
-GHHS,Inputs into Production of Water Treatment and Supply Services,NA,NA
-GHHV,"Inputs into Production of Food, Beverages and Tobacco Products",NA,NA
-GHHW,Purchase of Materials and Fuels for Manufacture of Textiles and Textile Products,NA,NA
-GHHZ,"Purchases of Materials and Fuels for Manufacture of Pulp, Paper Amd Paper Products; Recorded Media; Printing Services",NA,NA
-GHIB,"Purchase of Fuels and Material for Manufacture of Chemicals, Chemical Products and Man-Made Fibres",NA,NA
-GHIF,Basic Metals and Fabricated Products,NA,NA
-GHIG,"Purchases of Material and Fuel for Manufacture of Computer, Elecronic & Optical Products; Electrical Equipment",NA,NA
-GHII,Purchase of Material & Fuel for Manufacture Motor Vehicles and Other Transport Equipment,NA,NA
-GHIJ,Purchase of Material and Fuel for Manufacture of Other Manufactured Good Nec,NA,NA
-GHIK,Materials Purchased by Manufacturing Industry Exc CCL,NA,NA
-GHIL,Materials Purchased by Manufacturing Industry Exc CCL Other Than FBTP Industry,NA,NA
-GHIM,Purchases of Fuels for All Manufacturing Other Than Those Made by FBTP Producing Industries,NA,NA
-GHIO,Purchases of Materials and Fuels for All Manufacturing Other Than Those Made by FBTP Producing Industries,NA,NA
-GHIP,Inputs into Manufacturing,NA,NA
+EQUB,PPI INDEX IMPORT EU - C1011 Processed and preserved meat 2015=100,NA,NA
+EQUD,PPI INDEX IMPORT EU - C1013 Meat and poultry meat products 2015=100,NA,NA
+EQUE,"PPI INDEX IMPORT EU - C1020 Processed and preserved fish, crustaceans and molluscs 2015=100",NA,NA
+EQUG,PPI INDEX IMPORT EU - C1032 Fruit and vegetable juices 2015=100,NA,NA
+EQVA,PPI INDEX IMPORT EU - C1101 Distilled alcoholic beverages 2015=100,NA,NA
+EQVI,PPI INDEX IMPORT EU - C1310 Textile yarn and thread 2015=100,NA,NA
+EQVJ,PPI INDEX IMPORT EU - C1320 Woven textiles 2015=100,NA,NA
+EQWD,"PPI INDEX IMPORT EU - C1610 Wood, sawn and planed 2015=100",NA,NA
+EQWG,PPI INDEX IMPORT EU - C1623 Other builders' carpentry and joinery 2015=100,NA,NA
+EQWK,PPI INDEX IMPORT EU - C1712 Paper and paperboard 2015=100,NA,NA
+EQWM,PPI INDEX IMPORT EU - C1722 Household and sanitary goods and toilet requisites 2015=100,NA,NA
+EQWZ,PPI INDEX IMPORT EU - C2013 Other inorganic basic chemicals 2015=100,NA,NA
+EQXA,PPI INDEX IMPORT EU - C2014 Other organic basic chemicals 2015=100,NA,NA
+EQXC,PPI INDEX IMPORT EU - C2016 Plastics in primary forms 2015=100,NA,NA
+EQXH,PPI INDEX IMPORT EU - C2042 Perfumes and toilet preparations 2015=100,NA,NA
+EQXL,PPI INDEX IMPORT EU - C2059 Other chemical products n.e.c. 2015=100,NA,NA
+EQXP,PPI INDEX IMPORT EU - C2211 Rubber tyres and tubes; retreading and rebuilding of rubber tyres 2015=100,NA,NA
+EQXQ,PPI INDEX IMPORT EU - C2219 Other rubber products 2015=100,NA,NA
+EQXR,"PPI INDEX IMPORT EU - C2221 Plastic plates, sheets, tubes and profiles 2015=100",NA,NA
+EQXU,PPI INDEX IMPORT EU - C2229 Other plastic products 2015=100,NA,NA
+EQXW,PPI INDEX IMPORT EU - C2312 Shaped and processed flat glass 2015=100,NA,NA
+EQXX,PPI INDEX IMPORT EU - C2313 Hollow glass 2015=100,NA,NA
+EQYA,PPI INDEX IMPORT EU - C2320 Refractory products 2015=100,NA,NA
+EQYB,PPI INDEX IMPORT EU - C2331 Ceramic tiles and flags 2015=100,NA,NA
+EQYC,"PPI INDEX IMPORT EU - C2332 Bricks, tiles and construction products, in baked clay 2015=100",NA,NA
+EQYD,PPI INDEX IMPORT EU - C2341 Ceramic household and ornamental articles 2015=100,NA,NA
+EQYQ,"PPI INDEX IMPORT EU - C2370 Cut, shaped and finished stone 2015=100",NA,NA
+EQYU,"PPI INDEX IMPORT EU - C2420 Tubes, pipes, hollow profiles and related fittings, of steel 2015=100",NA,NA
+EQZA,PPI INDEX IMPORT EU - C2442 Aluminium 2015=100,NA,NA
+EQZC,PPI INDEX IMPORT EU - C2444 Copper 2015=100,NA,NA
+EQZD,PPI INDEX IMPORT EU - C2445 Other non-ferrous metal 2015=100,NA,NA
+EQZL,PPI INDEX IMPORT EU - C2521 Central heating radiators and boilers 2015=100,NA,NA
+ER3X,"PPI INDEX IMPORT EU - C2651 Measuring, testing and navigating equipment 2015=100",NA,NA
+ER5X,"PPI INDEX IMPORT EU - C2711 Electric motors, generators and transformers 2015=100",NA,NA
+ER73,PPI INDEX IMPORT EU - C2751 Electric domestic appliances 2015=100,NA,NA
+ER75,PPI INDEX IMPORT EU - C2790 Other electrical equipment 2015=100,NA,NA
+ER77,PPI INDEX IMPORT EU - C2812 Fluid power equipment 2015=100,NA,NA
+ER78,PPI INDEX IMPORT EU - C2813 Other pumps and compressors 2015=100,NA,NA
+ER79,PPI INDEX IMPORT EU - C2814 Other taps and valves 2015=100,NA,NA
+ER7A,"PPI INDEX IMPORT EU - C2815 Bearings, gears, gearing and driving elements 2015=100",NA,NA
+ER7H,PPI INDEX IMPORT EU - C2830 Agricultural and forestry machinery 2015=100,NA,NA
+ER7L,"PPI INDEX IMPORT EU - C2892 Machinery for mining, quarrying and construction 2015=100",NA,NA
+ER9T,PPI INDEX IMPORT EU - C3250 Medical and dental instruments and supplies 2015=100,NA,NA
+ERB5,PPI INDEX IMPORT EU - C3299 Other manufactured goods n.e.c. 2015=100,NA,NA
+ES2E,PPI INDEX IMPORT NEU - C1011 Processed and preserved meat 2015=100,NA,NA
+ES3L,"PPI INDEX IMPORT NEU - C1020 Processed and preserved fish, crustaceans and molluscs 2015=100",NA,NA
+ES53,PPI INDEX IMPORT NEU - C1039 Other processed and preserved fruit and vegetables 2015=100,NA,NA
+ES9I,PPI INDEX IMPORT NEU - C1083 Processed tea and coffee 2015=100,NA,NA
+ES9Y,PPI INDEX IMPORT NEU - C1310 Textile yarn and thread 2015=100,NA,NA
+ES9Z,PPI INDEX IMPORT NEU - C1320 Woven textiles 2015=100,NA,NA
+ESA4,"PPI INDEX IMPORT NEU - C1392 Made-up textile articles, except apparel 2015=100",NA,NA
+ESA6,"PPI INDEX IMPORT NEU - C1394 Cordage, rope, twine and netting 2015=100",NA,NA
+ESC5,"PPI INDEX IMPORT NEU - C1610 Wood, sawn and planed 2015=100",NA,NA
+ESC7,PPI INDEX IMPORT NEU - C1621 Veneer sheets and wood-based panels 2015=100,NA,NA
+ESD7,PPI INDEX IMPORT NEU - C1722 Household and sanitary goods and toilet requisites 2015=100,NA,NA
+ESD8,PPI INDEX IMPORT NEU - C1723 Paper stationery 2015=100,NA,NA
+ESJY,PPI INDEX IMPORT NEU - C2013 Other inorganic basic chemicals 2015=100,NA,NA
+ESJZ,PPI INDEX IMPORT NEU - C2014 Other organic basic chemicals 2015=100,NA,NA
+ESKN,PPI INDEX IMPORT NEU - C2016 Plastics in primary forms 2015=100,NA,NA
+ESKS,PPI INDEX IMPORT NEU - C2042 Perfumes and toilet preparations 2015=100,NA,NA
+ESKW,PPI INDEX IMPORT NEU - C2059 Other chemical products n.e.c. 2015=100,NA,NA
+ESKY,PPI INDEX IMPORT NEU - C2110 Basic pharmaceutical products 2015=100,NA,NA
+ESKZ,PPI INDEX IMPORT NEU - C2120 Pharmaceutical preparations 2015=100,NA,NA
+ESL9,PPI INDEX IMPORT NEU - C2211 Rubber tyres and tubes; retreading and rebuilding of rubber tyres 2015=100,NA,NA
+ESLA,PPI INDEX IMPORT NEU - C2219 Other rubber products 2015=100,NA,NA
+ESLB,"PPI INDEX IMPORT NEU - C2221 Plastic plates, sheets, tubes and profiles 2015=100",NA,NA
+ESLI,PPI INDEX IMPORT NEU - C2314 Glass fibres 2015=100,NA,NA
+ESLJ,"PPI INDEX IMPORT NEU - C2319 Other processed glass, including technical glassware 2015=100",NA,NA
+ESLN,PPI INDEX IMPORT NEU - C2341 Ceramic household and ornamental articles 2015=100,NA,NA
+ESLO,PPI INDEX IMPORT NEU - C2342 Ceramic sanitary fixtures 2015=100,NA,NA
+ESM6,"PPI INDEX IMPORT NEU - C2370 Cut, shaped and finished stone 2015=100",NA,NA
+ESMC,PPI INDEX IMPORT NEU - C2410 Basic iron and steel and ferro-alloys 2015=100,NA,NA
+ESMD,"PPI INDEX IMPORT NEU - C2420 Tubes, pipes, hollow profiles and related fittings, of steel 2015=100",NA,NA
+ESMJ,PPI INDEX IMPORT NEU - C2442 Aluminium 2015=100,NA,NA
+ESMM,PPI INDEX IMPORT NEU - C2445 Other non-ferrous metal 2015=100,NA,NA
+ETP9,PPI INDEX IMPORT NEU - C2630 Communication equipment 2015=100,NA,NA
+ETQ2,PPI INDEX IMPORT NEU - C2640 Consumer electronics 2015=100,NA,NA
+ETQ8,"PPI INDEX IMPORT NEU - C2651 Measuring, testing and navigating equipment 2015=100",NA,NA
+ETW9,PPI INDEX IMPORT NEU - C2720 Batteries and accumulators 2015=100,NA,NA
+ETX6,PPI INDEX IMPORT NEU - C2751 Electric domestic appliances 2015=100,NA,NA
+ETX7,PPI INDEX IMPORT NEU - C2752 Non-electric domestic appliances 2015=100,NA,NA
+ETX8,PPI INDEX IMPORT NEU - C2790 Other electrical equipment 2015=100,NA,NA
+ETY4,PPI INDEX IMPORT NEU - C2813 Other pumps and compressors 2015=100,NA,NA
+ETY5,PPI INDEX IMPORT NEU - C2814 Other taps and valves 2015=100,NA,NA
+ETZ3,PPI INDEX IMPORT NEU - C2825 Non-domestic cooling and ventilation equipment 2015=100,NA,NA
+ETZ6,PPI INDEX IMPORT NEU - C2841 Metal forming machinery 2015=100,NA,NA
+ETZ7,PPI INDEX IMPORT NEU - C2849 Other machine tools 2015=100,NA,NA
+ETZ9,"PPI INDEX IMPORT NEU - C2892 Machinery for mining, quarrying and construction 2015=100",NA,NA
+EU2K,PPI INDEX IMPORT NEU - C2931 Electrical and electronic equipment for motor vehicles 2015=100,NA,NA
+EU2L,PPI INDEX IMPORT NEU - C2932 Other parts and accessories for motor vehicles 2015=100,NA,NA
+EU6K,PPI INDEX IMPORT NEU - C3220 Musical instruments 2015=100,NA,NA
+EU6N,PPI INDEX IMPORT NEU - C3250 Medical and dental instruments and supplies 2015=100,NA,NA
+EUAY,PPI INDEX EXPORT EU - C1011 Processed and preserved meat 2015=100,NA,NA
+EUBP,"PPI INDEX EXPORT EU - C1020 Processed and preserved fish, crustaceans and molluscs 2015=100",NA,NA
+EUBS,PPI INDEX EXPORT EU - C1039 Other processed and preserved fruit and vegetables 2015=100,NA,NA
+EUCC,PPI INDEX EXPORT EU - C1061 Grain mill products 2015=100,NA,NA
+EUCF,PPI INDEX EXPORT EU - C1072 Rusks and biscuits; preserved pastry goods and cakes 2015=100,NA,NA
+EUCI,"PPI INDEX EXPORT EU - C1082 Cocoa, chocolate and sugar confectionery 2015=100",NA,NA
+EUCK,PPI INDEX EXPORT EU - C1084 Condiments and seasonings 2015=100,NA,NA
+EUCN,PPI INDEX EXPORT EU - C1089 Other food products n.e.c. 2015=100,NA,NA
+EUCY,PPI INDEX EXPORT EU - C1310 Textile yarn and thread 2015=100,NA,NA
+EUCZ,PPI INDEX EXPORT EU - C1320 Woven textiles 2015=100,NA,NA
+EUDB,"PPI INDEX EXPORT EU - C1392 Made-up textile articles, except apparel 2015=100",NA,NA
+EUDD,"PPI INDEX EXPORT EU - C1394 Cordage, rope, twine and netting 2015=100",NA,NA
+EUDE,"PPI INDEX EXPORT EU - C1395 Non-wovens and articles made from non-wovens, except apparel 2015=100",NA,NA
+EUDF,PPI INDEX EXPORT EU - C1396 Other technical and industrial textiles 2015=100,NA,NA
+EUDL,PPI INDEX EXPORT EU - C1419 Other wearing apparel and accessories 2015=100,NA,NA
+EUDS,"PPI INDEX EXPORT EU - C1610 Wood, sawn and planed 2015=100",NA,NA
+EUDZ,PPI INDEX EXPORT EU - C1712 Paper and paperboard 2015=100,NA,NA
+EUEA,PPI INDEX EXPORT EU - C1721 Corrugated paper and paperboard and containers of paper and paperboard 2015=100,NA,NA
+EUEE,PPI INDEX EXPORT EU - C1729 Other articles of paper and paperboard 2015=100,NA,NA
+EUEN,PPI INDEX EXPORT EU - C2012 Dyes and pigments 2015=100,NA,NA
+EUEP,PPI INDEX EXPORT EU - C2014 Other organic basic chemicals 2015=100,NA,NA
+EUER,PPI INDEX EXPORT EU - C2016 Plastics in primary forms 2015=100,NA,NA
+EUES,PPI INDEX EXPORT EU - C2017 Synthetic rubber in primary forms 2015=100,NA,NA
+EUEU,"PPI INDEX EXPORT EU - C2030 Paints, varnishes and similar coatings, printing ink and mastics 2015=100",NA,NA
+EUEV,"PPI INDEX EXPORT EU - C2041 Soap and detergents, cleaning and polishing preparations 2015=100",NA,NA
+EUEW,PPI INDEX EXPORT EU - C2042 Perfumes and toilet preparations 2015=100,NA,NA
+EUEY,PPI INDEX EXPORT EU - C2052 Glues 2015=100,NA,NA
+EUEZ,PPI INDEX EXPORT EU - C2053 Essential oils 2015=100,NA,NA
+EUFA,PPI INDEX EXPORT EU - C2059 Other chemical products n.e.c. 2015=100,NA,NA
+EUFB,PPI INDEX EXPORT EU - C2060 Man-made fibres 2015=100,NA,NA
+EUFD,PPI INDEX EXPORT EU - C2120 Pharmaceutical preparations 2015=100,NA,NA
+EUFH,PPI INDEX EXPORT EU - C2219 Other rubber products 2015=100,NA,NA
+EUFI,"PPI INDEX EXPORT EU - C2221 Plastic plates, sheets, tubes and profiles 2015=100",NA,NA
+EUFJ,PPI INDEX EXPORT EU - C2222 Plastic packing goods 2015=100,NA,NA
+EUFL,PPI INDEX EXPORT EU - C2229 Other plastic products 2015=100,NA,NA
+EUFP,PPI INDEX EXPORT EU - C2314 Glass fibres 2015=100,NA,NA
+EUFQ,"PPI INDEX EXPORT EU - C2319 Other processed glass, including technical glassware 2015=100",NA,NA
+EUFR,PPI INDEX EXPORT EU - C2320 Refractory products 2015=100,NA,NA
+EUGL,PPI INDEX EXPORT EU - C2399 Other non-metallic mineral products n.e.c. 2015=100,NA,NA
+EUGN,"PPI INDEX EXPORT EU - C2420 Tubes, pipes, hollow profiles and related fittings, of steel 2015=100",NA,NA
+EUGT,PPI INDEX EXPORT EU - C2442 Aluminium 2015=100,NA,NA
+EUGV,PPI INDEX EXPORT EU - C2444 Copper 2015=100,NA,NA
+EUGW,PPI INDEX EXPORT EU - C2445 Other non-ferrous metal 2015=100,NA,NA
+EUHC,PPI INDEX EXPORT EU - C2511 Metal structures and parts of structures 2015=100,NA,NA
+EUHF,PPI INDEX EXPORT EU - C2512 Doors and windows of metal 2015=100,NA,NA
+EUHH,"PPI INDEX EXPORT EU - C2529 Other tanks, reservoirs and containers of metal 2015=100",NA,NA
+EUHP,PPI INDEX EXPORT EU - C2573 Tools 2015=100,NA,NA
+EUHR,PPI INDEX EXPORT EU - C2592 Light metal packaging 2015=100,NA,NA
+EUHS,"PPI INDEX EXPORT EU - C2593 Wire products, chain and springs 2015=100",NA,NA
+EUHT,PPI INDEX EXPORT EU - C2594 Fasteners and screw machine products 2015=100,NA,NA
+EUHU,PPI INDEX EXPORT EU - C2599 Other fabricated metal products n.e.c. 2015=100,NA,NA
+EUHV,PPI INDEX EXPORT EU - C2611 Electronic components 2015=100,NA,NA
+EUHX,PPI INDEX EXPORT EU - C2620 Computers and peripheral equipment 2015=100,NA,NA
+EUHZ,PPI INDEX EXPORT EU - C2640 Consumer electronics 2015=100,NA,NA
+EUIA,"PPI INDEX EXPORT EU - C2651 Measuring, testing and navigating equipment 2015=100",NA,NA
+EUIE,"PPI INDEX EXPORT EU - C2660 Irradiation, electromedical and electrotherapeutic equipment 2015=100",NA,NA
+EUIH,"PPI INDEX EXPORT EU - C2711 Electric motors, generators and transformers 2015=100",NA,NA
+EUII,PPI INDEX EXPORT EU - C2712 Electricity distribution and control apparatus 2015=100,NA,NA
+EUIM,PPI INDEX EXPORT EU - C2733 Wiring devices 2015=100,NA,NA
+EUIN,PPI INDEX EXPORT EU - C2740 Electric lighting equipment 2015=100,NA,NA
+EUIO,PPI INDEX EXPORT EU - C2751 Electric domestic appliances 2015=100,NA,NA
+EUIQ,PPI INDEX EXPORT EU - C2790 Other electrical equipment 2015=100,NA,NA
+EUIR,"PPI INDEX EXPORT EU - C2811 Engines and turbines, except aircraft, vehicle and cycle engines 2015=100",NA,NA
+EUIT,PPI INDEX EXPORT EU - C2813 Other pumps and compressors 2015=100,NA,NA
+EUIV,"PPI INDEX EXPORT EU - C2815 Bearings, gears, gearing and driving elements 2015=100",NA,NA
+EUJA,PPI INDEX EXPORT EU - C2825 Non-domestic cooling and ventilation equipment 2015=100,NA,NA
+EUJB,PPI INDEX EXPORT EU - C2829 Other general-purpose machinery n.e.c. 2015=100,NA,NA
+EUJE,PPI INDEX EXPORT EU - C2841 Metal forming machinery 2015=100,NA,NA
+EUJF,PPI INDEX EXPORT EU - C2849 Other machine tools 2015=100,NA,NA
+EUKJ,PPI INDEX EXPORT EU - C2899 Other special-purpose machinery n.e.c. 2015=100,NA,NA
+EUKL,PPI INDEX EXPORT EU - C2920 Bodies (coachwork) for motor vehicles; trailers and semi-trailers 2015=100,NA,NA
+EUKM,PPI INDEX EXPORT EU - C2931 Electrical and electronic equipment for motor vehicles 2015=100,NA,NA
+EUKT,PPI INDEX EXPORT EU - C3091 Motorcycles 2015=100,NA,NA
+EUKW,PPI INDEX EXPORT EU - C3100 Seats and parts thereof 2015=100,NA,NA
+EUKX,PPI INDEX EXPORT EU - C3101 Office and shop furniture 2015=100,NA,NA
+EULA,PPI INDEX EXPORT EU - C3109 Other furniture 2015=100,NA,NA
+EULE,PPI INDEX EXPORT EU - C3220 Musical instruments 2015=100,NA,NA
+EULF,PPI INDEX EXPORT EU - C3230 Sports goods 2015=100,NA,NA
+EULG,PPI INDEX EXPORT EU - C3240 Games and toys 2015=100,NA,NA
+EULH,PPI INDEX EXPORT EU - C3250 Medical and dental instruments and supplies 2015=100,NA,NA
+EULI,PPI INDEX EXPORT EU - C3291 Brooms and brushes 2015=100,NA,NA
+EULJ,PPI INDEX EXPORT EU - C3299 Other manufactured goods n.e.c. 2015=100,NA,NA
+EUVC,PPI INDEX EXPORT NEU - C1072 Rusks and biscuits; preserved pastry goods and cakes 2015=100,NA,NA
+EUVF,"PPI INDEX EXPORT NEU - C1082 Cocoa, chocolate and sugar confectionery 2015=100",NA,NA
+EUVH,PPI INDEX EXPORT NEU - C1084 Condiments and seasonings 2015=100,NA,NA
+EUVK,PPI INDEX EXPORT NEU - C1089 Other food products n.e.c. 2015=100,NA,NA
+EUVW,PPI INDEX EXPORT NEU - C1320 Woven textiles 2015=100,NA,NA
+EUVZ,"PPI INDEX EXPORT NEU - C1392 Made-up textile articles, except apparel 2015=100",NA,NA
+EUW6,"PPI INDEX EXPORT NEU - C1395 Non-wovens and articles made from non-wovens, except apparel 2015=100",NA,NA
+EUWA,PPI INDEX EXPORT NEU - C1396 Other technical and industrial textiles 2015=100,NA,NA
+EUWG,PPI INDEX EXPORT NEU - C1419 Other wearing apparel and accessories 2015=100,NA,NA
+EUWU,PPI INDEX EXPORT NEU - C1712 Paper and paperboard 2015=100,NA,NA
+EUWZ,PPI INDEX EXPORT NEU - C1729 Other articles of paper and paperboard 2015=100,NA,NA
+EUXI,PPI INDEX EXPORT NEU - C2012 Dyes and pigments 2015=100,NA,NA
+EUXM,PPI INDEX EXPORT NEU - C2016 Plastics in primary forms 2015=100,NA,NA
+EUXP,"PPI INDEX EXPORT NEU - C2030 Paints, varnishes and similar coatings, printing ink and mastics 2015=100",NA,NA
+EUXQ,"PPI INDEX EXPORT NEU - C2041 Soap and detergents, cleaning and polishing preparations 2015=100",NA,NA
+EUXR,PPI INDEX EXPORT NEU - C2042 Perfumes and toilet preparations 2015=100,NA,NA
+EUXT,PPI INDEX EXPORT NEU - C2052 Glues 2015=100,NA,NA
+EUXU,PPI INDEX EXPORT NEU - C2053 Essential oils 2015=100,NA,NA
+EUXV,PPI INDEX EXPORT NEU - C2059 Other chemical products n.e.c. 2015=100,NA,NA
+EUXY,PPI INDEX EXPORT NEU - C2120 Pharmaceutical preparations 2015=100,NA,NA
+EUYA,PPI INDEX EXPORT NEU - C2219 Other rubber products 2015=100,NA,NA
+EUYB,"PPI INDEX EXPORT NEU - C2221 Plastic plates, sheets, tubes and profiles 2015=100",NA,NA
+EUYC,PPI INDEX EXPORT NEU - C2222 Plastic packing goods 2015=100,NA,NA
+EUYE,PPI INDEX EXPORT NEU - C2229 Other plastic products 2015=100,NA,NA
+EUYK,PPI INDEX EXPORT NEU - C2320 Refractory products 2015=100,NA,NA
+EUYN,PPI INDEX EXPORT NEU - C2341 Ceramic household and ornamental articles 2015=100,NA,NA
+EUZB,PPI INDEX EXPORT NEU - C2391 Abrasive products 2015=100,NA,NA
+EUZK,PPI INDEX EXPORT NEU - C2442 Aluminium 2015=100,NA,NA
+EUZM,PPI INDEX EXPORT NEU - C2444 Copper 2015=100,NA,NA
+EUZN,PPI INDEX EXPORT NEU - C2445 Other non-ferrous metal 2015=100,NA,NA
+EUZT,PPI INDEX EXPORT NEU - C2511 Metal structures and parts of structures 2015=100,NA,NA
+EUZU,PPI INDEX EXPORT NEU - C2512 Doors and windows of metal 2015=100,NA,NA
+EUZW,"PPI INDEX EXPORT NEU - C2529 Other tanks, reservoirs and containers of metal 2015=100",NA,NA
+EV5F,PPI INDEX EXPORT NEU - C2573 Tools 2015=100,NA,NA
+EV5L,"PPI INDEX EXPORT NEU - C2593 Wire products, chain and springs 2015=100",NA,NA
+EV5N,PPI INDEX EXPORT NEU - C2594 Fasteners and screw machine products 2015=100,NA,NA
+EV5P,PPI INDEX EXPORT NEU - C2599 Other fabricated metal products n.e.c. 2015=100,NA,NA
+EV5R,PPI INDEX EXPORT NEU - C2611 Electronic components 2015=100,NA,NA
+EV5T,PPI INDEX EXPORT NEU - C2612 Loaded electronic boards 2015=100,NA,NA
+EV5V,PPI INDEX EXPORT NEU - C2620 Computers and peripheral equipment 2015=100,NA,NA
+EV63,"PPI INDEX EXPORT NEU - C2651 Measuring, testing and navigating equipment 2015=100",NA,NA
+EV67,"PPI INDEX EXPORT NEU - C2660 Irradiation, electromedical and electrotherapeutic equipment 2015=100",NA,NA
+EV69,PPI INDEX EXPORT NEU - C2670 Optical instruments and photographic equipment 2015=100,NA,NA
+EV6D,"PPI INDEX EXPORT NEU - C2711 Electric motors, generators and transformers 2015=100",NA,NA
+EV6F,PPI INDEX EXPORT NEU - C2712 Electricity distribution and control apparatus 2015=100,NA,NA
+EV8O,PPI INDEX EXPORT NEU - C2733 Wiring devices 2015=100,NA,NA
+EV8R,PPI INDEX EXPORT NEU - C2740 Electric lighting equipment 2015=100,NA,NA
+EV92,PPI INDEX EXPORT NEU - C2790 Other electrical equipment 2015=100,NA,NA
+EV95,"PPI INDEX EXPORT NEU - C2811 Engines and turbines, except aircraft, vehicle and cycle engines 2015=100",NA,NA
+EV98,PPI INDEX EXPORT NEU - C2812 Fluid power equipment 2015=100,NA,NA
+EV9B,PPI INDEX EXPORT NEU - C2813 Other pumps and compressors 2015=100,NA,NA
+EV9N,PPI INDEX EXPORT NEU - C2822 Lifting and handling equipment 2015=100,NA,NA
+EV9W,PPI INDEX EXPORT NEU - C2825 Non-domestic cooling and ventilation equipment 2015=100,NA,NA
+EVB2,PPI INDEX EXPORT NEU - C2849 Other machine tools 2015=100,NA,NA
+EVBZ,"PPI INDEX EXPORT NEU - C2893 Machinery for food, beverage and tobacco processing 2015=100",NA,NA
+EVCA,"PPI INDEX EXPORT NEU - C2894 Machinery for textile, apparel and leather production 2015=100",NA,NA
+EVHR,PPI INDEX EXPORT NEU - C2899 Other special-purpose machinery n.e.c. 2015=100,NA,NA
+EVHT,PPI INDEX EXPORT NEU - C2920 Bodies (coachwork) for motor vehicles; trailers and semi-trailers 2015=100,NA,NA
+EVHU,PPI INDEX EXPORT NEU - C2931 Electrical and electronic equipment for motor vehicles 2015=100,NA,NA
+EVJK,PPI INDEX EXPORT NEU - C3100 Seats and parts thereof 2015=100,NA,NA
+EVJL,PPI INDEX EXPORT NEU - C3101 Office and shop furniture 2015=100,NA,NA
+EVJO,PPI INDEX EXPORT NEU - C3109 Other furniture 2015=100,NA,NA
+EVJS,PPI INDEX EXPORT NEU - C3220 Musical instruments 2015=100,NA,NA
+EVJT,PPI INDEX EXPORT NEU - C3230 Sports goods 2015=100,NA,NA
+EVJU,PPI INDEX EXPORT NEU - C3240 Games and toys 2015=100,NA,NA
+EVJV,PPI INDEX EXPORT NEU - C3250 Medical and dental instruments and supplies 2015=100,NA,NA
+EVJW,PPI INDEX EXPORT NEU - C3291 Brooms and brushes 2015=100,NA,NA
+EVJX,PPI INDEX EXPORT NEU - C3299 Other manufactured goods n.e.c. 2015=100,NA,NA
+EVNT,"PPI INDEX OUTPUT DOMESTIC - B0812 Gravel, sand, clays and kaolin, excluding Aggregate Levy 2015=100",NA,NA
+EVNU,"PPI INDEX OUTPUT DOMESTIC - B0812 Gravel, sand, clays and kaolin, including Aggregate Levy 2015=100",NA,NA
+EVOF,PPI INDEX OUTPUT DOMESTIC - C1011 Processed and preserved meat 2015=100,NA,NA
+EVOG,PPI INDEX OUTPUT DOMESTIC - C1012 Processed and preserved poultry meat 2015=100,NA,NA
+EVOH,PPI INDEX OUTPUT DOMESTIC - C1013 Meat and poultry meat products 2015=100,NA,NA
+EVOI,"PPI INDEX OUTPUT DOMESTIC - C1020 Processed and preserved fish, crustaceans and molluscs 2015=100",NA,NA
+EVOJ,PPI INDEX OUTPUT DOMESTIC - C1031 Processed and preserved potatoes 2015=100,NA,NA
+EVOK,PPI INDEX OUTPUT DOMESTIC - C1032 Fruit and vegetable juices 2015=100,NA,NA
+EVOL,PPI INDEX OUTPUT DOMESTIC - C1039 Other processed and preserved fruit and vegetables 2015=100,NA,NA
+EVOO,PPI INDEX OUTPUT DOMESTIC - C1051 Dairy and cheese products 2015=100,NA,NA
+EVOP,PPI INDEX OUTPUT DOMESTIC - C1052 Ice cream 2015=100,NA,NA
+EVOQ,PPI INDEX OUTPUT DOMESTIC - C1061 Grain mill products 2015=100,NA,NA
+EVOR,PPI INDEX OUTPUT DOMESTIC - C1062 Starches and starch products 2015=100,NA,NA
+EVOS,PPI INDEX OUTPUT DOMESTIC - C1071 Bread; fresh pastry goods and cakes 2015=100,NA,NA
+EVOT,PPI INDEX OUTPUT DOMESTIC - C1072 Rusks and biscuits; preserved pastry goods and cakes 2015=100,NA,NA
+EVOU,"PPI INDEX OUTPUT DOMESTIC - C1073 Macaroni, noodles, couscous and similar farinaceous products 2015=100",NA,NA
+EVOW,"PPI INDEX OUTPUT DOMESTIC - C1082 Cocoa, chocolate and sugar confectionery 2015=100",NA,NA
+EVOX,PPI INDEX OUTPUT DOMESTIC - C1083 Processed tea and coffee 2015=100,NA,NA
+EVOY,PPI INDEX OUTPUT DOMESTIC - C1084 Condiments and seasonings 2015=100,NA,NA
+EVOZ,PPI INDEX OUTPUT DOMESTIC - C1085 Prepared meals and dishes 2015=100,NA,NA
+EVPB,PPI INDEX OUTPUT DOMESTIC - C1089 Other food products n.e.c. 2015=100,NA,NA
+EVPC,PPI INDEX OUTPUT DOMESTIC - C1091 Prepared feeds for farm animals 2015=100,NA,NA
+EVPD,PPI INDEX OUTPUT DOMESTIC - C1092 Prepared pet foods 2015=100,NA,NA
+EVPE,"PPI INDEX OUTPUT DOMESTIC - C1101 Distilled alcoholic beverages, excluding Duty 2015=100",NA,NA
+EVPF,"PPI INDEX OUTPUT DOMESTIC - C1101 Distilled alcoholic beverages, including Duty 2015=100",NA,NA
+EVPO,"PPI INDEX OUTPUT DOMESTIC - C1103 Cider and other fruit wines, excluding Duty 2015=100",NA,NA
+EVPP,"PPI INDEX OUTPUT DOMESTIC - C1103 Cider and other fruit wines, including Duty 2015=100",NA,NA
+EVPR,"PPI INDEX OUTPUT DOMESTIC - C1105 Beer, excluding Duty 2015=100",NA,NA
+EVPS,"PPI INDEX OUTPUT DOMESTIC - C1105 Beer, including Duty 2015=100",NA,NA
+EVPU,PPI INDEX OUTPUT DOMESTIC - C1107 Soft drinks; mineral waters and other bottled waters 2015=100,NA,NA
+EVPX,PPI INDEX OUTPUT DOMESTIC - C1310 Textile yarn and thread 2015=100,NA,NA
+EVQA,PPI INDEX OUTPUT DOMESTIC - C1320 Woven textiles 2015=100,NA,NA
+EVQB,PPI INDEX OUTPUT DOMESTIC - C1330 Textile finishing services 2015=100,NA,NA
+EVQC,PPI INDEX OUTPUT DOMESTIC - C1391 Knitted and crocheted fabrics 2015=100,NA,NA
+EVQD,"PPI INDEX OUTPUT DOMESTIC - C1392 Made-up textile articles, except apparel 2015=100",NA,NA
+EVQE,PPI INDEX OUTPUT DOMESTIC - C1393 Carpets and rugs 2015=100,NA,NA
+EVQG,"PPI INDEX OUTPUT DOMESTIC - C1395 Non-wovens and articles made from non-wovens, except apparel 2015=100",NA,NA
+EVSS,PPI INDEX OUTPUT DOMESTIC - C1412 Workwear 2015=100,NA,NA
+EVSU,PPI INDEX OUTPUT DOMESTIC - C1413 Other outerwear 2015=100,NA,NA
+EVTV,PPI INDEX OUTPUT DOMESTIC - C1520 Footwear 2015=100,NA,NA
+EVUD,"PPI INDEX OUTPUT DOMESTIC - C1610 Wood, sawn and planed 2015=100",NA,NA
+EVUJ,PPI INDEX OUTPUT DOMESTIC - C1623 Other builders' carpentry and joinery 2015=100,NA,NA
+EVUP,PPI INDEX OUTPUT DOMESTIC - C1624 Wooden containers 2015=100,NA,NA
+EVUR,"PPI INDEX OUTPUT DOMESTIC - C1629 Other products of wood; articles of cork, straw and plaiting materials 2015=100",NA,NA
+EVVL,PPI INDEX OUTPUT DOMESTIC - C1712 Paper and paperboard 2015=100,NA,NA
+EVVQ,PPI INDEX OUTPUT DOMESTIC - C1721 Corrugated paper and paperboard and containers of paper and paperboard 2015=100,NA,NA
+EVVR,PPI INDEX OUTPUT DOMESTIC - C1722 Household and sanitary goods and toilet requisites 2015=100,NA,NA
+EVVS,PPI INDEX OUTPUT DOMESTIC - C1723 Paper stationery 2015=100,NA,NA
+EVVU,PPI INDEX OUTPUT DOMESTIC - C1729 Other articles of paper and paperboard 2015=100,NA,NA
+EVVW,PPI INDEX OUTPUT DOMESTIC - C1812 Other printing services 2015=100,NA,NA
+EVVX,PPI INDEX OUTPUT DOMESTIC - C1813 Pre-press and pre-media services 2015=100,NA,NA
+EVWS,"PPI INDEX OUTPUT DOMESTIC - C1920 Refined petroleum products, excluding Duty 2015=100",NA,NA
+EVWT,"PPI INDEX OUTPUT DOMESTIC - C1920 Refined petroleum products, including Duty 2015=100",NA,NA
+EVWX,PPI INDEX OUTPUT DOMESTIC - C2012 Dyes and pigments 2015=100,NA,NA
+EVXB,PPI INDEX OUTPUT DOMESTIC - C2013 Other inorganic basic chemicals 2015=100,NA,NA
+EVXD,PPI INDEX OUTPUT DOMESTIC - C2014 Other organic basic chemicals 2015=100,NA,NA
+EVXG,PPI INDEX OUTPUT DOMESTIC - C2015 Fertilisers and nitrogen compounds 2015=100,NA,NA
+EVXH,PPI INDEX OUTPUT DOMESTIC - C2016 Plastics in primary forms 2015=100,NA,NA
+EVYI,"PPI INDEX OUTPUT DOMESTIC - C2030 Paints, varnishes and similar coatings, printing ink and mastics 2015=100",NA,NA
+EVYJ,"PPI INDEX OUTPUT DOMESTIC - C2041 Soap and detergents, cleaning and polishing preparations 2015=100",NA,NA
+EW46,PPI INDEX OUTPUT DOMESTIC - C2042 Perfumes and toilet preparations 2015=100,NA,NA
+EW48,PPI INDEX OUTPUT DOMESTIC - C2052 Glues 2015=100,NA,NA
+EW4D,PPI INDEX OUTPUT DOMESTIC - C2059 Other chemical products n.e.c. 2015=100,NA,NA
+EW4F,PPI INDEX OUTPUT DOMESTIC - C2110 Basic pharmaceutical products 2015=100,NA,NA
+EW4G,PPI INDEX OUTPUT DOMESTIC - C2120 Pharmaceutical preparations 2015=100,NA,NA
+EW4H,PPI INDEX OUTPUT DOMESTIC - C2211 Rubber tyres and tubes; retreading and rebuilding of rubber tyres 2015=100,NA,NA
+EW4I,PPI INDEX OUTPUT DOMESTIC - C2219 Other rubber products 2015=100,NA,NA
+EW4J,"PPI INDEX OUTPUT DOMESTIC - C2221 Plastic plates, sheets, tubes and profiles 2015=100",NA,NA
+EW4K,PPI INDEX OUTPUT DOMESTIC - C2222 Plastic packing goods 2015=100,NA,NA
+EW4L,PPI INDEX OUTPUT DOMESTIC - C2223 Builders ware of plastic 2015=100,NA,NA
+EW4M,PPI INDEX OUTPUT DOMESTIC - C2229 Other plastic products 2015=100,NA,NA
+EW66,PPI INDEX OUTPUT DOMESTIC - C2312 Shaped and processed flat glass 2015=100,NA,NA
+EW69,"PPI INDEX OUTPUT DOMESTIC - C2319 Other processed glass, including technical glassware 2015=100",NA,NA
+EW6A,PPI INDEX OUTPUT DOMESTIC - C2320 Refractory products 2015=100,NA,NA
+EW6G,PPI INDEX OUTPUT DOMESTIC - C2344 Other technical ceramic products 2015=100,NA,NA
+EW6I,PPI INDEX OUTPUT DOMESTIC - C2351 Cement 2015=100,NA,NA
+EW6J,PPI INDEX OUTPUT DOMESTIC - C2352 Lime and plaster 2015=100,NA,NA
+EW6K,PPI INDEX OUTPUT DOMESTIC - C2361 Concrete products for construction purposes 2015=100,NA,NA
+EW6M,PPI INDEX OUTPUT DOMESTIC - C2363 Ready-mixed concrete 2015=100,NA,NA
+EW6P,"PPI INDEX OUTPUT DOMESTIC - C2369 Other articles of concrete, plaster and cement 2015=100",NA,NA
+EW6Q,"PPI INDEX OUTPUT DOMESTIC - C2370 Cut, shaped and finished stone 2015=100",NA,NA
+EW6R,PPI INDEX OUTPUT DOMESTIC - C2391 Abrasive products 2015=100,NA,NA
+EW6S,PPI INDEX OUTPUT DOMESTIC - C2399 Other non-metallic mineral products n.e.c. 2015=100,NA,NA
+EW6T,PPI INDEX OUTPUT DOMESTIC - C2410 Basic iron and steel and ferro-alloys 2015=100,NA,NA
+EW6U,"PPI INDEX OUTPUT DOMESTIC - C2420 Tubes, pipes, hollow profiles and related fittings, of steel 2015=100",NA,NA
+EW6X,PPI INDEX OUTPUT DOMESTIC - C2433 Cold formed or folded products 2015=100,NA,NA
+EW72,PPI INDEX OUTPUT DOMESTIC - C2442 Aluminium 2015=100,NA,NA
+EW74,PPI INDEX OUTPUT DOMESTIC - C2444 Copper 2015=100,NA,NA
+EW75,PPI INDEX OUTPUT DOMESTIC - C2445 Other non-ferrous metal 2015=100,NA,NA
+EW77,PPI INDEX OUTPUT DOMESTIC - C2451 Casting services of iron 2015=100,NA,NA
+EW79,PPI INDEX OUTPUT DOMESTIC - C2453 Casting services of light metals 2015=100,NA,NA
+EW7B,PPI INDEX OUTPUT DOMESTIC - C2511 Metal structures and parts of structures 2015=100,NA,NA
+EW7C,PPI INDEX OUTPUT DOMESTIC - C2512 Doors and windows of metal 2015=100,NA,NA
+EW7D,PPI INDEX OUTPUT DOMESTIC - C2521 Central heating radiators and boilers 2015=100,NA,NA
+EW7E,"PPI INDEX OUTPUT DOMESTIC - C2529 Other tanks, reservoirs and containers of metal 2015=100",NA,NA
+EW7F,"PPI INDEX OUTPUT DOMESTIC - C2530 Steam generators, except central heating hot water boilers 2015=100",NA,NA
+EW7H,"PPI INDEX OUTPUT DOMESTIC - C2550 Forging, pressing, stamping and roll-forming services of metal; powder metallurgy 2015=100",NA,NA
+EW7I,PPI INDEX OUTPUT DOMESTIC - C2561 Treatment and coating services of metals 2015=100,NA,NA
+EW7J,PPI INDEX OUTPUT DOMESTIC - C2562 Machining services 2015=100,NA,NA
+EW7L,PPI INDEX OUTPUT DOMESTIC - C2572 Locks and hinges 2015=100,NA,NA
+EW7M,PPI INDEX OUTPUT DOMESTIC - C2573 Tools 2015=100,NA,NA
+EW7N,PPI INDEX OUTPUT DOMESTIC - C2591 Steel drums and similar containers 2015=100,NA,NA
+EW7O,PPI INDEX OUTPUT DOMESTIC - C2592 Light metal packaging 2015=100,NA,NA
+EWCZ,"PPI INDEX OUTPUT DOMESTIC - C2593 Wire products, chain and springs 2015=100",NA,NA
+EWJA,PPI INDEX OUTPUT DOMESTIC - C2594 Fasteners and screw machine products 2015=100,NA,NA
+EWJD,PPI INDEX OUTPUT DOMESTIC - C2599 Other fabricated metal products n.e.c. 2015=100,NA,NA
+EWJS,PPI INDEX OUTPUT DOMESTIC - C2620 Computers and peripheral equipment 2015=100,NA,NA
+EWJT,PPI INDEX OUTPUT DOMESTIC - C2630 Communication equipment 2015=100,NA,NA
+EWJX,"PPI INDEX OUTPUT DOMESTIC - C2660 Irradiation, electromedical and electrotherapeutic equipment 2015=100",NA,NA
+EWKA,"PPI INDEX OUTPUT DOMESTIC - C2711 Electric motors, generators and transformers 2015=100",NA,NA
+EWKB,PPI INDEX OUTPUT DOMESTIC - C2712 Electricity distribution and control apparatus 2015=100,NA,NA
+EWKC,PPI INDEX OUTPUT DOMESTIC - C2720 Batteries and accumulators 2015=100,NA,NA
+EWKE,PPI INDEX OUTPUT DOMESTIC - C2732 Other electronic and electric wires and cables 2015=100,NA,NA
+EWKF,PPI INDEX OUTPUT DOMESTIC - C2733 Wiring devices 2015=100,NA,NA
+EWKG,PPI INDEX OUTPUT DOMESTIC - C2740 Electric lighting equipment 2015=100,NA,NA
+EWKH,PPI INDEX OUTPUT DOMESTIC - C2751 Electric domestic appliances 2015=100,NA,NA
+EWKI,PPI INDEX OUTPUT DOMESTIC - C2752 Non-electric domestic appliances 2015=100,NA,NA
+EWKJ,PPI INDEX OUTPUT DOMESTIC - C2790 Other electrical equipment 2015=100,NA,NA
+EWKM,"PPI INDEX OUTPUT DOMESTIC - C2811 Engines and turbines, except aircraft, vehicle and cycle engines 2015=100",NA,NA
+EWKN,PPI INDEX OUTPUT DOMESTIC - C2812 Fluid power equipment 2015=100,NA,NA
+EWKO,PPI INDEX OUTPUT DOMESTIC - C2813 Other pumps and compressors 2015=100,NA,NA
+EWKP,PPI INDEX OUTPUT DOMESTIC - C2814 Other taps and valves 2015=100,NA,NA
+EWKQ,"PPI INDEX OUTPUT DOMESTIC - C2815 Bearings, gears, gearing and driving elements 2015=100",NA,NA
+EWKR,"PPI INDEX OUTPUT DOMESTIC - C2821 Ovens, furnaces and furnace burners 2015=100",NA,NA
+EWKS,PPI INDEX OUTPUT DOMESTIC - C2822 Lifting and handling equipment 2015=100,NA,NA
+EWKV,PPI INDEX OUTPUT DOMESTIC - C2825 Non-domestic cooling and ventilation equipment 2015=100,NA,NA
+EWKW,PPI INDEX OUTPUT DOMESTIC - C2829 Other general-purpose machinery n.e.c. 2015=100,NA,NA
+EWKX,PPI INDEX OUTPUT DOMESTIC - C2830 Agricultural and forestry machinery 2015=100,NA,NA
+EWLB,"PPI INDEX OUTPUT DOMESTIC - C2892 Machinery for mining, quarrying and construction 2015=100",NA,NA
+EWLC,"PPI INDEX OUTPUT DOMESTIC - C2893 Machinery for food, beverage and tobacco processing 2015=100",NA,NA
+EWLE,PPI INDEX OUTPUT DOMESTIC - C2895 Machinery for paper and paperboard production 2015=100,NA,NA
+EWLG,PPI INDEX OUTPUT DOMESTIC - C2899 Other special-purpose machinery n.e.c. 2015=100,NA,NA
+EWLH,PPI INDEX OUTPUT DOMESTIC - C2910 Motor vehicles 2015=100,NA,NA
+EWLI,PPI INDEX OUTPUT DOMESTIC - C2920 Bodies (coachwork) for motor vehicles; trailers and semi-trailers 2015=100,NA,NA
+EWLL,PPI INDEX OUTPUT DOMESTIC - C2931 Electrical and electronic equipment for motor vehicles 2015=100,NA,NA
+EWLM,PPI INDEX OUTPUT DOMESTIC - C2932 Other parts and accessories for motor vehicles 2015=100,NA,NA
+EWLQ,PPI INDEX OUTPUT DOMESTIC - C3030 Air and spacecraft and related machinery 2015=100,NA,NA
+EWLT,PPI INDEX OUTPUT DOMESTIC - C3092 Bicycles and invalid carriages 2015=100,NA,NA
+EWLU,PPI INDEX OUTPUT DOMESTIC - C3099 Other transport equipment n.e.c. 2015=100,NA,NA
+EWLV,PPI INDEX OUTPUT DOMESTIC - C3100 Seats and parts thereof 2015=100,NA,NA
+EWLW,PPI INDEX OUTPUT DOMESTIC - C3101 Office and shop furniture 2015=100,NA,NA
+EWLX,PPI INDEX OUTPUT DOMESTIC - C3102 Kitchen furniture 2015=100,NA,NA
+EWLY,PPI INDEX OUTPUT DOMESTIC - C3103 Mattresses 2015=100,NA,NA
+EWLZ,PPI INDEX OUTPUT DOMESTIC - C3109 Other furniture 2015=100,NA,NA
+EWMB,PPI INDEX OUTPUT DOMESTIC - C3212 Jewellery and related articles 2015=100,NA,NA
+EWME,PPI INDEX OUTPUT DOMESTIC - C3230 Sports goods 2015=100,NA,NA
+EWMF,PPI INDEX OUTPUT DOMESTIC - C3240 Games and toys 2015=100,NA,NA
+EWMG,PPI INDEX OUTPUT DOMESTIC - C3250 Medical and dental instruments and supplies 2015=100,NA,NA
+EWMH,PPI INDEX OUTPUT DOMESTIC - C3291 Brooms and brushes 2015=100,NA,NA
+EWMI,PPI INDEX OUTPUT DOMESTIC - C3299 Other manufactured goods n.e.c. 2015=100,NA,NA
+EWMK,PPI INDEX OUTPUT DOMESTIC - C3312 Repair services of machinery 2015=100,NA,NA
+EWML,PPI INDEX OUTPUT DOMESTIC - C3313 Repair services of electronic and optical equipment 2015=100,NA,NA
+EWMN,PPI INDEX OUTPUT DOMESTIC - C3315 Repair and maintenance services of ships and boats 2015=100,NA,NA
+EWMP,PPI INDEX OUTPUT DOMESTIC - C3317 Repair and maintenance services of other transport equipment 2015=100,NA,NA
+FUBK,"PPI INDEX OUTPUT DOMESTIC - C_XC19 Manufactured products, excluding petroleum products, excluding Duty 2015=100",NA,NA
+G2ZA,PPI INDEX OUTPUT DOMESTIC - C104 Vegetable and animal oils and fats 2015=100,NA,NA
+G33H,PPI INDEX OUTPUT DOMESTIC - C282 Other general-purpose machinery 2015=100,NA,NA
+G33J,PPI INDEX OUTPUT DOMESTIC - C284 Metal forming machinery and machine tools 2015=100,NA,NA
+G33O,PPI INDEX OUTPUT DOMESTIC - C301 Ships and boats 2015=100,NA,NA
+G639,PPI INDEX IMPORT EU - C10 Food products 2015=100,NA,NA
+G63A,PPI INDEX IMPORT EU - C11 Beverages 2015=100,NA,NA
+G63R,PPI INDEX IMPORT EU - C13 Textiles 2015=100,NA,NA
+G63X,"PPI INDEX IMPORT EU - C16 Wood and products of wood and cork, except furniture; articles of straw and plaiting materials 2015=100",NA,NA
+G63Y,PPI INDEX IMPORT EU - C17 Paper and paper products 2015=100,NA,NA
+G643,PPI INDEX IMPORT EU - C20 Chemicals and chemical products 2015=100,NA,NA
+G644,PPI INDEX IMPORT EU - C21 Basic pharmaceutical products and pharmaceutical preparations 2015=100,NA,NA
+G645,PPI INDEX IMPORT EU - C22 Rubber and plastic products 2015=100,NA,NA
+G646,PPI INDEX IMPORT EU - C23 Other non-metallic mineral products 2015=100,NA,NA
+G647,PPI INDEX IMPORT EU - C24 Basic metals 2015=100,NA,NA
+G649,"PPI INDEX IMPORT EU - C26 Computer, electronic and optical products 2015=100",NA,NA
+G64A,PPI INDEX IMPORT EU - C27 Electrical equipment 2015=100,NA,NA
+G64B,PPI INDEX IMPORT EU - C28 Machinery and equipment n.e.c. 2015=100,NA,NA
+G64C,"PPI INDEX IMPORT EU - C29 Motor vehicles, trailers and semi-trailers 2015=100",NA,NA
+G64D,PPI INDEX IMPORT EU - C30 Other transport equipment 2015=100,NA,NA
+G64F,PPI INDEX IMPORT EU - C32 Other manufactured goods 2015=100,NA,NA
+G67M,PPI INDEX IMPORT - C10 Food products 2015=100,NA,NA
+G67N,PPI INDEX IMPORT - C11 Beverages 2015=100,NA,NA
+G67P,PPI INDEX IMPORT - C13 Textiles 2015=100,NA,NA
+G67S,"PPI INDEX IMPORT - C16 Wood and products of wood and cork, except furniture; articles of straw and plaiting materials 2015=100",NA,NA
+G67T,PPI INDEX IMPORT - C17 Paper and paper products 2015=100,NA,NA
+G689,PPI INDEX IMPORT - C20 Chemicals and chemical products 2015=100,NA,NA
+G68A,PPI INDEX IMPORT - C21 Basic pharmaceutical products and pharmaceutical preparations 2015=100,NA,NA
+G68H,PPI INDEX IMPORT - C22 Rubber and plastic products 2015=100,NA,NA
+G68I,PPI INDEX IMPORT - C23 Other non-metallic mineral products 2015=100,NA,NA
+G68J,PPI INDEX IMPORT - C24 Basic metals 2015=100,NA,NA
+G68Q,"PPI INDEX IMPORT - C26 Computer, electronic and optical products 2015=100",NA,NA
+G68R,PPI INDEX IMPORT - C27 Electrical equipment 2015=100,NA,NA
+G68S,PPI INDEX IMPORT - C28 Machinery and equipment n.e.c. 2015=100,NA,NA
+G68T,"PPI INDEX IMPORT - C29 Motor vehicles, trailers and semi-trailers 2015=100",NA,NA
+G68U,PPI INDEX IMPORT - C30 Other transport equipment 2015=100,NA,NA
+G698,PPI INDEX IMPORT - C32 Other manufactured goods 2015=100,NA,NA
+G6H5,PPI INDEX IMPORT NEU - C10 Food products 2015=100,NA,NA
+G6H6,PPI INDEX IMPORT NEU - C11 Beverages 2015=100,NA,NA
+G6PG,PPI INDEX IMPORT NEU - C13 Textiles 2015=100,NA,NA
+G6PJ,"PPI INDEX IMPORT NEU - C16 Wood and products of wood and cork, except furniture; articles of straw and plaiting materials 2015=100",NA,NA
+G6PK,PPI INDEX IMPORT NEU - C17 Paper and paper products 2015=100,NA,NA
+G6PN,PPI INDEX IMPORT NEU - C20 Chemicals and chemical products 2015=100,NA,NA
+G6PO,PPI INDEX IMPORT NEU - C21 Basic pharmaceutical products and pharmaceutical preparations 2015=100,NA,NA
+G6PP,PPI INDEX IMPORT NEU - C22 Rubber and plastic products 2015=100,NA,NA
+G6PQ,PPI INDEX IMPORT NEU - C23 Other non-metallic mineral products 2015=100,NA,NA
+G6PR,PPI INDEX IMPORT NEU - C24 Basic metals 2015=100,NA,NA
+G6PT,"PPI INDEX IMPORT NEU - C26 Computer, electronic and optical products 2015=100",NA,NA
+G6PU,PPI INDEX IMPORT NEU - C27 Electrical equipment 2015=100,NA,NA
+G6PV,PPI INDEX IMPORT NEU - C28 Machinery and equipment n.e.c. 2015=100,NA,NA
+G6PW,"PPI INDEX IMPORT NEU - C29 Motor vehicles, trailers and semi-trailers 2015=100",NA,NA
+G6PX,PPI INDEX IMPORT NEU - C30 Other transport equipment 2015=100,NA,NA
+G6PZ,PPI INDEX IMPORT NEU - C32 Other manufactured goods 2015=100,NA,NA
+G6QR,PPI INDEX EXPORT TOTAL - C10 Food products 2015=100,NA,NA
+G6QU,PPI INDEX EXPORT TOTAL - C13 Textiles 2015=100,NA,NA
+G6QV,PPI INDEX EXPORT TOTAL - C14 Wearing apparel 2015=100,NA,NA
+G6QX,"PPI INDEX EXPORT TOTAL - C16 Wood and products of wood and cork, except furniture; articles of straw and plaiting mate... 2015=100",NA,NA
+G6QY,PPI INDEX EXPORT TOTAL - C17 Paper and paper products 2015=100,NA,NA
+G6R3,PPI INDEX EXPORT TOTAL - C20 Chemicals and chemical products 2015=100,NA,NA
+G6R4,PPI INDEX EXPORT TOTAL - C21 Basic pharmaceutical products and pharmaceutical preparations 2015=100,NA,NA
+G6R5,PPI INDEX EXPORT TOTAL - C22 Rubber and plastic products 2015=100,NA,NA
+G6R6,PPI INDEX EXPORT TOTAL - C23 Other non-metallic mineral products 2015=100,NA,NA
+G6R7,PPI INDEX EXPORT TOTAL - C24 Basic metals 2015=100,NA,NA
+G6R9,"PPI INDEX EXPORT TOTAL - C25 Fabricated metal products, except machinery and equipment 2015=100",NA,NA
+G6RB,"PPI INDEX EXPORT TOTAL - C26 Computer, electronic and optical products 2015=100",NA,NA
+G6RC,PPI INDEX EXPORT TOTAL - C27 Electrical equipment 2015=100,NA,NA
+G6RD,PPI INDEX EXPORT TOTAL - C28 Machinery and equipment n.e.c. 2015=100,NA,NA
+G6RE,"PPI INDEX EXPORT TOTAL - C29 Motor vehicles, trailers and semi-trailers 2015=100",NA,NA
+G6RF,PPI INDEX EXPORT TOTAL - C30 Other transport equipment 2015=100,NA,NA
+G6RH,PPI INDEX EXPORT TOTAL - C31 Furniture 2015=100,NA,NA
+G6RI,PPI INDEX EXPORT TOTAL - C32 Other manufactured goods 2015=100,NA,NA
+G6SF,"PPI INDEX OUTPUT DOMESTIC - B08 Other mining and quarrying products, excluding Aggregate Levy 2015=100",NA,NA
+G6SG,"PPI INDEX OUTPUT DOMESTIC - B08 Other mining and quarrying products, including Aggregate Levy 2015=100",NA,NA
+G6SI,PPI INDEX OUTPUT DOMESTIC - C10 Food products 2015=100,NA,NA
+G6SJ,"PPI INDEX OUTPUT DOMESTIC - C11 Beverages, excluding Duty 2015=100",NA,NA
+G6SK,"PPI INDEX OUTPUT DOMESTIC - C11 Beverages, including Duty 2015=100",NA,NA
+G6SL,"PPI INDEX OUTPUT DOMESTIC - C12 Tobacco products, excluding Duty 2015=100",NA,NA
+G6SM,"PPI INDEX OUTPUT DOMESTIC - C12 Tobacco products, including Duty 2015=100",NA,NA
+G6SN,PPI INDEX OUTPUT DOMESTIC - C13 Textiles 2015=100,NA,NA
+G6SO,PPI INDEX OUTPUT DOMESTIC - C14 Wearing apparel 2015=100,NA,NA
+G6SP,PPI INDEX OUTPUT DOMESTIC - C15 Leather and related products 2015=100,NA,NA
+G6SQ,"PPI INDEX OUTPUT DOMESTIC - C16 Wood and products of wood and cork, except furniture; articles of straw and plaiting m... 2015=100",NA,NA
+G6SR,PPI INDEX OUTPUT DOMESTIC - C17 Paper and paper products 2015=100,NA,NA
+G6SS,PPI INDEX OUTPUT DOMESTIC - C18 Printing and reproduction services of recorded media 2015=100,NA,NA
+G6ST,"PPI INDEX OUTPUT DOMESTIC - C19 Coke and refined petroleum products, excluding Duty 2015=100",NA,NA
+G6SU,"PPI INDEX OUTPUT DOMESTIC - C19 Coke and refined petroleum products, including Duty 2015=100",NA,NA
+G6SV,PPI INDEX OUTPUT DOMESTIC - C20 Chemicals and chemical products 2015=100,NA,NA
+G6SW,PPI INDEX OUTPUT DOMESTIC - C21 Basic pharmaceutical products and pharmaceutical preparations 2015=100,NA,NA
+G6SX,PPI INDEX OUTPUT DOMESTIC - C22 Rubber and plastic products 2015=100,NA,NA
+G6SY,PPI INDEX OUTPUT DOMESTIC - C23 Other non-metallic mineral products 2015=100,NA,NA
+G6SZ,PPI INDEX OUTPUT DOMESTIC - C24 Basic metals 2015=100,NA,NA
+G6T3,"PPI INDEX OUTPUT DOMESTIC - C25 Fabricated metal products, except machinery and equipment 2015=100",NA,NA
+G6T5,"PPI INDEX OUTPUT DOMESTIC - C26 Computer, electronic and optical products 2015=100",NA,NA
+G6VF,PPI INDEX OUTPUT DOMESTIC - C27 Electrical equipment 2015=100,NA,NA
+G6VG,PPI INDEX OUTPUT DOMESTIC - C28 Machinery and equipment n.e.c. 2015=100,NA,NA
+G6WH,"PPI INDEX OUTPUT DOMESTIC - C29 Motor vehicles, trailers and semi-trailers 2015=100",NA,NA
+G72N,PPI INDEX OUTPUT DOMESTIC - C30 Other transport equipment 2015=100,NA,NA
+G75I,PPI INDEX OUTPUT DOMESTIC - C31 Furniture 2015=100,NA,NA
+G776,PPI INDEX OUTPUT DOMESTIC - C32 Other manufactured goods 2015=100,NA,NA
+G777,PPI INDEX OUTPUT DOMESTIC - C33 Repair and installation services of machinery and equipment 2015=100,NA,NA
+GB7R,PPI INDEX EXPORT TOTAL - C Manufactured products 2015=100,NA,NA
+GB7S,"PPI INDEX OUTPUT DOMESTIC - C Manufactured products, excluding Duty 2015=100",NA,NA
+GBA6,"PPI INDEX OUTPUT DOMESTIC - SUB_C10TC12 Food, beverages and tobacco, excluding Duty 2015=100",NA,NA
+GBA7,"PPI INDEX OUTPUT DOMESTIC - SUB_C10TC12 Food, beverages and tobacco, including Duty 2015=100",NA,NA
+GBAP,PPI INDEX OUTPUT DOMESTIC - SUB_C13_C14 Textiles and wearing apparel 2015=100,NA,NA
+GBBV,PPI INDEX OUTPUT DOMESTIC - C_XC10TC12_XC19 Core manufactured products 2015=100,NA,NA
+GC27,PPI INDEX IMPORT EU - ATC Total 2015=100,NA,NA
+GC2C,PPI INDEX IMPORT NEU - ATC Total 2015=100,NA,NA
+GC2D,PPI INDEX EXPORT EU - C Manufactured products 2015=100,NA,NA
+GC2G,PPI INDEX EXPORT NEU - C Manufactured products 2015=100,NA,NA
+GD74,PPI INDEX IMPORT - ATC Total 2015=100,NA,NA
+GHDX,"PPI INDEX INPUT - B06_B07 Inputs into production of Crude petroleum and natural gas; Me..., including Climate Change Levy 2015=100",NA,NA
+GHDZ,"PPI INDEX INPUT - B08 Inputs into production of Other mining and quarrying products, including Climate Change Levy 2015=100",NA,NA
+GHEA,"PPI INDEX INPUT - B08 Inputs into production of Other mining and quarrying products, excluding Climate Change Levy 2015=100",NA,NA
+GHEB,"PPI INDEX INPUT - B09 Inputs into production of Mining support services, including Climate Change Levy 2015=100",NA,NA
+GHED,"PPI INDEX INPUT - C_FUEL_X_FBTP Inputs into production of Fuels for core manufacturing, excluding Climate Change Levy 2015=100",NA,NA
+GHEE,"PPI INDEX INPUT - C101 Inputs into production of Preserved meat and meat products, including Climate Change Levy 2015=100",NA,NA
+GHEF,"PPI INDEX INPUT - C101 Inputs into production of Preserved meat and meat products, excluding Climate Change Levy 2015=100",NA,NA
+GHEG,"PPI INDEX INPUT - C102_C103 Inputs into production of Processing and preserving of fish..., including Climate Change Levy 2015=100",NA,NA
+GHEH,"PPI INDEX INPUT - C102_C103 Inputs into production of Processing and preserving of fish..., excluding Climate Change Levy 2015=100",NA,NA
+GHEI,"PPI INDEX INPUT - C104 Inputs into production of Vegetable and animal oils and fats, including Climate Change Levy 2015=100",NA,NA
+GHEJ,"PPI INDEX INPUT - C104 Inputs into production of Vegetable and animal oils and fats, excluding Climate Change Levy 2015=100",NA,NA
+GHEK,"PPI INDEX INPUT - C105 Inputs into production of Dairy products, including Climate Change Levy 2015=100",NA,NA
+GHEL,"PPI INDEX INPUT - C105 Inputs into production of Dairy products, excluding Climate Change Levy 2015=100",NA,NA
+GHEM,"PPI INDEX INPUT - C106 Inputs into production of Grain mill products, starches and star..., including Climate Change Levy 2015=100",NA,NA
+GHEN,"PPI INDEX INPUT - C106 Inputs into production of Grain mill products, starches and star..., excluding Climate Change Levy 2015=100",NA,NA
+GHEO,"PPI INDEX INPUT - C107 Inputs into production of Bakery and farinaceous products, including Climate Change Levy 2015=100",NA,NA
+GHEP,"PPI INDEX INPUT - C107 Inputs into production of Bakery and farinaceous products, excluding Climate Change Levy 2015=100",NA,NA
+GHEQ,"PPI INDEX INPUT - C108 Inputs into production of Other food products, including Climate Change Levy 2015=100",NA,NA
+GHER,"PPI INDEX INPUT - C108 Inputs into production of Other food products, excluding Climate Change Levy 2015=100",NA,NA
+GHES,"PPI INDEX INPUT - C109 Inputs into production of Prepared animal feeds, including Climate Change Levy 2015=100",NA,NA
+GHET,"PPI INDEX INPUT - C109 Inputs into production of Prepared animal feeds, excluding Climate Change Levy 2015=100",NA,NA
+GHEU,"PPI INDEX INPUT - C1101TC1106 Inputs into production of Alcoholic beverages, including Climate Change Levy 2015=100",NA,NA
+GHEV,"PPI INDEX INPUT - C1101TC1106 Inputs into production of Alcoholic beverages, excluding Climate Change Levy 2015=100",NA,NA
+GHEW,"PPI INDEX INPUT - C1107 Inputs into production of Soft drinks; mineral waters and other..., including Climate Change Levy 2015=100",NA,NA
+GHEX,"PPI INDEX INPUT - C1107 Inputs into production of Soft drinks; mineral waters and other..., excluding Climate Change Levy 2015=100",NA,NA
+GHEY,"PPI INDEX INPUT - C12 Inputs into production of Tobacco products, including Climate Change Levy 2015=100",NA,NA
+GHEZ,"PPI INDEX INPUT - C12 Inputs into production of Tobacco products, excluding Climate Change Levy 2015=100",NA,NA
+GHFA,"PPI INDEX INPUT - C13 Inputs into production of Textiles, including Climate Change Levy 2015=100",NA,NA
+GHFB,"PPI INDEX INPUT - C13 Inputs into production of Textiles, excluding Climate Change Levy 2015=100",NA,NA
+GHFC,"PPI INDEX INPUT - C14 Inputs into production of Wearing apparel, including Climate Change Levy 2015=100",NA,NA
+GHFD,"PPI INDEX INPUT - C14 Inputs into production of Wearing apparel, excluding Climate Change Levy 2015=100",NA,NA
+GHFE,"PPI INDEX INPUT - C15 Inputs into production of Leather and related products, including Climate Change Levy 2015=100",NA,NA
+GHFF,"PPI INDEX INPUT - C15 Inputs into production of Leather and related products, excluding Climate Change Levy 2015=100",NA,NA
+GHFG,"PPI INDEX INPUT - C16 Inputs into production of Wood and products of wood and cork, exc..., including Climate Change Levy 2015=100",NA,NA
+GHFH,"PPI INDEX INPUT - C16 Inputs into production of Wood and products of wood and cork, exc..., excluding Climate Change Levy 2015=100",NA,NA
+GHFI,"PPI INDEX INPUT - C17 Inputs into production of Paper and paper products, including Climate Change Levy 2015=100",NA,NA
+GHFJ,"PPI INDEX INPUT - C17 Inputs into production of Paper and paper products, excluding Climate Change Levy 2015=100",NA,NA
+GHFK,"PPI INDEX INPUT - C18 Inputs into production of Printing and reproduction services of r..., including Climate Change Levy 2015=100",NA,NA
+GHFL,"PPI INDEX INPUT - C18 Inputs into production of Printing and reproduction services of r..., excluding Climate Change Levy 2015=100",NA,NA
+GHFM,"PPI INDEX INPUT - C19 Inputs into production of Coke and refined petroleum products, including Climate Change Levy 2015=100",NA,NA
+GHFN,"PPI INDEX INPUT - C19 Inputs into production of Coke and refined petroleum products, excluding Climate Change Levy 2015=100",NA,NA
+GHFO,"PPI INDEX INPUT - C203 Inputs into production of Paints, varnishes and similar coatings..., including Climate Change Levy 2015=100",NA,NA
+GHFP,"PPI INDEX INPUT - C203 Inputs into production of Paints, varnishes and similar coatings..., excluding Climate Change Levy 2015=100",NA,NA
+GHFQ,"PPI INDEX INPUT - C204 Inputs into production of Soap and detergents, cleaning and poli..., including Climate Change Levy 2015=100",NA,NA
+GHFR,"PPI INDEX INPUT - C204 Inputs into production of Soap and detergents, cleaning and poli..., excluding Climate Change Levy 2015=100",NA,NA
+GHFS,"PPI INDEX INPUT - C205 Inputs into production of Other chemical products, including Climate Change Levy 2015=100",NA,NA
+GHFT,"PPI INDEX INPUT - C205 Inputs into production of Other chemical products, excluding Climate Change Levy 2015=100",NA,NA
+GHFU,"PPI INDEX INPUT - C20A Inputs into production of Industrial gases; Other inorganic chem..., including Climate Change Levy 2015=100",NA,NA
+GHFV,"PPI INDEX INPUT - C20A Inputs into production of Industrial gases; Other inorganic chem..., excluding Climate Change Levy 2015=100",NA,NA
+GHFW,"PPI INDEX INPUT - C20B Inputs into production of Petrochemicals 20.14/16/17/60, including Climate Change Levy 2015=100",NA,NA
+GHFX,"PPI INDEX INPUT - C20B Inputs into production of Petrochemicals 20.14/16/17/60, excluding Climate Change Levy 2015=100",NA,NA
+GHFY,"PPI INDEX INPUT - C20C Inputs into production of Dyes and pigmants, pesticides and othe..., including Climate Change Levy 2015=100",NA,NA
+GHFZ,"PPI INDEX INPUT - C20C Inputs into production of Dyes and pigmants, pesticides and othe..., excluding Climate Change Levy 2015=100",NA,NA
+GHGA,"PPI INDEX INPUT - C21 Inputs into production of Basic pharmaceutical products and pharm..., including Climate Change Levy 2015=100",NA,NA
+GHGB,"PPI INDEX INPUT - C21 Inputs into production of Basic pharmaceutical products and pharm..., excluding Climate Change Levy 2015=100",NA,NA
+GHGC,"PPI INDEX INPUT - C22 Inputs into production of Rubber and plastic products, including Climate Change Levy 2015=100",NA,NA
+GHGD,"PPI INDEX INPUT - C22 Inputs into production of Rubber and plastic products, excluding Climate Change Levy 2015=100",NA,NA
+GHGE,"PPI INDEX INPUT - C235_C236 Inputs into production of Cement, lime, plaster and article..., including Climate Change Levy 2015=100",NA,NA
+GHGF,"PPI INDEX INPUT - C235_C236 Inputs into production of Cement, lime, plaster and article..., excluding Climate Change Levy 2015=100",NA,NA
+GHGG,"PPI INDEX INPUT - C23OTHER Inputs into production of Glass, refractory clay, porcelain,..., including Climate Change Levy 2015=100",NA,NA
+GHGH,"PPI INDEX INPUT - C23OTHER Inputs into production of Glass, refractory clay, porcelain,..., excluding Climate Change Levy 2015=100",NA,NA
+GHGI,"PPI INDEX INPUT - C241TC243 Inputs into production of Basic iron, steel and alloys, tub..., including Climate Change Levy 2015=100",NA,NA
+GHGJ,"PPI INDEX INPUT - C241TC243 Inputs into production of Basic iron, steel and alloys, tub..., excluding Climate Change Levy 2015=100",NA,NA
+GHGK,"PPI INDEX INPUT - C244_C245 Inputs into production of Other basic metals and casting, including Climate Change Levy 2015=100",NA,NA
+GHGL,"PPI INDEX INPUT - C244_C245 Inputs into production of Other basic metals and casting, excluding Climate Change Levy 2015=100",NA,NA
+GHGM,"PPI INDEX INPUT - C254 Inputs into production of Weapons and ammunition, including Climate Change Levy 2015=100",NA,NA
+GHGN,"PPI INDEX INPUT - C254 Inputs into production of Weapons and ammunition, excluding Climate Change Levy 2015=100",NA,NA
+GHGO,"PPI INDEX INPUT - C25OTHER Inputs into production of Fabricated metal product excluding..., including Climate Change Levy 2015=100",NA,NA
+GHGP,"PPI INDEX INPUT - C25OTHER Inputs into production of Fabricated metal product excluding..., excluding Climate Change Levy 2015=100",NA,NA
+GHGQ,"PPI INDEX INPUT - C26 Inputs into production of Computer, electronic and optical products, including Climate Change Levy 2015=100",NA,NA
+GHGR,"PPI INDEX INPUT - C26 Inputs into production of Computer, electronic and optical products, excluding Climate Change Levy 2015=100",NA,NA
+GHGS,"PPI INDEX INPUT - C27 Inputs into production of Electrical equipment, including Climate Change Levy 2015=100",NA,NA
+GHGT,"PPI INDEX INPUT - C27 Inputs into production of Electrical equipment, excluding Climate Change Levy 2015=100",NA,NA
+GHGU,"PPI INDEX INPUT - C28 Inputs into production of Machinery and equipment n.e.c., including Climate Change Levy 2015=100",NA,NA
+GHGV,"PPI INDEX INPUT - C28 Inputs into production of Machinery and equipment n.e.c., excluding Climate Change Levy 2015=100",NA,NA
+GHGW,"PPI INDEX INPUT - C29 Inputs into production of Motor vehicles, trailers and semi-trailers, including Climate Change Levy 2015=100",NA,NA
+GHGX,"PPI INDEX INPUT - C29 Inputs into production of Motor vehicles, trailers and semi-trailers, excluding Climate Change Levy 2015=100",NA,NA
+GHGY,"PPI INDEX INPUT - C301 Inputs into production of Ships and boats, including Climate Change Levy 2015=100",NA,NA
+GHGZ,"PPI INDEX INPUT - C301 Inputs into production of Ships and boats, excluding Climate Change Levy 2015=100",NA,NA
+GHHA,"PPI INDEX INPUT - C303 Inputs into production of Air and spacecraft and related machinery, including Climate Change Levy 2015=100",NA,NA
+GHHB,"PPI INDEX INPUT - C303 Inputs into production of Air and spacecraft and related machinery, excluding Climate Change Levy 2015=100",NA,NA
+GHHD,"PPI INDEX INPUT - C30OTHER Inputs into production of Other transport equipment 30.2/4/9, excluding Climate Change Levy 2015=100",NA,NA
+GHHE,"PPI INDEX INPUT - C31 Inputs into production of Furniture, including Climate Change Levy 2015=100",NA,NA
+GHHF,"PPI INDEX INPUT - C31 Inputs into production of Furniture, excluding Climate Change Levy 2015=100",NA,NA
+GHHG,"PPI INDEX INPUT - C32 Inputs into production of Other manufactured goods, including Climate Change Levy 2015=100",NA,NA
+GHHH,"PPI INDEX INPUT - C32 Inputs into production of Other manufactured goods, excluding Climate Change Levy 2015=100",NA,NA
+GHHJ,"PPI INDEX INPUT - C3315 Inputs into production of Repair and maintenance services of sh..., excluding Climate Change Levy 2015=100",NA,NA
+GHHL,"PPI INDEX INPUT - C3316 Inputs into production of Repair and maintenance services of ai..., excluding Climate Change Levy 2015=100",NA,NA
+GHHN,"PPI INDEX INPUT - C33OTHER Inputs into production of Repair; Installation 33.11-14/17/1..., excluding Climate Change Levy 2015=100",NA,NA
+GHHP,"PPI INDEX INPUT - D351 Inputs into production of Electricity, transmission and distribu..., excluding Climate Change Levy 2015=100",NA,NA
+GHHR,"PPI INDEX INPUT - D352_D353 Inputs into production of Manufactured gas; Distribution of..., excluding Climate Change Levy 2015=100",NA,NA
+GHHS,"PPI INDEX INPUT - E36 Inputs into production of Natural water; water treatment and supp..., excluding Climate Change Levy 2015=100",NA,NA
+GHHV,"PPI INDEX INPUT - SUB_C10TC12 Inputs into production of Food, beverages and tobacco, excluding Climate Change Levy 2015=100",NA,NA
+GHHW,"PPI INDEX INPUT - SUB_C13_C14 Inputs into production of Textiles and wearing apparel, excluding Climate Change Levy 2015=100",NA,NA
+GHHZ,"PPI INDEX INPUT - SUB_C17_C18 Inputs into production of Paper and paper products; Print..., excluding Climate Change Levy 2015=100",NA,NA
+GHIB,"PPI INDEX INPUT - SUB_C20 Inputs into production of Chemicals and chemical products, excluding Climate Change Levy 2015=100",NA,NA
+GHIF,"PPI INDEX INPUT - SUB_C24_C25 Inputs into production of Basic metals and fabricated met..., excluding Climate Change Levy 2015=100",NA,NA
+GHIG,"PPI INDEX INPUT - SUB_C26_C27 Inputs into production of Computer, electronic and optica..., excluding Climate Change Levy 2015=100",NA,NA
+GHII,"PPI INDEX INPUT - SUB_C29_C30 Inputs into production of Motor vehicles, trailers, semi-..., excluding Climate Change Levy 2015=100",NA,NA
+GHIJ,"PPI INDEX INPUT - SUB_C31_C32 Inputs into production of Furniture and other manufacture..., excluding Climate Change Levy 2015=100",NA,NA
+GHIK,"PPI INDEX INPUT - C_MAT Inputs into production of Materials for all manufacturing, excluding Climate Change Levy 2015=100",NA,NA
+GHIL,"PPI INDEX INPUT - C_MAT_X_FBTP Inputs into production of Materials for core manufacturing, excluding Climate Change Levy 2015=100",NA,NA
+GHIM,"PPI INDEX INPUT - C_FUEL Inputs into production of Fuels for all manufacturing, excluding Climate Change Levy 2015=100",NA,NA
+GHIO,"PPI INDEX INPUT - C_X_FBTP Inputs into production of Core manufactured products, excluding Climate Change Levy 2015=100",NA,NA
+GHIP,"PPI INDEX INPUT - C Inputs into production of Manufactured products, excluding Climate Change Levy 2015=100",NA,NA
