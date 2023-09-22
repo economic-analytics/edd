@@ -341,7 +341,7 @@ J45A,RSI:Year to date % change:All retail ex fuel:All Business,%,NA
 J45B,RSI:Year to date % change:All retail ex fuel:Large Business,%,NA
 J45C,RSI:Year to date % change:All retail ex fuel:Small Business,%,NA
 J45J,RSI:All retail ex fuel:All Business:VAL NSA:Rolling 3m on same 3m a year ago %,%,NA
-J45K,RSI:Rolling 3mnth on prev 3mnth %change:All Business All retail inc fuel VAL SA,%,NA
+J45K,RSI:Rolling 3mnth on prev 3mnth %change:All Business All retail exc fuel VAL SA,%,NA
 J45L,RSI:All retail ex fuel:All Business:VAL SA:Rolling 3m on same 3m a year ago %,%,NA
 J45Q,RSI:All retail ex fuel:All Business:VOL NSA:Rolling 3m on same 3m a year ago %,%,NA
 J45R,RSI:Rolling 3mnth on prev 3mnth %change:All Business All retail exl fuel VOL SA,%,NA
@@ -391,7 +391,7 @@ J5BA,RSI:Non-store retailing:All Business:VAL SA:Rolling 3m on same 3m a year ag
 J5BI,RSI:Value Seasonally Adjusted:Non-store Retailing:All Business Index,NA,NA
 J5BS,RSI:All retail inc fuel:All Business:VAL SA:% change on same month a year ago,%,NA
 J5BT,RSI:Month on prev month % change:All Business All retail inc fuel VAL SA,%,NA
-J5BX,RSI:Rolling 3mnth on prev 3mnth %change:All Business All retail exl fuel VAL SA,%,NA
+J5BX,RSI:Rolling 3mnth on prev 3mnth %change:All Business All retail inc fuel VAL SA,%,NA
 J5BY,RSI:All retail inc fuel:All Business:VAL SA:Rolling 3m on same 3m a year ago %,%,NA
 J5C4,RSI:Value Seasonally Adjusted:All Retailers inc fuel:All Business Index,"Index, base year = 100",NA
 J5C5,RSI:Non-store retail:All Business:VOL NSA:% change on same month a year ago,%,NA
