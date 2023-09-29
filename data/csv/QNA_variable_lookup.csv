@@ -243,6 +243,12 @@ JJDS,Taxes on products & production four quarter growth rate %,NA,NA
 JJDU,Subsidies annual growth rate YoY,NA,NA
 JJDZ,Subsidies one quarter growth rate %,NA,NA
 JJG4,Subsidies four quarter growth rate %,NA,NA
+JLTT,Trade in Services EU Exports CVM SA,NA,NA
+JLTZ,Trade in Services EU Imports CVM SA,NA,NA
+JLUE,Trade in Services EU Balance CVM SA,NA,NA
+JLV3,Trade in Services Non-EU Exports CVM SA,NA,NA
+JLV4,Trade in Services Non-EU Imports CVM SA,NA,NA
+JLV5,Trade in Services Non-EU Balance CVM SA,NA,NA
 KB7D,Revision to GDP at market prices £m,m,£
 KB7E,Revision to basic price adjustment (bpa) £m,m,£
 KB7F,Revision to GVA at bp £m,m,£
@@ -679,6 +685,18 @@ L653,GFCF private sector transfer of ownership costs four quarter growth rate CV
 L654,GFCF private sector dwellings annual growth rate CVM SA %,%,NA
 L655,GFCF private sector dwellings one quarter growth rate CVM SA %,%,NA
 L656,GFCF private sector dwellings four quarter growth rate CVM SA %,%,NA
+L84Y,Exports trade goods & services EU SA,NA,NA
+L84Z,Exports trade goods & services Non. EU 28 SA,NA,NA
+L854,Exports trade in services EU SA,NA,NA
+L855,Exports trade in services Non. EU SA,NA,NA
+L864,Imports trade goods & services EU SA,NA,NA
+L865,Imports trade goods & services Non. EU SA,NA,NA
+L868,Imports trade in services EU SA,NA,NA
+L869,Imports trade in services Non. EU SA,NA,NA
+L86I,Balance trade goods & services EU SA,NA,NA
+L86J,Balance trade goods & services Non..EU SA,NA,NA
+L86M,Balance trade in services EU SA,NA,NA
+L86N,Balance trade in services Non. EU SA,NA,NA
 L87K,Trade in Goods (T): Non-EU: Balance: BOP: CP: SA,NA,NA
 L87M,Trade in Goods (T): Non-EU: Exports: BOP: CP: SA,NA,NA
 L87O,Trade in Goods (T): Non-EU: Imports: BOP: CP: SA,NA,NA
@@ -740,6 +758,144 @@ NTAP,Total adjustment to basic prices (General Government + ROW) CP SA £m,m,£
 NZFS,ESA95: CG: OFTEL fees,NA,NA
 NZFV,ESA95: CG: OFWAT fees,NA,NA
 NZTP,Stocks: Manufacturing: VPI CP SA,NA,NA
+P5VC,Trade in Goods and Services EU Exports CVM SA,NA,NA
+P5VD,Trade in Goods and Services EU Imports CVM SA,NA,NA
+P5VE,Trade in Goods and Services EU Balance CVM SA,NA,NA
+P5VF,Trade in Goods and Services Non-EU Exports CVM SA,NA,NA
+P5VG,Trade in Goods and Services Non-EU Imports CVM SA,NA,NA
+P5VH,Trade in Goods and Services Non-EU Balance CVM SA,NA,NA
+P5VI,Trade in Services (TS): Manufacturing and Maintenance Services: EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5VJ,Trade in Services (TS): Manufacturing and Maintenance Services: EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5VK,Trade in Services (TS): Manufacturing and Maintenance Services: EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5VL,Trade in Services (TS): Transport: EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5VM,Trade in Services (TS): Transport: EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5VN,Trade in Services (TS): Transport: EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5VO,Trade in Services (TS): Travel: EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5VP,Trade in Services (TS): Travel: EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5VQ,Trade in Services (TS): Travel: EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5VR,Trade in Services (TS): Construction Services: EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5VS,Trade in Services (TS): Construction Services: EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5VT,Trade in Services (TS): Construction Services: EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5VU,Trade in Services (TS): Insurance and Pension Services: EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5VV,Trade in Services (TS): Insurance and Pension Services: EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5VW,Trade in Services (TS): Insurance and Pension Services: EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5VX,Trade in Services (TS): Financial Services: EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5VY,Trade in Services (TS): Financial Services: EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5VZ,Trade in Services (TS): Financial Services: EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5W2,Trade in Services (TS): Intellectual Property Services: EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5W3,Trade in Services (TS): Intellectual Property Services: EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5W4,Trade in Services (TS): Intellectual Property Services: EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5W5,"""Trade in Services (TS): Telecoms, Computer and Information Services: EU: Exports: BOP: CVM: SA: £m""",NA,NA
+P5W6,"""Trade in Services (TS): Telecoms, Computer and Information Services: EU: Imports: BOP: CVM: SA: £m""",NA,NA
+P5W7,"""Trade in Services (TS): Telecoms, Computer and Information Services: EU: Balance: BOP: CVM: SA: £m""",NA,NA
+P5W8,Trade in Services (TS): Other Business Services: EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5W9,Trade in Services (TS): Other Business Services: EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5WA,Trade in Services (TS): Other Business Services: EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5WB,"""Trade in Services (TS): Personal, Cultural & Recreational Services: EU: Exports: BOP: CVM: SA: £m""",NA,NA
+P5WC,"""Trade in Services (TS): Personal, Cultural & Recreational Services: EU: Imports: BOP: CVM: SA: £m""",NA,NA
+P5WD,"""Trade in Services (TS): Personal, Cultural & Recreational Services: EU: Balance: BOP: CVM: SA: £m""",NA,NA
+P5WE,"""Trade in Services (TS): Government Services, n.i.e: EU: Exports: BOP: CVM: SA: £m""",NA,NA
+P5WF,"""Trade in Services (TS): Government Services, n.i.e: EU: Imports: BOP: CVM: SA: £m""",NA,NA
+P5WG,"""Trade in Services (TS): Government Services, n.i.e: EU: Balance: BOP: CVM: SA: £m""",NA,NA
+P5WH,Trade in Services (TS): Manufacturing and Maintenance Services: Non-EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5WI,Trade in Services (TS): Manufacturing and Maintenance Services: Non-EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5WJ,Trade in Services (TS): Manufacturing and Maintenance Services: Non-EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5WK,Trade in Services (TS): Transport: Non-EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5WL,Trade in Services (TS): Transport: Non-EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5WM,Trade in Services (TS): Transport: Non-EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5WN,Trade in Services (TS): Travel: Non-EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5WO,Trade in Services (TS): Travel: Non-EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5WP,Trade in Services (TS): Travel: Non-EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5WQ,Trade in Services (TS): Construction Services: Non-EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5WR,Trade in Services (TS): Construction Services: Non-EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5WS,Trade in Services (TS): Construction Services: Non-EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5WT,Trade in Services (TS): Insurance and Pension Services: Non-EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5WU,Trade in Services (TS): Insurance and Pension Services: Non-EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5WV,Trade in Services (TS): Insurance and Pension Services: Non-EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5WW,Trade in Services (TS): Financial Services: Non-EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5WX,Trade in Services (TS): Financial Services: Non-EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5WY,Trade in Services (TS): Financial Services: Non-EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5WZ,Trade in Services (TS): Intellectual Property Services: Non-EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5X2,Trade in Services (TS): Intellectual Property Services: Non-EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5X3,Trade in Services (TS): Intellectual Property Services: Non-EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5X4,"""Trade in Services (TS): Telecoms, Computer and Information Services: Non-EU: Exports: BOP: CVM: SA: £m""",NA,NA
+P5X5,"""Trade in Services (TS): Telecoms, Computer and Information Services: Non-EU: Imports: BOP: CVM: SA: £m""",NA,NA
+P5X6,"""Trade in Services (TS): Telecoms, Computer and Information Services: Non-EU: Balance: BOP: CVM: SA: £m""",NA,NA
+P5X7,Trade in Services (TS): Other Business Services: Non-EU: Exports: BOP: CVM: SA: £m,NA,NA
+P5X8,Trade in Services (TS): Other Business Services: Non-EU: Imports: BOP: CVM: SA: £m,NA,NA
+P5X9,Trade in Services (TS): Other Business Services: Non-EU: Balance: BOP: CVM: SA: £m,NA,NA
+P5XA,"""Trade in Services (TS): Personal, Cultural & Recreational Services: Non-EU: Exports: BOP: CVM: SA: £m""",NA,NA
+P5XB,"""Trade in Services (TS): Personal, Cultural & Recreational Services: Non-EU: Imports: BOP: CVM: SA: £m""",NA,NA
+P5XC,"""Trade in Services (TS): Personal, Cultural & Recreational Services: Non-EU: Balance: BOP: CVM: SA: £m""",NA,NA
+P5XD,"""Trade in Services (TS): Government Services, n.i.e: Non-EU: Exports: BOP: CVM: SA: £m""",NA,NA
+P5XE,"""Trade in Services (TS): Government Services, n.i.e: Non-EU: Imports: BOP: CVM: SA: £m""",NA,NA
+P5XF,"""Trade in Services (TS): Government Services, n.i.e: Non-EU: Balance: BOP: CVM: SA: £m""",NA,NA
+P5XG,Trade in Services (TS): Manufacturing and Maintenance Services: EU: Exports: BOP: CP: SA: £m,NA,NA
+P5XH,Trade in Services (TS): Manufacturing and Maintenance Services: EU: Imports: BOP: CP: SA: £m,NA,NA
+P5XI,Trade in Services (TS): Manufacturing and Maintenance Services: EU: Balance: BOP: CP: SA: £m,NA,NA
+P5XJ,Trade in Services (TS): Transport: EU: Exports: BOP: CP: SA: £m,NA,NA
+P5XK,Trade in Services (TS): Transport: EU: Imports: BOP: CP: SA: £m,NA,NA
+P5XL,Trade in Services (TS): Transport: EU: Balance: BOP: CP: SA: £m,NA,NA
+P5XM,Trade in Services (TS): Travel: EU: Exports: BOP: CP: SA: £m,NA,NA
+P5XN,Trade in Services (TS): Travel: EU: Imports: BOP: CP: SA: £m,NA,NA
+P5XO,Trade in Services (TS): Travel: EU: Balance: BOP: CP: SA: £m,NA,NA
+P5XP,Trade in Services (TS): Construction Services: EU: Exports: BOP: CP: SA: £m,NA,NA
+P5XQ,Trade in Services (TS): Construction Services: EU: Imports: BOP: CP: SA: £m,NA,NA
+P5XR,Trade in Services (TS): Construction Services: EU: Balance: BOP: CP: SA: £m,NA,NA
+P5XS,Trade in Services (TS): Insurance and Pension Services: EU: Exports: BOP: CP: SA: £m,NA,NA
+P5XT,Trade in Services (TS): Insurance and Pension Services: EU: Imports: BOP: CP: SA: £m,NA,NA
+P5XU,Trade in Services (TS): Insurance and Pension Services: EU: Balance: BOP: CP: SA: £m,NA,NA
+P5XV,Trade in Services (TS): Financial Services: EU: Exports: BOP: CP: SA: £m,NA,NA
+P5XW,Trade in Services (TS): Financial Services: EU: Imports: BOP: CP: SA: £m,NA,NA
+P5XX,Trade in Services (TS): Financial Services: EU: Balance: BOP: CP: SA: £m,NA,NA
+P5XY,Trade in Services (TS): Intellectual Property Services: EU: Exports: BOP: CP: SA: £m,NA,NA
+P5XZ,Trade in Services (TS): Intellectual Property Services: EU: Imports: BOP: CP: SA: £m,NA,NA
+P5Y2,Trade in Services (TS): Intellectual Property Services: EU: Balance: BOP: CP: SA: £m,NA,NA
+P5Y3,"""Trade in Services (TS): Telecoms, Computer and Information Services: EU: Exports: BOP: CP: SA: £m""",NA,NA
+P5Y4,"""Trade in Services (TS): Telecoms, Computer and Information Services: EU: Imports: BOP: CP: SA: £m""",NA,NA
+P5Y5,"""Trade in Services (TS): Telecoms, Computer and Information Services: EU: Balance: BOP: CP: SA: £m""",NA,NA
+P5Y6,Trade in Services (TS): Other Business Services: EU: Exports: BOP: CP: SA: £m,NA,NA
+P5Y7,Trade in Services (TS): Other Business Services: EU: Imports: BOP: CP: SA: £m,NA,NA
+P5Y8,Trade in Services (TS): Other Business Services: EU: Balance: BOP: CP: SA: £m,NA,NA
+P5Y9,"""Trade in Services (TS): Personal, Cultural & Recreational Services: EU: Exports: BOP: CP: SA: £m""",NA,NA
+P5YA,"""Trade in Services (TS): Personal, Cultural & Recreational Services: EU: Imports: BOP: CP: SA: £m""",NA,NA
+P5YB,"""Trade in Services (TS): Personal, Cultural & Recreational Services: EU: Balance: BOP: CP: SA: £m""",NA,NA
+P5YC,"""Trade in Services (TS): Government Services, n.i.e: EU: Exports: BOP: CP: SA: £m""",NA,NA
+P5YD,"""Trade in Services (TS): Government Services, n.i.e: EU: Imports: BOP: CP: SA: £m""",NA,NA
+P5YE,"""Trade in Services (TS): Government Services, n.i.e: EU: Balance: BOP: CP: SA: £m""",NA,NA
+P5YF,Trade in Services (TS): Manufacturing and Maintenance Services: Non-EU: Exports: BOP: CP: SA: £m,NA,NA
+P5YG,Trade in Services (TS): Manufacturing and Maintenance Services: Non-EU: Imports: BOP: CP: SA: £m,NA,NA
+P5YH,Trade in Services (TS): Manufacturing and Maintenance Services: Non-EU: Balance: BOP: CP: SA: £m,NA,NA
+P5YI,Trade in Services (TS): Transport: Non-EU: Exports: BOP: CP: SA: £m,NA,NA
+P5YJ,Trade in Services (TS): Transport: Non-EU: Imports: BOP: CP: SA: £m,NA,NA
+P5YK,Trade in Services (TS): Transport: Non-EU: Balance: BOP: CP: SA: £m,NA,NA
+P5YL,Trade in Services (TS): Travel: Non-EU: Exports: BOP: CP: SA: £m,NA,NA
+P5YM,Trade in Services (TS): Travel: Non-EU: Imports: BOP: CP: SA: £m,NA,NA
+P5YN,Trade in Services (TS): Travel: Non-EU: Balance: BOP: CP: SA: £m,NA,NA
+P5YO,Trade in Services (TS): Construction Services: Non-EU: Exports: BOP: CP: SA: £m,NA,NA
+P5YP,Trade in Services (TS): Construction Services: Non-EU: Imports: BOP: CP: SA: £m,NA,NA
+P5YQ,Trade in Services (TS): Construction Services: Non-EU: Balance: BOP: CP: SA: £m,NA,NA
+P5YR,Trade in Services (TS): Insurance and Pension Services: Non-EU: Exports: BOP: CP: SA: £m,NA,NA
+P5YS,Trade in Services (TS): Insurance and Pension Services: Non-EU: Imports: BOP: CP: SA: £m,NA,NA
+P5YT,Trade in Services (TS): Insurance and Pension Services: Non-EU: Balance: BOP: CP: SA: £m,NA,NA
+P5YU,Trade in Services (TS): Financial Services: Non-EU: Exports: BOP: CP: SA: £m,NA,NA
+P5YV,Trade in Services (TS): Financial Services: Non-EU: Imports: BOP: CP: SA: £m,NA,NA
+P5YW,Trade in Services (TS): Financial Services: Non-EU: Balance: BOP: CP: SA: £m,NA,NA
+P5YX,Trade in Services (TS): Intellectual Property Services: Non-EU: Exports: BOP: CP: SA: £m,NA,NA
+P5YY,Trade in Services (TS): Intellectual Property Services: Non-EU: Imports: BOP: CP: SA: £m,NA,NA
+P5YZ,Trade in Services (TS): Intellectual Property Services: Non-EU: Balance: BOP: CP: SA: £m,NA,NA
+P5Z2,"""Trade in Services (TS): Telecoms, Computer and Information Services: Non-EU: Exports: BOP: CP: SA: £m""",NA,NA
+P5Z3,"""Trade in Services (TS): Telecoms, Computer and Information Services: Non-EU: Imports: BOP: CP: SA: £m""",NA,NA
+P5Z4,"""Trade in Services (TS): Telecoms, Computer and Information Services: Non-EU: Balance: BOP: CP: SA: £m""",NA,NA
+P5Z5,Trade in Services (TS): Other Business Services: Non-EU: Exports: BOP: CP: SA: £m,NA,NA
+P5Z6,Trade in Services (TS): Other Business Services: Non-EU: Imports: BOP: CP: SA: £m,NA,NA
+P5Z7,Trade in Services (TS): Other Business Services: Non-EU: Balance: BOP: CP: SA: £m,NA,NA
+P5Z8,"""Trade in Services (TS): Personal, Cultural & Recreational Services: Non-EU: Exports: BOP: CP: SA: £m""",NA,NA
+P5Z9,"""Trade in Services (TS): Personal, Cultural & Recreational Services: Non-EU: Imports: BOP: CP: SA: £m""",NA,NA
+P5ZA,"""Trade in Services (TS): Personal, Cultural & Recreational Services: Non-EU: Balance: BOP: CP: SA: £m""",NA,NA
+P5ZB,"""Trade in Services (TS): Government Services, n.i.e: Non-EU: Exports: BOP: CP: SA: £m""",NA,NA
+P5ZC,"""Trade in Services (TS): Government Services, n.i.e: Non-EU: Imports: BOP: CP: SA: £m""",NA,NA
+P5ZD,"""Trade in Services (TS): Government Services, n.i.e: Non-EU: Balance: BOP: CP: SA: £m""",NA,NA
 QWPS,ESA95:CG:COFOG:D1 total compensation of employees,NA,NA
 QWPT,ESA95:CG:COFOG:total net procurement: £m nsa,NA,NA
 QWRY,ESA95:LA: D1 Comp of employees:COFOG:Total NSA CP,NA,NA

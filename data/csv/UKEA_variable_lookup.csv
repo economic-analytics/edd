@@ -517,17 +517,17 @@ CT22,Central government (S.1311): Sector share of gross national income: Per cen
 CT23,Local government (S.1313): Sector share of gross national income: Per cent: £m: CP: NSA,NA,NA
 CT24,Local government (S.1313): Sector share of gross national income: Per cent: £m: CP: SA,NA,NA
 CT3K,Experimental measure of Households: Gross disposable income: £m: CVM: SA: Q on Q-4 growth rate %: (Ref Year 2019) (Cash basis),NA,NA
-CT8I,Net lending (+)/net borrowing (-) by sector as a percentage of GDP - Public corporations,NA,NA
-CT8J,Net lending (+)/net borrowing (-) by sector as a percentage of GDP - Private non-financial corporations,NA,NA
-CT8K,Net lending (+)/net borrowing (-) by sector as a percentage of GDP - Non-financial corporations,NA,NA
-CT8L,Net lending (+)/net borrowing (-) by sector as a percentage of GDP - Financial corporations,NA,NA
-CT8M,Net lending (+)/net borrowing (-) by sector as a percentage of GDP - Central government,NA,NA
-CT8N,Net lending (+) / net borrowing (-) by sector as a percentage of GDP - Local government,NA,NA
-CT8O,Net lending (+)/net borrowing (-) by sector as a percentage of GDP - General government,NA,NA
-CT8P,Net lending (+)/net borrowing (-) by sector as a percentage of GDP - Household,NA,NA
-CT8Q,Net lending (+)/net borrowing (-) by sector as a percentage of GDP - Non profit institutions serving households,NA,NA
-CT8R,Net lending (+)/net borrowing (-) by sector as a percentage of GDP - Household & non-profit institution serving households,NA,NA
-CT8S,Net lending (+)/net borrowing (-) by sector as a percentage of GDP - Rest of the world,NA,NA
+CT8I,Public corporations (S.11001): Net lending/borrowing from the non-financial account as a percentage of GDP: SA,NA,NA
+CT8J,Private non-financial corporations (S1102+S11003): Net lending/borrowing from the non-financial account as a percentage of GDP: SA,NA,NA
+CT8K,Non-financial corporations (S.11): Net lending/borrowing from the non-financial account as a percentage of GDP: SA,NA,NA
+CT8L,Financial corporations (S.12): Net lending/borrowing from the non-financial account as a percentage of GDP: SA,NA,NA
+CT8M,Central government (S.1311): Net lending/borrowing from the non-financial account as a percentage of GDP: SA,NA,NA
+CT8N,Local government (S.1313): Net lending/borrowing from the non-financial account as a percentage of GDP: SA,NA,NA
+CT8O,General government (S.13): Net lending/borrowing from the non-financial account as a percentage of GDP: SA,NA,NA
+CT8P,Households (S.14): Net lending/borrowing from the non-financial account as a percentage of GDP: SA,NA,NA
+CT8Q,Non-profit institutions serving households (S.15): Net lending/borrowing from the non-financial account as a percentage of GDP: SA,NA,NA
+CT8R,Households & NPISH (S.14+S.15): Net lending/borrowing from the non-financial account as a percentage of GDP: SA,NA,NA
+CT8S,Rest of the world (S.2): Net lending/borrowing from the non-financial account as a percentage of GDP: Seasonally adjusted,NA,NA
 CVOK,FDI : Outward : Total NFC & FCs : Level of ICCA Balance due to parent : nsa : £m,m,£
 CVOL,FDI : Outward : Total NFC & FCs : Level of ICCA Balance due from parent :nsa :£m,m,£
 CVOP,FDI : Outward : Total NFC & FCs : Level of Branch H/O Balance due to : nsa : £m,m,£
@@ -599,7 +599,7 @@ CVZH,Households (S.14): Debt to Income ratio: percentage: NSA,NA,NA
 CVZI,Households (S.14): Debt to Income ratio: percentage: NSA,NA,NA
 CW7U,"Private non-financial corporations self-financed investment ratio, percentage (%), non-seasonally adjusted",NA,NA
 CW7V,"Private non-financial corporations self-financed investment ratio, percentage (%), seasonally adjusted",NA,NA
-CWPQ,UK (S.1): Net lending (+)/net borrowing (-) by sector as a percentage of GDP: CP,NA,NA
+CWPQ,UK (S.1): Net lending/borrowing from the non-financial account as a percentage of GDP: SA,NA,NA
 CWTD,S1 BAL B.102: Changes in net worth due to other changes in volume of assets,NA,NA
 CWTE,S11 BAL B.102: Changes in net worth due to other changes in volume of assets,NA,NA
 CWTH,S12 BAL B.102: Changes in net worth due to other changes in volume of assets,NA,NA
@@ -1633,6 +1633,18 @@ J9C4,Trade in Goods: United States inc Puerto Rico: Total: Balance: BOP: CP: SA,
 J9C5,Trade in Goods: United States inc Puerto Rico: Total: Exports: BOP: CP: SA,NA,NA
 J9C6,Trade in Goods: United States inc Puerto Rico: Total: Imports: BOP: CP: SA,NA,NA
 JCWM,Capital transfers (Debits): Total other sectors debt forgiveness: CPSA: £m,m,£
+JN2W,UK (S.1): Net lending/borrowing from the financial account (B.9F) as a percentage of GDP: Not seasonally adjusted,NA,NA
+JN2X,Public corporations (S11001) Net lending/borrowing from the financial account (B.9F) as a percentage of GDP: NSA,NA,NA
+JN2Y,Private non-financial corps (S.1102+S.11003) Net lending/borrowing from the financial account (B.9F) as a percentage of GDP: NSA,NA,NA
+JN2Z,Non-financial corporations (S.11) Net lending/borrowing from the financial account (B.9F) as a percentage of GDP NSA,NA,NA
+JN32,Financial corporations (S.12) Net lending/borrowing from the financial account (B.9F) as a percentage of GDP: NSA,NA,NA
+JN33,Central government (S.1311) Net lending/borrowing from the financial account (B.9F) as a percentage of GDP Not seasonally adjusted,NA,NA
+JN34,Local government (S.1313) Net lending/borrowing from the financial account (B.9F) as a percentage of GDP Not seasonally adjusted,NA,NA
+JN35,General government (S.13) Net lending/borrowing from the financial account (B.9F) as a percentage of GDP: NSA,NA,NA
+JN36,Households (S.14) Net lending/borrowing from the financial account (B.9F) as a percentage of GDP: Not seasonally adjusted,NA,NA
+JN37,Non-profit institutions serving households S15: Net lending/borrowing from the financial account (B.9F) as a percentage of GDP NSA,NA,NA
+JN3C,Households & NPISH Net lending/borrowing from the financial account (B.9F) as a percentage of GDP: NSA,NA,NA
+JN3D,Rest of the world (S.2) Net lending/borrowing from the financial account (B.9F) as a percentage of GDP: Not seasonally adjusted,NA,NA
 JRWI,"Non-financial corporations sector (S11): Other capital transfers, payable (D.99p): Current price: £m: Not seasonally adjusted",NA,NA
 JRWJ,"Non-financial corporations sector (S11): Capital transfers, payable (D.9p): Current price: £million: Not seasonally adjusted",m,£
 JRWK,"Non-financial corporations sector (S11): Capital transfers, payable (D.9p): Current price: £million: Seasonally adjusted",m,£
