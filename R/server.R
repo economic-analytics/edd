@@ -14,11 +14,12 @@ server <- function(input, output, session) {
 # UI Rendering ------------------------------------------------------------
 
   output$dataset <- renderUI({
-    selectizeInput(inputId  = "dataset",
-                   label    = "Select dataset(s)",
-                   choices  = edd_dict$desc[edd_dict$id %in% names(edd_datasets)],
-                   multiple = TRUE,
-                   options  = list(plugins = list("remove_button"))
+    selectizeInput(
+      inputId  = "dataset",
+      label    = "Select dataset(s)",
+      choices  = edd_dict$desc[edd_dict$id %in% names(edd_datasets)],
+      multiple = TRUE,
+      options  = list(plugins = list("remove_button"))
     )
   })
 
@@ -56,10 +57,11 @@ server <- function(input, output, session) {
   # })
 
   output$dimensions <- renderUI({
-    dims_available <- lapply(user_datasets(),
-                             function(ds) {
-                               names(ds$dimensions)
-                             }
+    dims_available <- lapply(
+      user_datasets(),
+      function(ds) {
+        names(ds$dimensions)
+      }
     ) |>
       unlist() |>
       unique()
@@ -67,27 +69,31 @@ server <- function(input, output, session) {
     # dims_available <- dims_available[dims_available != "variable"]
     lapply(dims_available, function(i) {
       value <- isolate(input[[i]])
-      selectizeInput(i,
-                  paste("Select", stringr::str_replace(i, "_", " ")),
-                  choices = lapply(user_datasets(),
-                                   function(ds) {
-                                     build_input_choices(ds$dimensions[[i]])
-                                   }),
-                  selected = value,
-                  multiple = TRUE,
-                  options = list(plugins = list("remove_button"))
+      selectizeInput(
+        i,
+        paste("Select", stringr::str_replace(i, "_", " ")),
+        choices = lapply(
+          user_datasets(),
+          function(ds) {
+            build_input_choices(ds$dimensions[[i]])
+          }),
+        selected = value,
+        multiple = TRUE,
+        options = list(plugins = list("remove_button"))
       )
     })
   })
 
   output$transformations <- renderUI({
-    selectInput(inputId = "transformations",
-                label   = "Transform data series",
-                choices = c("None (data as published)"   = "none",
-                            "Nominal change on previous" = "nominal_change",
-                            "Percent change on previous" = "percent_change",
-                            "Cumulative change"          = "cumulative_change",
-                            "Index"                      = "index")
+    selectInput(
+      inputId = "transformations",
+      label   = "Transform data series",
+      choices = c(
+        "None (data as published)"   = "none",
+        "Nominal change on previous" = "nominal_change",
+        "Percent change on previous" = "percent_change",
+        "Cumulative change"          = "cumulative_change",
+        "Index"                      = "index")
     )
   })
 
@@ -104,48 +110,57 @@ server <- function(input, output, session) {
   output$transformation_date <- renderUI({
    req(input$transformations)
      if (input$transformations == "index") {
-      value <- isolate(input$transformation_date)
-      selectInput(inputId  = "transformation_date",
-                  label    = "Select date to index to",
-                  choices  = transformation_date_choices(),
-                  selected = value
-      )
-    }
+       value <- isolate(input$transformation_date)
+       selectInput(
+         inputId  = "transformation_date",
+         label    = "Select date to index to",
+         choices  = transformation_date_choices(),
+         selected = value
+       )
+     }
   })
 
   output$frequency <- renderUI({
     req(input$dataset)
-    frequencies <- lapply(user_datasets(), function(ds) ds$data$dates) |>
+    frequencies <- lapply(
+      user_datasets(),
+      function(ds) ds$data$dates) |>
       dplyr::bind_rows(.id = "dataset") |>
       dplyr::distinct()
     value <- isolate(input$frequency)
-    checkboxGroupInput(inputId  = "frequency",
-                       label    = "Which frequencies?",
-                       choices  = unique(frequencies$freq),
-                       selected = c(value, unique(frequencies$freq)[1]),
-                       inline   = TRUE
+    checkboxGroupInput(
+      inputId  = "frequency",
+      label    = "Which frequencies?",
+      choices  = unique(frequencies$freq),
+      selected = c(value, unique(frequencies$freq)[1]),
+      inline   = TRUE
     )
   })
 
   output$dates <- renderUI({
     req(input$dataset)
-    frequencies <- lapply(user_datasets(), function(ds) ds$data$dates) |>
+    frequencies <- lapply(
+      user_datasets(),
+      function(ds) ds$data$dates) |>
       dplyr::bind_rows(.id = "dataset") |>
       dplyr::distinct()
     min <- min(frequencies$date)
     max <- max(frequencies$date)
-    sliderInput("dates", label = "Select time period",
-                min = min,
-                max = max,
-                value = c(min, max)
+    sliderInput(
+      "dates",
+      label = "Select time period",
+      min = min,
+      max = max,
+      value = c(min, max)
     )
   })
 
   output$map_output <- renderUI({
-    radioButtons(inputId = "geog_type",
-                 label   = "Display data by:",
-                 choices = names(boundaries),
-                 inline  = TRUE
+    radioButtons(
+      inputId = "geog_type",
+      label   = "Display data by:",
+      choices = names(boundaries),
+      inline  = TRUE
     )
     #          uiOutput("map_date_select"),
     #          leaflet::leafletOutput("leafletmap")
@@ -166,13 +181,14 @@ server <- function(input, output, session) {
 
     lapply(plot_aesthetics, function(aes) {
       value <- isolate(input[[aes]])
-      selectizeInput(aes,
-                  aes,
-                  choices = c("Dimension" = "",
-                              available_dimensions()
-                              ),
-                  selected = value,
-                  multiple = FALSE
+      selectizeInput(
+        aes,
+        aes,
+        choices = c("Dimension" = "",
+                    available_dimensions()
+        ),
+        selected = value,
+        multiple = FALSE
       )
     })
   })
@@ -282,11 +298,12 @@ server <- function(input, output, session) {
   # [geog_type] should be included
 
   output$map_date_select <- renderUI({
-    sliderInput(inputId = "map_date_select",
-                label   = "Select date",
-                min     = min(data_to_plot()$dates$date),
-                max     = max(data_to_plot()$dates$date),
-                value   = max(data_to_plot()$dates$date)
+    sliderInput(
+      inputId = "map_date_select",
+      label   = "Select date",
+      min     = min(data_to_plot()$dates$date),
+      max     = max(data_to_plot()$dates$date),
+      value   = max(data_to_plot()$dates$date)
     )
   })
 
@@ -345,33 +362,37 @@ server <- function(input, output, session) {
   output$dataplot <- renderPlot({
     req(ggplot_data())
     if (nrow(ggplot_data()) < 10000 && nrow(ggplot_data()) > 0) {
-      ggplot2::ggplot(ggplot_data(),
-                      ggplot2::aes_string(x        = "dates$date",
-                                          y        = "value",
-                                          colour   = {if (input$Colour == "") NULL else paste0(input$Colour, "$name")},
-                                          linetype = {if (input$Linetype == "") NULL else paste0(input$Linetype, "$name")},
-                                          shape    = {if (input$Shape == "") NULL else paste0(input$Shape, "$name")}
-                      )
+      ggplot2::ggplot(
+        ggplot_data(),
+        ggplot2::aes_string(
+          x        = "dates$date",
+          y        = "value",
+          colour   = {if (input$Colour == "") NULL else paste0(input$Colour, "$name")},
+          linetype = {if (input$Linetype == "") NULL else paste0(input$Linetype, "$name")},
+          shape    = {if (input$Shape == "") NULL else paste0(input$Shape, "$name")}
+        )
       ) +
         ggplot2::geom_line(size = 1) +
         {if (input$Shape != "") ggplot2::geom_point(size = 3)} +
         {if (input$Facet != "") ggplot2::facet_wrap(paste0(input$Facet, "$name"), labeller = ggplot2::label_wrap_gen())} +
-        ggplot2::labs(x        = NULL,
-                      y        = plot_ylab(ggplot_data(), input),
-                      title    = "",
-                      subtitle = "",
-                      caption  = plot_caption(input$dataset),
-                      colour   = stringr::str_to_sentence(input$Colour),
-                      linetype = stringr::str_to_sentence(input$Linetype),
-                      shape    = stringr::str_to_sentence(input$Shape)
+        ggplot2::labs(
+          x        = NULL,
+          y        = plot_ylab(ggplot_data(), input),
+          title    = "",
+          subtitle = "",
+          caption  = plot_caption(input$dataset),
+          colour   = stringr::str_to_sentence(input$Colour),
+          linetype = stringr::str_to_sentence(input$Linetype),
+          shape    = stringr::str_to_sentence(input$Shape)
         ) +
-        ggplot2::theme(panel.background   = ggplot2::element_blank(),
-                       panel.grid         = ggplot2::element_blank(),
-                       panel.grid.major.y = ggplot2::element_line(linetype = "dotted"),
-                       legend.position    = "top",
-                       axis.line.y.right  = NULL,
-                       axis.line          = ggplot2::element_line(),
-                       text               = ggplot2::element_text(size = 16)
+        ggplot2::theme(
+          panel.background   = ggplot2::element_blank(),
+          panel.grid         = ggplot2::element_blank(),
+          panel.grid.major.y = ggplot2::element_line(linetype = "dotted"),
+          legend.position    = "top",
+          axis.line.y.right  = NULL,
+          axis.line          = ggplot2::element_line(),
+          text               = ggplot2::element_text(size = 16)
         ) +
         {if (input$Colour == "") NULL else ggplot2::guides(colour = ggplot2::guide_legend(nrow = 2))} +
         {if (input$Linetype == "") NULL else ggplot2::guides(linetype = ggplot2::guide_legend(nrow = 2))} +

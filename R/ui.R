@@ -14,62 +14,65 @@ ui <- function(request) {
       # Sidebar UI
       sidebarLayout(
         sidebarPanel(
-          tabsetPanel(id = "datatool_sidebar_tabs",
-
-                      tabPanel(title = "Select by dataset",
-                               uiOutput("dataset"),
-                               # uiOutput("variable_filter"),
-                               # uiOutput("variable"),
-                               uiOutput("dimensions"),
-                               uiOutput("dates"),
-                               uiOutput("frequency"),
-                               uiOutput("transformations"),
-                               uiOutput("transformation_date")
-                      )
+          tabsetPanel(
+            id = "datatool_sidebar_tabs",
+            tabPanel(
+              title = "Select by dataset",
+              uiOutput("dataset"),
+              # uiOutput("variable_filter"),
+              # uiOutput("variable"),
+              uiOutput("dimensions"),
+              uiOutput("dates"),
+              uiOutput("frequency"),
+              uiOutput("transformations"),
+              uiOutput("transformation_date")
+            )
           )
         ),
 
         # Main panel UI
         mainPanel(
-          tabsetPanel(id = "datatool_mainpanel_tabs",
+          tabsetPanel(
+            id = "datatool_mainpanel_tabs",
+            tabPanel(
+              title = "Chart",
+              sidebarLayout(
+                sidebarPanel(
+                  p(strong("Chart options")),
+                  tabsetPanel(
+                    tabPanel("Plot aesthetics",
+                             uiOutput("plot_aes"),
+                             uiOutput("y_axis_zero")
+                    )
+                  )
+                ),
+                mainPanel(
+                  plotOutput("dataplot"),
+                  downloadButton("download_plot",
+                                 label = "Download as PNG")
+                ),
+                position = "right"
+              )
+              # uiOutput("plot_group"),
 
-                      tabPanel(title = "Chart",
-                               sidebarLayout(
-                                 sidebarPanel(
-                                   p(strong("Chart options")),
-                                   tabsetPanel(
-                                     tabPanel("Plot aesthetics",
-                                              uiOutput("plot_aes"),
-                                              uiOutput("y_axis_zero")
-                                     )
-                                   )
-                                 ),
-                                 mainPanel(
-                                   plotOutput("dataplot"),
-                                   downloadButton("download_plot",
-                                                  label = "Download as PNG")
-                                 ),
-                                 position = "right"
-                               )
-                               # uiOutput("plot_group"),
 
+              # uiOutput("summarise"),
 
-                               # uiOutput("summarise"),
+            ),
 
-                      ),
-
-                      tabPanel(title = "Table",
-                               DT::DTOutput("datatable"),
-                               downloadButton("download_data",
-                                              label = "Download as CSV")
-                      )
-                      # ,
-                      #
-                      # tabPanel(title = "Map",
-                      #          uiOutput("map_output"),
-                      #          uiOutput("map_date_select"),
-                      #          leaflet::leafletOutput("leafletmap")
-                      # )
+            tabPanel(
+              title = "Table",
+              DT::DTOutput("datatable"),
+              downloadButton("download_data",
+                             label = "Download as CSV")
+            )
+            # ,
+            #
+            # tabPanel(title = "Map",
+            #          uiOutput("map_output"),
+            #          uiOutput("map_date_select"),
+            #          leaflet::leafletOutput("leafletmap")
+            # )
           )
         )
       )
@@ -92,8 +95,9 @@ ui <- function(request) {
     tabPanel(
       id = "admin",
       title = "Admin",
-      actionButton(inputId = "update_ons",
-                   label   = "Update ONS datasets")
+      actionButton(
+        inputId = "update_ons",
+        label   = "Update ONS datasets")
     ),
 
     tabPanel(
