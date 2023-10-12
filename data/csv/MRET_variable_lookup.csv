@@ -152,7 +152,6 @@ BQMW,"Trade in Goods: Food, beverages & tobacco (0and1): WW: Imports: BOP: CP: N
 BQMX,Trade in Goods: Semi-manufactures (5and6): WW: Exports: BOP: CP: NSA,NA,NA
 BQMZ,Trade in Goods: Beverages and Tobacco (1): WW: Exports: BOP: CP: SA,NA,NA
 BQNA,Trade in Goods: Basic materials (2and4): WW: Imports: BOP: CP: NSA,NA,NA
-BQNB,Trade in Goods: Beverages (11): WW: Exports: BOP: CP: SA,NA,NA
 BQND,Trade in Goods less oil (TlessO): WW: Imports: BOP: IDEF: NSA,NA,NA
 BQNE,Trade in Goods: Oil (33): WW: Balance: BOP: CP: NSA,NA,NA
 BQNF,Trade in Goods: Fuels other than oil (3OF): WW: Exports: BOP: CP: NSA,NA,NA
@@ -165,7 +164,6 @@ BQOS,"Trade in Goods: Food, beverages & tobacco (0and1): WW: Balance: BOP: CP: N
 BQOT,Trade in Goods: Semi-manufactures (5and6): WW: Balance: BOP: CP: NSA,NA,NA
 BQOU,Trade in Goods: Unspecified goods (9): WW: Balance: BOP: CP: NSA,NA,NA
 BQOV,Trade in Goods: Finished manufactures (7and8): WW: Balance: BOP: CP: NSA,NA,NA
-BQOW,Trade in Goods: Tobacco (12): WW: Exports: BOP: CP: SA,NA,NA
 BQOX,Trade in Goods: Crude Materials (2): WW: Exports: BOP: CP: SA,NA,NA
 BQOY,Trade in Goods: Wood & cork (24): WW: Exports: BOP: CP: SA,NA,NA
 BQOZ,Trade in Goods: Pulp & waste paper (25): WW: Exports: BOP: CP: SA,NA,NA
@@ -387,7 +385,6 @@ EDHY,Trade in Goods: Machinery and Transport (7): WW: Exports: BOP: IDEF: SA,NA,
 EDHZ,Trade in Goods: Machinery and Transport (7): WW: Imports: BOP: IDEF: SA,NA,NA
 EDIA,Trade in Goods: Miscellanous manufactures (8): WW: Imports: BOP: IDEF: SA,NA,NA
 EDIB,Trade in Goods: Miscellanous manufactures (8): WW: Exports: BOP: IDEF: SA,NA,NA
-EGAT,Trade in Goods: Beverages (11): WW: Imports: BOP: CP: SA,NA,NA
 EHAA,Trade in Goods: Metal ores & scrap (28): WW: Imports: BOP: CP: SA,NA,NA
 EHAB,Trade in Goods: Animal and Vegetable Oils (4): WW: Imports: BOP: CP: SA,NA,NA
 EHAC,Trade in Goods: Organic chemicals (51): WW: Imports: BOP: CP: SA,NA,NA
@@ -416,8 +413,6 @@ EHAZ,Trade in Goods: Dairy products & eggs (02): WW: Balance: BOP: CP: SA,NA,NA
 EHBA,Trade in Goods: Cereals & animal feeding stuffs (04and08): WW: Balance: BOP: CP: SA,NA,NA
 EHBB,Trade in Goods: Vegetables & fruit (05): WW: Balance: BOP: CP: SA,NA,NA
 EHBC,Trade in Goods: Beverages and Tobacco (1): WW: Balance: BOP: CP: SA,NA,NA
-EHBD,Trade in Goods: Beverages (11): WW: Balance: BOP: CP: SA,NA,NA
-EHBE,Trade in Goods: Tobacco (12): WW: Balance: BOP: CP: SA,NA,NA
 EHBF,Trade in Goods: Crude Materials (2): WW: Balance: BOP: CP: SA,NA,NA
 EHBG,Trade in Goods: Wood & cork (24): WW: Balance: BOP: CP: SA,NA,NA
 EHBH,Trade in Goods: Pulp & waste paper (25): WW: Balance: BOP: CP: SA,NA,NA
@@ -453,7 +448,6 @@ ELBI,Trade in Goods: Finished manufactures (7and8): WW: Balance: BOP: CP: SA,m,�
 ELBJ,Trade in Goods: Manufactures (5to8): WW: Balance: BOP: CP: SA,NA,NA
 ELBL,Trade in Goods: Oil (33): WW: Exports: BOP: CP: SA,m,£
 ELBM,Trade in Goods less oil (TlessO): WW: Exports: BOP: CP: SA,m,£
-EMAI,Trade in Goods: Tobacco (12): WW: Imports: BOP: CP: SA,NA,NA
 ENDG,Trade in Goods: Chemicals (5): WW: Exports: BOP: CP: SA,NA,NA
 ENDH,Trade in Goods: Material manufactures less erratics (6lessPS): WW: Exports: BOP: CP: SA,NA,NA
 ENDJ,Trade in Goods: Cars (78M): WW: Exports: BOP: CP: SA,NA,NA
@@ -831,22 +825,6 @@ LGCN,Trade in Goods (T): EU: Exports: BOP: CVM: SA,NA,NA
 LGDF,Trade in Goods (T): EU: Imports: BOP: CVM: SA,NA,NA
 LGEB,Trade in Goods (T): Non-EU: Exports: BOP: CVM: SA,NA,NA
 LGEU,Trade in Goods (T): Non-EU: Imports: BOP: CVM: SA,NA,NA
-LGFJ,Trade in Goods: Beverages (11): EU: Exports: BOP: CP: SA,NA,NA
-LGFM,Trade in Goods: Beverages (11): EU: Exports: BOP: CVM: SA,NA,NA
-LGFW,Trade in Goods: Beverages (11): EU: Imports: BOP: CP: SA,NA,NA
-LGFZ,Trade in Goods: Beverages (11): EU: Imports: BOP: CVM: SA,NA,NA
-LGGJ,Trade in Goods: Beverages (11): Non-EU: Exports: BOP: CP: SA,NA,NA
-LGGM,Trade in Goods: Beverages (11): Non-EU: Exports: BOP: CVM: SA,NA,NA
-LGGW,Trade in Goods: Beverages (11): Non-EU: Imports: BOP: CP: SA,NA,NA
-LGGZ,Trade in Goods: Beverages (11): Non-EU: Imports: BOP: CVM: SA,NA,NA
-LGHJ,Trade in Goods: Tobacco (12): EU: Exports: BOP: CP: SA,NA,NA
-LGHM,Trade in Goods: Tobacco (12): EU: Exports: BOP: CVM: SA,NA,NA
-LJDG,Trade in Goods: Tobacco (12): EU: Imports: BOP: CP: SA,NA,NA
-LJDN,Trade in Goods: Tobacco (12): EU: Imports: BOP: CVM: SA,NA,NA
-LJVD,Trade in Goods: Tobacco (12): Non-EU: Exports: BOP: CP: SA,NA,NA
-LJVG,Trade in Goods: Tobacco (12): Non-EU: Exports: BOP: CVM: SA,NA,NA
-LKBV,Trade in Goods: Tobacco (12): Non-EU: Imports: BOP: CP: SA,NA,NA
-LKBY,Trade in Goods: Tobacco (12): Non-EU: Imports: BOP: CVM: SA,NA,NA
 LKTY,Trade in Goods less oil (TlessO): EU: Balance: BOP: CP: SA,m,£
 LKUA,Trade in Goods less oil (TlessO): EU: Exports: BOP: IDEF: SA,NA,NA
 LKUC,Trade in Goods less oil (TlessO): EU: Exports: BOP: CP: SA,m,£
@@ -901,8 +879,6 @@ OEAF,Trade in Goods: Dairy products & eggs (02): WW: Exports: BOP: CVM: SA,NA,NA
 OEAL,Trade in Goods: Cereals & animal feeding stuffs (04and08): WW: Exports: BOP: CVM: SA,NA,NA
 OEAY,Trade in Goods: Vegetables & fruit (05): WW: Exports: BOP: CVM: SA,NA,NA
 OEBB,Trade in Goods: Beverages and Tobacco (1): WW: Exports: BOP: CVM: SA,NA,NA
-OEBC,Trade in Goods: Beverages (11): WW: Exports: BOP: CVM: SA,NA,NA
-OEBD,Trade in Goods: Tobacco (12): WW: Exports: BOP: CVM: SA,NA,NA
 OEDZ,Trade in Goods: Crude Materials (2): WW: Exports: BOP: CVM: SA,NA,NA
 OEEV,Trade in Goods: Textile fibres (26): WW: Exports: BOP: CVM: SA,NA,NA
 OEEW,Trade in Goods: Metal ores & scrap (28): WW: Exports: BOP: CVM: SA,NA,NA
@@ -934,8 +910,6 @@ OGSJ,Trade in Goods: Dairy products & eggs (02): WW: Imports: BOP: CVM: SA,NA,NA
 OGSK,Trade in Goods: Cereals & animal feeding stuffs (04and08): WW: Imports: BOP: CVM: SA,NA,NA
 OGSL,Trade in Goods: Vegetables & fruit (05): WW: Imports: BOP: CVM: SA,NA,NA
 OGSM,Trade in Goods: Beverages and Tobacco (1): WW: Imports: BOP: CVM: SA,NA,NA
-OGSN,Trade in Goods: Beverages (11): WW: Imports: BOP: CVM: SA,NA,NA
-OGSO,Trade in Goods: Tobacco (12): WW: Imports: BOP: CVM: SA,NA,NA
 OGSP,Trade in Goods: Crude Materials (2): WW: Imports: BOP: CVM: SA,NA,NA
 OGSQ,Trade in Goods: Wood & cork (24): WW: Imports: BOP: CVM: SA,NA,NA
 OGSR,Trade in Goods: Pulp & waste paper (25): WW: Imports: BOP: CVM: SA,NA,NA
