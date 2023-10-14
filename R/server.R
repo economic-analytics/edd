@@ -284,11 +284,9 @@ server <- function(input, output, session) {
     req(input$transformations)
     if (input$transformations == "none") {
       return(df)
-    } else if (1 == 1
-               #!is.null(input$transformation_date)
-               ) {
-      columns_to_group_by <- names(df)[!names(df) %in% c("dataset", "dates", "value")] # TODO this crops up in a few places - global constant?
-      dplyr::group_by(df, dplyr::across(dplyr::all_of(columns_to_group_by))) |>
+    } else {
+      req(input$transformation_date)
+      df |>
         ts_transform_df[[input$transformations]](input$transformation_date)
     }
   }
