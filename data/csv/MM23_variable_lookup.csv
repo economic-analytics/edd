@@ -2093,7 +2093,7 @@ J46Z,CPIH MONTHLY RATE 10.4 Tertiary education 2015=100,NA,NA
 J475,"CPIH MONTHLY RATE 11.1.1.1 Restaurants, cafes and dancing establishment 2015=100",NA,NA
 J477,CPIH MONTHLY RATE 11.1.1.2 Fast food and take away food services 2015=100,NA,NA
 J47B,"CPIH MONTHLY RATE 11.2.0.1 Hotels, motel, inns and similar accommodation",NA,NA
-J47D,"CPIH MONTHLY RATE 11.2.0.2 Holiday, camping, youth & similar accomodation servic",NA,NA
+J47D,"CPIH MONTHLY RATE 11.2.0.2 Holiday, camping, youth & similar accommodation services",NA,NA
 J47F,CPIH MONTHLY RATE 11.2.0.3 Accommodation services other establishments 2015=100,NA,NA
 J47H,CPIH MONTHLY RATE 12.1.1.1 Hairdressing for men and children 2015=100,NA,NA
 J47J,CPIH MONTHLY RATE 12.1.1.2 Hairdressing for women 2015=100,NA,NA
@@ -2287,7 +2287,7 @@ J4XP,CPIH WEIGHTS 10.4 Tertiary education,NA,NA
 J4XR,"CPIH WEIGHTS 11.1.1.1 Restaurants, cafes and dancing establishments",NA,NA
 J4XS,CPIH WEIGHTS 11.1.1.2 Fast food and take away food services,NA,NA
 J4XU,"CPIH WEIGHTS 11.2.0.1 Hotels, motel, inns and similar accommodation services",NA,NA
-J4XV,"CPIH WEIGHTS 11.2.0.2 Holiday centres, camping sites, youth hostels and similar accomodation services",NA,NA
+J4XV,"CPIH WEIGHTS 11.2.0.2 Holiday centres, camping sites, youth hostels and similar accommodation services",NA,NA
 J4XW,CPIH WEIGHTS 11.2.0.3 Accommodation services of other establishments,NA,NA
 J4XX,CPIH WEIGHTS 12.1.1.1 Hairdressing for men and children,NA,NA
 J4XY,CPIH WEIGHTS 12.1.1.2 Hairdressing for women,NA,NA
@@ -3305,7 +3305,7 @@ L7I4,"CPI INDEX 10.1/2/5 Pre-Primary, Primary & Secondary education (incl not de
 L7I6,CPI INDEX 10.4 Tertiary education 2015=100,NA,NA
 L7I8,"CPI INDEX 11.1.1.1 Restaurants, cafes and dancing establishments 2015=100",NA,NA
 L7IC,CPI INDEX 11.1.1.2 Fast food and take away food services 2015=100,NA,NA
-L7IE,"CPI INDEX 11.2.0.1 Hotels, motels and similar accomodation services 2015=100",NA,NA
+L7IE,"CPI INDEX 11.2.0.1 Hotels, motels and similar accommodation services 2015=100",NA,NA
 L7IG,"CPI INDEX 11.2.0.2 Holiday centres, camping sites, youth hostels and similar accommodation services 2015=100",NA,NA
 L7IK,CPI INDEX 11.2.0.3 Accommodation services of other establishments 2015=100,NA,NA
 L7IL,CPI INDEX 12.1.1.1 Hairdressing for men and children 2015=100,NA,NA
@@ -3693,7 +3693,7 @@ L82B,"CPI MONTHLY RATE 10.1/2/5 Pre-primary, Primary & Secondary education 2015=
 L82C,CPI MONTHLY RATE 10.4 Tertiary education 2015=100,NA,NA
 L82E,"CPI MONTHLY RATE 11.1.1.1 Restaurants, cafes and dancing establishments 2015=100",NA,NA
 L82F,CPI MONTHLY RATE 11.1.1.2 Fast food and take away food services 2015=100,NA,NA
-L82H,"CPI MONTHLY RATE 11.2.0.1 Hotels, motels, inns and similar accomodation services 2015=100",NA,NA
+L82H,"CPI MONTHLY RATE 11.2.0.1 Hotels, motels, inns and similar accommodation services 2015=100",NA,NA
 L82I,"MONTHLY RATE 11.2.0.2 Holiday/camping sites, youth hostels & similar accom serv 2015=100",NA,NA
 L82J,CPI MONTHLY RATE 11.2.0.3 Accommodation services of other establishment 2015=100,NA,NA
 L82K,CPI MONTHLY RATE 12.1.1.1 Hairdressing for men and children 2015=100,NA,NA
@@ -3887,7 +3887,7 @@ L8DT,"CPI WEIGHTS 10.1/2/5 Pre-primary, primary and secondary education(incl not
 L8LF,CPI WEIGHTS 10.4 Tertiary education,NA,NA
 L8LL,"CPI WEIGHTS 11.1.1.1 Restaurants, cafes and dancing establishments",NA,NA
 L8LM,CPI WEIGHTS 11.1.1.2 Fast food and take away food services,NA,NA
-L8U9,"CPI WEIGHTS 11.2.0.1 Hotels, motel, inns and similar accomodation services",NA,NA
+L8U9,"CPI WEIGHTS 11.2.0.1 Hotels, motel, inns and similar accommodation services",NA,NA
 L8UD,"CPI WEIGHTS 11.2.0.2 Holiday centres, camping sites, youth hostels and similar accommodation services",NA,NA
 L8UE,CPI WEIGHTS 11.2.0.3 Accommodation services of other establishments,NA,NA
 L8UF,CPI WEIGHTS 12.1.1.1 Hairdressing for men and children,NA,NA
