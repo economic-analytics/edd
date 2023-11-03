@@ -39,9 +39,6 @@ DJC4,"Output per job: Mfg machinery & equip nec CK SIC07, % change on Y, SA, UK"
 DJC5,"Output per job: Mfg transport equipment CL SIC07, 2019=100, SA, UK","Index, base year = 100",NA
 DJC6,"Output per job: Mfg transport equipment CL SIC07, % change on Q, SA, UK",%,NA
 DJD2,"Output per job: Mfg transport equipment CL SIC07, % change on Y, SA, UK",%,NA
-DJD3,"Output per job: Mfg coke, petroleum & nec CD,CM SIC07, 2019=100, SA, UK","Index, base year = 100",NA
-DJD4,"Output per job: Mfg coke, petroleum & nec CD,CM SIC07, % change on Q, SA, UK",%,NA
-DJD7,"Output per job: Mfg coke, petroleum & nec CD,CM SIC07, % change on Y, SA, UK",%,NA
 DJD8,"Output per job: Construction F SIC07, 2019=100, SA, UK","Index, base year = 100",NA
 DJE2,"Output per job: Construction F SIC07, % change on Y, SA, UK",%,NA
 DJE3,"Output per job: Services G-S SIC07, 2019=100, SA, UK","Index, base year = 100",NA
@@ -80,9 +77,6 @@ DJJ5,"Output per job: Arts, ent & recreation serv R SIC07, % change on Y, SA, UK
 DJJ6,"Output per job: Other services S SIC07, 2019=100, SA, UK","Index, base year = 100",NA
 DJJ7,"Output per job: Other services S SIC07, % change on Q, SA, UK",%,NA
 DJJ8,"Output per job: Other services S SIC07, % change on Y, SA, UK",%,NA
-DJJ9,"Output per hour: Ag, forestry and fishing A SIC07, 2019=100, SA, UK","Index, base year = 100",NA
-DJK2,"Output per hour: Ag, forestry and fishing A SIC07, % change on Y, SA, UK",%,NA
-DJK3,"Output per hour: Production B-E SIC07, 2019=100, SA, UK","Index, base year = 100",NA
 DJK4,"Output per hour: Production B-E SIC07, % change on Q, SA, UK",%,NA
 DJK5,"Output per hour: Production B-E SIC07, % change on Y, SA, UK",%,NA
 DJK6,"Output per hour: Manufacturing C SIC07, 2019=100, SA, UK","Index, base year = 100",NA
@@ -115,9 +109,6 @@ DJO7,"Output per hour: Mfg machinery & equip nec CK SIC07, % change on Y, SA, UK
 DJO8,"Output per hour: Mfg transport equipment CL SIC07, 2019=100, SA, UK","Index, base year = 100",NA
 DJO9,"Output per hour: Mfg transport equipment CL SIC07, % change on Q, SA, UK",%,NA
 DJP2,"Output per hour: Mfg transport equipment CL SIC07, % change on Y, SA, UK",%,NA
-DJP3,"Output per hour: Mfg coke, petroleum & nec CD,CM SIC07, 2019=100, SA, UK","Index, base year = 100",NA
-DJP4,"Output per hour: Mfg coke, petroleum & nec CD,CM SIC07, % change on Q, SA, UK",%,NA
-DJP5,"Output per hour: Mfg coke, petroleum & nec CD,CM SIC07, % change on Y, SA, UK",%,NA
 DJP6,"Output per hour: Construction F SIC07, 2019=100, SA, UK","Index, base year = 100",NA
 DJP8,"Output per hour: Construction F SIC07, % change on Y, SA, UK",%,NA
 DJP9,"Output per hour: Services G-S SIC07, 2019=100, SA, UK","Index, base year = 100",NA
@@ -165,12 +156,6 @@ DJX3,"Productivity jobs: Manufacturing C SIC07, % change on Y, SA, UK",%,NA
 DK2G,"Productivity jobs: Services G-S SIC07, 2019=100, SA, UK","Index, base year = 100",NA
 DK2H,"Productivity jobs: Services G-S SIC07, % change on Q, SA, UK",%,NA
 DK2I,"Productivity jobs: Services G-S SIC07, % change on Y, SA, UK",%,NA
-DK3S,"Productivity hours: Production B-E SIC07, 2019=100, SA, UK","Index, base year = 100",NA
-DK3T,"Productivity hours: Production B-E SIC07, % change on Q, SA, UK",%,NA
-DK3U,"Productivity hours: Production B-E SIC07, % change on Y, SA, UK",%,NA
-DK3V,"Productivity hours: Manufacturing C SIC07, 2019=100, SA, UK","Index, base year = 100",NA
-DK3Y,"Productivity hours: Manufacturing C SIC07, % change on Q, SA, UK",%,NA
-DK44,"Productivity hours: Manufacturing C SIC07, % change on Y, SA, UK",%,NA
 DK56,"Productivity hours: Services G-S SIC07, 2019=100, SA, UK","Index, base year = 100",NA
 DK57,"Productivity hours: Services G-S SIC07, % change on Q, SA, UK",%,NA
 DK58,"Productivity hours: Services G-S SIC07, % change on Y, SA, UK",%,NA
