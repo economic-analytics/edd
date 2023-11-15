@@ -799,8 +799,7 @@ KAK8,AWE: Public Sector Excluding Financial Services Yr/Yr Three Month Average G
 KW78,"UK Workforce Jobs SA : T People employed by households, etc. (thousands)",NA,NA
 LF22,LFS: Economic activity rate: UK: All: Aged 16-64 (%): SA,%,NA
 LF23,LFS: Economic activity rate: UK: Female: Aged 16-64 (%): SA,%,NA
-LF24,"Employment rate (aged 16 to 64, seasonally adjusted): %","%
-",NA
+LF24,"Employment rate (aged 16 to 64, seasonally adjusted): %",%,NA
 LF25,"Female employment rate (aged 16 to 64, seasonally adjusted): %","%
 ",NA
 LF26,LFS: In Employment: UK: All: Aged 50-64: Thousands: SA,NA,NA
@@ -1259,6 +1258,42 @@ MGYM,LFS: Unemployed over 6 and up to 12 months: UK: Male: Aged 16+: 000s: SA,00
 MGYN,LFS: Unemployed over 6 and up to 12 months: UK: Female: Aged 16+: 000s: SA,000's,NA
 MGYO,LFS: Unemployed over 12 months: UK: Male: Aged 16 and over: Thousands: SA,NA,NA
 MGYP,LFS: Unemployed over 12 months: UK: Female: Aged 16 and over: Thousands: SA,NA,NA
+S2PN,LFS Experimental: In employment: UK: All aged 16+: Thousands: SA,NA,NA
+S2PO,LFS Experimental: ILO Unemployed: UK: All aged 16+: Thousands: SA,NA,NA
+S2PP,LFS Experimental: Economically inactive: UK: All aged 16+: Thousands: SA,NA,NA
+S2PQ,LFS Experimental: In employment: UK: All aged 16-64: Thousands: SA,NA,NA
+S2PR,LFS Experimental: ILO Unemployed: UK: All aged 16-64: Thousands: SA,NA,NA
+S2PS,LFS Experimental: Economically inactive: UK: All aged 16-64: Thousands: SA,NA,NA
+S2PT,LFS Experimental: Employment rate: UK: All: Aged 16+ (%): SA,NA,NA
+S2PU,LFS Experimental: ILO Unemployment rate: UK: All: Aged 16+ (%): SA,NA,NA
+S2PV,LFS Experimental: Economically inactive rate: UK: All: Aged 16+ (%): SA,NA,NA
+S2PW,LFS Experimental: Employment rate: UK: All: Aged 16-64 (%): SA,NA,NA
+S2PX,LFS Experimental: ILO Unemployment rate: UK: All: Aged 16-64 (%): SA,NA,NA
+S2PY,LFS Experimental: Economically inactive rate: UK: All: Aged 16-64 (%): SA,NA,NA
+S2PZ,LFS Experimental: In employment: UK: All aged 16+: Thousands: Quarterly Change: SA,NA,NA
+S2Q2,LFS Experimental: ILO Unemployed: UK: All aged 16+: Thousands: Quarterly Change: SA,NA,NA
+S2Q3,LFS Experimental: Economically inactive: UK: All aged 16+: Thousands: Quarterly Change: SA,NA,NA
+S2Q4,LFS Experimental: In employment: UK: All aged 16-64: Thousands: Quarterly Change: SA,NA,NA
+S2Q5,LFS Experimental: ILO Unemployed: UK: All aged 16-64: Thousands: Quarterly Change: SA,NA,NA
+S2Q6,LFS Experimental: Economically inactive: UK: All aged 16-64: Thousands: Quarterly Change: SA,NA,NA
+S2Q7,LFS Experimental: Employment rate: UK: All: Aged 16+ (%): Quarterly Change: SA,NA,NA
+S2Q8,LFS Experimental: ILO Unemployment rate: UK: All: Aged 16+ (%): Quarterly Change: SA,NA,NA
+S2Q9,LFS Experimental: Economically inactive rate: UK: All: Aged 16+ (%): Quarterly Change: SA,NA,NA
+S2QA,LFS Experimental: Employment rate: UK: All: Aged 16-64 (%): Quarterly Change: SA,NA,NA
+S2QB,LFS Experimental: ILO Unemployment rate: UK: All: Aged 16-64 (%): Quarterly Change: SA,NA,NA
+S2QC,LFS Experimental: Economically inactive rate: UK: All: Aged 16-64 (%): Quarterly Change: SA,NA,NA
+S2QD,LFS Experimental: In employment: UK: All aged 16+: Thousands: Annual Change: SA,NA,NA
+S2QE,LFS Experimental: ILO Unemployed: UK: All aged 16+: Thousands: Annual Change: SA,NA,NA
+S2QF,LFS Experimental: Economically inactive: UK: All aged 16+: Thousands: Annual Change: SA,NA,NA
+S2QG,LFS Experimental: In employment: UK: All aged 16-64: Thousands: Annual Change: SA,NA,NA
+S2QH,LFS Experimental: ILO Unemployed: UK: All aged 16-64: Thousands: Annual Change: SA,NA,NA
+S2QI,LFS Experimental: Economically inactive: UK: All aged 16-64: Thousands: Annual Change: SA,NA,NA
+S2QJ,LFS Experimental: Employment rate: UK: All: Aged 16+ (%): Annual Change: SA,NA,NA
+S2QK,LFS Experimental: ILO Unemployment rate: UK: All: Aged 16+ (%): Annual Change: SA,NA,NA
+S2QL,LFS Experimental: Economically inactive rate: UK: All: Aged 16+ (%): Annual Change: SA,NA,NA
+S2QM,LFS Experimental: Employment rate: UK: All: Aged 16-64 (%): Annual Change: SA,NA,NA
+S2QN,LFS Experimental: ILO Unemployment rate: UK: All: Aged 16-64 (%): Annual Change: SA,NA,NA
+S2QO,LFS Experimental: Economically inactive rate: UK: All: Aged 16-64 (%): Annual Change: SA,NA,NA
 YBSF,LFS: In Employment: UK: Male: Aged 16-64: Thousands: SA,NA,NA
 YBSI,LFS: Unemployed: UK: Male: Aged 16-64: Thousands: SA,NA,NA
 YBSL,LFS: Economically Active: UK: Male: 16-64: Thousands: SA,NA,NA
