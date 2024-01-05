@@ -111,7 +111,7 @@ BOKI,Trade in Goods (T): WW: Balance: BOP: CP: SA,m,£
 BQKO,Trade in Goods (T): WW: Imports: BOP: CVM: SA,m,£
 BQKQ,Trade in Goods (T): WW: Exports: BOP: CVM: SA,m,£
 CAEQ,Gross Operating Surplus: NFCos: Public: Current price: SA £m,m,£
-CAER,Private non-financial corporations (S.11002+S.11003): Gross Operating Surplus: Resource: CP £m: SA,m,£
+CAER,"Private non-financial corporations (S.1102+S.11003): Operating Surplus, gross (B.2G): Current price: £million: Seasonally adjusted",m,£
 CAES,Net income from abroad: Current price: Seasonally adjusted £m,m,£
 CAEX,Changes in inventories (CP SA) including alignment adjustment £m,m,£
 CAFU,Changes in inventories including alignment adjustment - CVM NAYear SA £m,m,£
