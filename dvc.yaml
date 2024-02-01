@@ -7,3 +7,4 @@ stages:
     cmd: Rscript .pipelines/run_ons_update.R
     deps:
       - .pipelines/run_ons_update.R
+      - R/

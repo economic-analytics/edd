@@ -1,3 +1,3 @@
-devtools::load_all()
+pkgload::load_all()
 
 ons_update_datasets()

@@ -16,9 +16,14 @@ jobs:
         with:
           r-version: renv
           use-public-rspm: true
+      
+      - name: Install system dependencies
+        run: sudo apt-get install --yes libgdal-dev libgeos-dev libproj-dev libudunits2-dev
 
       - name: Setup {renv}
         uses: r-lib/actions/setup-renv@v2
+        # with:
+        #   profile: pipeline
 
       - name: Setup {pandoc}
         uses: r-lib/actions/setup-pandoc@v2
