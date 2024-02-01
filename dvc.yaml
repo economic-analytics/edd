@@ -5,6 +5,7 @@ stages:
       - test.R
   download_ons:
     cmd: Rscript .pipelines/run_ons_update.R
+    always_changed: true
     deps:
       - .pipelines/run_ons_update.R
       - R/
