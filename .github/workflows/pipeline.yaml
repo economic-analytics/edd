@@ -40,5 +40,5 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Update ONS datasets $NOW
+          commit_message: Update ONS datasets ${{ env.NOW }}
           # file_pattern: data-raw data
