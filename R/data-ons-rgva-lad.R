@@ -1,15 +1,21 @@
-rgva_lad <- function(url = NULL) {
+rgva_lad <- function(path = NULL, url = NULL, force_update = FALSE) {
+
+  if (is.null(path)) {
+    path <- "data-raw/rgva_lad"
+  }
+
   if (is.null(url)) {
     url <- "https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/regionalgrossvalueaddedbalancedbyindustrylocalauthoritiesbyitl1region"
   }
 
+  if (force_update) {
+    urls <- rvest::read_html(url) |>
+      rvest::html_elements("a") |>
+      rvest::html_attr("href")
 
-  urls <- rvest::read_html(url) |>
-    rvest::html_elements("a") |>
-    rvest::html_attr("href")
-
-  files <- urls[grepl(".xlsx", urls)]
-  file_urls <- paste0("http://ons.gov.uk", files) # http not https
+    files <- urls[grepl(".xlsx", urls)]
+    file_urls <- paste0("http://ons.gov.uk", files) # http not https
+  }
 
   all_data <- lapply(file_urls, function(file) {
     local_file_path <- paste0("data-raw/", basename(file))
@@ -23,18 +29,18 @@ rgva_lad <- function(url = NULL) {
     return(data)
   })
 
-  # number 13 is different (population). Tidy up all_data[1:12]
-  final <- lapply(all_data[1:12], function(x) {
-    lapply(x, function(sht) {
-      dplyr::filter(sht, !is.na(`LAD code`)) |>
-        tidyr::pivot_longer(cols = -(1:5), names_to = "date") |>
-        dplyr::mutate(date = paste0(substr(date, 1, 4), "-01-01") |>
-                        as.Date()
-        )
-    }) |>
-      dplyr::bind_rows(.id = "variable")
-  }) |>
-    dplyr::bind_rows()
+  # # number 13 is different (population). Tidy up all_data[1:12]
+  # final <- lapply(all_data[1:12], function(x) {
+  #   lapply(x, function(sht) {
+  #     dplyr::filter(sht, !is.na(`LAD code`)) |>
+  #       tidyr::pivot_longer(cols = -(1:5), names_to = "date") |>
+  #       dplyr::mutate(date = paste0(substr(date, 1, 4), "-01-01") |>
+  #                       as.Date()
+  #       )
+  #   }) |>
+  #     dplyr::bind_rows(.id = "variable")
+  # }) |>
+  #   dplyr::bind_rows()
 
   # readr::write_rds(final, "data/rgva_lad.rds")
   # readr::write_csv(final, "../../Data/rgva_lad.csv")
