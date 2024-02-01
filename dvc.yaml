@@ -3,3 +3,7 @@ stages:
     cmd: Rscript test.R
     deps:
       - test.R
+  download_ons:
+    cmd: Rscript .pipelines/run_ons_update.R
+    deps:
+      - .pipelines/run_ons_update.R

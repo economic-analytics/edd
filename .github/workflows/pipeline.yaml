@@ -28,3 +28,12 @@ jobs:
 
       - name: Generate data
         run: dvc repro
+
+      - name: Set current date
+        run: echo "NOW=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update ONS datasets $NOW
+          # file_pattern: data-raw data
