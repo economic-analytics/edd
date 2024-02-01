@@ -137,7 +137,7 @@ ADSY,Non-profit institutions serving households (S.15): Sector share of gross na
 ADWO,08.2 Communication Telephone and telefax equipment CP NSA £m,NA,NA
 ADWP,08.3 Communication Telephone and telefax services CP NSA £m,NA,NA
 AE7P,Households (S.14): Total interest before FISIM allocation (D.41g) Uses: Current price: £m: NSA,NA,NA
-AIBR,I&C companies : capital transfers total receipts: investment grants:D.92:CP NSA,NA,NA
+AIBR,"Private non-financial corporations (S.1102+S.11003): Investment grants, receivable (D.92r): Current price: £m: NSA",NA,NA
 AIIH,CG: Current receipts: Compulsory social contributions: Receivable: £m CPNSA,m,£
 ARDD,Subsidies received by Public Corporations (formerly LA subsidies),NA,NA
 AWTO,Local government (S.1313): Miscellaneous current transfers (D.75): Resource: CP: £m: NSA,NA,NA
@@ -174,7 +174,7 @@ C7RL,"FISIM: FISIM on deps from S.11001, public non-financial corps, CP NSA: £m
 C95M,"FISIM: impact on GDP at market prices, CP NSA: £mn",m,£
 CADV,Non-money market fund investment funds (S.124): Debt securities (AF.3): Asset: Current price: £million: NSA:,NA,NA
 CAED,Private non-financial corps. (S.11002+S.11003): Gross trading profits of UK non-continental shelf: Resource: CP £m: SA,NA,NA
-CAER,Private non-financial corporations (S.11002+S.11003): Gross Operating Surplus: Resource: CP £m: SA,m,£
+CAER,"Private non-financial corporations (S.1102+S.11003): Operating Surplus, gross (B.2G): Current price: £million: Seasonally adjusted",m,£
 CAGD,Private non-financial corps (S.11002+S.11003): Gross trading profits of UK continental shelf companies: Resource: CP £m: SA,m,£
 CAGM,"FinCos excl. MFI, NMMF & ICPF (S.125, S.126 & S.127): Debt securities (AF.3): Asset: Current price: £million: NSA:",NA,NA
 CAHO,"FinCos excl. MFI, NMMF & ICPF (S.125, S.126 & S.127): Loans (AF.4): Asset: Current price: £million: NSA:",NA,NA
@@ -850,7 +850,7 @@ FCCZ,Non-financial corporations sector (S11): Gross capital formation (P.5): Cur
 FCFP,FC: IPNL: Prim inc:Res: Counterparty of uses Private corporations D.44: CP NSA,NA,NA
 FCFQ,PNFC II.1.2 Total resources £m cp nsa,m,£
 FCFR,use: industrial & commercial companies: D.4: CP NSA,NA,NA
-FCFU,use: industrial & commercial companies: D.45: CP NSA,NA,NA
+FCFU,Private non-financial corporations (S.1102+S.11003): Rent (D.45): Uses: Current price: £million: Not seasonally adjusted,NA,NA
 FCFV,D.1: Uses: Non-financial Companies: NSA:,NA,NA
 FCFW,B.5n: industrial & commercial companies,NA,NA
 FCFX,PNFC: capital transfers payable (D.9 uses): £m: CP: NSA,m,£
@@ -2019,7 +2019,7 @@ KLR3,Tax less subs D.29-D.39 Agric A1 CP SA,NA,NA
 KLR4,Gross Op. Surplus / Mixed Income B.2g/B.3g Agric A1 CP SA,NA,NA
 KLR5,GVA at basic prices B.1g Agriculture A1 CP SA,NA,NA
 KLR6,Int. Con at purch. prices P.2 Agriculture A1 CP SA,NA,NA
-KLR7,Total output at purch. prices P.1 Agriculture A1 CP SA,NA,NA
+KLR7,Total output at basic prices P.1 Agriculture A1 CP SA,NA,NA
 KLR8,Gross Capital Formation P.5 Agriculture A1 CP SA,NA,NA
 KLR9,CoE D.1 Production A2 CP SA,NA,NA
 KLS3,Gross Op. Surplus/ Mixed Income B.2g/B3g Production A2 CP SA,NA,NA
@@ -2899,7 +2899,7 @@ NAXR,Central Government:LI:FLOW:Other accounts receivable/payable: CP NSA,NA,NA
 NBLU,Households (S.14): Total net acquisition of financial assets (F.A): Asset: Current price: £m: NSA,NA,NA
 NBLY,Households (S.14): Currency and deposits (F.2): Asset: Current price: £m: NSA,NA,NA
 NBLZ,Households (S.14): Currency (F.21): Asset: Current price: £m: NSA,NA,NA
-NBMB,Households (S.14): Deposits with UK monetary financial institutions (F.22N1): Asset: Current price: £m: NSA,NA,NA
+NBMB,Households (S.14): Deposits with UK monetary financial institutions (F.22N1): Flow: Asset: Current price: £million: NSA,NA,NA
 NBMD,Households (S.14): Foreign currency deposits with UK banks (F.22N12): Asset: Current price: £m: NSA,NA,NA
 NBMF,Households (S.14): Deposits with rest of world monetary financial institutions (F.22N9): Asset: Current price: £m: NSA,NA,NA
 NBMG,Households (S.14): Other deposits (F.29): Asset: Current price: £m: NSA,NA,NA
@@ -3719,7 +3719,7 @@ NIMC,NPISH (S.15): Short-term debt securities issued by UK local government (AF.
 NIPG,ESA:FA:LI:LEVEL:Local authority bills,NA,NA
 NIRV,Households (S.14): Currency and deposits (AF.2): Asset: Current price: £m: NSA,NA,NA
 NIRW,Households (S.14): Currency (AF.21): Asset: Current price: £m: NSA,NA,NA
-NIRY,Households (S.14): Deposits with UK monetary financial institutions (AF.22N1): Asset: Current price: £m: NSA,NA,NA
+NIRY,Households (S.14): Deposits with UK monetary financial institutions (AF.22N1): Level: Asset: Current price: £m: NSA,NA,NA
 NISA,Households (S.14): Foreign currency deposits with UK banks (AF.22N12): Asset: Current price: £m: NSA,NA,NA
 NISC,Households (S.14): Deposits with rest of world monetary financial institutions (AF.22N9): Asset: Current price: £m: NSA,NA,NA
 NISD,Households (S.14): Other deposits (AF.29): Asset: Current price: £m: NSA,NA,NA
@@ -4603,7 +4603,7 @@ NRGR,Non-financial corporations sector (S11): Total net acquisition of financial
 NRHH,FC: IP: Prod acc:Total: B.1g: Gross value added,NA,NA
 NRJB,Non-financial corporations sector (S11): Other current transfers (D.7): Resource: Current price: £m: Not seasonally adjusted,NA,NA
 NRJD,"Non-financial corporations sector (S.11): Saving, gross (B.8g): Current price: £million: Not seasonally adjusted",NA,NA
-NRJK,Gross Operating Surplus: NFCos: Private: Current price: NSA,NA,NA
+NRJK,"Private non-financial corporations: Operating Surplus, gross (B.2G): Current price: £million: Not seasonally adjusted",NA,NA
 NRJM,PR:Uses:Balance gross primary incomes:B.5g: CP NSA,NA,NA
 NRJQ,PR:Resources: Gross disposable income: B.6g: CP NSA,NA,NA
 NRJT,Gross Operating Surplus: NFCos: Public: Current price: NSA,NA,NA

@@ -4,11 +4,18 @@ stages:
     cmd: Rscript test.R
     deps:
     - path: test.R
-      md5: ebe8e177424f3000beeab3c0620c2c31
-      size: 26
+      hash: md5
+      md5: da6513522e430fc5129af7b2559deb87
+      size: 25
   download_ons:
     cmd: Rscript .pipelines/run_ons_update.R
     deps:
     - path: .pipelines/run_ons_update.R
-      md5: cace3fd59efac27c70ac8c69267378ad
-      size: 22
+      hash: md5
+      md5: 9bc145eef2ff631c538fe60423ce7b35
+      size: 43
+    - path: R/
+      hash: md5
+      md5: 65f858af1413cdd5d7680c15070a1052.dir
+      size: 75333
+      nfiles: 27
