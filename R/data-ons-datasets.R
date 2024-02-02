@@ -6,16 +6,24 @@
 
 # Master function (for export) --------------------------------------------
 
-ons_update_datasets <- function(save_separate_rds = TRUE, save_processed_csv = TRUE, ...) {
+ons_update_datasets <- function(force_update = FALSE, save_separate_rds = TRUE, save_processed_csv = TRUE, ...) {
   # problems with VROOM_CONNECTION_SIZE means we have to set this as the
   # download is large and overflows the connection buffer
   Sys.setenv("VROOM_CONNECTION_SIZE" = "500000")
 
   # conditions within edd_dict to update on
-  to_update <- edd_dict %>%
+  to_update <- edd_dict |>
     dplyr::filter(type     == "dataset",
                   provider == "ONS",
                   status   == TRUE)
+  
+  # if updates aren't forced (default) then we'll only download those datasets
+  # which should have had an update and haven't been downloaded since that date
+  if (!force_update) {
+    to_update <- to_update |>
+      dplyr::filter(next_update <= Sys.Date() & next_update >= last_download)
+  }
+                  
 
   # TODO need to add condition for last_updated but need to implement the
   # writing back of the meta data to the edd_dict first
