@@ -106,10 +106,12 @@ ons_download_dataset <- function(url, save_csv = TRUE) {
   # TODO test for existence of /data-raw and create if needed
     destfile = paste0("data-raw/", basename(url))
     download.file(url = url, destfile = destfile)
+
+    # update value of url so that if we've saved a csv,
+    # we read from the file path not the url, otherwise
+    # we just read from url as there's no local copy
     url <- destfile
   }
-  # TODO need to avoid downloading a file above in if(save_csv)
-  # and then doing it again below
 
   # read, ignore column names, make everything strings
   dataset <- readr::read_csv(url,
