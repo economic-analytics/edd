@@ -58,3 +58,30 @@ pd$variable.name
 arrow::read_parquet("workbench/parquet/mm23.parquet")
 pd |>
 dplyr::distinct(variable.name) |> dplyr::collect()
+
+
+# testing against edd repo parquet files
+
+# fails with unrecognized filesystem type
+all <- arrow::open_dataset("https://github.com/economic-analytics/edd/raw/main/data/parquet")
+
+# runs ok on local file system
+all_local <- arrow::open_dataset("data/parquet")
+
+# very fast! :-)
+all_local |> dplyr::distinct(variable.name) |> dplyr::collect()
+
+# not all files have the same schema. Some have geog, ind, etc.
+rgva <- arrow::read_parquet("data/parquet/RGVA.parquet", as_data_frame = F)
+rgva
+rgva$metadata
+rgva |> dplyr::distinct(geography)
+
+# need to call unify_schemas = TRUE
+two_schemas <- arrow::open_dataset(c("data/parquet/UNEM.parquet", "data/parquet/RGVA.parquet"), unify_schemas = T)
+
+two_schemas
+
+two_schemas |> 
+  #dplyr::distinct(geography) |> 
+  dplyr::collect() |> View()
