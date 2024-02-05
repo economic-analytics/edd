@@ -111,8 +111,11 @@ ons_download_dataset <- function(url, save_csv = TRUE) {
 
   # if we want to keep a copy of the original ONS .csv
   if (save_csv) {
-  # TODO test for existence of /data-raw and create if needed
-    destfile = paste0("data-raw/", basename(url))
+    if (!dir.exists("data-raw")) {
+      dir.create("data-raw")
+    }
+
+    destfile = file.path("data-raw/", basename(url))
     download.file(url = url, destfile = destfile)
 
     # update value of url so that if we've saved a csv,
