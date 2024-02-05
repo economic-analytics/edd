@@ -55,5 +55,6 @@ pd <- arrow::open_dataset("workbench/parquet")
 arrow::open_dataset()
 pd$variable.name
 
+arrow::read_parquet("workbench/parquet/mm23.parquet")
 pd |>
 dplyr::distinct(variable.name) |> dplyr::collect()
