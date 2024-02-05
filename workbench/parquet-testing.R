@@ -67,6 +67,10 @@ all <- arrow::open_dataset("https://github.com/economic-analytics/edd/raw/main/d
 
 # runs ok on local file system
 all_local <- arrow::open_dataset("data/parquet")
+all_local # doesn't pick up different schema from RGVA
+
+all_local <- arrow::open_dataset("data/parquet", unify_schemas = T)
+all_local # this gets the RGVA fields
 
 # very fast! :-)
 all_local |> dplyr::distinct(variable.name) |> dplyr::collect()
@@ -85,3 +89,4 @@ two_schemas
 two_schemas |> 
   #dplyr::distinct(geography) |> 
   dplyr::collect() |> View()
+
