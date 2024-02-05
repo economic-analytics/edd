@@ -6,7 +6,12 @@
 
 # Master function (for export) --------------------------------------------
 
-ons_update_datasets <- function(force_update = FALSE, save_separate_rds = TRUE, save_processed_csv = TRUE, ...) {
+ons_update_datasets <- function(
+  force_update = FALSE,
+  save_separate_rds = TRUE,
+  save_processed_csv = TRUE,
+  save_parquet = TRUE,
+  ...) {
   # problems with VROOM_CONNECTION_SIZE means we have to set this as the
   # download is large and overflows the connection buffer
   Sys.setenv("VROOM_CONNECTION_SIZE" = "500000")
@@ -78,6 +83,22 @@ ons_update_datasets <- function(force_update = FALSE, save_separate_rds = TRUE, 
                         paste0(names(processed)[i], ".rds"))
       )
       message("Done.")
+    }
+  }
+
+  # write parquet files for each dataset
+  if (save_parquet) {
+    if (!dir.exists("data/parquet")) {
+      dir.create("data/parquet")
+    }
+
+    for (i in seq_along(processed)) {
+      message("Writing ", names(processed)[i], ".parquet ...")
+      processed[[i]] |>
+        edd_obj_to_dataframe() |> 
+        tidyr::unnest(names_sep = ".") |>
+        arrow::write_parquet(file.path("data", "parquet",
+                              paste0(names(processed)[i], ".parquet")))
     }
   }
 
