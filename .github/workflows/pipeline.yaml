@@ -1,5 +1,9 @@
 name: pipeline
 'on':
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # https://crontab.guru/#15_7_*_*_1-5
+    - cron:  '15 7 * * 1-5'
   workflow_dispatch: {}
 jobs:
   run-pipeline:
