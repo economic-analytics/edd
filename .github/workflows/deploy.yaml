@@ -2,8 +2,15 @@ name: Deploy to shinyapps.io
 
 'on':
   # run on any push 
-  # push:
-
+  push:
+    branches: 
+      - main
+    paths:
+      - R/**
+      - .pipelines/deploy.R
+      - renv.lock
+  # Allow to be called by other workflow
+  workflow_call:
   # run on request (via button in actions menu)
   workflow_dispatch:
 

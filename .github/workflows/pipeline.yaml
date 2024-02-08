@@ -6,7 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
-
+    outputs:
+      changes: ${{ steps.updated.outputs.changes }}
     steps:
       - name: Check-out repo
         uses: actions/checkout@v4
@@ -37,8 +38,21 @@ jobs:
       - name: Set current date
         run: echo "NOW=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
 
+      - name: Check for updates
+        id: updated
+        run: echo "changes=$(git status --short data/ | wc -l)" >> $GITHUB_OUTPUT
+
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update ONS datasets ${{ env.NOW }}
           # file_pattern: data-raw data
+
+      # - if: Commit and publish changes output has committed
+      #  Call the deploy workflow
+
+  deploy-app:
+    needs: run-pipeline
+    if: needs["run-pipeline"].outputs.changes > 0
+    uses: ./.github/workflows/deploy.yaml
+    secrets: inherit
