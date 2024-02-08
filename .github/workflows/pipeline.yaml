@@ -53,6 +53,6 @@ jobs:
 
   deploy-app:
     needs: run-pipeline
-    if: needs["run-pipeline"].outputs.changes > 0
+    if: jobs.run-pipeline.outputs.changes > 0
     uses: ./.github/workflows/deploy.yaml
     secrets: inherit
