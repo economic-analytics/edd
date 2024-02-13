@@ -30,7 +30,7 @@ mm23 <- arrow::read_parquet(
   as_data_frame = FALSE
 )
 
-u |>nem$variable.name |> dplyr::collect()
+unem$variable.name |> dplyr::collect()
 
 
 unem |>
