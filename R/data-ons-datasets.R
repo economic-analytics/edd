@@ -52,12 +52,6 @@ ons_update_datasets <- function(
   # ds_name = names(processed)
   # ) %>% setNames(names(processed))
 
-  if (!dir.exists("data")) {
-    dir.create("data")
-  }
-
-  saveRDS(processed, file.path("data", "ons_datasets.rds"))
-
   # Update edd_dict with metadata
   message("Updating edd_dict with metadata")
 
@@ -122,7 +116,6 @@ ons_update_datasets <- function(
       }
     }
   }
-  message("data/ons_datasets.rds successfully updated")
 }
 
 
