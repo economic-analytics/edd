@@ -240,7 +240,7 @@ server <- function(input, output, session) {
     out <- user_datasets()
 
     # filter by variable
-    if (!is.null(input$variable) & input$variable != "") {
+    if (!is.null(input$variable)) {
       out <- out |>
         dplyr::filter(variable.name %in% input$variable)
     }
