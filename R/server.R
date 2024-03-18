@@ -209,7 +209,7 @@ server <- function(input, output, session) {
       paste0("edd_data_", Sys.Date(), ".csv")
     },
     content = function(file) {
-      readr::write_csv(user_datasets(), file)
+      readr::write_csv(ggplot_data(), file)
     }
   )
 
