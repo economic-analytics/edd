@@ -1,6 +1,6 @@
 ui <- function(request) {
   navbarPage(
-    title = "EDD v0.0.0.9024 ALPHA",
+    title = "EDD v0.0.0.9025 ALPHA",
     id = "navbar",
     windowTitle = "EDD: Economic Data Dashboard",
 
@@ -86,7 +86,7 @@ ui <- function(request) {
       h2("About EDD"),
       p("EDD, the Economic Data Dashboard, is a tool currently under development."),
       p("It is designed to make economic data more useful, particularly at a sub-regional level, to support better analysis and policymaking in local areas."),
-      p("EDD will, in its first beta release (v0.0.1 expected Q4 2022), provide interactive access to most ONS datasets, including small area estimates, providing a repository of small-geography economic data in a structured, linked format, with ISO8601 date formats and standard ONS geography codes to support easier access to cleaned and cubed data from multiple sources."),
+      p("EDD will, in its first beta release (v0.0.1 expected Q2 2024), provide interactive access to most ONS datasets, including small area estimates, providing a repository of small-geography economic data in a structured, linked format, with ISO8601 date formats and standard ONS geography codes to support easier access to cleaned and cubed data from multiple sources."),
       p("Later, EDD will include Land Registry housing transacation data, all NOMIS datasets and Companies House data for all active companies in the UK, including an API to access all data across multiple sources."),
       p("The development plan includes both imputation of all economic data to a small-area level (not larger than MSOA) and a quarterly-updated forecasting model for all economies across the UK. Both of these will be on a commercial subscription basis."),
       p("If you're interested in its development, more information is available on its Github page at github.com/economic-analytics/edd."),
@@ -111,6 +111,12 @@ ui <- function(request) {
       id = "changelog",
       title = "Change log",
       h2("Change log"),
+      h3("2024-03-18 v0.0.0.9025"),
+      p("Change data back-end to parquet files with significant code re-write"),
+      p("All regional datasets except regional GVA temporarily removed"),
+      p("Add option to add LOESS smoothing overlay to charts"),
+      p("Small visual improvements on some rendering options"),
+      p("Data catalogue display updated"),
       h3("2023-09-07 v0.0.0.9024"),
       p("Update to R 4.3.1"),
       p("Add regional (LAD & ITL) productivity (GVA per filled job) data"),
