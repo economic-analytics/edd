@@ -90,8 +90,7 @@ server <- function(input, output, session) {
         "None (data as published)"   = "none",
         "Nominal change on previous" = "nominal_change",
         "Percent change on previous" = "percent_change",
-        "Cumulative change"          = "cumulative_change",
-        "Index"                      = "index"
+        "Cumulative change"          = "cumulative_change"
       )
     )
   })
