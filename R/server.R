@@ -49,6 +49,7 @@ server <- function(input, output, session) {
   })
 
   output$transformations <- renderUI({
+    req(input$dates)
     selectInput(
       inputId = "transformations",
       label   = "Transform data series",
