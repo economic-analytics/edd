@@ -161,7 +161,7 @@ server <- function(input, output, session) {
   # excludes dataset, dates and value as these will always exist in all dataset dfs
   available_dimensions <- reactive({
     dims <- names(user_datasets())[!grepl("dataset|dates|value", names(user_datasets()))]
-    dims <- substr(dims, 1, stringr::str_locate(dims, "\\.")[1] - 1) |> unique()
+    dims <- stringr::str_remove(dims, "\\..*") |> unique()
     return(dims)
   })
 
