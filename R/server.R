@@ -62,14 +62,10 @@ server <- function(input, output, session) {
   # })
 
   output$dimensions <- renderUI({
-    dims_available <- names(edd_datasets)[
-      !grepl("dataset|dates|value", names(edd_datasets))
+    dims_available <- names(user_datasets())[
+      !grepl("dataset|dates|value", names(user_datasets()))
     ]
-    dims_available <- substr(
-      dims_available,
-      1,
-      stringr::str_locate(dims_available, "\\.")[1] - 1
-    ) |>
+    dims_available <- stringr::str_remove(dims_available, "\\..*") |>
       unique()
 
     # dims_available <- dims_available[dims_available != "variable"]
@@ -78,7 +74,7 @@ server <- function(input, output, session) {
       selectizeInput(
         i,
         paste("Select", i),
-        choices = unique(user_datasets()$variable.name),
+        choices = unique(user_datasets()[[paste0(i, ".name")]]),
         selected = value,
         multiple = TRUE,
         options = list(plugins = list("remove_button"))
