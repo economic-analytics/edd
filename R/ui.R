@@ -42,7 +42,8 @@ ui <- function(request) {
                   tabsetPanel(
                     tabPanel("Plot aesthetics",
                              uiOutput("plot_aes"),
-                             uiOutput("y_axis_zero")
+                             uiOutput("y_axis_zero"),
+                             uiOutput("add_smoothing")
                     )
                   )
                 ),

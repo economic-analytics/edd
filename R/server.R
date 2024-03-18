@@ -191,6 +191,10 @@ server <- function(input, output, session) {
     checkboxInput("y_axis_zero", "Show zero on y-axis")
   })
 
+  output$add_smoothing  <- renderUI({
+    checkboxInput("add_smoothing", "Add smoothing")
+  })
+
   output$download_plot <- downloadHandler(
     filename = function() {
       paste0("edd_plot_", Sys.Date(), ".png")
@@ -424,6 +428,7 @@ server <- function(input, output, session) {
         ggplot2::geom_line(size = 1) +
         {if (input$Shape != "") ggplot2::geom_point(size = 3)} +
         {if (input$Facet != "") ggplot2::facet_wrap(paste0(input$Facet, ".name"), labeller = ggplot2::label_wrap_gen())} +
+        {if (input$add_smoothing) ggplot2::geom_smooth()} +
         ggplot2::labs(
           x        = NULL,
           y        = plot_ylab(ggplot_data(), input),
