@@ -320,24 +320,23 @@ server <- function(input, output, session) {
   # depending on whether any ts_transformations have been selected via
   # input$transformations
   ggplot_data <- reactive({
-    filtered_datasets()
-    # selected_data_df() |>
-    #   ts_transformations()
+    filtered_datasets() |>
+      ts_transformations()
   })
 
-#   # ts_transformations only works with index - TODO rest need adding
-#   # can do this through list function - value in selectInput should correspond
-#   # to name of function in time series transformation list object
-#   ts_transformations <- function(df) {
-#     req(input$transformations)
-#     if (input$transformations == "none") {
-#       return(df)
-#     } else {
-#       req(input$transformation_date)
-#       df |>
-#         ts_transform_df[[input$transformations]](input$transformation_date)
-#     }
-#   }
+  # ts_transformations only works with index - TODO rest need adding
+  # can do this through list function - value in selectInput should correspond
+  # to name of function in time series transformation list object
+  ts_transformations <- function(df) {
+    req(input$transformations)
+    if (input$transformations == "none") {
+      return(df)
+    } else {
+      req(input$transformation_date)
+      df |>
+        ts_transform_df[[input$transformations]](input$transformation_date)
+    }
+  }
 
 #   # map_data should be filtered by reactive values on all dimensions
 #   # *INCLUDING* date but *EXCEPT* geography - all geog_levels from UI select
