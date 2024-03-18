@@ -1,2 +1,5 @@
 .env
 .Rproj.user
+!/data-raw/edd_dict.csv
+/data-raw
+rsconnect/shinyapps.io/economic-analytics/edd-app.dcf

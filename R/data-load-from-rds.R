@@ -1,9 +1,8 @@
-dataFileLocation <- "data/datasets"
+dataFileLocation <- "data/parquet"
 
-dataFiles <- list.files(dataFileLocation, full.names = TRUE)
+# dataFiles <- list.files(dataFileLocation, full.names = TRUE)
 
-edd_datasets <- lapply(dataFiles, \(x) readRDS(x)) |>
-  setNames(tools::file_path_sans_ext(basename(dataFiles)))
+edd_datasets <- arrow::open_dataset(dataFileLocation, unify_schemas = TRUE)
 
 
 ################################################################

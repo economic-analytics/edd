@@ -65,20 +65,20 @@ ons_update_datasets <- function(
   save(edd_dict, file = 'data/edd_dict.rda')
   readr::write_csv(edd_dict, 'data-raw/edd_dict.csv')
 
-  # write separate .rds files for each dataset
-  if (save_separate_rds) {
-    if (!dir.exists("data/datasets")) {
-      dir.create("data/datasets")
-    }
-    for (i in seq_along(processed)) {
-      message("Writing ", names(processed)[i], ".rds ...")
-      saveRDS(processed[[i]],
-              file.path("data", "datasets",
-                        paste0(names(processed)[i], ".rds"))
-      )
-      message("Done.")
-    }
-  }
+  # # write separate .rds files for each dataset
+  # if (save_separate_rds) {
+  #   if (!dir.exists("data/datasets")) {
+  #     dir.create("data/datasets")
+  #   }
+  #   for (i in seq_along(processed)) {
+  #     message("Writing ", names(processed)[i], ".rds ...")
+  #     saveRDS(processed[[i]],
+  #             file.path("data", "datasets",
+  #                       paste0(names(processed)[i], ".rds"))
+  #     )
+  #     message("Done.")
+  #   }
+  # }
 
   # write parquet files for each dataset
   if (save_parquet) {
@@ -91,31 +91,32 @@ ons_update_datasets <- function(
       processed[[i]] |>
         edd_obj_to_dataframe() |> 
         tidyr::unnest(names_sep = ".") |>
+        dplyr::mutate(dataset = basename(tools::file_path_sans_ext(names(processed)[i])), .before = 1) |>
         arrow::write_parquet(file.path("data", "parquet",
                               paste0(names(processed)[i], ".parquet")))
     }
   }
 
-  if (save_processed_csv) {
-    if (!dir.exists("data/csv")) {
-      dir.create("data/csv")
-    }
-    for (i in seq_along(processed)) {
-      message("Writing ", names(processed)[i], ".csv files ...")
-      readr::write_csv(jsonlite::flatten(processed[[i]]$data),
-                       file.path("data", "csv",
-                                 paste0(names(processed)[i], "_data.csv"))
-      )
+  # if (save_processed_csv) {
+  #   if (!dir.exists("data/csv")) {
+  #     dir.create("data/csv")
+  #   }
+  #   for (i in seq_along(processed)) {
+  #     message("Writing ", names(processed)[i], ".csv files ...")
+  #     readr::write_csv(jsonlite::flatten(processed[[i]]$data),
+  #                      file.path("data", "csv",
+  #                                paste0(names(processed)[i], "_data.csv"))
+  #     )
 
-      for (j in seq_along(processed[[i]]$dimensions)) {
-        readr::write_csv(jsonlite::flatten(processed[[i]][["dimensions"]][[j]]),
-                         file.path("data", "csv",
-                                   paste0(names(processed)[i],
-                                          "_",
-                                          names(processed[[i]][["dimensions"]])[j], "_lookup.csv")))
-      }
-    }
-  }
+  #     for (j in seq_along(processed[[i]]$dimensions)) {
+  #       readr::write_csv(jsonlite::flatten(processed[[i]][["dimensions"]][[j]]),
+  #                        file.path("data", "csv",
+  #                                  paste0(names(processed)[i],
+  #                                         "_",
+  #                                         names(processed[[i]][["dimensions"]])[j], "_lookup.csv")))
+  #     }
+  #   }
+  # }
 }
 
 
