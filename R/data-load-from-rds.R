@@ -2,7 +2,7 @@ dataFileLocation <- "data/parquet"
 
 # dataFiles <- list.files(dataFileLocation, full.names = TRUE)
 
-edd_datasets <- arrow::open_dataset(dataFileLocation)
+edd_datasets <- arrow::open_dataset(dataFileLocation, unify_schemas = TRUE)
 
 
 ################################################################
