@@ -390,10 +390,6 @@ server <- function(input, output, session) {
       }
     }
   }
-# TODO need to extract all known dimensions from user_datasets() - this should be generalised as used already in two places
-#   inputs <- lapply(edd_datasets, \(x) {
-#     names(x$dimensions)
-#   }) |> unlist() |> unique()
 
   inputs <- names(edd_datasets)[
     !grepl("dates|dataset|value", names(edd_datasets))
