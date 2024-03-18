@@ -28,39 +28,6 @@ server <- function(input, output, session) {
     )
   })
 
-  # output$variable_filter <- renderUI({
-  #   checkboxInput(inputId = "variable_filter",
-  #                 label   = "Search only selected datasets?",
-  #                 value   = TRUE
-  #   )
-  # })
-  #
-  # select_variable_choices <- reactive({
-  #   req(edd_datasets, user_datasets())
-  #   if (input$variable_filter) {
-  #     source_object <- user_datasets()
-  #   } else {
-  #     source_object <- edd_datasets
-  #   }
-  #   lapply(source_object, function(ds) {
-  #     as.list(ds$dimensions$variable$name)
-  #   })
-  # })
-
-  # output$variable <- renderUI({
-  #   req(edd_datasets, user_datasets())
-  #   value <- isolate(input$variable)
-  #   selectInput(inputId  = "variable",
-  #               label    = "Select variable",
-  #               # choices  = select_variable_choices(),
-  #               choices = lapply(user_datasets(), function(ds) {
-  #                 as.list(ds$dimensions$variable$name)
-  #               }),
-  #               selected = value,
-  #               multiple = TRUE
-  #   )
-  # })
-
   output$dimensions <- renderUI({
     dims_available <- names(user_datasets())[
       !grepl("dataset|dates|value", names(user_datasets()))
@@ -68,7 +35,6 @@ server <- function(input, output, session) {
     dims_available <- stringr::str_remove(dims_available, "\\..*") |>
       unique()
 
-    # dims_available <- dims_available[dims_available != "variable"]
     lapply(dims_available, function(i) {
       value <- isolate(input[[i]])
       selectizeInput(
@@ -146,21 +112,12 @@ server <- function(input, output, session) {
     )
   })
 
-#   output$map_output <- renderUI({
-#     radioButtons(
-#       inputId = "geog_type",
-#       label   = "Display data by:",
-#       choices = names(boundaries),
-#       inline  = TRUE
-#     )
-#     #          uiOutput("map_date_select"),
-#     #          leaflet::leafletOutput("leafletmap")
-#   })
-
   # new reactive to handle dimensions in the built df to avoid calculating twice
-  # excludes dataset, dates and value as these will always exist in all dataset dfs
+  # excludes dataset, dates and value as these will always exist in all datasets
   available_dimensions <- reactive({
-    dims <- names(user_datasets())[!grepl("dataset|dates|value", names(user_datasets()))]
+    dims <- names(user_datasets())[
+      !grepl("dataset|dates|value", names(user_datasets()))
+    ]
     dims <- stringr::str_remove(dims, "\\..*") |> unique()
     return(dims)
   })
@@ -170,7 +127,6 @@ server <- function(input, output, session) {
 
   output$plot_aes <- renderUI({
     req(available_dimensions())
-    # dims <- isolate(available_dimensions())
 
     lapply(plot_aesthetics, function(aes) {
       value <- isolate(input[[aes]])
@@ -273,52 +229,6 @@ server <- function(input, output, session) {
     return(out)
   })
 
-#   # LIST of edd dataset objects whose $data df has been filtered
-#   filtered_datasets <- reactive({
-#     lapply(user_datasets(), function(edd_obj) {
-#       dims <- names(edd_obj$dimensions)
-#       data <- edd_obj$data
-#       for (d in seq_along(dims)) {
-#         # TODO should we let all data through if input is NULL, or should we let
-#         # no data through if input is NULL?
-#         # TODO tidy before deploy ----
-#         if (1 == 1) { #!is.null(input[[dims[[d]]]])) {
-#           data <- dplyr::filter(data,
-#                                 .data[[dims[[d]]]] %in%
-#                                   edd_obj$dimensions[[dims[[d]]]]$code[
-#                                     edd_obj$dimensions[[dims[[d]]]]$name %in%
-#                                       input[[dims[[d]]]]]
-#           )
-#         }
-#       }
-
-#       # filters for the non-dynamic dimensions (so can be hard-coded)
-#       data <- dplyr::filter(data,
-#                             dates$date  >=  input$dates[1],
-#                             dates$date  <=  input$dates[2],
-#                             dates$freq %in% input$frequency
-#       )
-
-#       edd_obj$data <- data
-#       edd_obj
-#     })
-#   })
-
-
-#   # Full Data Frame ---------------------------------------------------------
-
-#   # creates a single df containing all lookups of user selected data
-#   selected_data_df <- reactive({
-#     lapply(filtered_datasets(), function(ds) edd_obj_to_dataframe(ds)) |>
-#       dplyr::bind_rows(.id = "dataset")
-#   })
-
-#   # TODO needs to have empty values filled with defaults for each dimension
-
-#   # TODO pass df through ts_transformations() only if input$transformations
-#   # isn't selected to "as published". This will move the if statement at
-#   # line here + 9 to outside ts_transformations()
-
   # ggplot_data() contains a potentially transformed filtered_datasets()
   # depending on whether any ts_transformations have been selected via
   # input$transformations
@@ -327,9 +237,6 @@ server <- function(input, output, session) {
       ts_transformations()
   })
 
-  # ts_transformations only works with index - TODO rest need adding
-  # can do this through list function - value in selectInput should correspond
-  # to name of function in time series transformation list object
   ts_transformations <- function(df) {
     req(input$transformations)
     if (input$transformations == "none") {
@@ -341,25 +248,7 @@ server <- function(input, output, session) {
     }
   }
 
-#   # map_data should be filtered by reactive values on all dimensions
-#   # *INCLUDING* date but *EXCEPT* geography - all geog_levels from UI select
-#   # [geog_type] should be included
-
-#   output$map_date_select <- renderUI({
-#     sliderInput(
-#       inputId = "map_date_select",
-#       label   = "Select date",
-#       min     = min(data_to_plot()$dates$date),
-#       max     = max(data_to_plot()$dates$date),
-#       value   = max(data_to_plot()$dates$date)
-#     )
-#   })
-
-#   map_pal <- reactive({
-#     leaflet::colorNumeric("YlOrRd", domain = map_data()$value)
-#   })
-
-# Plot Logic --------------------------------------------------------------
+  # Plot Logic ----
 
   manage_plot_group <- function(i) {
     if (length(input[[i]]) > 1) {
@@ -398,19 +287,15 @@ server <- function(input, output, session) {
     !grepl("dates|dataset|value", names(edd_datasets))
   ] |>
     stringr::str_remove("\\..*")
-  
+
   # Generate observers on the available_dimensions
   lapply(inputs, function(i) {
     observeEvent(input[[i]], {
       manage_plot_group(i)
-    }#,
-    #ignoreNULL = FALSE,
-    #ignoreInit = TRUE
-    )
-  }
-  )
+    })
+  })
 
-# Plot Output -------------------------------------------------------------
+  # Plot Output ----
 
   output$dataplot <- renderPlot({
     req(ggplot_data())
@@ -455,35 +340,8 @@ server <- function(input, output, session) {
     }
   })
 
-
   # Table Output ----
-
   output$datatable <- DT::renderDT({
     ggplot_data()
   })
-
-
-# # Map Output --------------------------------------------------------------
-
-#   # output$leafletmap <- leaflet::renderLeaflet({
-#   #   # data <- filter(data_to_plot(),
-#   #   #                dates$date == input$dates)
-#   #   # boundaries <- get(input$geog_type, boundaries) # access geoms for input$geog_type
-#   #   #
-#   #   # mapdata <- dplyr::inner_join(boundaries,
-#   #   #                              data,
-#   #   #                              # by = setNames("geography", paste0(input$geog_type, "18cd"))
-#   #   #                              by = setNames("geography", names(boundaries)[2])
-#   #   #                              )
-#   #   # pal <- colorNumeric("YlOrRd", domain = mapdata$data$value) # needs to be reactive
-#   #   pal <- map_pal()
-#   #
-#   #   leaflet::leaflet() %>%
-#   #     leaflet::addTiles() %>%
-#   #     leaflet::addPolygons(data = map_data(),
-#   #                          fillColor = ~pal(value),
-#   #                          weight = 1,
-#   #                          color = "Blue",
-#   #                          label = map_data()$value)
-#   # })
-} # server
+}
