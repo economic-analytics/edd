@@ -1,6 +1,6 @@
 server <- function(input, output, session) {
 
-# Bookmarking (persistent URLs) ----
+  # Bookmarking (persistent URLs) ----
 
   # Automatically bookmark every time an input changes
   observe({
@@ -11,7 +11,7 @@ server <- function(input, output, session) {
   # Update the query string
   onBookmarked(updateQueryString)
 
-# UI Rendering ----
+  # UI Rendering ----
 
   output$dataset <- renderUI({
     selectizeInput(
@@ -88,6 +88,7 @@ server <- function(input, output, session) {
       label   = "Transform data series",
       choices = c(
         "None (data as published)"   = "none",
+        "Index"                      = "index",
         "Nominal change on previous" = "nominal_change",
         "Percent change on previous" = "percent_change",
         "Cumulative change"          = "cumulative_change"
