@@ -17,7 +17,14 @@ plot_caption <- function(datasets) {
     caption <- "[sources]"
   }
 
-  return(paste0("Source: ", caption, "\nPowered by EDD"))
+  return(
+    paste0(
+      "Source: ",
+      caption,
+      "\n",
+      "Powered by EDD, a tool from Economic Analytics"
+    )
+  )
 }
 
 plot_ylab <- function(ggplot_data, input) {
