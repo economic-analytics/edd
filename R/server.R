@@ -395,8 +395,11 @@ server <- function(input, output, session) {
 #     names(x$dimensions)
 #   }) |> unlist() |> unique()
 
-  inputs <- isolate(available_dimensions())
-
+  inputs <- names(edd_datasets)[
+    !grepl("dates|dataset|value", names(edd_datasets))
+  ] |>
+    stringr::str_remove("\\..*")
+  
   # Generate observers on the available_dimensions
   lapply(inputs, function(i) {
     observeEvent(input[[i]], {
