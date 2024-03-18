@@ -262,8 +262,11 @@ server <- function(input, output, session) {
         )
     }
 
-    # TODO insert here filters by dynamic dimensions
-
+    dims <- isolate(available_dimensions())
+    for (d in dims) {
+      out <- out |>
+        dplyr::filter(.data[[paste0(d, ".name")]] %in% input[[d]])
+    }
     return(out)
   })
 
