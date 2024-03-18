@@ -1,7 +1,5 @@
 show_all_variables <- function() {
-  lapply(edd_datasets, function(x) {
-    tibble::tibble(code = x$dimension$variable$code,
-                   variable = x$dimension$variable$name)
-  }) |>
-    dplyr::bind_rows(.id = "dataset")
+  edd_datasets |>
+    dplyr::distinct(dataset, variable.code, variable.name) |>
+    dplyr::collect()
 }
