@@ -1,3 +1,4 @@
 .env
 .Rproj.user
+!/data-raw/edd_dict.csv
 /data-raw
