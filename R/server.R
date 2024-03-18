@@ -225,7 +225,9 @@ server <- function(input, output, session) {
     out <- edd_datasets |>
       dplyr::filter(dataset %in% ids)
 
-    out <- dplyr::collect(out)
+    out <- dplyr::collect(out) |>
+      # this removes any columns where all values are NA, but is slow
+      dplyr::select(dplyr::where(function(x) !all(is.na(x))))
 
     return(out)
   })
