@@ -91,6 +91,7 @@ ons_update_datasets <- function(
       processed[[i]] |>
         edd_obj_to_dataframe() |> 
         tidyr::unnest(names_sep = ".") |>
+        dplyr::mutate(dataset = basename(tools::file_path_sans_ext(names(processed)[i])), .before = 1) |>
         arrow::write_parquet(file.path("data", "parquet",
                               paste0(names(processed)[i], ".parquet")))
     }
