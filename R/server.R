@@ -209,7 +209,6 @@ server <- function(input, output, session) {
     }
   )
 
-# requires change in utils-data-summaries.R before uncommenting
   output$data_catalogue <- DT::renderDT({
     show_all_variables()
   })
