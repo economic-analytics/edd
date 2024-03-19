@@ -212,13 +212,15 @@ server <- function(input, output, session) {
   })
 
   output$place_plot <- renderPlot({
-    rgvaShare  <- rgva |>
+    rgvaShare  <- edd_datasets |>
+      dplyr::filter(dataset == "RGVA") |>
       # latest year
       dplyr::filter(dates.date == input$place_date) |>
       # constant prices
       dplyr::filter(variable.code == "constant") |>
       # calculate industry share as share of total for the same geog
       dplyr::group_by(dates.date, geography.code) |>
+      dplyr::collect() |>
       dplyr::mutate(share = value / value[industry.code == "Total"])
 
     if (input$place_analysis_type == "GVA share") {
