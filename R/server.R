@@ -175,13 +175,14 @@ server <- function(input, output, session) {
   output$place_geography <- renderUI({
     place_rgva <- edd_datasets |>
       dplyr::filter(dataset == "RGVA") |>
+      dplyr::distinct(geography.name) |>
       dplyr::collect()
 
     selectInput(
       "place_geography",
       "Select geography",
-      choices = place_rgva |>
-        dplyr::distinct(geography.name),
+      choices = place_rgva$geography.name,
+      selected = place_rgva$geography.name[1],
       multiple = TRUE
     )
   })
