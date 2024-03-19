@@ -94,14 +94,6 @@ ui <- function(request) {
     ),
 
     tabPanel(
-      id = "admin",
-      title = "Admin",
-      actionButton(
-        inputId = "update_ons",
-        label   = "Update ONS datasets")
-    ),
-
-    tabPanel(
       id = "data_catalogue",
       title = "Data catalogue",
       DT::DTOutput("data_catalogue")
