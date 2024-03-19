@@ -79,21 +79,19 @@ ui <- function(request) {
       )
     ),
 
-    # Menu: about
+    tabPanel(
       id = "place_analysis",
       title = "Place Analysis",
       titlePanel("EDD: Place Analysis"),
 
       sidebarLayout(
         sidebarPanel(
-          p("place_geography"),
           uiOutput("place_geography"),
-          p("analysis_type"),
-          uiOutput("place_analysis")
+          uiOutput("place_date"),
+          uiOutput("place_analysis_type")
         ),
         mainPanel(
-          p("place_plot"),
-          plotOutput("place_plot")
+          plotOutput("place_plot", height = 600)
         )
       )
     ),
