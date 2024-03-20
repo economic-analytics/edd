@@ -242,9 +242,21 @@ server <- function(input, output, session) {
         ggplot2::labs(
           title = "Proportion of GVA by SIC2007 sector",
           subtitle = paste(
-            input$place_geography, "in",
+            paste(
+              input$place_geography, collapse = ","
+            ),
+            "in",
             substr(unique(rgvaShare$dates.date), 1, 4)
-          )
+          ),
+          caption = "Source: ONS Regional GVA (balanced)",
+          x = "SIC 2007 Sector",
+          y = "Share of GVA",
+          fill = NULL
+        ) +
+        ggplot2::theme(
+          legend.position = "top",
+          axis.text = ggplot2::element_text(size = 12),
+          legend.text = ggplot2::element_text(size = 12)
         )
     } else if (input$place_analysis_type == "GVA LQ") {
       # location quotient by GVA
@@ -264,7 +276,24 @@ server <- function(input, output, session) {
         ggplot2::coord_flip() +
         ggplot2::geom_hline(yintercept = 1, colour = "red") +
         ggplot2::facet_wrap("geography.name.x") +
-        ggplot2::theme_minimal()
+        ggplot2::theme_minimal() +
+        ggplot2::theme(
+          legend.position = "none",
+          axis.text = ggplot2::element_text(size = 12),
+          strip.text = ggplot2::element_text(size = 12)
+        ) +
+        ggplot2::labs(
+          caption = "Source: ONS Regional GVA (balanced)",
+          x = "SIC 2007 Sector",
+          y = "Location Quotient (bars)",
+          fill = NULL
+        ) +
+        ggplot2::scale_y_continuous(
+          sec.axis = ggplot2::sec_axis(
+            ~ . * 10,
+            name = "Share of GVA (dots) (%)"
+          )
+        )
     }
   })
 
