@@ -45,41 +45,54 @@ url <- "https://www.nomisweb.co.uk/api/v01/dataset/NM_189_1.data.csv?geography=2
 
 # bres  <- data_nomis_to_df(url)
 
-bres <- readr::read_csv(url)
+# bres <- readr::read_csv(url)
 # readr::write_csv(bres, "workbench/bres.csv")
+bres <- readr::read_csv(
+  "workbench/bres.csv",
+  col_types = readr::cols(
+    .default = readr::col_character(),
+    OBS_VALUE = readr::col_number()
+  )
+)
 
-str(bres)
 names(bres) <- tolower(names(bres)) |>
   gsub("_", "\\.", x = _)
 
 bres <- bres |>
   dplyr::mutate(
     dates.date = as.Date(paste0(date, "-01-01")),
-    dates.freq = "a"
+    dates.freq = "a",
+    industry.name = sub("^[A-Z]{1} : ", "", industry.name)
   ) |>
   dplyr::select(
     dates.date, dates.freq,
     geography.code, geography.name, geography.type,
     industry.code, industry.name, industry.type,
+    employment.status.code, employment.status.name, employment.status.type,
     value = obs.value
   )
 
-
-gb <- names(bres)[!grepl("value|industry", names(bres))]
-
+gb <- names(bres)[!grepl("industry|value", names(bres))]
 bres2 <- bres |>
   # this calculates a total for all industries at each date/geog combo
-  dplyr::group_by(dates.date, geography.code, geography.name, geography.type) |>
+  dplyr::group_by(dplyr::across(dplyr::all_of(gb))) |>
   dplyr::summarise(
     industry.code = "Total",
     industry.name = "All industries",
-    value = sum(value)) |>
+    industry.type = "SIC 2007",
+    value = sum(value)
+  ) |>
+  dplyr::ungroup() |>
   dplyr::bind_rows(bres) |>
   dplyr::mutate(
-  # convert nomis NUTS16 codes to ITL23 codes
-  geography.code = stringr::str_replace(geography.code, "UK", "TL"),
-  # TODO temporary hack - this isn't UK data but GB
-  geography.code = ifelse(geography.code == "K03000001", "UK", geography.code))
+    # convert nomis NUTS16 codes to ITL23 codes
+    geography.code = stringr::str_replace(geography.code, "UK", "TL"),
+    # TODO temporary hack - this isn't UK data but GB
+    geography.code = ifelse(geography.code == "K03000001", "UK", geography.code)
+  ) |>
+  arrow::write_parquet("workbench/BRES.parquet")
+
+
 
 bresShare <- bres2 |>
   # filter dates to match rgva (2021)
