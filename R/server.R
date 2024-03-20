@@ -178,12 +178,13 @@ server <- function(input, output, session) {
       dplyr::distinct(geography.name) |>
       dplyr::collect()
 
-    selectInput(
+    selectizeInput(
       "place_geography",
       "Select geography",
       choices = place_rgva$geography.name,
       selected = place_rgva$geography.name[1],
-      multiple = TRUE
+      multiple = TRUE,
+      options = list(plugins = list("remove_button"))
     )
   })
 
