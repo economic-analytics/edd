@@ -1,39 +1,40 @@
-rgva <- readRDS("data/datasets/RGVA.rds")
+rgva <- arrow::read_parquet("data/parquet/RGVA.parquet")
 
 rgvaShare  <- rgva |>
-  edd_obj_to_dataframe() |>
-  tidyr::unnest(names_sep = "_") |>
   # latest year
-  dplyr::filter(dates_date == max(dates_date)) |>
+  dplyr::filter(dates.date == max(dates.date)) |>
   # constant prices
-  dplyr::filter(variable_code == "constant") |>
+  dplyr::filter(variable.code == "constant") |>
   # calculate industry share as share of total for the same geog
-  dplyr::group_by(geography_code) |>
-  dplyr::mutate(share = value / value[industry_code == "Total"])
+  dplyr::group_by(geography.code) |>
+  dplyr::mutate(share = value / value[industry.code == "Total"])
 
+# industry share by GVA
 rgvaShare |>
-  dplyr::filter(geography_name == "Leeds") |>
-  dplyr::filter(grepl("^[A-Z]{1} ", industry_code)) |>
-  ggplot2::ggplot(ggplot2::aes(x = industry_name, y = share)) +
+  dplyr::filter(geography.name == "Leeds") |>
+  # filter for SIC2007 sections (single letter code)
+  dplyr::filter(grepl("^[A-Z]{1} ", industry.code)) |>
+  ggplot2::ggplot(ggplot2::aes(x = industry.name, y = share)) +
   ggplot2::geom_col() +
   ggplot2::coord_flip()
 
-# lq
-
+# location quotient by GVA
 rgvaShare |>
-  dplyr::filter(geography_name %in% c("Manchester", "Leeds")) |>
-  dplyr::filter(grepl("^[A-Z]{1} ", industry_code)) |>
+  # select geographies to display/compare
+  dplyr::filter(geography.name %in% c("Lancashire")) |>
+  # filter for SIC2007 sections (single letter code)
+  dplyr::filter(grepl("^[A-Z]{1} ", industry.code)) |>
   dplyr::inner_join(
-    rgvaShare |> dplyr::filter(geography_code == "UK"),
+    rgvaShare |> dplyr::filter(geography.code == "UK"),
     by = names(rgvaShare)[grepl("dates|industry|variable", names(rgvaShare))]
   ) |>
   dplyr::mutate(lq = share.x / share.y) |>
-  ggplot2::ggplot(ggplot2::aes(x = industry_name, y = lq, fill = lq > 1)) +
+  ggplot2::ggplot(ggplot2::aes(x = industry.name, y = lq, fill = lq > 1)) +
   ggplot2::geom_col() +
   ggplot2::geom_point(ggplot2::aes(y = share.x * 10), size = 3) +
   ggplot2::coord_flip() +
   ggplot2::geom_hline(yintercept = 1, colour = "red") +
-  ggplot2::facet_wrap("geography_name.x")
+  ggplot2::facet_wrap("geography.name.x")
 
 # bres
 # gb, itl1, itl2, itl3
@@ -42,45 +43,80 @@ rgvaShare |>
 # TODO NB pulling GB data from BRES. rgva needs to have NI removed
 url <- "https://www.nomisweb.co.uk/api/v01/dataset/NM_189_1.data.csv?geography=2092957698,1841299457...1841299467,1837105153...1837105192,1832910849...1832911016&industry=150994945...150994965&employment_status=1&measure=1&measures=20100&signature=NPK-80b58859b490b5cdc78ea9:0xfbb779d47ca98ee3ce0f3815b8c817909d428f3e"
 
-bres  <- data_nomis_to_df(url)
+# bres  <- data_nomis_to_df(url)
 
-gb <- names(bres)[!grepl("value|industry", names(bres))]
+# bres <- readr::read_csv(url)
+# readr::write_csv(bres, "workbench/bres.csv")
+bres <- readr::read_csv(
+  "workbench/bres.csv",
+  col_types = readr::cols(
+    .default = readr::col_character(),
+    OBS_VALUE = readr::col_number()
+  )
+)
 
+names(bres) <- tolower(names(bres)) |>
+  gsub("_", "\\.", x = _)
+
+bres <- bres |>
+  dplyr::mutate(
+    dates.date = as.Date(paste0(date, "-01-01")),
+    dates.freq = "a",
+    industry.name = sub("^[A-Z]{1} : ", "", industry.name)
+  ) |>
+  dplyr::select(
+    dates.date, dates.freq,
+    geography.code, geography.name, geography.type,
+    industry.code, industry.name, industry.type,
+    employment.status.code, employment.status.name, employment.status.type,
+    value = obs.value
+  )
+
+gb <- names(bres)[!grepl("industry|value", names(bres))]
 bres2 <- bres |>
   # this calculates a total for all industries at each date/geog combo
-  dplyr::group_by(date, geography_code, geography_name, geography_type) |>
-  dplyr::summarise(industry_code = "Total", industry_name = "All industries", value = sum(value)) |>
+  dplyr::group_by(dplyr::across(dplyr::all_of(gb))) |>
+  dplyr::summarise(
+    industry.code = "Total",
+    industry.name = "All industries",
+    industry.type = "SIC 2007",
+    value = sum(value)
+  ) |>
+  dplyr::ungroup() |>
   dplyr::bind_rows(bres) |>
-  # convert date
-  dplyr::mutate(date = as.Date(paste0(date, "-01-01"))) |>
   dplyr::mutate(
-  # convert nomis NUTS16 codes to ITL23 codes
-  geography_code = stringr::str_replace(geography_code, "UK", "TL"),
-  # TODO temporary hack - this isn't UK data but GB
-  geography_code = ifelse(geography_code == "K03000001", "UK", geography_code))
+    # convert nomis NUTS16 codes to ITL23 codes
+    geography.code = stringr::str_replace(geography.code, "UK", "TL"),
+    # TODO temporary hack - this isn't UK data but GB
+    geography.code = ifelse(geography.code == "K03000001", "UK", geography.code)
+  ) |>
+  arrow::write_parquet("workbench/BRES.parquet")
+
+
 
 bresShare <- bres2 |>
   # filter dates to match rgva (2021)
-  dplyr::filter(date == "2021-01-01") |>
-  dplyr::group_by(geography_code) |>
-  dplyr::mutate(share = value / value[industry_code == "Total"])
+  dplyr::filter(dates.date == "2021-01-01") |>
+  dplyr::group_by(geography.code) |>
+  dplyr::mutate(share = value / value[industry.code == "Total"])
 
 bresShare |>
-  dplyr::filter(geography_name %in% c("Bradford", "Leeds", "York")) |>
-  #dplyr::filter(grepl("^[A-Z]{1} ", industry_code)) |>
+  dplyr::filter(geography.name %in% c("Bradford", "Leeds", "York")) |>
+  # bres API call is only pulling SIC2007 sectors
+  #dplyr::filter(grepl("^[A-Z]{1} ", industry.code)) |>
   dplyr::inner_join(
-    bresShare |> dplyr::filter(geography_code == "UK"),
+    bresShare |> dplyr::filter(geography.code == "UK"),
     by = names(bresShare)[grepl("dates|industry|variable", names(bresShare))]
   ) |>
   dplyr::mutate(lq = share.x / share.y) |>
   # drop Total industries rows
-  dplyr::filter(!industry_code %in% c("Total", "T")) |>
-  ggplot2::ggplot(ggplot2::aes(x = industry_name, y = lq, fill = lq > 1)) +
+  dplyr::filter(!industry.code %in% c("Total", "T")) |>
+  ggplot2::ggplot(ggplot2::aes(x = industry.name, y = lq, fill = lq > 1)) +
   ggplot2::geom_col() +
   ggplot2::geom_point(ggplot2::aes(y = share.x * 10), size = 3, show.legend = F) +
   ggplot2::coord_flip() +
   ggplot2::geom_hline(yintercept = 1, colour = "red") +
-  ggplot2::facet_wrap("geography_name.x") +
+  ggplot2::facet_wrap("geography.name.x") +
   ggplot2::scale_y_continuous(
     sec.axis = ggplot2::sec_axis(~ . * 10, name = "Employment share (dots) (%)")
     ) +

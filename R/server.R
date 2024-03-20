@@ -170,6 +170,133 @@ server <- function(input, output, session) {
     }
   )
 
+  # Place Analysis ----
+
+  output$place_geography <- renderUI({
+    place_rgva <- edd_datasets |>
+      dplyr::filter(dataset == "RGVA") |>
+      dplyr::distinct(geography.name) |>
+      dplyr::collect()
+
+    selectizeInput(
+      "place_geography",
+      "Select geography",
+      choices = place_rgva$geography.name,
+      selected = place_rgva$geography.name[1],
+      multiple = TRUE,
+      options = list(plugins = list("remove_button"))
+    )
+  })
+
+  output$place_date <- renderUI({
+    place_dates <- edd_datasets |>
+      dplyr::filter(dataset == "RGVA") |>
+      dplyr::distinct(dates.date) |>
+      dplyr::collect()
+
+    selectInput(
+      "place_date",
+      "Select date",
+      choices = place_dates$dates.date,
+      selected = max(place_dates$dates.date)
+    )
+  })
+
+  output$place_analysis_type <- renderUI({
+    selectInput(
+      "place_analysis_type",
+      "Select analysis",
+      choices = c(
+        "GVA share",
+        "GVA LQ"
+      )
+    )
+  })
+
+  output$place_plot <- renderPlot({
+    rgvaShare  <- edd_datasets |>
+      dplyr::filter(dataset == "RGVA") |>
+      # latest year
+      dplyr::filter(dates.date == input$place_date) |>
+      # constant prices
+      dplyr::filter(variable.code == "constant") |>
+      # calculate industry share as share of total for the same geog
+      dplyr::group_by(dates.date, geography.code) |>
+      dplyr::collect() |>
+      dplyr::mutate(share = value / value[industry.code == "Total"])
+
+    if (input$place_analysis_type == "GVA share") {
+      # industry share by GVA
+      rgvaShare |>
+        dplyr::filter(geography.name %in% input$place_geography) |>
+        # filter for SIC2007 sections (single letter code)
+        dplyr::filter(grepl("^[A-Z]{1} ", industry.code)) |>
+        ggplot2::ggplot(ggplot2::aes(
+          x = industry.name,
+          y = share,
+          fill = geography.name
+        )) +
+        ggplot2::geom_col(position = "dodge") +
+        ggplot2::coord_flip() +
+        ggplot2::theme_minimal() +
+        ggplot2::labs(
+          title = "Proportion of GVA by SIC2007 sector",
+          subtitle = paste(
+            paste(
+              input$place_geography, collapse = ","
+            ),
+            "in",
+            substr(unique(rgvaShare$dates.date), 1, 4)
+          ),
+          caption = "Source: ONS Regional GVA (balanced)",
+          x = "SIC 2007 Sector",
+          y = "Share of GVA",
+          fill = NULL
+        ) +
+        ggplot2::theme(
+          legend.position = "top",
+          axis.text = ggplot2::element_text(size = 12),
+          legend.text = ggplot2::element_text(size = 12)
+        )
+    } else if (input$place_analysis_type == "GVA LQ") {
+      # location quotient by GVA
+      rgvaShare |>
+        # select geographies to display/compare
+        dplyr::filter(geography.name %in% input$place_geography) |>
+        # filter for SIC2007 sections (single letter code)
+        dplyr::filter(grepl("^[A-Z]{1} ", industry.code)) |>
+        dplyr::inner_join(
+          rgvaShare |> dplyr::filter(geography.code == "UK"),
+          by = names(rgvaShare)[grepl("dates|industry|variable", names(rgvaShare))]
+        ) |>
+        dplyr::mutate(lq = share.x / share.y) |>
+        ggplot2::ggplot(ggplot2::aes(x = industry.name, y = lq, fill = lq > 1)) +
+        ggplot2::geom_col() +
+        ggplot2::geom_point(ggplot2::aes(y = share.x * 10), size = 3) +
+        ggplot2::coord_flip() +
+        ggplot2::geom_hline(yintercept = 1, colour = "red") +
+        ggplot2::facet_wrap("geography.name.x") +
+        ggplot2::theme_minimal() +
+        ggplot2::theme(
+          legend.position = "none",
+          axis.text = ggplot2::element_text(size = 12),
+          strip.text = ggplot2::element_text(size = 12)
+        ) +
+        ggplot2::labs(
+          caption = "Source: ONS Regional GVA (balanced)",
+          x = "SIC 2007 Sector",
+          y = "Location Quotient (bars)",
+          fill = NULL
+        ) +
+        ggplot2::scale_y_continuous(
+          sec.axis = ggplot2::sec_axis(
+            ~ . * 10,
+            name = "Share of GVA (dots) (%)"
+          )
+        )
+    }
+  })
+
   output$data_catalogue <- DT::renderDT({
     show_all_variables()
   })
