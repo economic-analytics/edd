@@ -1,6 +1,6 @@
 ui <- function(request) {
   navbarPage(
-    title = "EDD v0.0.0.9025 ALPHA",
+    title = "EDD v0.0.0.9026 ALPHA",
     id = "navbar",
     windowTitle = "EDD: Economic Data Dashboard",
 
@@ -106,6 +106,9 @@ ui <- function(request) {
       id = "changelog",
       title = "Change log",
       h2("Change log"),
+      h3("2024-03-20 v0.0.0.9026"),
+      p("Add first version of place explorer tool"),
+      p("Provides GVA(B) share and LQ analysis by ITL1/2/3"),
       h3("2024-03-18 v0.0.0.9025"),
       p("Change data back-end to parquet files with significant code re-write"),
       p("All regional datasets except regional GVA temporarily removed"),
