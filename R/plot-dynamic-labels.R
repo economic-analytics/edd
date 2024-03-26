@@ -34,13 +34,15 @@ plot_ylab <- function(ggplot_data, input) {
     } else {
       ylab <- "Value"
     }
-  } else {
+  } else if (input$transformations == "index") {
     ylab <- paste0(
       stringr::str_to_sentence(input$transformations),
       " (",
       date_iso_to_text(input$transformation_date, input$frequency),
       " = 100)"
     )
+  } else {
+    ylab <- string::str_to_sentence(input$transformations)
   }
   return(ylab)
 }
