@@ -94,4 +94,4 @@ test[[1]]
       id = "dashboard",
       title = "Dashboard",
       uiOutput("main_dashboard")
-    ),
+    )
