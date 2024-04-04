@@ -42,7 +42,7 @@ plot_ylab <- function(ggplot_data, input) {
       " = 100)"
     )
   } else {
-    ylab <- string::str_to_sentence(input$transformations)
+    ylab <- stringr::str_to_sentence(input$transformations)
   }
   return(ylab)
 }
