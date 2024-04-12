@@ -71,7 +71,6 @@ ons_process_construction <- function() {
   edd_dict$next_update[edd_dict$id == "CONS"] <- meta$next_update |> as.character()
   edd_dict$last_download[edd_dict$id == "CONS"] <- Sys.Date() |> as.character()
 
-  # rewrite edd_dict .rda and .csv
-  save(edd_dict, file = 'data/edd_dict.rda')
-  readr::write_csv(edd_dict, 'data-raw/edd_dict.csv')
+  # rewrite edd_dict
+  readr::write_csv(edd_dict, 'data/edd_dict.csv')
 }

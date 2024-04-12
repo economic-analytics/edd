@@ -61,9 +61,8 @@ ons_update_datasets <- function(
     edd_dict$last_download[edd_dict$id == names(processed)[i]] <- as.character(Sys.Date())
   }
 
-  # rewrite edd_dict .rda and .csv
-  save(edd_dict, file = 'data/edd_dict.rda')
-  readr::write_csv(edd_dict, 'data-raw/edd_dict.csv')
+  # rewrite edd_dict
+  readr::write_csv(edd_dict, 'data/edd_dict.csv')
 
   # # write separate .rds files for each dataset
   # if (save_separate_rds) {

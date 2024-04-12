@@ -11,6 +11,10 @@ server <- function(input, output, session) {
   # Update the query string
   onBookmarked(updateQueryString)
 
+  # Load data dictionary ----
+
+  edd_dict <- readr::read_csv("data/edd_dict.csv")
+
   # UI Rendering ----
 
   output$dataset <- renderUI({
