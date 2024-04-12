@@ -12,10 +12,12 @@ extract_ons_metadata <- function(ons_url) {
     rvest::html_text2()
   
   info$last_update = info$meta[grepl("Release date", info$meta)] |>
-    stringr::str_extract("[0-9]{1,2} [A-Za-z]* [0-9]{4}")
+    stringr::str_extract("[0-9]{1,2} [A-Za-z]* [0-9]{4}") |>
+    as.Date(format = "%d %B %Y")
 
   info$next_update <- info$meta[grepl("Next release", info$meta)] |>
-    stringr::str_extract("[0-9]{1,2} [A-Za-z]* [0-9]{4}")
+    stringr::str_extract("[0-9]{1,2} [A-Za-z]* [0-9]{4}") |>
+    as.Date(format = "%d %B %Y")
 
   info$dataset_id <- if (any(stringr::str_detect(info$meta,"Dataset ID"))) {
     info$meta[grepl("Dataset ID", info$meta)] |>
