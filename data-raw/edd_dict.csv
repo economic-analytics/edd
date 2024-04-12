@@ -47,3 +47,4 @@ NA,TEST,TEST,TEST,NA,NA,NA,NA,NA,NA,NA,NA,NA
 NA,NOMIS,CC,Claimant Count,NA,NA,NA,NA,NA,NA,NA,NA,NA
 NA,ONSx,RGDHI,Regional Gross Disposable Household Income,NA,NA,NA,NA,NA,NA,NA,NA,NA
 NA,ONSx,RFDI,Regional Foreign Direct Investment,NA,NA,NA,NA,NA,NA,NA,NA,NA
+dataset,ONSx,CONS,Output in the Construction Industry,NA,NA,NA,2024-04-12,2024-05-10,2024-04-12,TRUE,TRUE,NA
