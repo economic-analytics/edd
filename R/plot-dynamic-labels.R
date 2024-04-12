@@ -29,17 +29,20 @@ plot_caption <- function(datasets) {
 
 plot_ylab <- function(ggplot_data, input) {
   if (input$transformations == "none") {
-    if (exists("ggplot_data$variable$unit")) {
-      ylab <- ggplot_data$variable$unit
+    if (exists("ggplot_data$variable.unit")) {
+      ylab <- ggplot_data$variable.unit
     } else {
       ylab <- "Value"
     }
-  } else {
-    ylab <- paste0(stringr::str_to_sentence(input$transformations),
-                  " (", date_iso_to_text(input$transformation_date,
-                                        input$frequency),
-                  " = 100)"
+  } else if (input$transformations == "index") {
+    ylab <- paste0(
+      stringr::str_to_sentence(input$transformations),
+      " (",
+      date_iso_to_text(input$transformation_date, input$frequency),
+      " = 100)"
     )
+  } else {
+    ylab <- stringr::str_to_sentence(input$transformations)
   }
   return(ylab)
 }
