@@ -352,7 +352,10 @@ server <- function(input, output, session) {
     dims <- isolate(available_dimensions())
     for (d in dims) {
       out <- out |>
-        dplyr::filter(.data[[paste0(d, ".name")]] %in% input[[d]])
+        dplyr::filter(
+          .data[[paste0(d, ".name")]] %in% input[[d]] |
+            is.na(.data[[paste0(d, ".name")]])
+        )
     }
     return(out)
   })
