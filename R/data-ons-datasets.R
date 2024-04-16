@@ -102,6 +102,9 @@ ons_download_dataset <- function(url, save_csv = TRUE) {
 
     destfile <- file.path("data-raw/", basename(url))
     download.file(url = url, destfile = destfile)
+    print("Sleeping")
+    Sys.sleep(1)
+ 
 
     # update value of url so that if we've saved a csv,
     # we read from the file path not the url, otherwise
