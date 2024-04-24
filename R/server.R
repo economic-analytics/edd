@@ -372,11 +372,16 @@ server <- function(input, output, session) {
     req(input$transformations)
     if (input$transformations == "none") {
       return(df)
-    } else {
-      req(input$transformation_date)
-      df |>
-        ts_transform_df[[input$transformations]](input$transformation_date)
     }
+
+    if (input$transformations == "index") {
+      req(input$transformation_date)
+      return(
+        ts_transform_df[[input$transformations]](df, input$transformation_date)
+      )
+    }
+
+    return(ts_transform_df[[input$transformations]](df))
   }
 
   # Plot Logic ----
