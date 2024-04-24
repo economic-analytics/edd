@@ -31,6 +31,7 @@ date_iso_to_quarter <- function(date) {
 
 date_text_to_iso <- function(date_as_text) {
   out <- character(length = length(date_as_text))
+  date_as_text <- stringr::str_squish(date_as_text)
   for (i in seq_along(date_as_text)) {
     # 01-01-2000
     if (grepl('[0-9]{1,2}-[0-9]{2}-[0-9]{4}', date_as_text[i])) {
