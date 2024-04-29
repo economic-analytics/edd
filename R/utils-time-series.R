@@ -28,7 +28,7 @@ ts_transform_df$nominal_change <- function(df, x) {
 ts_transform_df$percent_change <- function(df, x) {
   columns_to_group_by <- names(df)[!grepl("dataset|dates|value", names(df))]
   dplyr::group_by(df, dplyr::across(dplyr::all_of(columns_to_group_by))) |>
-    dplyr::mutate(value = (value - dplyr::lag(value)) / value * 100)
+    dplyr::mutate(value = (value - dplyr::lag(value)) / dplyr::lag(value) * 100)
 }
 
 ts_transform_df$cumulative_change <- function(df, x) {
