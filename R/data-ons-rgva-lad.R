@@ -23,25 +23,39 @@ rgva_lad <- function(path = NULL, url = NULL, force_update = FALSE) {
     sheets <- readxl::excel_sheets(local_file_path)
     sheets <- sheets[-(1:3)] # update
     data <- lapply(sheets, function(sht) {
-      readxl::read_excel(local_file_path, sheet = sht, skip = 1, na = c("c"))
+      readxl::read_excel(local_file_path, sheet = sht, skip = 1, na = c("[c]"))
     })
     names(data) <- sheets
     return(data)
   })
 
-  # # number 13 is different (population). Tidy up all_data[1:12]
-  # final <- lapply(all_data[1:12], function(x) {
-  #   lapply(x, function(sht) {
-  #     dplyr::filter(sht, !is.na(`LAD code`)) |>
-  #       tidyr::pivot_longer(cols = -(1:5), names_to = "date") |>
-  #       dplyr::mutate(date = paste0(substr(date, 1, 4), "-01-01") |>
-  #                       as.Date()
-  #       )
-  #   }) |>
-  #     dplyr::bind_rows(.id = "variable")
-  # }) |>
-  #   dplyr::bind_rows()
+  # number 13 is different (population). Tidy up all_data[1:12]
+  final <- lapply(all_data[1:12], function(x) {
+    lapply(x, function(sht) {
+      dplyr::filter(sht, !is.na(`LA code`)) |>
+        tidyr::pivot_longer(cols = -(1:5), names_to = "dates.date") |>
+        dplyr::mutate(
+          dates.date = as.Date(paste0(substr(dates.date, 1, 4), "-01-01"))
+        )
+    }) |>
+      setNames(c("CVM Index", "GVA Constant Prices £m", "GVA Current Prices £m", "Implied deflator")) |>
+      dplyr::bind_rows(.id = "variable.name")
+  }) |>
+    dplyr::bind_rows() |>
+    dplyr::mutate(
+      dates.freq = "a",
+      dataset = "RGVA_LAD"
+    ) |>
+    dplyr::select(
+      dataset,
+      dates.date, dates.freq,
+      variable.name,
+      geography.code = `LA code`,
+      geography.name = `LA name`,
+      industry.code = SIC07,
+      industry.name = `SIC07 description`,
+      value
+    )
 
-  # readr::write_rds(final, "data/rgva_lad.rds")
-  # readr::write_csv(final, "../../Data/rgva_lad.csv")
+  arrow::write_parquet(final, "data/parquet/RGVA_LAD.parquet")
 }
