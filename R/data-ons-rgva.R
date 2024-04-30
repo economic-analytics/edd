@@ -42,8 +42,8 @@ ons_process_rgva <- function(filepath = NULL) {
       sep = "_"
     ) |>
     dplyr::rename(
-      geography.code = `ITL region code`,
-      geography.name = `ITL region name`,
+      geography.code = `ITL code`,
+      geography.name = `Region name`,
       industry.code = `SIC07 code`,
       industry.name = `SIC07 description`
     ) |>
