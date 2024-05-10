@@ -1,5 +1,4 @@
 .env
 .Rproj.user
-/data-raw
 rsconnect/shinyapps.io/economic-analytics/edd-app.dcf
 workbench/deploy-app.r
