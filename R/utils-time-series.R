@@ -1,11 +1,11 @@
 ts_transform <- list()
 
 ts_transform$nominal_change <- function(x) {
-  x - lag(x)
+  x - dplyr::lag(x)
 }
 
 ts_transform$percent_change <- function(x) {
-  (x - lag(x)) / x * 100
+  (x - dplyr::lag(x)) / dplyr::lag(x) * 100
 }
 
 ts_transform$cumulative_change <- function(x) {
