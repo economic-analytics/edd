@@ -48,6 +48,7 @@ ons_process_rgdhi_lad <- function(url = NULL, path = "data-raw") {
     dplyr::select(
       dataset,
       dates.date, dates.freq,
+      variable.name,
       geography.code = `lad code`,
       geography.name = `region name`,
       transaction.code = `transaction code`,
