@@ -28,7 +28,7 @@ dataset,ONSx,RPROD,Regional Productivity (LAD),NA,NA,NA,NA,NA,NA,TRUE,FALSE,NA
 dataset,BOE,FEA,Custom,"https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/2005&Dateto=Now&SeriesCodes=IUMBEDR,IUMAMNPY,IUMAAMIJ,XUMAUSS,XUMAERS&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N",/boe/datasets,NA,NA,NA,NA,FALSE,FALSE,NA
 dataset,ONSx,RGVA,Regional GVA,NA,/ons/datasets,NA,NA,NA,NA,FALSE,TRUE,NA
 dataset,ONSx,RGVA_LAD,Regional GVA (LAD),NA,NA,NA,NA,NA,NA,NA,NA,NA
-dataset,ONSx,RGVAI,Regional GVA (Income components),NA,/ons/datasets,NA,NA,NA,NA,FALSE,FALSE,NA
+dataset,ONSx,RGVAI,Regional GVA (Income components),NA,/ons/datasets,NA,2024-04-24,NA,2024-05-22,FALSE,FALSE,NA
 dataset,NOMIS,BRES,Business Register and Employment Survey,NA,/nomis/datasets,NA,NA,NA,NA,FALSE,TRUE,NA
 dataset,NOMIS,UKBC,UK Business Counts,NA,/nomis/datasets,NA,NA,NA,NA,FALSE,TRUE,NA
 boundaries,ONSx,oa11,Output Areas,NA,/boundaries/ons/oa11,NA,NA,NA,NA,FALSE,FALSE,NA
