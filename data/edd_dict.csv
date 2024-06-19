@@ -24,7 +24,7 @@ dataset,ONS,TOPSI,Turnover in UK Production and GB Services,https://www.ons.gov.
 dataset,ONS,UCST,Unit Labour Cost and Unit Wage Cost,https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/unitlabourcostandunitwagecosttimeseries/current/ucst.csv,/ons/datasets,NA,2023-10-24,2024-01-15,2024-04-24,TRUE,FALSE,NA
 dataset,ONS,UKEA,UK Economic Accounts,https://www.ons.gov.uk/file?uri=/economy/grossdomesticproductgdp/datasets/unitedkingdomeconomicaccounts/current/ukea.csv,/ons/datasets,NA,2024-03-28,2024-06-28,2024-04-24,TRUE,FALSE,NA
 dataset,ONS,UNEM,Claimant Count and Vacancies,https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/claimantcountandvacanciesdataset/current/unem.csv,/ons/datasets,NA,2024-06-11,2024-07-18,2024-06-11,TRUE,FALSE,NA
-dataset,ONSx,RPROD,Regional Productivity (LAD),NA,NA,NA,NA,NA,NA,TRUE,FALSE,NA
+dataset,ONSx,PROD_LAD,Regional Productivity (LAD),NA,NA,NA,NA,NA,NA,TRUE,FALSE,NA
 dataset,BOE,FEA,Custom,"https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/2005&Dateto=Now&SeriesCodes=IUMBEDR,IUMAMNPY,IUMAAMIJ,XUMAUSS,XUMAERS&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N",/boe/datasets,NA,NA,NA,NA,FALSE,FALSE,NA
 dataset,ONSx,RGVA,Regional GVA,NA,/ons/datasets,NA,NA,NA,NA,FALSE,TRUE,NA
 dataset,ONSx,RGVA_LAD,Regional GVA (LAD),NA,NA,NA,NA,NA,NA,NA,NA,NA
