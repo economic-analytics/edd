@@ -4,7 +4,7 @@ name: Deploy to shinyapps.io
   # run on any push 
   push:
     branches: 
-      - 46-fix-shinyappsio-commit
+      - main
     paths:
       - R/**
       - .pipelines/deploy.R
