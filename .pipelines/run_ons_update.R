@@ -5,3 +5,5 @@ check_next_update_dates()
 pkgload::load_all()
 
 ons_update_datasets()
+
+update_other_datasets()
