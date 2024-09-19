@@ -6,10 +6,10 @@ name: Deploy to shinyapps.io
     branches: 
       - main
     paths:
-      - R/**
-      - data/**
-      - .pipelines/deploy.R
-      - renv.lock
+      - 'R/**'
+      - 'data/**'
+      - '.pipelines/deploy.R'
+      - 'renv.lock'
   # Allow to be called by other workflow
   workflow_call:
   # run on request (via button in actions menu)
