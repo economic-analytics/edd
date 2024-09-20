@@ -11,7 +11,7 @@ name: Deploy to shinyapps.io
       - '.pipelines/deploy.R'
       - 'renv.lock'
   # Allow to be called by other workflow
-  workflow_call:
+  # workflow_call:
   # run on request (via button in actions menu)
   workflow_dispatch:
 
