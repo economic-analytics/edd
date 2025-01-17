@@ -23,7 +23,7 @@ jobs:
           use-public-rspm: true
       
       - name: Install system dependencies
-        run: sudo apt-get install --yes libgdal-dev libgeos-dev libproj-dev libudunits2-dev libfontconfig1-dev
+        run: sudo apt-get install --yes libgdal-dev libgeos-dev libproj-dev libudunits2-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev
 
       - name: Setup {renv}
         uses: r-lib/actions/setup-renv@v2
