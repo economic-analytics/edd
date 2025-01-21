@@ -17,11 +17,13 @@ server <- function(input, output, session) {
     selectizeInput(
       inputId  = "dataset",
       label    = "Select dataset(s)",
-      # only shows datasets for which a parquet file exists in dataFileLocation
+      # DEPRECATED: only shows datasets for which a parquet file exists in dataFileLocation
+      # updated to only show datasets for which a download date exists in edd_dict
       choices  = edd_dict$desc[
-        edd_dict$id %in% tools::file_path_sans_ext(
-          list.files(dataFileLocation)
-        )
+        # edd_dict$id %in% tools::file_path_sans_ext(
+        #   list.files(dataFileLocation)
+        # )
+        !is.na(edd_dict$last_download)
       ],
       multiple = TRUE,
       options  = list(plugins = list("remove_button"))
