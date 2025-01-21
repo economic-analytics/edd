@@ -122,6 +122,14 @@ server <- function(input, output, session) {
       !grepl("dataset|dates|value", names(user_datasets()))
     ]
     dims <- stringr::str_remove(dims, "\\..*") |> unique()
+
+    # Generate observers on available_dimensions() for managing plot aesthetics
+    lapply(dims, function(i) {
+      observeEvent(input[[i]], {
+        manage_plot_group(i)
+      })
+    })
+
     return(dims)
   })
 
@@ -421,17 +429,19 @@ server <- function(input, output, session) {
     }
   }
 
-  inputs <- names(edd_datasets)[
-    !grepl("dates|dataset|value", names(edd_datasets))
-  ] |>
-    stringr::str_remove("\\..*")
+  # DEPRECATED: inputs now sourced from available_dimensions() reactive
+  # inputs <- names(edd_datasets)[
+  #   !grepl("dates|dataset|value", names(edd_datasets))
+  # ] |>
+  #   stringr::str_remove("\\..*")
 
-  # Generate observers on the available_dimensions
-  lapply(inputs, function(i) {
-    observeEvent(input[[i]], {
-      manage_plot_group(i)
-    })
-  })
+  # DEPRECATED: generation of observers now in available_dimensions()
+  # # Generate observers on the available_dimensions
+  # lapply(inputs, function(i) {
+  #   observeEvent(input[[i]], {
+  #     manage_plot_group(i)
+  #   })
+  # })
 
   # Plot Output ----
 
