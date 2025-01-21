@@ -183,8 +183,7 @@ server <- function(input, output, session) {
   # Place Analysis ----
 
   output$place_geography <- renderUI({
-    place_rgva <- edd_datasets |>
-      dplyr::filter(dataset == "RGVA") |>
+    place_rgva <- retrieve_dataset("RGVA") |>
       dplyr::distinct(geography.name) |>
       dplyr::collect()
 
@@ -199,8 +198,7 @@ server <- function(input, output, session) {
   })
 
   output$place_date <- renderUI({
-    place_dates <- edd_datasets |>
-      dplyr::filter(dataset == "RGVA") |>
+    place_dates <- retrieve_dataset("RGVA") |>
       dplyr::distinct(dates.date) |>
       dplyr::collect()
 
@@ -224,8 +222,7 @@ server <- function(input, output, session) {
   })
 
   output$place_plot <- renderPlot({
-    rgvaShare  <- edd_datasets |>
-      dplyr::filter(dataset == "RGVA") |>
+    rgvaShare  <- retrieve_dataset("RGVA") |>
       # latest year
       dplyr::filter(dates.date == input$place_date) |>
       # constant prices
