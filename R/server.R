@@ -319,14 +319,23 @@ server <- function(input, output, session) {
   # over these for adding other variables, changing dates, etc.
   user_datasets <- reactive({
     ids <- edd_dict$id[edd_dict$desc %in% input$dataset]
-    out <- edd_datasets |>
-      dplyr::filter(dataset %in% ids)
+    # TEMP DEPRECATED
+    # out <- edd_datasets |>
+    #   dplyr::filter(dataset %in% ids)
 
-    out <- dplyr::collect(out) |>
-      # this removes any columns where all values are NA, but is slow
-      dplyr::select(dplyr::where(function(x) !all(is.na(x))))
+    if (length(input$dataset) > 0) {
+      out <- lapply(ids, function(dataset_id) {
+        retrieve_dataset(dataset_id)
+      }) |>
+        dplyr::bind_rows()
+      return(out)
+    }
 
-    return(out)
+    # out <- dplyr::collect(out) |>
+    #   # this removes any columns where all values are NA, but is slow
+    #   dplyr::select(dplyr::where(function(x) !all(is.na(x))))
+
+    # return(out)
   })
 
   # filtered_datasets() contains the contents of user_datasets()
