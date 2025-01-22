@@ -332,10 +332,11 @@ server <- function(input, output, session) {
     }
   })
 
-  # filtered_datasets() contains the contents of user_datasets()
-  # but is then additionally filtered by the variable choices from
-  # input$dataset, date filters from input$date, and any other
-  # dimension filters from input$[dimension_name]
+  # filtered_datasets() reads from Arrow table user_datasets()
+  # and is then additionally filtered by the variable choices from
+  # input$dataset(s), date filters from input$date, and any other
+  # dimension filters from input$[dimension_name] and only the
+  # data required to visualise is retrieved from remote source
   filtered_datasets <- reactive({
     out <- user_datasets()
 
@@ -370,6 +371,9 @@ server <- function(input, output, session) {
             is.na(.data[[paste0(d, ".name")]])
         )
     }
+
+    out <- dplyr::collect(out)
+
     return(out)
   })
 
