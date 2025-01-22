@@ -51,6 +51,15 @@ jobs:
         with:
           commit_message: Update ONS datasets ${{ env.NOW }}
           # file_pattern: data-raw data
+      
+      - name: 📂 Push data files to EA server
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.EA_FTP_SERVER }}
+          username: ${{ secrets.EA_FTP_USERNAME }}
+          password: ${{ secrets.EA_FTP_PASSWORD }}
+          local-dir: data/parquet/
+          server-dir: public_html/edd-data/
 
       # - if: Commit and publish changes output has committed
       #  Call the deploy workflow

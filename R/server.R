@@ -17,11 +17,9 @@ server <- function(input, output, session) {
     selectizeInput(
       inputId  = "dataset",
       label    = "Select dataset(s)",
-      # only shows datasets for which a parquet file exists in dataFileLocation
+      # only shows datasets for which a download date exists in edd_dict
       choices  = edd_dict$desc[
-        edd_dict$id %in% tools::file_path_sans_ext(
-          list.files(dataFileLocation)
-        )
+        !is.na(edd_dict$last_download)
       ],
       multiple = TRUE,
       options  = list(plugins = list("remove_button"))
@@ -120,6 +118,14 @@ server <- function(input, output, session) {
       !grepl("dataset|dates|value", names(user_datasets()))
     ]
     dims <- stringr::str_remove(dims, "\\..*") |> unique()
+
+    # Generate observers on available_dimensions() for managing plot aesthetics
+    lapply(dims, function(i) {
+      observeEvent(input[[i]], {
+        manage_plot_group(i)
+      })
+    })
+
     return(dims)
   })
 
@@ -173,8 +179,7 @@ server <- function(input, output, session) {
   # Place Analysis ----
 
   output$place_geography <- renderUI({
-    place_rgva <- edd_datasets |>
-      dplyr::filter(dataset == "RGVA") |>
+    place_rgva <- retrieve_dataset("RGVA") |>
       dplyr::distinct(geography.name) |>
       dplyr::collect()
 
@@ -189,8 +194,7 @@ server <- function(input, output, session) {
   })
 
   output$place_date <- renderUI({
-    place_dates <- edd_datasets |>
-      dplyr::filter(dataset == "RGVA") |>
+    place_dates <- retrieve_dataset("RGVA") |>
       dplyr::distinct(dates.date) |>
       dplyr::collect()
 
@@ -214,8 +218,7 @@ server <- function(input, output, session) {
   })
 
   output$place_plot <- renderPlot({
-    rgvaShare  <- edd_datasets |>
-      dplyr::filter(dataset == "RGVA") |>
+    rgvaShare  <- retrieve_dataset("RGVA") |>
       # latest year
       dplyr::filter(dates.date == input$place_date) |>
       # constant prices
@@ -309,14 +312,14 @@ server <- function(input, output, session) {
   # over these for adding other variables, changing dates, etc.
   user_datasets <- reactive({
     ids <- edd_dict$id[edd_dict$desc %in% input$dataset]
-    out <- edd_datasets |>
-      dplyr::filter(dataset %in% ids)
 
-    out <- dplyr::collect(out) |>
-      # this removes any columns where all values are NA, but is slow
-      dplyr::select(dplyr::where(function(x) !all(is.na(x))))
-
-    return(out)
+    if (length(input$dataset) > 0) {
+      out <- lapply(ids, function(dataset_id) {
+        retrieve_dataset(dataset_id)
+      }) |>
+        dplyr::bind_rows()
+      return(out)
+    }
   })
 
   # filtered_datasets() contains the contents of user_datasets()
@@ -418,18 +421,6 @@ server <- function(input, output, session) {
       }
     }
   }
-
-  inputs <- names(edd_datasets)[
-    !grepl("dates|dataset|value", names(edd_datasets))
-  ] |>
-    stringr::str_remove("\\..*")
-
-  # Generate observers on the available_dimensions
-  lapply(inputs, function(i) {
-    observeEvent(input[[i]], {
-      manage_plot_group(i)
-    })
-  })
 
   # Plot Output ----
 
