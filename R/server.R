@@ -338,6 +338,7 @@ server <- function(input, output, session) {
   # dimension filters from input$[dimension_name] and only the
   # data required to visualise is retrieved from remote source
   filtered_datasets <- reactive({
+    req(user_datasets())
     out <- user_datasets()
 
     # filter by variable
