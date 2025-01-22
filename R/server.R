@@ -17,12 +17,8 @@ server <- function(input, output, session) {
     selectizeInput(
       inputId  = "dataset",
       label    = "Select dataset(s)",
-      # DEPRECATED: only shows datasets for which a parquet file exists in dataFileLocation
-      # updated to only show datasets for which a download date exists in edd_dict
+      # only shows datasets for which a download date exists in edd_dict
       choices  = edd_dict$desc[
-        # edd_dict$id %in% tools::file_path_sans_ext(
-        #   list.files(dataFileLocation)
-        # )
         !is.na(edd_dict$last_download)
       ],
       multiple = TRUE,
@@ -316,9 +312,6 @@ server <- function(input, output, session) {
   # over these for adding other variables, changing dates, etc.
   user_datasets <- reactive({
     ids <- edd_dict$id[edd_dict$desc %in% input$dataset]
-    # TEMP DEPRECATED
-    # out <- edd_datasets |>
-    #   dplyr::filter(dataset %in% ids)
 
     if (length(input$dataset) > 0) {
       out <- lapply(ids, function(dataset_id) {
@@ -327,12 +320,6 @@ server <- function(input, output, session) {
         dplyr::bind_rows()
       return(out)
     }
-
-    # out <- dplyr::collect(out) |>
-    #   # this removes any columns where all values are NA, but is slow
-    #   dplyr::select(dplyr::where(function(x) !all(is.na(x))))
-
-    # return(out)
   })
 
   # filtered_datasets() contains the contents of user_datasets()
@@ -434,20 +421,6 @@ server <- function(input, output, session) {
       }
     }
   }
-
-  # DEPRECATED: inputs now sourced from available_dimensions() reactive
-  # inputs <- names(edd_datasets)[
-  #   !grepl("dates|dataset|value", names(edd_datasets))
-  # ] |>
-  #   stringr::str_remove("\\..*")
-
-  # DEPRECATED: generation of observers now in available_dimensions()
-  # # Generate observers on the available_dimensions
-  # lapply(inputs, function(i) {
-  #   observeEvent(input[[i]], {
-  #     manage_plot_group(i)
-  #   })
-  # })
 
   # Plot Output ----
 
