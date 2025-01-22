@@ -189,13 +189,13 @@ server <- function(input, output, session) {
   output$place_geography <- renderUI({
     place_rgva <- retrieve_dataset("RGVA") |>
       dplyr::distinct(geography.name) |>
-      dplyr::collect()
+      dplyr::pull(as_vector = TRUE)
 
     selectizeInput(
       "place_geography",
       "Select geography",
-      choices = place_rgva$geography.name,
-      selected = place_rgva$geography.name[1],
+      choices = place_rgva,
+      selected = place_rgva[1],
       multiple = TRUE,
       options = list(plugins = list("remove_button"))
     )
@@ -204,13 +204,13 @@ server <- function(input, output, session) {
   output$place_date <- renderUI({
     place_dates <- retrieve_dataset("RGVA") |>
       dplyr::distinct(dates.date) |>
-      dplyr::collect()
+      dplyr::pull(as_vector = TRUE)
 
     selectInput(
       "place_date",
       "Select date",
-      choices = place_dates$dates.date,
-      selected = max(place_dates$dates.date)
+      choices = place_dates,
+      selected = max(place_dates)
     )
   })
 
