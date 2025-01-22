@@ -12,6 +12,7 @@ retrieve_dataset <- function(dataset_id) {
       dataFileLocation,
       dataset_id,
       ".parquet"
-    )
+    ),
+    as_data_frame = FALSE
   )
 }
