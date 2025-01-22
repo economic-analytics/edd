@@ -315,17 +315,19 @@ server <- function(input, output, session) {
   # Reactive Objects ----
 
   # user_datasets() contains the datasets selected by the user
-  # in input$dataset. This cannot be filtered by any other
-  # variable, date, etc. as the user will still need control
-  # over these for adding other variables, changing dates, etc.
+  # in input$dataset. These are returned as Arrow tables and
+  # therefore any call to this will need to be followed by a
+  # call to dplyr::collect() to bring data into R
   user_datasets <- reactive({
     ids <- edd_dict$id[edd_dict$desc %in% input$dataset]
 
     if (length(input$dataset) > 0) {
       out <- lapply(ids, function(dataset_id) {
         retrieve_dataset(dataset_id)
-      }) |>
-        dplyr::bind_rows()
+      })
+
+      out <- do.call(arrow::concat_tables, out)
+
       return(out)
     }
   })
