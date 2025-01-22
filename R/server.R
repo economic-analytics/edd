@@ -38,7 +38,9 @@ server <- function(input, output, session) {
       selectizeInput(
         i,
         paste("Select", i),
-        choices = unique(user_datasets()[[paste0(i, ".name")]]),
+        choices = user_datasets() |>
+          dplyr::distinct(dplyr::across(paste0(i, ".name"))) |>
+          dplyr::pull(as_vector = TRUE),
         selected = value,
         multiple = TRUE,
         options = list(plugins = list("remove_button"))
@@ -86,7 +88,10 @@ server <- function(input, output, session) {
 
   output$frequency <- renderUI({
     req(input$dataset)
-    frequencies <- unique(user_datasets()$dates.freq)
+    # frequencies <- unique(user_datasets()$dates.freq)
+    frequencies <- user_datasets() |>
+      dplyr::distinct(dates.freq) |>
+      dplyr::pull(as_vector = TRUE)
     value <- isolate(input$frequency)
     checkboxGroupInput(
       inputId  = "frequency",
@@ -99,7 +104,10 @@ server <- function(input, output, session) {
 
   output$dates <- renderUI({
     req(input$dataset)
-    dates1 <- unique(user_datasets()$dates.date)
+    # dates1 <- unique(user_datasets()$dates.date)
+    dates1 <- user_datasets() |>
+      dplyr::distinct(dates.date) |>
+      dplyr::pull(as_vector = TRUE)
     min <- min(dates1)
     max <- max(dates1)
     sliderInput(
@@ -181,13 +189,13 @@ server <- function(input, output, session) {
   output$place_geography <- renderUI({
     place_rgva <- retrieve_dataset("RGVA") |>
       dplyr::distinct(geography.name) |>
-      dplyr::collect()
+      dplyr::pull(as_vector = TRUE)
 
     selectizeInput(
       "place_geography",
       "Select geography",
-      choices = place_rgva$geography.name,
-      selected = place_rgva$geography.name[1],
+      choices = place_rgva,
+      selected = place_rgva[1],
       multiple = TRUE,
       options = list(plugins = list("remove_button"))
     )
@@ -196,13 +204,13 @@ server <- function(input, output, session) {
   output$place_date <- renderUI({
     place_dates <- retrieve_dataset("RGVA") |>
       dplyr::distinct(dates.date) |>
-      dplyr::collect()
+      dplyr::pull(as_vector = TRUE)
 
     selectInput(
       "place_date",
       "Select date",
-      choices = place_dates$dates.date,
-      selected = max(place_dates$dates.date)
+      choices = place_dates,
+      selected = max(place_dates)
     )
   })
 
@@ -307,26 +315,30 @@ server <- function(input, output, session) {
   # Reactive Objects ----
 
   # user_datasets() contains the datasets selected by the user
-  # in input$dataset. This cannot be filtered by any other
-  # variable, date, etc. as the user will still need control
-  # over these for adding other variables, changing dates, etc.
+  # in input$dataset. These are returned as Arrow tables and
+  # therefore any call to this will need to be followed by a
+  # call to dplyr::collect() to bring data into R
   user_datasets <- reactive({
     ids <- edd_dict$id[edd_dict$desc %in% input$dataset]
 
     if (length(input$dataset) > 0) {
       out <- lapply(ids, function(dataset_id) {
         retrieve_dataset(dataset_id)
-      }) |>
-        dplyr::bind_rows()
+      })
+
+      out <- do.call(arrow::concat_tables, out)
+
       return(out)
     }
   })
 
-  # filtered_datasets() contains the contents of user_datasets()
-  # but is then additionally filtered by the variable choices from
-  # input$dataset, date filters from input$date, and any other
-  # dimension filters from input$[dimension_name]
+  # filtered_datasets() reads from Arrow table user_datasets()
+  # and is then additionally filtered by the variable choices from
+  # input$dataset(s), date filters from input$date, and any other
+  # dimension filters from input$[dimension_name] and only the
+  # data required to visualise is retrieved from remote source
   filtered_datasets <- reactive({
+    req(user_datasets())
     out <- user_datasets()
 
     # filter by variable
@@ -360,6 +372,9 @@ server <- function(input, output, session) {
             is.na(.data[[paste0(d, ".name")]])
         )
     }
+
+    out <- dplyr::collect(out)
+
     return(out)
   })
 

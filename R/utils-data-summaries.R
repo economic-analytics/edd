@@ -4,10 +4,14 @@ show_all_variables <- function() {
   all_variables <- lapply(
     all_dataset_ids,
     function(dataset_id) {
-      retrieve_dataset(dataset_id) |>
-        dplyr::distinct(dataset, variable.name)
-    }) |>
-    dplyr::bind_rows()
+      retrieve_dataset(dataset_id)
+    }
+  )
 
-  return(all_variables)
+  out <- do.call(arrow::concat_tables, all_variables)
+  out <- out |>
+    dplyr::distinct(dataset, variable.name)
+  out <- dplyr::collect(out)
+
+  return(out)
 }

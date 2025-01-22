@@ -109,6 +109,7 @@ ui <- function(request) {
       h3("2025-01-22 v0.0.0.9027"),
       p("Reworking of data files to read all data from separate remote source"),
       p("This shrinks the core package size and separates front and back end"),
+      p("Structure now fully reads from Arrow tables, importing only the data required"),
       h3("2024-03-20 v0.0.0.9026"),
       p("Add first version of place explorer tool"),
       p("Provides GVA(B) share and LQ analysis by ITL1/2/3"),
