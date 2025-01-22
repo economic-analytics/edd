@@ -38,7 +38,9 @@ server <- function(input, output, session) {
       selectizeInput(
         i,
         paste("Select", i),
-        choices = unique(user_datasets()[[paste0(i, ".name")]]),
+        choices = user_datasets() |>
+          dplyr::distinct(dplyr::across(paste0(i, ".name"))) |>
+          dplyr::pull(as_vector = TRUE),
         selected = value,
         multiple = TRUE,
         options = list(plugins = list("remove_button"))
@@ -86,7 +88,10 @@ server <- function(input, output, session) {
 
   output$frequency <- renderUI({
     req(input$dataset)
-    frequencies <- unique(user_datasets()$dates.freq)
+    # frequencies <- unique(user_datasets()$dates.freq)
+    frequencies <- user_datasets() |>
+      dplyr::distinct(dates.freq) |>
+      dplyr::pull(as_vector = TRUE)
     value <- isolate(input$frequency)
     checkboxGroupInput(
       inputId  = "frequency",
@@ -99,7 +104,10 @@ server <- function(input, output, session) {
 
   output$dates <- renderUI({
     req(input$dataset)
-    dates1 <- unique(user_datasets()$dates.date)
+    # dates1 <- unique(user_datasets()$dates.date)
+    dates1 <- user_datasets() |>
+      dplyr::distinct(dates.date) |>
+      dplyr::pull(as_vector = TRUE)
     min <- min(dates1)
     max <- max(dates1)
     sliderInput(
