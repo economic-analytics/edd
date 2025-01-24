@@ -486,4 +486,69 @@ server <- function(input, output, session) {
   output$datatable <- DT::renderDT({
     ggplot_data()
   })
+
+  # Dashboard ----
+  output$dashboardUI <- renderUI({
+    latest_indictors <- lapply("ECY2", function(x) {
+      tempdata <- retrieve_dataset("MGDP") |>
+        dplyr::filter(variable.code == x) |>
+        # NB only filtering on variable name
+        dplyr::collect()
+
+      temp_value <- tempdata$value[tempdata$dates.date == max(tempdata$dates.date)]
+
+      bslib::value_box(
+        id = paste0("vb", x),
+        style = 'background-color: #1BACAF!important;',
+        title = "Monthly GDP",
+        value = temp_value,
+        showcase = build_mini_plots(x),
+        full_screen = TRUE,
+        em(unique(tempdata$variable.name), style = "font-size:0.8em"),
+        p(
+          paste(
+            "Latest data is for",
+            max(tempdata$dates.date)
+          )
+        )
+      )
+    })
+
+    bslib::layout_column_wrap(
+      width = 1 / 4,
+      !!!latest_indictors
+    )
+  })
+
+  build_mini_plots <- function(x) {
+    sparkline <- plotly::plot_ly(
+      retrieve_dataset("MGDP") |>
+        dplyr::filter(variable.code == x) |>
+        dplyr::collect()
+    ) |>
+      plotly::add_lines(
+        x = ~dates.date, y = ~value,
+        color = I("#FFFFFF"), span = I(1)
+      ) |>
+      plotly::layout(
+        xaxis = list(visible = F, showgrid = F, title = ""),
+        yaxis = list(visible = F, showgrid = F, title = ""),
+        hovermode = "x",
+        margin = list(t = 0, r = 0, l = 0, b = 0),
+        font = list(color = "white"),
+        paper_bgcolor = "transparent",
+        plot_bgcolor = "transparent"
+      ) |>
+      plotly::config(displayModeBar = F) |>
+      htmlwidgets::onRender(
+        "function(el) {
+          var ro = new ResizeObserver(function() {
+            var visible = el.offsetHeight > 200;
+            Plotly.relayout(el, {'xaxis.visible': visible});
+          });
+        ro.observe(el);
+        }"
+      )
+    return(sparkline)
+  }
 }

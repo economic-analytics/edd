@@ -97,6 +97,12 @@ ui <- function(request) {
     ),
 
     tabPanel(
+      id = "dashboard",
+      title = "Dashboard",
+      uiOutput("dashboardUI")
+    ),
+
+    tabPanel(
       id = "data_catalogue",
       title = "Data catalogue",
       DT::DTOutput("data_catalogue")
