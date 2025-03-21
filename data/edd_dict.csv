@@ -52,3 +52,4 @@ dataset,ONSx,CONS,Output in the Construction Industry,NA,NA,ons_process_construc
 dataset,ONSx,INS1,Monthly Insolvencies by Type,NA,NA,NA,2024-10-18,2024-11-19,2024-11-28,FALSE,FALSE,NA
 dataset,ONSx,INS2,Monthly Insolvencies by Industry,NA,NA,NA,2024-04-26,2024-05-17,2024-04-29,FALSE,FALSE,NA
 dataset,BOE,BOE,Bank of England,NA,NA,update_boe_datasets,2025-03-20,2025-03-21,2025-03-21,TRUE,TRUE,NA
+dataset,BOE,OIS,Overnight Interest Rate Swap Curves,NA,NA,NA,2025-03-21,2025-03-24,2025-03-21,TRUE,TRUE,NA
