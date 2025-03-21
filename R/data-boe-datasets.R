@@ -34,5 +34,24 @@ update_boe_datasets <- function() {
     ) |>
     dplyr::mutate(value = as.numeric(value))
 
+  update_edd_dict(
+    "BOE",
+    "last_update",
+    max(boe$dates.date, na.rm = TRUE)
+  )
+
+  update_edd_dict(
+    "BOE",
+    "next_update",
+    # TODO needs to set next_update to next working day
+    max(boe$dates.date, na.rm = TRUE) + 1
+  )
+
+  update_edd_dict(
+    "BOE",
+    "last_download",
+    Sys.Date()
+  )
+
   arrow::write_parquet(boe, "data/parquet/BOE.parquet")
 }
