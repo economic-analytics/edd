@@ -1,6 +1,6 @@
 ui <- function(request) {
   navbarPage(
-    title = "EDD v0.0.0.9027 ALPHA",
+    title = "EDD v0.0.0.9028 ALPHA",
     id = "navbar",
     windowTitle = "EDD: Economic Data Dashboard",
 
@@ -106,6 +106,8 @@ ui <- function(request) {
       id = "changelog",
       title = "Change log",
       h2("Change log"),
+      h3("2025-03-21 v0.0.0.9028"),
+      p("Add Bank of England selected data to tool"),
       h3("2025-01-22 v0.0.0.9027"),
       p("Reworking of data files to read all data from separate remote source"),
       p("This shrinks the core package size and separates front and back end"),

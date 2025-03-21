@@ -1,6 +1,6 @@
 Package: edd
 Title: EDD - Economic Data Dashboard
-Version: 0.0.0.9027
+Version: 0.0.0.9028
 Authors@R: 
     person(given = "Christian",
            family = "Spence",
