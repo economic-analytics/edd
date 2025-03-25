@@ -1,6 +1,6 @@
 Package: edd
 Title: EDD - Economic Data Dashboard
-Version: 0.0.0.9028
+Version: 0.0.0.9029
 Authors@R: 
     person(given = "Christian",
            family = "Spence",
@@ -21,6 +21,7 @@ Imports:
     leaflet (>= 2.1),
     lubridate,
     magrittr,
+    markdown,
     pkgload,
     readr,
     readxl,
