@@ -22,5 +22,6 @@ cat(" [OK]\n")
 rsconnect::deployApp(
   appDir = appDir,
   appName = 'edd-app',
-  account = accountName
+  account = accountName,
+  forceUpdate = TRUE
 )
