@@ -92,12 +92,14 @@ server <- function(input, output, session) {
     frequencies <- user_datasets() |>
       dplyr::distinct(dates.freq) |>
       dplyr::pull(as_vector = TRUE)
+
+    freq <- all_frequencies[all_frequencies %in% frequencies]
     value <- isolate(input$frequency)
     checkboxGroupInput(
       inputId  = "frequency",
       label    = "Which frequencies?",
-      choices  = frequencies,
-      selected = c(value, frequencies[1]),
+      choices  = freq,
+      selected = c(value, min(freq)),
       inline   = TRUE
     )
   })
@@ -311,6 +313,18 @@ server <- function(input, output, session) {
   output$data_catalogue <- DT::renderDT({
     show_all_variables()
   })
+
+  all_frequencies <- factor(
+    c(
+      "Daily" = "d",
+      "Weekly" = "w",
+      "Monthly" = "m",
+      "Quarterly" = "q",
+      "Annually" = "a"
+    ),
+    levels = c("d", "w", "m", "q", "a"),
+    ordered = TRUE
+  )
 
   # Reactive Objects ----
 
