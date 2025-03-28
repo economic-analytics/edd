@@ -1,0 +1,30 @@
+name: Push data files
+
+'on':
+  push:
+    branches:
+      - main
+    paths:
+      - data/parquet
+  workflow_dispatch:
+
+jobs:
+  push-data-files:
+    name: Push parquet files to EA server
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    outputs:
+      changes: ${{ steps.updated.outputs.changes }}
+    steps:
+      - name: Check-out repo
+        uses: actions/checkout@v4
+
+      - name: 📂 Push data files to EA server
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.EA_FTP_SERVER }}
+          username: ${{ secrets.EA_FTP_USERNAME }}
+          password: ${{ secrets.EA_FTP_PASSWORD }}
+          local-dir: data/parquet/
+          server-dir: public_html/edd-data/
