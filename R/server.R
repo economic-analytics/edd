@@ -99,7 +99,7 @@ server <- function(input, output, session) {
       inputId  = "frequency",
       label    = "Which frequencies?",
       choices  = freq,
-      selected = c(value, min(freq)),
+      selected = c(min(freq), value),
       inline   = TRUE
     )
   })
