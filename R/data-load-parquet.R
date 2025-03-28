@@ -1,4 +1,4 @@
-# dataFileLocation <- "data/parquet"
+# dataFileLocation <- "data/parquet/"
 dataFileLocation <- "https://economic-analytics.co.uk/edd-data/"
 
 # edd_datasets <- arrow::open_dataset(dataFileLocation, unify_schemas = TRUE)
