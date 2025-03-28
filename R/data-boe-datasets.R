@@ -43,8 +43,8 @@ update_boe_datasets <- function() {
   update_edd_dict(
     "BOE",
     "next_update",
-    # TODO needs to set next_update to next working day
-    max(boe$dates.date, na.rm = TRUE) + 1
+    # TODO needs to set next_update to next working day from today
+    Sys.Date() + 1
   )
 
   update_edd_dict(

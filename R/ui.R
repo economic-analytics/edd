@@ -1,22 +1,24 @@
 ui <- function(request) {
-  navbarPage(
-    title = "EDD v0.0.0.9029 ALPHA",
+  bslib::page_navbar(
+    title = "EDD v0.0.0.9030 ALPHA",
     id = "navbar",
-    windowTitle = "EDD: Economic Data Dashboard",
+    window_title = "EDD: Economic Data Dashboard",
 
-    tabPanel(
+    bslib::nav_panel(
       id = "datatool",
       title = "Interactive data tool",
 
       # Application title
-      titlePanel("EDD: Economic Data Dashboard"),
+      shiny::titlePanel("EDD: Economic Data Dashboard"),
 
       # Sidebar UI
-      sidebarLayout(
-        sidebarPanel(
-          tabsetPanel(
+      bslib::page_sidebar(
+        sidebar = bslib::sidebar(
+          width = "25%",
+          open = "always",
+          bslib::navset_tab(
             id = "datatool_sidebar_tabs",
-            tabPanel(
+            bslib::nav_panel(
               title = "Select by dataset",
               uiOutput("dataset"),
               # uiOutput("variable_filter"),
@@ -31,49 +33,39 @@ ui <- function(request) {
         ),
 
         # Main panel UI
-        mainPanel(
-          tabsetPanel(
-            id = "datatool_mainpanel_tabs",
-            tabPanel(
-              title = "Chart",
-              sidebarLayout(
-                sidebarPanel(
-                  p(strong("Chart options")),
-                  tabsetPanel(
-                    tabPanel("Plot aesthetics",
-                             uiOutput("plot_aes"),
-                             uiOutput("y_axis_zero"),
-                             uiOutput("add_smoothing")
-                    )
-                  )
-                ),
-                mainPanel(
-                  plotOutput("dataplot"),
-                  downloadButton("download_plot",
-                                 label = "Download as PNG")
-                ),
-                position = "right"
-              )
-              # uiOutput("plot_group"),
-
-
-              # uiOutput("summarise"),
-
-            ),
-
-            tabPanel(
-              title = "Table",
-              DT::DTOutput("datatable"),
-              downloadButton("download_data",
-                             label = "Download as CSV")
+        bslib::navset_tab(
+          id = "datatool_mainpanel_tabs",
+          bslib::nav_panel(
+            title = "Chart",
+            bslib::layout_sidebar(
+              sidebar = bslib::sidebar(
+                position = "right",
+                title = "Chart options",
+                uiOutput("plot_aes"),
+                uiOutput("y_axis_zero"),
+                uiOutput("add_smoothing"),
+                shiny::downloadButton(
+                  outputId = "download_plot",
+                  label = "Download as PNG"
+                )
+              ),
+              shiny::plotOutput("dataplot")
             )
-            # ,
-            #
-            # tabPanel(title = "Map",
-            #          uiOutput("map_output"),
-            #          uiOutput("map_date_select"),
-            #          leaflet::leafletOutput("leafletmap")
-            # )
+          ),
+
+          bslib::nav_panel(
+            title = "Table",
+            bslib::layout_sidebar(
+              sidebar = bslib::sidebar(
+                position = "right",
+                title = "Table options",
+                shiny::downloadButton(
+                  outputId = "download_data",
+                  label = "Download as CSV"
+                )
+              ),
+              DT::DTOutput("datatable")
+            )
           )
         )
       )

@@ -1,6 +1,6 @@
 Package: edd
 Title: EDD - Economic Data Dashboard
-Version: 0.0.0.9029
+Version: 0.0.0.9030
 Authors@R: 
     person(given = "Christian",
            family = "Spence",
@@ -15,6 +15,7 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
 Imports: 
     arrow,
+    bslib,
     dplyr,
     DT,
     ggplot2,
