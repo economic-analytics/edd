@@ -74,7 +74,7 @@ update_boe_yield_curves <- function() {
   update_edd_dict_dates(
     "OIS",
     as.Date(max(ois$variable.code)),
-    as.Date(max(ois$variable.code)) + 1
+    Sys.Date() + 1
   )
 
   arrow::write_parquet(ois, "data/parquet/OIS.parquet")
