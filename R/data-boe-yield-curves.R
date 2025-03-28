@@ -58,7 +58,7 @@ update_boe_yield_curves <- function() {
         months = as.Date(lubridate::`%m+%`(variable.name, months(months))),
         dates.freq = "d",
         dataset = "OIS",
-        variable.code = months,
+        variable.code = as.character(variable.name),
         variable.name = paste("Curve on", format(variable.name, "%d %B %Y"))
       ) |>
       dplyr::filter(!is.na(value)) |>
