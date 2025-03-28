@@ -1,5 +1,12 @@
 ## Change log
 
+### 2025-03-28 v0.0.0.9030
+- Fix some issues with BOE and OIS data not updating
+- Adds {bslib} theming to interactive data tool page
+- Improve frequency selection
+  - most frequent now automatically selected
+  - Full text labels rather an abbreviations
+
 ### 2025-03-25 v0.0.0.9029
 - Moves contents of change log and about to `markdown/*.md`
 - Adds {markdown} to Imports

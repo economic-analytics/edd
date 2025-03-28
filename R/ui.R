@@ -1,6 +1,6 @@
 ui <- function(request) {
   bslib::page_navbar(
-    title = "EDD v0.0.0.9029 ALPHA",
+    title = "EDD v0.0.0.9030 ALPHA",
     id = "navbar",
     window_title = "EDD: Economic Data Dashboard",
 
