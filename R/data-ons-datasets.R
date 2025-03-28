@@ -39,6 +39,9 @@ ons_update_datasets <- function(
 
     message("Writing ", dataset_id)
     ons_write_dataset(processed, dataset_id)
+
+    # manage rate-limiting
+    Sys.sleep(5)
   }
 
   # # ONS POST PROCESSING - STILL TESTING
