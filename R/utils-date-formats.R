@@ -156,6 +156,9 @@ date_text_to_df <- function(dates) {
     if (grepl("^[0-9]{4}$", d)) {
       date <- readr::parse_date(d, format = "%Y")
       freq <- "a"
+    } else if (grepl("^[0-9]{4}[-\\/][0-9]{2}$", d)) {
+      date <- as.Date(paste0(substr(d, 1, 4), "-04-01"))
+      freq <- "fy"
     } else if (grepl("Q", d)) { # if the date contains a "Q", i.e. quarterly
       date <- lubridate::yq(d)
       freq <- "q"
