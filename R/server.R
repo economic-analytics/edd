@@ -188,8 +188,12 @@ server <- function(input, output, session) {
 
   # Place Analysis ----
 
+  rgva_connection <- reactive({
+    retrieve_dataset("RGVA")
+  })
+
   output$place_geography <- renderUI({
-    place_rgva <- retrieve_dataset("RGVA") |>
+    place_rgva <- rgva_connection() |>
       dplyr::distinct(geography.name) |>
       dplyr::pull(as_vector = TRUE)
 
@@ -204,7 +208,7 @@ server <- function(input, output, session) {
   })
 
   output$place_date <- renderUI({
-    place_dates <- retrieve_dataset("RGVA") |>
+    place_dates <- rgva_connection() |>
       dplyr::distinct(dates.date) |>
       dplyr::pull(as_vector = TRUE)
 
@@ -228,9 +232,12 @@ server <- function(input, output, session) {
   })
 
   output$place_plot <- renderPlot({
-    rgvaShare  <- retrieve_dataset("RGVA") |>
+    req(input$place_date, input$place_geography)
+    rgvaShare  <- rgva_connection() |>
       # latest year
       dplyr::filter(dates.date == input$place_date) |>
+      # UK is manually included here calculation of LQ
+      dplyr::filter(geography.name %in% c(input$place_geography, "United Kingdom")) |>
       # constant prices
       dplyr::filter(variable.code == "constant") |>
       # calculate industry share as share of total for the same geog
@@ -241,7 +248,6 @@ server <- function(input, output, session) {
     if (input$place_analysis_type == "GVA share") {
       # industry share by GVA
       rgvaShare |>
-        dplyr::filter(geography.name %in% input$place_geography) |>
         # filter for SIC2007 sections (single letter code)
         dplyr::filter(grepl("^[A-Z]{1} ", industry.code)) |>
         ggplot2::ggplot(ggplot2::aes(
@@ -274,8 +280,6 @@ server <- function(input, output, session) {
     } else if (input$place_analysis_type == "GVA LQ") {
       # location quotient by GVA
       rgvaShare |>
-        # select geographies to display/compare
-        dplyr::filter(geography.name %in% input$place_geography) |>
         # filter for SIC2007 sections (single letter code)
         dplyr::filter(grepl("^[A-Z]{1} ", industry.code)) |>
         dplyr::inner_join(
