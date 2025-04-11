@@ -48,6 +48,38 @@ server <- function(input, output, session) {
     })
   })
 
+  output$common_variables <- renderUI({
+    req(input$dataset)
+    v <- variables[[edd_dict$id[edd_dict$desc %in% input$dataset]]]
+    if (!is.null(v)) {
+      radioButtons(
+        "com_vars",
+        "Common variables",
+        choices = c(
+          "Select your own",
+          names(v)
+        ),
+        inline = TRUE
+      )
+    }
+  })
+
+  observeEvent(input$com_vars, {
+    ids <- variables[[edd_dict$id[edd_dict$desc %in% input$dataset]]][[input$com_vars]]
+
+    var_names <- dplyr::filter(
+      user_datasets(),
+      variable.code %in% ids
+    ) |>
+      dplyr::distinct(variable.name) |>
+      dplyr::pull(as_vector = TRUE)
+
+    updateSelectInput(
+      inputId = "variable",
+      selected = var_names
+    )
+  })
+
   output$transformations <- renderUI({
     req(input$dates)
     selectInput(
@@ -462,18 +494,42 @@ server <- function(input, output, session) {
     if (nrow(ggplot_data()) < 10000 && nrow(ggplot_data()) > 0) {
       ggplot2::ggplot(
         ggplot_data(),
-        ggplot2::aes_string(
-          x        = "dates.date",
-          y        = "value",
-          colour   = {if (input$Colour == "") NULL else paste0(input$Colour, ".name")},
-          linetype = {if (input$Linetype == "") NULL else paste0(input$Linetype, ".name")},
-          shape    = {if (input$Shape == "") NULL else paste0(input$Shape, ".name")}
+        ggplot2::aes(
+          x = .data[["dates.date"]],
+          y = .data[["value"]],
+          colour = {
+            if (input$Colour != "") {
+              .data[[paste0(input$Colour, ".name")]]
+            }
+          },
+          linetype = {
+            if (input$Linetype != "") {
+              .data[[paste0(input$Linetype, ".name")]]
+            }
+          },
+          shape = {
+            if (input$Shape != "") {
+              .data[[paste0(input$Shape, ".name")]]
+            }
+          }
         )
       ) +
-        ggplot2::geom_line(size = 1) +
-        {if (input$Shape != "") ggplot2::geom_point(size = 3)} +
-        {if (input$Facet != "") ggplot2::facet_wrap(paste0(input$Facet, ".name"), labeller = ggplot2::label_wrap_gen())} +
-        {if (input$add_smoothing) ggplot2::geom_smooth()} +
+        ggplot2::geom_line(size = 1) + {
+        if (input$Shape != "") {
+          ggplot2::geom_point(size = 3)
+        }
+      } + {
+        if (input$Facet != "") {
+          ggplot2::facet_wrap(
+            paste0(input$Facet, ".name"),
+            labeller = ggplot2::label_wrap_gen()
+          )
+        }
+      } + {
+        if (input$add_smoothing) {
+          ggplot2::geom_smooth()
+        }
+      } +
         ggplot2::labs(
           x        = NULL,
           y        = plot_ylab(ggplot_data(), input),
@@ -492,11 +548,28 @@ server <- function(input, output, session) {
           axis.line.y.right  = NULL,
           axis.line          = ggplot2::element_line(),
           text               = ggplot2::element_text(size = 16)
-        ) +
-        {if (input$Colour == "") NULL else ggplot2::guides(colour = ggplot2::guide_legend(nrow = 2))} +
-        {if (input$Linetype == "") NULL else ggplot2::guides(linetype = ggplot2::guide_legend(nrow = 2))} +
-        {if (input$Shape == "") NULL else ggplot2::guides(shape = ggplot2::guide_legend(nrow = 2))} +
-        {if (input$y_axis_zero) ggplot2::scale_y_continuous(labels = scales::label_comma(), limits = c(min(0, min(ggplot_data()$value)), NA)) else ggplot2::scale_y_continuous(labels = scales::label_comma())}
+        ) + {
+        if (input$Colour != "") {
+          ggplot2::guides(colour = ggplot2::guide_legend(nrow = 2))
+        }
+      } + {
+        if (input$Linetype != "") {
+          ggplot2::guides(linetype = ggplot2::guide_legend(nrow = 2))
+        }
+      } + {
+        if (input$Shape != "") {
+          ggplot2::guides(shape = ggplot2::guide_legend(nrow = 2))
+        }
+      } + {
+        if (input$y_axis_zero) {
+          ggplot2::scale_y_continuous(
+            labels = scales::label_comma(),
+            limits = c(min(0, min(ggplot_data()$value)), NA)
+          )
+        } else {
+          ggplot2::scale_y_continuous(labels = scales::label_comma())
+        }
+      }
     }
   })
 
