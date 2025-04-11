@@ -1,5 +1,8 @@
 ## Change log
 
+### 2025-04-11 v0.0.0.9031
+- Adds functionality to have pre-selected "common" variables for different datasets to auto select popular data
+
 ### 2025-03-28 v0.0.0.9030
 - Fix some issues with BOE and OIS data not updating
 - Adds {bslib} theming to interactive data tool page
