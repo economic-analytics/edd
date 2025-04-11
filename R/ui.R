@@ -23,6 +23,7 @@ ui <- function(request) {
               uiOutput("dataset"),
               # uiOutput("variable_filter"),
               # uiOutput("variable"),
+              uiOutput("common_variables"),
               uiOutput("dimensions"),
               uiOutput("dates"),
               uiOutput("frequency"),
