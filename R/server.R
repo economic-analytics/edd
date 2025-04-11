@@ -38,14 +38,24 @@ server <- function(input, output, session) {
       selectizeInput(
         i,
         paste("Select", i),
-        choices = user_datasets() |>
-          dplyr::distinct(dplyr::across(paste0(i, ".name"))) |>
-          dplyr::pull(as_vector = TRUE),
+        choices = NULL,
         selected = value,
         multiple = TRUE,
         options = list(plugins = list("remove_button"))
       )
     })
+  })
+
+  observeEvent(input$dataset, {
+    c <- user_datasets() |>
+      dplyr::distinct(variable.name) |>
+      dplyr::pull(as_vector = TRUE)
+    updateSelectizeInput(
+      inputId = "variable",
+      choices = c,
+      server = TRUE,
+      options = list(maxOptions = length(c))
+    )
   })
 
   output$common_variables <- renderUI({
@@ -74,7 +84,7 @@ server <- function(input, output, session) {
       dplyr::distinct(variable.name) |>
       dplyr::pull(as_vector = TRUE)
 
-    updateSelectInput(
+    updateSelectizeInput(
       inputId = "variable",
       selected = var_names
     )
