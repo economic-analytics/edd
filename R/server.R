@@ -154,12 +154,13 @@ server <- function(input, output, session) {
       dplyr::pull(as_vector = TRUE)
     min <- min(dates1)
     max <- max(dates1)
+    base_date <- as.Date("2019-01-01")
     sliderInput(
       "dates",
       label = "Select time period",
       min = min,
       max = max,
-      value = c(min, max)
+      value = c(if (base_date %in% dates1) base_date else min, max)
     )
   })
 
