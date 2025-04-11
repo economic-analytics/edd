@@ -38,14 +38,24 @@ server <- function(input, output, session) {
       selectizeInput(
         i,
         paste("Select", i),
-        choices = user_datasets() |>
-          dplyr::distinct(dplyr::across(paste0(i, ".name"))) |>
-          dplyr::pull(as_vector = TRUE),
+        choices = NULL,
         selected = value,
         multiple = TRUE,
         options = list(plugins = list("remove_button"))
       )
     })
+  })
+
+  observeEvent(input$dataset, {
+    c <- user_datasets() |>
+      dplyr::distinct(variable.name) |>
+      dplyr::pull(as_vector = TRUE)
+    updateSelectizeInput(
+      inputId = "variable",
+      choices = c,
+      server = TRUE,
+      options = list(maxOptions = length(c))
+    )
   })
 
   output$common_variables <- renderUI({
@@ -74,7 +84,7 @@ server <- function(input, output, session) {
       dplyr::distinct(variable.name) |>
       dplyr::pull(as_vector = TRUE)
 
-    updateSelectInput(
+    updateSelectizeInput(
       inputId = "variable",
       selected = var_names
     )
@@ -144,12 +154,13 @@ server <- function(input, output, session) {
       dplyr::pull(as_vector = TRUE)
     min <- min(dates1)
     max <- max(dates1)
+    base_date <- as.Date("2019-01-01")
     sliderInput(
       "dates",
       label = "Select time period",
       min = min,
       max = max,
-      value = c(min, max)
+      value = c(if (base_date %in% dates1) base_date else min, max)
     )
   })
 
