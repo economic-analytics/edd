@@ -1,5 +1,5 @@
 # dataFileLocation <- "data/parquet/"
-dataFileLocation <- "https://economic-analytics.co.uk/edd-data/"
+dataFileLocation <- "https://data.economic-analytics.co.uk/edd/"
 
 # edd_datasets <- arrow::open_dataset(dataFileLocation, unify_schemas = TRUE)
 # the reading of parquet files will now take place in server.R based on the contents
