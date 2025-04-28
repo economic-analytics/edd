@@ -48,7 +48,7 @@ NA,TEST,TEST,TEST,NA,NA,NA,NA,NA,NA,NA,NA,NA
 NA,NOMIS,CC,Claimant Count,NA,NA,NA,NA,NA,NA,NA,NA,NA
 NA,ONSx,RGDHI_LAD,Regional Gross Disposable Household Income,https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/datasets/regionalgrossdisposablehouseholdincomelocalauthoritiesbyitl1region,NA,NA,2023-09-14,NA,NA,NA,NA,NA
 NA,ONSx,RFDI,Regional Foreign Direct Investment,NA,NA,NA,NA,NA,NA,NA,NA,NA
-dataset,ONSx,CONS,Output in the Construction Industry,NA,NA,ons_process_construction,2025-03-14,2025-04-11,2025-03-14,TRUE,TRUE,NA
+dataset,ONSx,CONS,Output in the Construction Industry,NA,NA,ons_process_construction,2025-04-11,2025-05-15,2025-04-28,TRUE,TRUE,NA
 dataset,ONSx,INS1,Monthly Insolvencies by Type,NA,NA,NA,2024-10-18,2024-11-19,2024-11-28,FALSE,FALSE,NA
 dataset,ONSx,INS2,Monthly Insolvencies by Industry,NA,NA,NA,2024-04-26,2024-05-17,2024-04-29,FALSE,FALSE,NA
 dataset,BOE,BOE,Bank of England,NA,NA,update_boe_datasets,2025-04-24,2025-04-29,2025-04-28,TRUE,TRUE,NA
