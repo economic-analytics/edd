@@ -1,5 +1,22 @@
 load_edd_dict <- function() {
-  edd_dict <<- readr::read_csv("data/edd_dict.csv")
+  edd_dict <<- readr::read_csv(
+    "https://data.economic-analytics.co.uk/edd/edd_dict.csv",
+    col_types = readr::cols(
+      type = readr::col_character(),
+      provider = readr::col_character(),
+      id = readr::col_character(),
+      desc = readr::col_character(),
+      page_url = readr::col_character(),
+      url = readr::col_character(),
+      func = readr::col_character(),
+      last_update = readr::col_date(format = ""),
+      next_update = readr::col_date(format = ""),
+      last_download = readr::col_date(format = ""),
+      status = readr::col_logical(),
+      obj_available = readr::col_logical(),
+      notes = readr::col_character()
+    )
+  )
 }
 
 update_edd_dict <- function(dataset_id, column, data) {
