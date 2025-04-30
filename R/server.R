@@ -27,18 +27,23 @@ server <- function(input, output, session) {
   })
 
   output$dimensions <- renderUI({
-    dims_available <- names(user_datasets())[
-      !grepl("dataset|dates|value", names(user_datasets()))
-    ]
-    dims_available <- stringr::str_remove(dims_available, "\\..*") |>
-      unique()
+    # dims_available <- names(user_datasets())[
+    #   !grepl("dataset|dates|value", names(user_datasets()))
+    # ]
+    # dims_available <- stringr::str_remove(dims_available, "\\..*") |>
+    #   unique()
+
+    dims_available <- available_dimensions()
 
     lapply(dims_available, function(i) {
       value <- isolate(input[[i]])
       selectizeInput(
         i,
         paste("Select", i),
-        choices = NULL,
+        # choices = NULL,
+        choices = user_datasets() |>
+          dplyr::distinct(dplyr::across(paste0(i, ".name"))) |>
+          dplyr::pull(as_vector = TRUE),
         selected = value,
         multiple = TRUE,
         options = list(plugins = list("remove_button"))
@@ -46,17 +51,20 @@ server <- function(input, output, session) {
     })
   })
 
-  observeEvent(input$dataset, {
-    c <- user_datasets() |>
-      dplyr::distinct(variable.name) |>
-      dplyr::pull(as_vector = TRUE)
-    updateSelectizeInput(
-      inputId = "variable",
-      choices = c,
-      server = TRUE,
-      options = list(maxOptions = length(c))
-    )
-  })
+  # TODO handles server-side population of dimension selectInputs
+  # currently hard-coded for variable name. Needs work to reactively
+  # handle a dynamic number of selectInputs
+  # observeEvent(input$dataset, {
+  #   c <- user_datasets() |>
+  #     dplyr::distinct(variable.name) |>
+  #     dplyr::pull(as_vector = TRUE)
+  #   updateSelectizeInput(
+  #     inputId = "variable",
+  #     choices = c,
+  #     server = TRUE,
+  #     options = list(maxOptions = length(c))
+  #   )
+  # })
 
   output$common_variables <- renderUI({
     req(input$dataset)
@@ -154,13 +162,14 @@ server <- function(input, output, session) {
       dplyr::pull(as_vector = TRUE)
     min <- min(dates1)
     max <- max(dates1)
-    base_date <- as.Date("2019-01-01")
+    # base_date <- as.Date("2019-01-01")
     sliderInput(
       "dates",
       label = "Select time period",
       min = min,
       max = max,
-      value = c(if (base_date %in% dates1) base_date else min, max)
+      value = c(min, max)
+      # value = c(if (base_date %in% dates1) base_date else min, max)
     )
   })
 
