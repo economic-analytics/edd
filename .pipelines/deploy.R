@@ -43,6 +43,8 @@ rsconnect::deployApp(
   appDir = appDir,
   appFiles = appFiles,
   appName = "edd-app",
+  appFiles = appFiles,
+  appName = "edd-app",
   account = accountName,
   forceUpdate = TRUE
 )
