@@ -62,6 +62,7 @@ jobs:
           key: ${{ secrets.EA_SFTP_SSH }}
           rsync_upload: |
             ./data/parquet/ => /opt/sites/data.economic-analytics.co.uk/edd/
+            ./data/edd_dict.csv => /opt/sites/data.economic-analytics.co.uk/edd/
 
       # - if: Commit and publish changes output has committed
       #  Call the deploy workflow

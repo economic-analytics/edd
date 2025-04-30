@@ -28,3 +28,4 @@ jobs:
           key: ${{ secrets.EA_SFTP_SSH }}
           rsync_upload: |
             ./data/parquet/ => /opt/sites/data.economic-analytics.co.uk/edd/
+            ./data/edd_dict.csv => /opt/sites/data.economic-analytics.co.uk/edd/
