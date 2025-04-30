@@ -6,6 +6,7 @@ name: Push data files
       - main
     paths:
       - data/parquet
+      - data/edd_dict.csv
   workflow_dispatch:
 
 jobs:
@@ -28,3 +29,4 @@ jobs:
           key: ${{ secrets.EA_SFTP_SSH }}
           rsync_upload: |
             ./data/parquet/ => /opt/sites/data.economic-analytics.co.uk/edd/
+            ./data/edd_dict.csv => /opt/sites/data.economic-analytics.co.uk/edd/
