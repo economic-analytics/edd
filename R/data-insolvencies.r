@@ -12,7 +12,7 @@ process_insolvencies  <- function(path = NULL) {
     rvest::html_elements("a") |>
     rvest::html_attr("href")
   
-  target <- hrefs[grepl("/government/statistics/company-insolvency-statistics-", hrefs)][1]
+  target <- hrefs[grepl("/government/statistics/company-insolvencies-", hrefs)][1]
   target <- paste0("https://www.gov.uk", target)
 
   links <- rvest::read_html(target) |>
