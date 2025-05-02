@@ -225,7 +225,12 @@ server <- function(input, output, session) {
       paste0("edd_plot_", Sys.Date(), ".png")
     },
     content = function(file) {
-      ggplot2::ggsave(file)
+      ggplot2::ggsave(
+        file,
+        width = 1920,
+        height = 1080,
+        units = "px"
+      )
     }
   )
 
