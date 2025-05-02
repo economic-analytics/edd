@@ -107,5 +107,10 @@ ons_process_prod_lad <- function() {
     )
 
   arrow::write_parquet(prod_lad, "data/parquet/PROD_LAD.parquet")
-}
 
+  update_edd_dict_dates(
+    "PROD_LAD",
+    meta$last_update,
+    meta$next_update
+  )
+}
