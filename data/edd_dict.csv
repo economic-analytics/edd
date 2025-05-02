@@ -39,14 +39,14 @@ geographies,ONSx,lsoa11,Lower Layer Super Output Areas,NA,NA,NA,NA,NA,NA,FALSE,F
 geographies,ONSx,msoa11,Middle Layer Super Output Areas,NA,NA,NA,NA,NA,NA,FALSE,FALSE,NA
 geographies,ONSx,lad,Local Authority Districts,NA,NA,NA,NA,NA,NA,FALSE,FALSE,NA
 names,HOCL,msoanames,MSOA Names,https://houseofcommonslibrary.github.io/msoanames/MSOA-Names-Latest.csv,https://houseofcommonslibrary.github.io/msoanames/MSOA-Names-Latest.csv,NA,NA,NA,NA,FALSE,FALSE,NA
-dataset,ONSx,RGFCF,Regional Gross Fixed Capital Formation,NA,NA,NA,2023-12-08,NA,2024-05-21,TRUE,FALSE,NA
+dataset,ONSx,RGFCF,Regional Gross Fixed Capital Formation,https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/datasets/experimentalregionalgrossfixedcapitalformationgfcfestimatesbyassettype,NA,ons_process_rgfcf,2023-12-08,NA,2024-05-21,TRUE,FALSE,NA
 NA,VOA,CTSOP,Council Tax Stock of Properties,NA,NA,NA,NA,NA,NA,NA,TRUE,NA
 NA,ONSx,SAIE,Small area income estimates,NA,NA,NA,NA,NA,NA,NA,TRUE,NA
 NA,NOMIS,SAPE,Small area population estimates,NA,NA,NA,NA,NA,NA,NA,NA,NA
 NA,ONSx,HPSSA2,Median House Price by Property Type (MSOA),NA,NA,NA,NA,NA,NA,NA,NA,NA
 NA,TEST,TEST,TEST,NA,NA,NA,NA,NA,NA,NA,NA,NA
 NA,NOMIS,CC,Claimant Count,NA,NA,NA,NA,NA,NA,NA,NA,NA
-NA,ONSx,RGDHI,Regional Gross Disposable Household Income,https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/datasets/regionalgrossdisposablehouseholdincomelocalauthoritiesbyitl1region,NA,NA,2023-09-14,NA,2024-05-21,TRUE,TRUE,NA
+dataset,ONSx,RGDHI,Regional Gross Disposable Household Income,https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/datasets/regionalgrossdisposablehouseholdincomelocalauthoritiesbyitl1region,NA,ons_process_rgdhi_lad,2024-09-04,NA,2025-05-02,TRUE,TRUE,NA
 NA,ONSx,RFDI,Regional Foreign Direct Investment,NA,NA,NA,NA,NA,NA,NA,NA,NA
 dataset,ONSx,CONS,Output in the Construction Industry,NA,NA,ons_process_construction,2025-04-11,2025-05-15,2025-04-28,TRUE,TRUE,NA
 dataset,ONSx,INS1,Monthly Insolvencies by Type,NA,NA,process_insolvencies,2025-04-25,2025-05-20,2025-05-01,TRUE,FALSE,NA
