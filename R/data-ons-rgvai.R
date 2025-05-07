@@ -1,13 +1,9 @@
-ons_process_rgvai <- function(url = NULL, path = "data-raw") {
+ons_process_rgvai <- function() {
 
-  if (is.null(url)) {
-    url <- "https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/nominalregionalgrossvalueaddedbalancedperheadandincomecomponents"
-  }
-
-  meta <- extract_ons_metadata(url)
+  meta <- extract_ons_metadata(edd_dict$page_url[edd_dict$id == "RGVAI"])
 
   # download
-  file_path <- file.path(path, paste0("rgvai.", tools::file_ext(meta$files)))
+  file_path <- file.path("data-raw", basename(meta$files))
 
   download.file(meta$files, file_path, mode = "wb")
 
