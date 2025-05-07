@@ -24,7 +24,7 @@ dataset,ONS,UNEM,Claimant Count and Vacancies,https://www.ons.gov.uk/employmenta
 dataset,ONSx,PROD_LAD,Regional Productivity (LAD),https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/subregionalproductivitylabourproductivityindicesbylocalauthoritydistrict,NA,ons_process_prod_lad,2024-06-17,NA,2025-05-02,TRUE,FALSE,NA
 dataset,ONSx,RGVA,Regional GVA,https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/nominalandrealregionalgrossvalueaddedbalancedbyindustry,NA,ons_process_rgva,2025-04-17,NA,2025-05-07,TRUE,TRUE,NA
 dataset,ONSx,RGVA_LAD,Regional GVA (LAD),https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/regionalgrossvalueaddedbalancedbyindustrylocalauthoritiesbyitl1region,NA,process_rgva_lad,2025-04-17,NA,2025-05-07,TRUE,TRUE,NA
-dataset,ONSx,RGVAI,Regional GVA (Income components),NA,NA,NA,2024-04-24,NA,2024-05-22,FALSE,FALSE,NA
+dataset,ONSx,RGVAI,Regional GVA (Income components),https://www.ons.gov.uk/economy/grossvalueaddedgva/datasets/nominalregionalgrossvalueaddedbalancedperheadandincomecomponents,NA,ons_process_rgvai,2024-04-24,NA,2025-05-07,TRUE,TRUE,NA
 dataset,ONSx,RGFCF,Regional Gross Fixed Capital Formation,https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/datasets/experimentalregionalgrossfixedcapitalformationgfcfestimatesbyassettype,NA,ons_process_rgfcf,2023-12-08,NA,2024-05-21,TRUE,FALSE,NA
 dataset,ONSx,RGDHI,Regional Gross Disposable Household Income,https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/datasets/regionalgrossdisposablehouseholdincomelocalauthoritiesbyitl1region,NA,ons_process_rgdhi_lad,2024-09-04,NA,2025-05-02,TRUE,TRUE,NA
 dataset,ONSx,RFDI,Regional Foreign Direct Investment,NA,NA,NA,NA,NA,NA,NA,NA,NA
