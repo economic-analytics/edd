@@ -96,13 +96,56 @@ process_insolvencies  <- function(path = NULL) {
     "last_download",
     Sys.Date()
   )
+}
 
-  # by industry ---
+# by industry ----
+
+process_insolvencies_industry <- function() {
+  url <- "https://www.gov.uk/government/collections/company-insolvency-statistics-releases"
+
+  hrefs <- rvest::read_html(url) |>
+    rvest::html_elements("a") |>
+    rvest::html_attr("href")
+  
+  target <- hrefs[grepl("/government/statistics/company-insolvencies-", hrefs)][1]
+  target <- paste0("https://www.gov.uk", target)
+
+  links <- rvest::read_html(target) |>
+    rvest::html_elements("a") |>
+    rvest::html_attr("href")
 
   industry_url <- links[grepl("Industry_Tables_in_Excel__xlsx__Format", links)] |>
     unique()
   
   industry_path <- file.path("data-raw", basename(industry_url))
+
+  meta_url <- links[grepl("Metadata_for_Long-Run_Series_in_CSV_Format.*csv$", links)] |>
+    unique()
+  
+  meta_temp <- readr::read_csv(meta_url, col_names = FALSE)
+  blank_row <- which(is.na(meta_temp$X1))
+
+  meta_temp <- readr::read_csv(meta_url, col_names = FALSE, n_max = blank_row - 1)
+
+  meta <- list()
+
+  for (i in seq_len(nrow(meta_temp))) {
+    meta[[meta_temp$X1[i]]] <- meta_temp$X2[i]
+  }
+
+  meta_csv <- readr::read_csv(meta_url, skip = blank_row) |>
+    dplyr::mutate(
+      Description = ifelse(
+        Is_Seasonally_Adjusted == "Y",
+        paste(Description, "(SA)"),
+        paste(Description, "(NSA)")
+      )
+    ) |>
+    dplyr::select(
+      variable.code = Variable,
+      variable.name = Description,
+      geography.name = Geography
+    )
 
   download.file(
     industry_url,
@@ -119,11 +162,12 @@ process_insolvencies  <- function(path = NULL) {
     ) |>
     dplyr::mutate(
       industry.name = ifelse(
-        industry.code == "TOTAL",
+        industry.code == "Total",
         "ALL INDUSTRIES",
         industry.name
       )
     ) |>
+    dplyr::select(-Notes) |>
     tidyr::pivot_longer(
       cols = !dplyr::starts_with("industry"),
       names_to = "dates.date",
