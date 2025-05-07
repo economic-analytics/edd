@@ -1,29 +1,21 @@
-rgva_lad <- function(path = NULL, url = NULL, force_update = FALSE) {
+process_rgva_lad <- function() {
 
-  if (is.null(path)) {
-    path <- "data-raw/rgva_lad"
-  }
+  meta <- extract_ons_metadata(edd_dict$page_url[edd_dict$id == "RGVA_LAD"])
 
-  if (is.null(url)) {
-    url <- "https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/regionalgrossvalueaddedbalancedbyindustrylocalauthoritiesbyitl1region"
-  }
-
-  if (force_update) {
-    urls <- rvest::read_html(url) |>
-      rvest::html_elements("a") |>
-      rvest::html_attr("href")
-
-    files <- urls[grepl(".xlsx", urls)]
-    file_urls <- paste0("http://ons.gov.uk", files) # http not https
-  }
-
-  all_data <- lapply(file_urls, function(file) {
+  # download files
+  local_files <- vector(mode = "character")
+  for (file in meta$files) {
     local_file_path <- paste0("data-raw/", basename(file))
     download.file(file, destfile = local_file_path, mode = "wb")
-    sheets <- readxl::excel_sheets(local_file_path)
+    local_files[file] <- local_file_path
+    Sys.sleep(2)
+  }
+
+  all_data <- lapply(local_files, function(file) {
+    sheets <- readxl::excel_sheets(file)
     sheets <- sheets[-(1:3)] # update
     data <- lapply(sheets, function(sht) {
-      readxl::read_excel(local_file_path, sheet = sht, skip = 1, na = c("[c]"))
+      readxl::read_excel(file, sheet = sht, skip = 1, na = c("[c]", "[u]"))
     })
     names(data) <- sheets
     return(data)
@@ -58,4 +50,6 @@ rgva_lad <- function(path = NULL, url = NULL, force_update = FALSE) {
     )
 
   arrow::write_parquet(final, "data/parquet/RGVA_LAD.parquet")
+
+  update_edd_dict_dates("RGVA_LAD", meta$last_update, meta$next_update)
 }
