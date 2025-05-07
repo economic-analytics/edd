@@ -1,5 +1,7 @@
 ons_process_rgva <- function(filepath = NULL) {
 
+  meta <- extract_ons_metadata(edd_dict$page_url[edd_dict$id == "RGVA"])
+
   if (is.null(filepath)) {
     filepath <- "data-raw/regionalgrossvalueaddedbalancedbyindustryandallitlregions.xlsx"
   }
@@ -91,6 +93,8 @@ ons_process_rgva <- function(filepath = NULL) {
   cat("Writing RGVA.parquet ...")
   arrow::write_parquet(rgva, "data/parquet/RGVA.parquet")
   cat("Done.")
+
+  update_edd_dict_dates("RGVA", meta$last_update, meta$next_update)
 
   return(rgva)
 }
