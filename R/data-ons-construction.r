@@ -1,8 +1,6 @@
 ons_process_construction <- function() {
 
-  cons_url <- "https://www.ons.gov.uk/businessindustryandtrade/constructionindustry/datasets/outputintheconstructionindustry"
-
-  meta <- extract_ons_metadata(cons_url)
+  meta <- extract_ons_metadata(edd_dict$page_url[edd_dict$id == "CONS"])
 
   download.file(
     meta$files,
@@ -67,10 +65,5 @@ ons_process_construction <- function() {
   arrow::write_parquet(cons_final, "data/parquet/CONS.parquet")
 
   # update metadata
-  edd_dict$last_update[edd_dict$id == "CONS"] <- meta$last_update |> as.character()
-  edd_dict$next_update[edd_dict$id == "CONS"] <- meta$next_update |> as.character()
-  edd_dict$last_download[edd_dict$id == "CONS"] <- Sys.Date() |> as.character()
-
-  # rewrite edd_dict
-  readr::write_csv(edd_dict, 'data/edd_dict.csv')
+  update_edd_dict_dates("CONS", meta$last_update, meta$next_update)
 }
