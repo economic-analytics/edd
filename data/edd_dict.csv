@@ -26,7 +26,7 @@ dataset,ONS,UKEA,UK Economic Accounts,https://www.ons.gov.uk/economy/grossdomest
 dataset,ONS,UNEM,Claimant Count and Vacancies,https://www.ons.gov.uk/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/claimantcountandvacanciesdataset,https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peoplenotinwork/unemployment/datasets/claimantcountandvacanciesdataset/current/unem.csv,NA,2025-04-15,2025-05-13,2025-04-15,TRUE,FALSE,NA
 dataset,ONSx,PROD_LAD,Regional Productivity (LAD),https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/subregionalproductivitylabourproductivityindicesbylocalauthoritydistrict,NA,ons_process_prod_lad,2024-06-17,NA,2025-05-02,TRUE,FALSE,NA
 dataset,BOE,FEA,Custom,"https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/2005&Dateto=Now&SeriesCodes=IUMBEDR,IUMAMNPY,IUMAAMIJ,XUMAUSS,XUMAERS&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N","https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/2005&Dateto=Now&SeriesCodes=IUMBEDR,IUMAMNPY,IUMAAMIJ,XUMAUSS,XUMAERS&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N",NA,NA,NA,NA,FALSE,FALSE,NA
-dataset,ONSx,RGVA,Regional GVA,NA,NA,NA,NA,NA,NA,FALSE,TRUE,NA
+dataset,ONSx,RGVA,Regional GVA,NA,NA,NA,2025-04-17,NA,2025-05-07,FALSE,TRUE,NA
 dataset,ONSx,RGVA_LAD,Regional GVA (LAD),NA,NA,NA,NA,NA,NA,NA,NA,NA
 dataset,ONSx,RGVAI,Regional GVA (Income components),NA,NA,NA,2024-04-24,NA,2024-05-22,FALSE,FALSE,NA
 dataset,NOMIS,BRES,Business Register and Employment Survey,NA,NA,NA,NA,NA,NA,FALSE,TRUE,NA
