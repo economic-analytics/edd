@@ -1,12 +1,8 @@
-ons_process_rgdhi_lad <- function(url = NULL, path = "data-raw") {
+ons_process_rgdhi_lad <- function() {
 
-  if (is.null(url)) {
-    url <- "https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/datasets/regionalgrossdisposablehouseholdincomelocalauthoritiesbyitl1region"
-  }
+  meta <- extract_ons_metadata(edd_dict$page_url[edd_dict$id == "RGDHI"])
 
-  meta <- extract_ons_metadata(url)
-
-  local_files <- file.path(path, basename(meta$files))
+  local_files <- file.path("data-raw", basename(meta$files))
 
   # download
   for (i in meta$files) {

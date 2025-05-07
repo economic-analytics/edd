@@ -1,9 +1,8 @@
 # RGFCF
 
 ons_process_rgfcf <- function() {
-  rgfcf_url <- "https://www.ons.gov.uk/economy/regionalaccounts/grossdisposablehouseholdincome/datasets/experimentalregionalgrossfixedcapitalformationgfcfestimatesbyassettype"
 
-  meta <- extract_ons_metadata(rgfcf_url)
+  meta <- extract_ons_metadata(edd_dict$page_url[edd_dict$id == "RGFCF"])
 
   rgfcf_path <- file.path("data-raw", basename(meta$files[1]))
 
