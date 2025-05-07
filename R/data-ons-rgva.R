@@ -71,10 +71,10 @@ ons_process_rgva <- function(filepath = NULL) {
         TRUE ~ variable.code
       ),
       variable.unit = dplyr::case_when(
-        variable.code == "cvm"       ~ "2019 = 100",
-        variable.code == "constant"  ~ "2019 £m",
+        variable.code == "cvm"       ~ "2022 = 100",
+        variable.code == "constant"  ~ "2022 £m",
         variable.code == "current"   ~ "£m",
-        variable.code == "deflators" ~ "2019 = 100",
+        variable.code == "deflators" ~ "2022 = 100",
         TRUE ~ variable.code
       ),
       dataset = "RGVA"
