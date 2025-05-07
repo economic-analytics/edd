@@ -14,7 +14,7 @@ ons_process_rgva <- function(filepath = NULL) {
       path = filepath,
       sheet = sht,
       skip = 1,
-      na = "u"
+      na = "[u]"
     )
   }) |>
     setNames(
