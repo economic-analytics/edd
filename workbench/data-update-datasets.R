@@ -71,6 +71,7 @@ download_dataset <- function(dataset_id, url = NULL) {
   if (download_status == 0) {
     cat(" downloaded ", basename(url), ".\n")
     # check md5sum against original file to see if changed
+    # TODO may be better to store the hash in edd_dict on download
     # if it has ...
     # update_edd_dict
   } else {
@@ -81,9 +82,10 @@ download_dataset <- function(dataset_id, url = NULL) {
 }
 
 process_dataset <- function(dataset_id, file = NULL) {
-  process_function <- get(edd_dict$func[edd_dict$id == dataset_id])
+  process_function <- edd_dict$func[edd_dict$id == dataset_id]
 
-  process_function()
+  # TODO currently only ONS "standard" dataset process func has the id argument
+  do.call(process_function, list(dataset_id = dataset_id))
 }
 
 write_dataset <- function(edd_obj, dataset_id) {
@@ -93,7 +95,7 @@ write_dataset <- function(edd_obj, dataset_id) {
   )
 }
 
-update_metadata <- function(dataset_id) {
+update_metadata <- function(dataset_id, meta) {
 
 }
 
