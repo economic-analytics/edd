@@ -1,10 +1,17 @@
 # main function which executes the full updating process
 update_datasets <- function(force_update_all = FALSE) {
   check_next_update_dates()
+    # grabs metadata from page_url
+    # if new dates, update_edd_dict()
   datasets_to_update()
   update_dataset()
+    download_dataset()
+      check_file_is_new()
+    process_dataset()
+    verify_dataset()
+    write_dataset()
+    update_edd_dict()
 }
-
 
 # this should call extract_ons_metadata() which will return an object that
 # needs capturing (rename to get_ons_metadata())
