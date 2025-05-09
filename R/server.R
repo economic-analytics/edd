@@ -37,14 +37,20 @@ server <- function(input, output, session) {
 
     lapply(dims_available, function(i) {
       value <- isolate(input[[i]])
+      choices <- user_datasets() |>
+        dplyr::distinct(dplyr::across(paste0(i, ".name"))) |>
+        dplyr::pull(as_vector = TRUE)
+      selected <- if (length(choices) == 1) {
+        c(value, choices)
+      } else {
+        value
+      }
       selectizeInput(
         i,
         paste("Select", i),
         # choices = NULL,
-        choices = user_datasets() |>
-          dplyr::distinct(dplyr::across(paste0(i, ".name"))) |>
-          dplyr::pull(as_vector = TRUE),
-        selected = value,
+        choices = choices,
+        selected = selected,
         multiple = TRUE,
         options = list(plugins = list("remove_button"))
       )
