@@ -6,43 +6,43 @@
 # Master function (for export) ----
 
 ons_update_datasets <- function(
-  force_update = FALSE,
-  save_parquet = TRUE,
-  ...
+  # this function is used for more than one dataset so needs to receive
+  # a dataset_id to know which one it is running
+  dataset_id
 ) {
-  # problems with VROOM_CONNECTION_SIZE means we have to set this as the
-  # download is large and overflows the connection buffer
-  Sys.setenv("VROOM_CONNECTION_SIZE" = "500000")
+  # REMOVED: as which to update is now handled by other_datasets_to_update()
+  # # determine which datasets from the dictionary to update
+  # to_update <- edd_dict |>
+  #   dplyr::filter(
+  #     type     == "dataset",
+  #     provider == "ONS",
+  #     status   == TRUE
+  #   )
+  #
+  # # if updates aren't forced (default) then we'll only download those datasets
+  # # which should have had an update and haven't been downloaded since that date
+  # if (!force_update) {
+  #   to_update <- to_update |>
+  #     dplyr::filter(next_update <= Sys.Date() & next_update >= last_download)
+  # }
 
-  # determine which datasets from the dictionary to update
-  to_update <- edd_dict |>
-    dplyr::filter(
-      type     == "dataset",
-      provider == "ONS",
-      status   == TRUE
-    )
+  # REMOVED: for loop not needed as function will be invoked for each
+  # dataset in turn
+  # for (i in seq_len(nrow(to_update))) {
+  #   dataset_id <- to_update[[i, "id"]]
 
-  # if updates aren't forced (default) then we'll only download those datasets
-  # which should have had an update and haven't been downloaded since that date
-  if (!force_update) {
-    to_update <- to_update |>
-      dplyr::filter(next_update <= Sys.Date() & next_update >= last_download)
-  }
+  message("Downloading ", dataset_id)
+  file_location <- ons_download_dataset(edd_dict$url[edd_dict$id == dataset_id])
 
-  for (i in seq_len(nrow(to_update))) {
-    dataset_id <- to_update[[i, "id"]]
-    message("Downloading ", dataset_id)
-    file_location <- ons_download_dataset(to_update[[i, "url"]])
+  message("Processing ", dataset_id)
+  processed <- ons_process_dataset(file_location, dataset_id)
 
-    message("Processing ", dataset_id)
-    processed <- ons_process_dataset(file_location, dataset_id)
+  message("Writing ", dataset_id)
+  ons_write_dataset(processed, dataset_id)
 
-    message("Writing ", dataset_id)
-    ons_write_dataset(processed, dataset_id)
-
-    # manage rate-limiting
-    Sys.sleep(5)
-  }
+  #   # manage rate-limiting
+  #   Sys.sleep(5)
+  # }
 
   # # ONS POST PROCESSING - STILL TESTING
   # processed <- lapply(seq_along(processed), function(i, ds_name) {
@@ -70,6 +70,10 @@ ons_download_dataset <- function(url) {
 }
 
 ons_process_dataset <- function(csv, id) {
+  # problems with VROOM_CONNECTION_SIZE means we have to set this as the
+  # download is large and overflows the connection buffer
+  Sys.setenv("VROOM_CONNECTION_SIZE" = "500000")
+
   # read, ignore column names, make everything strings
   dataset <- readr::read_csv(
     csv,
