@@ -1,22 +1,23 @@
 # main function which executes the full updating process
 update_datasets <- function(force_update_all = FALSE) {
-  check_next_update_dates()
-    # grabs metadata from page_url
-    # if new dates, update_edd_dict()
+  verify_metadata()
   datasets_to_update()
   update_dataset()
     download_dataset()
-      check_file_is_new()
+    dataset_is_updated()
     process_dataset()
     verify_dataset()
     write_dataset()
     update_edd_dict()
 }
 
-# this should call extract_ons_metadata() which will return an object that
-# needs capturing (rename to get_ons_metadata())
+verify_metadata <- function() {
+  # this should call extract_ons_metadata() which will return an object that
+  # needs capturing (rename to get_ons_metadata())
 
-# if this object contains differences from edd_dict, write these to edd_dict
+  # if this object contains differences from edd_dict, write these to edd_dict
+}
+
 
 datasets_to_update <- function() {
   ids <- subset(
@@ -25,12 +26,13 @@ datasets_to_update <- function() {
       edd_dict$status &
       edd_dict$next_update <= Sys.Date() &
       edd_dict$next_update > edd_dict$last_download &
+      # TODO should this also test for existence of function and its validity?
       !is.na(edd_dict$func)
   )[["id"]]
 
   if (length(ids) == 0) {
     message("All datasets are up-to-date")
-    return(NULL)
+    return(invisible())
   }
 
   message("These datasets will be updated: ", paste(ids, collapse = ", "))
@@ -62,23 +64,28 @@ update_dataset <- function(id) {
 
 download_dataset <- function(dataset_id, url = NULL) {
   if (is.null(url)) {
+    # TODO this should also run a check against the metadata object
     url <- edd_dict$url[edd_dict$id == dataset_id]
   }
 
   destfile <- file.path("data-raw", basename(url))
-  cat("Attempting download of ", dataset_id)
+  message("Attempting download of ", dataset_id)
   download_status <- download.file(url = url, destfile = destfile, mode = "wb")
   if (download_status == 0) {
-    cat(" downloaded ", basename(url), ".\n")
+    message(basename(url), " download successful")
+    return(destfile)
     # check md5sum against original file to see if changed
     # TODO may be better to store the hash in edd_dict on download
     # if it has ...
     # update_edd_dict
   } else {
-    cat(" failed.\n")
+    warning("Download of ", basename(url), " failed.")
+    invisible()
   }
+}
 
-  return(destfile)
+dataset_is_updated <- function() {
+
 }
 
 process_dataset <- function(dataset_id, file = NULL) {
@@ -86,6 +93,10 @@ process_dataset <- function(dataset_id, file = NULL) {
 
   # TODO currently only ONS "standard" dataset process func has the id argument
   do.call(process_function, list(dataset_id = dataset_id))
+}
+
+verify_dataset <- function() {
+
 }
 
 write_dataset <- function(edd_obj, dataset_id) {
