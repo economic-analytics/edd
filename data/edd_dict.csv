@@ -8,7 +8,7 @@ dataset,ONS,IOS1,Index of Services,https://www.ons.gov.uk/economy/economicoutput
 dataset,ONS,LMS,Labour Market Statistics,https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/labourmarketstatistics,https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/labourmarketstatistics/current/lms.csv,NA,2025-06-10,2025-07-17,2025-06-10,TRUE,TRUE,NA
 dataset,ONS,MGDP,Monthly GDP,https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/gdpmonthlyestimateuktimeseriesdataset,https://www.ons.gov.uk/file?uri=/economy/grossdomesticproductgdp/datasets/gdpmonthlyestimateuktimeseriesdataset/current/mgdp.csv,NA,2025-06-12,2025-07-11,2025-06-12,TRUE,TRUE,NA
 dataset,ONS,MM22,Producer Price Inflation,https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/producerpriceindex,https://www.ons.gov.uk/file?uri=/economy/inflationandpriceindices/datasets/producerpriceindex/current/mm22.csv,NA,2025-02-19,NA,2025-03-27,TRUE,TRUE,NA
-dataset,ONS,MM23,Consumer Price Inflation,https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceindices,https://www.ons.gov.uk/file?uri=/economy/inflationandpriceindices/datasets/consumerpriceindices/current/mm23.csv,NA,2025-05-21,2025-06-18,2025-05-21,TRUE,TRUE,NA
+dataset,ONS,MM23,Consumer Price Inflation,https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceindices,https://www.ons.gov.uk/file?uri=/economy/inflationandpriceindices/datasets/consumerpriceindices/current/mm23.csv,NA,2025-06-18,2025-07-16,2025-06-18,TRUE,TRUE,NA
 dataset,ONS,MRET,UK Trade,https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/tradeingoodsmretsallbopeu2013timeseriesspreadsheet,https://www.ons.gov.uk/file?uri=/economy/nationalaccounts/balanceofpayments/datasets/tradeingoodsmretsallbopeu2013timeseriesspreadsheet/current/mret.csv,NA,2025-06-12,2025-07-11,2025-06-12,TRUE,TRUE,NA
 dataset,ONS,PDGP,Preliminary Estimate of GDP,https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/preliminaryestimateofgdp,https://www.ons.gov.uk/file?uri=/economy/grossdomesticproductgdp/datasets/preliminaryestimateofgdp/current/pgdp.csv,NA,NA,NA,NA,FALSE,FALSE,Ceased publication April 2018
 dataset,ONS,PN2,GDP First Quarterly Estimate,https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/secondestimateofgdp/current/pn2.csv,https://www.ons.gov.uk/file?uri=/economy/grossdomesticproductgdp/datasets/secondestimateofgdp/current/pn2.csv,NA,NA,NA,NA,FALSE,FALSE,Ceased publication
@@ -31,8 +31,8 @@ dataset,ONSx,RFDI,Regional Foreign Direct Investment,NA,NA,NA,NA,NA,NA,NA,NA,NA
 dataset,ONSx,CONS,Output in the Construction Industry,https://www.ons.gov.uk/businessindustryandtrade/constructionindustry/datasets/outputintheconstructionindustry,NA,ons_process_construction,2025-06-12,2025-07-11,2025-06-12,TRUE,TRUE,NA
 dataset,The Insolvency Service,INS1,Monthly Insolvencies by Type,NA,NA,process_insolvencies,2025-05-20,2025-06-20,2025-05-20,TRUE,TRUE,NA
 dataset,The Insolvency Service,INS2,Monthly Insolvencies by Industry,NA,NA,process_insolvencies_industry,2025-04-25,2025-05-20,2025-05-20,FALSE,TRUE,Data formats have changed
-dataset,BOE,BOE,Bank of England,NA,NA,update_boe_datasets,2025-06-13,2025-06-18,2025-06-17,TRUE,TRUE,NA
-dataset,BOE,OIS,Overnight Interest Rate Swap Curves,NA,NA,update_boe_yield_curves,2025-06-13,2025-06-18,2025-06-17,TRUE,TRUE,NA
+dataset,BOE,BOE,Bank of England,NA,NA,update_boe_datasets,2025-06-16,2025-06-19,2025-06-18,TRUE,TRUE,NA
+dataset,BOE,OIS,Overnight Interest Rate Swap Curves,NA,NA,update_boe_yield_curves,2025-06-16,2025-06-19,2025-06-18,TRUE,TRUE,NA
 lookup,ONSx,NSPL,National Statistics Postcode Lookup,NA,NA,NA,NA,NA,NA,FALSE,FALSE,NA
 lookup,ONSx,NSAL,National Statistics Address Lookup,NA,NA,NA,NA,NA,NA,FALSE,FALSE,NA
 lookup,ONSx,ONSPD,ONS Postcode Directory,NA,NA,NA,NA,NA,NA,FALSE,FALSE,NA
