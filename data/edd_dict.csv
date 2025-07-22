@@ -31,8 +31,8 @@ dataset,ONSx,RFDI,Regional Foreign Direct Investment,NA,NA,NA,NA,NA,NA,NA,NA,NA
 dataset,ONSx,CONS,Output in the Construction Industry,https://www.ons.gov.uk/businessindustryandtrade/constructionindustry/datasets/outputintheconstructionindustry,NA,ons_process_construction,2025-07-11,2025-08-14,2025-07-11,TRUE,TRUE,NA
 dataset,The Insolvency Service,INS1,Monthly Insolvencies by Type,NA,NA,process_insolvencies,2025-05-20,2025-06-20,2025-05-20,FALSE,TRUE,Data formats have changed
 dataset,The Insolvency Service,INS2,Monthly Insolvencies by Industry,NA,NA,process_insolvencies_industry,2025-04-25,2025-05-20,2025-05-20,FALSE,TRUE,Data formats have changed
-dataset,BOE,BOE,Bank of England,NA,NA,update_boe_datasets,2025-07-17,2025-07-22,2025-07-21,TRUE,TRUE,NA
-dataset,BOE,OIS,Overnight Interest Rate Swap Curves,NA,NA,update_boe_yield_curves,2025-07-17,2025-07-22,2025-07-21,TRUE,TRUE,NA
+dataset,BOE,BOE,Bank of England,NA,NA,update_boe_datasets,2025-07-18,2025-07-23,2025-07-22,TRUE,TRUE,NA
+dataset,BOE,OIS,Overnight Interest Rate Swap Curves,NA,NA,update_boe_yield_curves,2025-07-18,2025-07-23,2025-07-22,TRUE,TRUE,NA
 lookup,ONSx,NSPL,National Statistics Postcode Lookup,NA,NA,NA,NA,NA,NA,FALSE,FALSE,NA
 lookup,ONSx,NSAL,National Statistics Address Lookup,NA,NA,NA,NA,NA,NA,FALSE,FALSE,NA
 lookup,ONSx,ONSPD,ONS Postcode Directory,NA,NA,NA,NA,NA,NA,FALSE,FALSE,NA
