@@ -39,7 +39,7 @@ jobs:
       #   run: pip install dvc
 
       - name: Generate data
-        run: dvc repro
+        run: Rscript .pipelines/run_ons_update.R
 
       - name: Set current date
         run: echo "NOW=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
