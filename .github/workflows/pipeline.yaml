@@ -4,8 +4,8 @@ name: pipeline
     # * is a special character in YAML so you have to quote this string
     # https://crontab.guru/#15_7_*_*_1-5
     # cron job runtime is UTC
-    # - cron: '15 7 * * 1-5' # GMT
-    - cron: '15 6 * * 1-5' # BST
+    - cron: '15 7 * * 1-5' # GMT
+    # - cron: '15 6 * * 1-5' # BST
   workflow_dispatch: {}
 jobs:
   run-pipeline:

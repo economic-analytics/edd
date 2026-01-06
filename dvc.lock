@@ -16,6 +16,6 @@ stages:
       size: 115
     - path: R/
       hash: md5
-      md5: b3760758d8ebc3b691a1e6d96cc7ad5a.dir
-      size: 85674
-      nfiles: 37
+      md5: 7494b8d232b7b37cfd5f967efaa87208.dir
+      size: 71798
+      nfiles: 27

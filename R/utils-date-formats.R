@@ -81,7 +81,7 @@ date_text_to_iso <- function(date_as_text) {
 
       year <- stringr::str_extract(date_as_text[i], '[0-9]{4}')
 
-      out[i] <- paste(year, month_integer, sep = "-")
+      out[i] <- paste(year, month_integer, "01", sep = "-") # "01" is a catch-all best guess
       next
     }
     # catch all - can't match anything
