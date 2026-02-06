@@ -34,21 +34,26 @@ names(metadata) <- sapply(metadata, \(x) x$title)
 i = 1
 data <- lapply(data_sheets, function(sht) {
   df <- readxl::read_excel(mpr_path, sheet = sht, skip = 4) |>
-    tidyr::pivot_longer(-1, names_to = "date") |>
+    tidyr::pivot_longer(-1, names_to = "date", values_drop_na = TRUE) |>
     dplyr::mutate(variable.name = sapply(metadata, \(x) x$title)[i]) |>
     dplyr::mutate(date_text_to_df(date)) |>
     dplyr::mutate(variable.code = variable.name) |>
     dplyr::mutate(dataset = "BOE_MPR") |>
+    dplyr::rename(forecast.code = `Date of publication`) |> 
+    dplyr::mutate(forecast.code = as.character(as.Date(forecast.code))) |> 
+    dplyr::mutate(forecast.name = format(as.Date(forecast.code), "%B %Y")) |> 
     dplyr::select(
       dataset,
       dates.date = date,
       dates.freq = freq,
       variable.code,
       variable.name,
-      forecast_vintage.name = `Date of publication`,
+      forecast.code,
+      forecast.name,
       value
     )
   i <<- i + 1
   return(df)
 }) |>
-  setNames(sapply(metadata, \(x) x$title))
+  setNames(sapply(metadata, \(x) x$title)) |> 
+  dplyr::bind_rows()
