@@ -1,11 +1,10 @@
 name: pipeline
-'on':
+on:
   schedule:
     # * is a special character in YAML so you have to quote this string
     # https://crontab.guru/#15_7_*_*_1-5
-    # cron job runtime is UTC
-    - cron: '15 7 * * 1-5' # GMT
-    # - cron: '15 6 * * 1-5' # BST
+    - cron: '05 7 * * 1-5'
+      timezone: "Europe/London"    
   workflow_dispatch: {}
 jobs:
   run-pipeline:
