@@ -48,7 +48,7 @@ jobs:
         run: echo "changes=$(git status --short data/ | wc -l)" >> $GITHUB_OUTPUT
 
       - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Update ONS datasets ${{ env.NOW }}
           # file_pattern: data-raw data
