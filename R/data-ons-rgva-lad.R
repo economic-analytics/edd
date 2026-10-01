@@ -23,7 +23,8 @@ process_rgva_lad <- function() {
 
   # number 13 is different (population). Tidy up all_data[1:12]
   final <- lapply(all_data[1:12], function(x) {
-    lapply(x, function(sht) {
+    # As of 2026 release, some region tables have a table "Note" which needs to be excluded from the process
+    lapply(x[grepl("Table", names(x))], function(sht) {
       dplyr::filter(sht, !is.na(`LA code`)) |>
         tidyr::pivot_longer(cols = -(1:5), names_to = "dates.date") |>
         dplyr::mutate(
