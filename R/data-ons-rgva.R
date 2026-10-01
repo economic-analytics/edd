@@ -3,8 +3,14 @@ ons_process_rgva <- function(filepath = NULL) {
   meta <- extract_ons_metadata(edd_dict$page_url[edd_dict$id == "RGVA"])
 
   if (is.null(filepath)) {
-    filepath <- "data-raw/regionalgrossvalueaddedbalancedbyindustryandallitlregions.xlsx"
+    filepath <- file.path("data-raw", basename(meta$files))
   }
+  
+  download.file(
+    meta$files,
+    filepath,
+    mode = "wb"
+  )
 
   # extract only those sheets with "Table" in the sheet name
   rgva_sheets <- readxl::excel_sheets(filepath)[
